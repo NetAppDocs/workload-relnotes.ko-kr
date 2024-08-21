@@ -1,12 +1,6 @@
-= 2024년 08월 04일
+= Terraform 지원
 :allow-uri-read: 
 
-
-
-
-== 2024년 08월 04일
-
-<stdin>-include::_include/workload-FSx-ONTAP.adoc []:leveloffset: +1
 
 
 
@@ -24,15 +18,3 @@
 === 스토리지 계산기에서 처리량 및 IOPS 권장 사항을 확인하십시오
 
 스토리지 계산기는 AWS 모범 사례를 기반으로 처리량과 IOPS에 대한 FSx for ONTAP 파일 시스템 구성을 권장하므로 선택 항목에 대한 최적의 지침이 제공됩니다.
-
-
-
-== 2024년 07월 07일
-
-<stdin>-include::_include/workload-FSx-ONTAP.adoc []:leveloffset: +1
-
-
-
-=== Amazon FSx for NetApp ONTAP용 워크로드 팩토리 최초 릴리즈
-
-Amazon FSx for NetApp ONTAP은 현재 워크로드 팩토리에서 일반적으로 제공됩니다.
