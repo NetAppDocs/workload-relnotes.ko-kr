@@ -34,10 +34,10 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">스토리지 계산기에서 처리량 및 IOPS 권장 사항을 확인하십시오</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">스토리지 계산기는 AWS 모범 사례를 기반으로 처리량과 IOPS에 대한 FSx for ONTAP 파일 시스템 구성을 권장하므로 선택 항목에 대한 최적의 지침이 제공됩니다.</block>
-  <block id="29ce9ccbd99b7025e6ea173d882fd07a" category="paragraph">Amazon FSx for NetApp ONTAP은 일반적으로 워크로드 공장에서 사용할 수 있습니다.</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="doc">2024년 08월 04일</block>
   <block id="4739ec54be7be4e135209eb24300ab14" category="paragraph">&lt;stdin&gt;-include::_include/workload-FSx-ONTAP.adoc []:leveloffset: +1</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024년 07월 07일</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="list-text"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
   <block id="3b915cd68add8a6cdac4cd1adeb5f100" category="list-text"><block ref="3b915cd68add8a6cdac4cd1adeb5f100" category="inline-link-macro-rx"></block></block>
+  <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSx for NetApp ONTAP은 현재 워크로드 팩토리에서 일반적으로 제공됩니다.</block>
 </blocks>

@@ -6,4 +6,4 @@
 
 === Amazon FSx for NetApp ONTAP용 워크로드 팩토리 최초 릴리즈
 
-Amazon FSx for NetApp ONTAP은 일반적으로 워크로드 공장에서 사용할 수 있습니다.
+Amazon FSx for NetApp ONTAP은 현재 워크로드 팩토리에서 일반적으로 제공됩니다.
