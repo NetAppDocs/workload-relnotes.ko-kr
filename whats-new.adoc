@@ -25,6 +25,16 @@
 
 스토리지 계산기는 AWS 모범 사례를 기반으로 처리량과 IOPS에 대한 FSx for ONTAP 파일 시스템 구성을 권장하므로 선택 항목에 대한 최적의 지침이 제공됩니다.
 
+<stdin>-include::_include/workload-setup-admin.adoc []:leveloffset: +1
+
+
+
+=== Terraform 지원
+
+Terraform은 Amazon FSx for NetApp ONTAP 파일 시스템 배포 및 스토리지 VM 생성에 지원됩니다. 이제 설정 및 관리 가이드에는 코드박스에서 Terraform을 사용하는 방법에 대한 지침이 나와 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["코드박스에서 Terraform을 사용합니다"^]
+
 
 
 == 2024년 07월 07일
@@ -36,3 +46,11 @@
 === Amazon FSx for NetApp ONTAP용 워크로드 팩토리 최초 릴리즈
 
 Amazon FSx for NetApp ONTAP은 현재 워크로드 팩토리에서 일반적으로 제공됩니다.
+
+<stdin>-include::_include/workload-setup-admin.adoc []:leveloffset: +1
+
+
+
+=== Workload Factory의 최초 릴리스
+
+AWS용 BlueXP Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템을 사용하여 워크로드를 최적화하도록 설계된 강력한 라이프사이클 관리 플랫폼입니다. Workload Factory와 FSx for ONTAP를 사용하여 능률화할 수 있는 워크로드로는 데이터베이스, VMware Cloud on AWS, AI 챗봇 등이 있습니다.
