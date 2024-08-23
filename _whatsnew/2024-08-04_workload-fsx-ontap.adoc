@@ -6,7 +6,7 @@
 
 === Terraform 지원
 
-이제 코드박스에서 Terraform을 사용하여 파일 시스템 및 스토리지 VM을 배포하고 관리할 수 있습니다.
+이제 코드박스에서 Terraform을 사용하여 파일 시스템 및 스토리지 VM을 구축할 수 있습니다.
 
 * link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["파일 시스템을 생성합니다"]
 * link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["스토리지 VM을 생성합니다"]
