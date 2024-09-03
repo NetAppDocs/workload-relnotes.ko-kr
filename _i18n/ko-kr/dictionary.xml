@@ -74,4 +74,12 @@
   <block id="1bd7517fe14fe5f1784a4d71ebf0c2e1" category="inline-image-macro">Workload Factory 콘솔 홈 페이지의 스크린샷 새 절약 탐색 단추가 있는 데이터베이스 타일을 보여 주는 이미지입니다. 버튼을 클릭하여 드롭다운 메뉴를 엽니다. 드롭다운 메뉴에는 Elastic Block Store 및 FSx for Windows File Server의 두 가지 옵션이 있습니다. 두 옵션 중 하나를 선택하면 절약 계산기로 이동하여 절감 효과를 살펴볼 수 있습니다.</block>
   <block id="ace456f52a384b923a9eedd83d20db48" category="paragraph"><block ref="ace456f52a384b923a9eedd83d20db48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024년 09월 01일</block>
+  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">스토리지 관리를 위한 읽기 모드 지원</block>
+  <block id="8db376980442524a58ebd917532846d7" category="paragraph">읽기 모드는 Workload Factory에서 스토리지 관리에 사용할 수 있습니다. 읽기 모드는 코드형 인프라 템플릿이 특정 변수로 채워지도록 읽기 전용 권한을 추가하여 기본 모드의 환경을 개선합니다. 코드형 인프라 템플릿은 Workload Factory에 대한 수정 권한을 제공하지 않고 AWS 계정에서 직접 실행할 수 있습니다.</block>
+  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">읽기 모드에 대해 자세히 알아봅니다</block>
+  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
+  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">볼륨 삭제 지원 전 백업</block>
+  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">볼륨을 삭제하기 전에 백업할 수 있습니다. 백업은 삭제될 때까지 파일 시스템에 남아 있습니다.</block>
+  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">볼륨을 삭제합니다</block>
+  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
 </blocks>
