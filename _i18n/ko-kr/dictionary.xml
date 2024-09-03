@@ -96,4 +96,14 @@
   <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">초기 릴리즈에는 VMware 마이그레이션 어드바이저를 사용하여 온프레미스 vSphere 환경에서 현재 가상 머신 구성을 분석하고 권장 VM 레이아웃을 AWS 기반 VMware Cloud에 배포하고 맞춤형 Amazon FSx for NetApp ONTAP 파일 시스템을 외부 데이터 저장소로 사용할 계획을 생성하는 기능이 포함되어 있습니다.</block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Amazon EC2로 마이그레이션합니다</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">VMware용 Workload Factory는 이제 VMware 마이그레이션 관리자를 사용하여 Amazon EC2로의 마이그레이션을 지원합니다.</block>
+  <block id="9ba97d99706e208a6fec2439db710d74" category="doc">GenAI용 Workload Factory 최초 릴리즈</block>
+  <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">초기 릴리스에는 조직의 데이터를 포함하여 사용자 지정된 기술 자료를 개발할 수 있는 기능이 포함되어 있습니다. 사용자를 위한 챗봇 애플리케이션에서 기술 자료에 액세스할 수 있습니다. 이 기능을 통해 조직별 질문에 대한 정확하고 적절한 응답을 제공함으로써 모든 사용자의 만족도와 생산성을 향상시킬 수 있습니다.</block>
+  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Amazon CloudWatch Logs 통합</block>
+  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">이제 생성 가능한 AI 워크로드가 Amazon CloudWatch Logs에 통합되어 생성 가능한 AI 워크로드 로그 파일을 모니터링할 수 있습니다.</block>
+  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">챗봇 애플리케이션 예</block>
+  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">NetApp Workload Factory GenAI 샘플 애플리케이션을 사용하면 웹 기반 챗봇 애플리케이션에서 직접 상호 작용하여 게시된 NetApp Workload Factory 기술 자료에서 인증 및 검색을 테스트할 수 있습니다.</block>
+  <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">추가 청킹 전략</block>
+  <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">생성 AI 워크로드는 이제 데이터 소스에 대해 다중 문장 청킹 및 중복 기반 청킹을 지원합니다.</block>
+  <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">각 기술 자료 전용 볼륨</block>
+  <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">이제 Generative AI 워크로드가 새로운 각 기술 자료에 대해 전용 Amazon FSx for NetApp ONTAP 볼륨을 생성하여 각 기술 자료에 대한 개별 스냅샷 정책을 지원하고 장애 및 데이터 중독에 대한 보호 기능을 향상합니다.</block>
 </blocks>
