@@ -1,0 +1,31 @@
+= 비용 절감 계산기 기능 향상
+:allow-uri-read: 
+
+
+
+
+=== 비용 절감 계산기 기능 향상
+
+* 비용 추정치 설명
++
+이제 비용 절감 계산기에서 비용 추정이 어떻게 계산되는지 알아볼 수 있습니다. Amazon FSx for ONTAP 스토리지를 사용하는 것과 비교하여 Amazon Elastic Block Store 스토리지를 사용하는 Microsoft SQL Server 인스턴스의 모든 계산 설명을 검토할 수 있습니다.
+
+* Always On 가용성 그룹 지원
++
+이제 데이터베이스는 Amazon Elastic Block Store를 사용하는 Microsoft SQL Server에서 Always On 가용성 그룹 배포 유형에 대한 비용 절감 계산을 제공합니다.
+
+* FSx for ONTAP으로 SQL 서버 라이센스를 최적화하십시오
++
+데이터베이스 계산기는 Amazon Elastic Block Store 스토리지와 함께 사용하는 SQL 라이센스 에디션이 데이터베이스 워크로드에 최적화되었는지 여부를 결정합니다. FSx for ONTAP 스토리지를 사용하는 최적의 SQL 라이센스에 대한 권장사항이 제공됩니다.
+
+* 여러 SQL Server 인스턴스
++
+이제 데이터베이스는 Amazon Elastic Block Store를 사용하여 여러 Microsoft SQL Server 인스턴스를 호스팅하는 구성에 대한 비용 절감 계산을 제공합니다.
+
+* 계산기 설정을 사용자 지정합니다
++
+이제 Microsoft SQL Server, Amazon EC2 및 Elastic Block Store의 설정을 사용자 지정하여 절감액을 수동으로 탐색할 수 있습니다. 비용 절감 계산기는 비용에 따라 최상의 구성을 결정합니다.
+
+
+
+link:explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오."]

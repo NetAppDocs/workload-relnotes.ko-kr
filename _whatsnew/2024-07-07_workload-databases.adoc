@@ -1,0 +1,11 @@
+= 데이터베이스용 Workload Factory 초기 릴리즈
+:allow-uri-read: 
+
+
+
+
+=== 데이터베이스용 Workload Factory 초기 릴리즈
+
+초기 릴리즈에는 데이터베이스 워크로드를 위한 스토리지 환경으로 Amazon FSx for NetApp ONTAP을 사용하여 비용 절감을 탐색하고, Microsoft SQL Server를 감지, 관리 및 배포하고, 데이터베이스를 배포 및 복제하고, Workload Factory 내에서 이러한 작업을 모니터링하는 기능이 포함되어 있습니다.
+
+link:learn-databases.html["데이터베이스에 대해 알아봅니다"]..
