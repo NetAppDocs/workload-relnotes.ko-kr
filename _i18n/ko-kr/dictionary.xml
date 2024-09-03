@@ -92,4 +92,8 @@
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">AWS 자격 증명을 Workload Factory에 추가합니다</block>
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
+  <block id="e34fc91d682ebcf23e9732294872ca80" category="doc">VMware용 Workload Factory 최초 릴리즈</block>
+  <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">초기 릴리즈에는 VMware 마이그레이션 어드바이저를 사용하여 온프레미스 vSphere 환경에서 현재 가상 머신 구성을 분석하고 권장 VM 레이아웃을 AWS 기반 VMware Cloud에 배포하고 맞춤형 Amazon FSx for NetApp ONTAP 파일 시스템을 외부 데이터 저장소로 사용할 계획을 생성하는 기능이 포함되어 있습니다.</block>
+  <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Amazon EC2로 마이그레이션합니다</block>
+  <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">VMware용 Workload Factory는 이제 VMware 마이그레이션 관리자를 사용하여 Amazon EC2로의 마이그레이션을 지원합니다.</block>
 </blocks>
