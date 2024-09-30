@@ -1,0 +1,14 @@
+= 링크 생성 업데이트
+:allow-uri-read: 
+
+
+
+
+=== 링크 생성 업데이트
+
+* Codebox 뷰어: 이제 코드박스가 링크 생성 프로세스에 통합되었습니다. 작업 실행을 위해 AWS로 리디렉션하기 전에 Workload Factory의 Codebox에서 CloudFormation 템플릿을 보고 복사할 수 있습니다.
+* 필요한 권한: AWS CloudFormation에서 링크 생성을 실행하는 데 필요한 권한을 이제 Workload Factory의 Create Link 마법사에서 보고 복사할 수 있습니다.
+* 수동 링크 생성 지원: 이 기능을 사용하면 링크 ARN을 수동으로 등록하여 AWS CloudFormation에서 독립 실행형 생성을 수행할 수 있습니다. 보안 또는 DevOps 팀이 링크 생성 프로세스를 지원할 때 유용합니다.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["링크를 만듭니다"^]

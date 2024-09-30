@@ -25,7 +25,6 @@
   <block id="608c98c104593db43938566d31ac7d6e" category="sidebar">Workload Factory의 최근 변경 사항</block>
   <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">작업 부하 공장 릴리스 노트</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">최근 변경 사항</block>
-  <block id="b18d7ec0ad964d10af97254ea8b0612d" category="doc">Amazon FSx for NetApp ONTAP용 워크로드 팩토리 최초 릴리즈</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform 지원</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">파일 시스템을 생성합니다</block>
   <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">스토리지 VM을 생성합니다</block>
@@ -33,9 +32,6 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">스토리지 계산기에서 처리량 및 IOPS 권장 사항을 확인하십시오</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">스토리지 계산기는 AWS 모범 사례를 기반으로 처리량과 IOPS에 대한 FSx for ONTAP 파일 시스템 구성을 권장하므로 선택 항목에 대한 최적의 지침이 제공됩니다.</block>
-  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="list-text"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
-  <block id="3b915cd68add8a6cdac4cd1adeb5f100" category="list-text"><block ref="3b915cd68add8a6cdac4cd1adeb5f100" category="inline-link-macro-rx"></block></block>
-  <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSx for NetApp ONTAP은 현재 워크로드 팩토리에서 일반적으로 제공됩니다.</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Workload Factory의 최초 릴리스</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">AWS용 BlueXP Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템을 사용하여 워크로드를 최적화하도록 설계된 강력한 라이프사이클 관리 플랫폼입니다. Workload Factory와 FSx for ONTAP를 사용하여 능률화할 수 있는 워크로드로는 데이터베이스, VMware Cloud on AWS, AI 챗봇 등이 있습니다.</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform은 Amazon FSx for NetApp ONTAP 파일 시스템 배포 및 스토리지 VM 생성에 지원됩니다. 이제 설정 및 관리 가이드에는 코드박스에서 Terraform을 사용하는 방법에 대한 지침이 나와 있습니다.</block>
@@ -110,4 +106,12 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">FSx for Windows File Server에서 감지된 Microsoft SQL 서버의 절감 효과에 대해 알아보십시오</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">이제 FSx for Windows File Server 스토리지가 포함된 Amazon EC2에서 감지된 Microsoft SQL 서버의 비용 절감 효과를 이 절약 계산기에서 살펴볼 수 있습니다. SQL 서버 및 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024년 09월 29일</block>
+  <block id="a384088a79fca35da6b697720f2ddd66" category="list-text"><block ref="a384088a79fca35da6b697720f2ddd66" category="inline-link-macro-rx"></block></block>
+  <block id="a9803c91b8fa40d3fdc106b005fdb16c" category="list-text"><block ref="a9803c91b8fa40d3fdc106b005fdb16c" category="inline-link-macro-rx"></block></block>
+  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">링크 생성 업데이트</block>
+  <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">Codebox 뷰어: 이제 코드박스가 링크 생성 프로세스에 통합되었습니다. 작업 실행을 위해 AWS로 리디렉션하기 전에 Workload Factory의 Codebox에서 CloudFormation 템플릿을 보고 복사할 수 있습니다.</block>
+  <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">필요한 권한: AWS CloudFormation에서 링크 생성을 실행하는 데 필요한 권한을 이제 Workload Factory의 Create Link 마법사에서 보고 복사할 수 있습니다.</block>
+  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">수동 링크 생성 지원: 이 기능을 사용하면 링크 ARN을 수동으로 등록하여 AWS CloudFormation에서 독립 실행형 생성을 수행할 수 있습니다. 보안 또는 DevOps 팀이 링크 생성 프로세스를 지원할 때 유용합니다.</block>
+  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">링크를 만듭니다</block>
+  <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
 </blocks>
