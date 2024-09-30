@@ -8,4 +8,4 @@
 
 이제 FSx for Windows File Server 스토리지가 포함된 Amazon EC2에서 감지된 Microsoft SQL 서버의 비용 절감 효과를 이 절약 계산기에서 살펴볼 수 있습니다. SQL 서버 및 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP를 사용하여 비용 절감 에 대해 알아보십시오."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오"^]

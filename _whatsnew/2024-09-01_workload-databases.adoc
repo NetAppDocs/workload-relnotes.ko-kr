@@ -8,7 +8,7 @@
 
 이제 절감 계산기에서 Amazon EC2의 Microsoft SQL Server에 대한 구성 설정을 FSx for Windows File Server 및 Elastic Block Store 스토리지와 함께 사용자 지정할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP를 사용하여 비용 절감 에 대해 알아보십시오."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오"^]
 
 
 
