@@ -112,7 +112,6 @@
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
-  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">기술 문서 볼륨의 스냅샷을 생성하고 복원합니다</block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">이제 기술 자료의 시점 복사본을 만들어 3세대 AI 워크로드 데이터를 보호할 수 있습니다. 이렇게 하면 실수로 데이터가 손실되거나 기술 문서 설정이 변경되는 것을 방지할 수 있습니다. 언제든지 이전 버전의 Knowledge Base 볼륨을 복원할 수 있습니다.</block>
   <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">기술 자료 볼륨의 스냅샷을 생성합니다</block>
   <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
@@ -126,4 +125,5 @@
   <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">이제 기술 자료 볼륨을 선택할 때 NetApp SnapMirror 복제 관계에 포함되는 데이터 보호 볼륨을 선택할 수 있습니다. 따라서 SnapMirror 복제로 이미 보호되는 볼륨에 대한 기술 자료를 저장할 수 있습니다.</block>
   <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">기술 자료에 통합할 데이터 소스를 식별합니다</block>
   <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
+  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">기술 자료 볼륨에 대한 스냅샷 및 복원 지원</block>
 </blocks>
