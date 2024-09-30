@@ -15,6 +15,22 @@ BlueXP  Workload Factory에 포함된 워크로드의 최근 변경 사항에 �
 
 
 
+== 2024년 09월 29일
+
+
+
+=== 데이터베이스 워크로드
+
+
+
+==== FSx for Windows File Server에서 감지된 Microsoft SQL 서버의 절감 효과에 대해 알아보십시오
+
+이제 FSx for Windows File Server 스토리지가 포함된 Amazon EC2에서 감지된 Microsoft SQL 서버의 비용 절감 효과를 이 절약 계산기에서 살펴볼 수 있습니다. SQL 서버 및 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP를 사용하여 비용 절감 에 대해 알아보십시오."]
+
+
+
 == 2024년 09월 19일
 
 
@@ -63,7 +79,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["볼륨
 
 이제 절감 계산기에서 Amazon EC2의 Microsoft SQL Server에 대한 구성 설정을 FSx for Windows File Server 및 Elastic Block Store 스토리지와 함께 사용자 지정할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.
 
-link:explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP를 사용하여 비용 절감 에 대해 알아보십시오."]
 
 
 
@@ -71,7 +87,7 @@ link:explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP�
 
 이제 link:https://console.workloads.netapp.com["워크로드 팩토리 콘솔"^]홈 페이지에서 절약 계산기로 이동할 수 있습니다. Elastic Block Store 및 FSx for Windows File Server에서 선택하여 시작합니다.
 
-image:screenshot-explore-savings-home-small.png["Workload Factory 콘솔 홈 페이지의 스크린샷 새 절약 탐색 단추가 있는 데이터베이스 타일을 보여 주는 이미지입니다. 버튼을 클릭하여 드롭다운 메뉴를 엽니다. 드롭다운 메뉴에는 Elastic Block Store 및 FSx for Windows File Server의 두 가지 옵션이 있습니다. 두 옵션 중 하나를 선택하면 절약 계산기로 이동하여 절감 효과를 살펴볼 수 있습니다."]
+image:screenshot-explore-savings-home-small.png["Workload Factory 콘솔 홈 페이지의 스크린샷 새 절약 탐색 단추가 있는 데이터베이스 타일을 보여 주는 이미지입니다. 버튼을 클릭하여 드롭다운 메뉴를 엽니다. 드롭다운 메뉴에는 EBS의 Microsoft SQL Server와 Windows용 FSx 파일 서버의 Microsoft SQL Server의 두 가지 옵션이 있습니다."]
 
 
 
@@ -176,7 +192,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["AW
 
 
 
-link:explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP를 사용하여 비용 절감 에 대해 알아보십시오."]
 
 
 
@@ -219,18 +235,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["코드
 ==== Amazon FSx for NetApp ONTAP용 워크로드 팩토리 최초 릴리즈
 
 Amazon FSx for NetApp ONTAP은 현재 워크로드 팩토리에서 일반적으로 제공됩니다.
-
-
-
-=== 데이터베이스 워크로드
-
-
-
-==== 데이터베이스용 Workload Factory 초기 릴리즈
-
-초기 릴리즈에는 데이터베이스 워크로드를 위한 스토리지 환경으로 Amazon FSx for NetApp ONTAP을 사용하여 비용 절감을 탐색하고, Microsoft SQL Server를 감지, 관리 및 배포하고, 데이터베이스를 배포 및 복제하고, Workload Factory 내에서 이러한 작업을 모니터링하는 기능이 포함되어 있습니다.
-
-link:learn-databases.html["데이터베이스에 대해 알아봅니다"]..
 
 
 

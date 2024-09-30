@@ -49,10 +49,6 @@
   <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  Workload Factory의 최근 변경사항</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024년 08월 04일</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024년 07월 07일</block>
-  <block id="ed54fefae379fac8157c0d466e30a150" category="doc">데이터베이스용 Workload Factory 초기 릴리즈</block>
-  <block id="7737adcb101b7285a3a8567ae4d22021" category="paragraph">초기 릴리즈에는 데이터베이스 워크로드를 위한 스토리지 환경으로 Amazon FSx for NetApp ONTAP을 사용하여 비용 절감을 탐색하고, Microsoft SQL Server를 감지, 관리 및 배포하고, 데이터베이스를 배포 및 복제하고, Workload Factory 내에서 이러한 작업을 모니터링하는 기능이 포함되어 있습니다.</block>
-  <block id="76d820a16128270adf6a061b253cca06" category="inline-link-macro">데이터베이스에 대해 알아봅니다</block>
-  <block id="c8b559206fbe2064f93b1a567d84e637" category="paragraph"><block ref="eda6f6881c0c5cc5180d85b417e4f376" category="inline-link-macro-rx"></block>..</block>
   <block id="4b93fd033dead8dde7a70076fe4dfb36" category="doc">비용 절감 계산기 기능 향상</block>
   <block id="7aeef6f406aa249df106ff2e48e80f59" category="list-text">비용 추정치 설명</block>
   <block id="797ceaeb99ff17f4fc79415b43e229c3" category="paragraph">이제 비용 절감 계산기에서 비용 추정이 어떻게 계산되는지 알아볼 수 있습니다. Amazon FSx for ONTAP 스토리지를 사용하는 것과 비교하여 Amazon Elastic Block Store 스토리지를 사용하는 Microsoft SQL Server 인스턴스의 모든 계산 설명을 검토할 수 있습니다.</block>
@@ -64,15 +60,11 @@
   <block id="c740ba36619fc4bc695bdeaf1e4ec860" category="paragraph">이제 데이터베이스는 Amazon Elastic Block Store를 사용하여 여러 Microsoft SQL Server 인스턴스를 호스팅하는 구성에 대한 비용 절감 계산을 제공합니다.</block>
   <block id="6c8658cb4905e48d7d602b288bfcf8be" category="list-text">계산기 설정을 사용자 지정합니다</block>
   <block id="3d97983d64bf9e9b4ee62805c09d1774" category="paragraph">이제 Microsoft SQL Server, Amazon EC2 및 Elastic Block Store의 설정을 사용자 지정하여 절감액을 수동으로 탐색할 수 있습니다. 비용 절감 계산기는 비용에 따라 최상의 구성을 결정합니다.</block>
-  <block id="85f439a5ead422005f331327c6b4d189" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오.</block>
-  <block id="ffcdb01d64d534ead82555dabfbdd7da" category="paragraph"><block ref="ffcdb01d64d534ead82555dabfbdd7da" category="inline-link-macro-rx"></block></block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">맞춤화를 통한 절감 효과를 살펴보십시오</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">이제 절감 계산기에서 Amazon EC2의 Microsoft SQL Server에 대한 구성 설정을 FSx for Windows File Server 및 Elastic Block Store 스토리지와 함께 사용자 지정할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">홈 페이지에서 절약 계산기로 이동합니다</block>
   <block id="8fd935558171bd50056871ef9ee7bd05" category="inline-link-macro">워크로드 팩토리 콘솔</block>
   <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph">이제 <block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block>홈 페이지에서 절약 계산기로 이동할 수 있습니다. Elastic Block Store 및 FSx for Windows File Server에서 선택하여 시작합니다.</block>
-  <block id="1bd7517fe14fe5f1784a4d71ebf0c2e1" category="inline-image-macro">Workload Factory 콘솔 홈 페이지의 스크린샷 새 절약 탐색 단추가 있는 데이터베이스 타일을 보여 주는 이미지입니다. 버튼을 클릭하여 드롭다운 메뉴를 엽니다. 드롭다운 메뉴에는 Elastic Block Store 및 FSx for Windows File Server의 두 가지 옵션이 있습니다. 두 옵션 중 하나를 선택하면 절약 계산기로 이동하여 절감 효과를 살펴볼 수 있습니다.</block>
-  <block id="ace456f52a384b923a9eedd83d20db48" category="paragraph"><block ref="ace456f52a384b923a9eedd83d20db48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024년 09월 01일</block>
   <block id="f0881d896f399a09e86122a09c00b74d" category="doc">스토리지 관리를 위한 읽기 모드 지원</block>
   <block id="8db376980442524a58ebd917532846d7" category="paragraph">읽기 모드는 Workload Factory에서 스토리지 관리에 사용할 수 있습니다. 읽기 모드는 코드형 인프라 템플릿이 특정 변수로 채워지도록 읽기 전용 권한을 추가하여 기본 모드의 환경을 개선합니다. 코드형 인프라 템플릿은 Workload Factory에 대한 수정 권한을 제공하지 않고 AWS 계정에서 직접 실행할 수 있습니다.</block>
@@ -111,4 +103,11 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024년 09월 19일</block>
+  <block id="4ac33bc47ec0338e6c23f5e315a2b5ec" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP를 사용하여 비용 절감 에 대해 알아보십시오.</block>
+  <block id="f9ca6ec7df5da581020634d84b3e477c" category="paragraph"><block ref="f9ca6ec7df5da581020634d84b3e477c" category="inline-link-macro-rx"></block></block>
+  <block id="b6e7a46e866a97d8ad38a3ce2e41e926" category="inline-image-macro">Workload Factory 콘솔 홈 페이지의 스크린샷 새 절약 탐색 단추가 있는 데이터베이스 타일을 보여 주는 이미지입니다. 버튼을 클릭하여 드롭다운 메뉴를 엽니다. 드롭다운 메뉴에는 EBS의 Microsoft SQL Server와 Windows용 FSx 파일 서버의 Microsoft SQL Server의 두 가지 옵션이 있습니다.</block>
+  <block id="a7396d19dde0193e37cada3b5524bb0b" category="paragraph"><block ref="a7396d19dde0193e37cada3b5524bb0b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">FSx for Windows File Server에서 감지된 Microsoft SQL 서버의 절감 효과에 대해 알아보십시오</block>
+  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">이제 FSx for Windows File Server 스토리지가 포함된 Amazon EC2에서 감지된 Microsoft SQL 서버의 비용 절감 효과를 이 절약 계산기에서 살펴볼 수 있습니다. SQL 서버 및 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.</block>
+  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024년 09월 29일</block>
 </blocks>
