@@ -1,0 +1,21 @@
+= 데이터베이스를 통해 Microsoft SQL Server 워크로드를 지속적으로 최적화합니다
+:allow-uri-read: 
+
+
+
+
+=== 데이터베이스를 통해 Microsoft SQL Server 워크로드를 지속적으로 최적화합니다
+
+BlueXP  워크로드 공장에는 Amazon FSx for NetApp ONTAP에서 Microsoft SQL Server 워크로드의 스토리지 구성 요소에 대한 모범 사례를 지속적으로 최적화하고 준수하기 위해 지속적인 지침과 가드레일이 도입되었습니다. 이 기능은 고객의 Microsoft SQL Server 자산을 지속적으로 검사하여 최고의 성능, 비용 효율성, 규정 준수를 달성하는 데 도움이 되는 인사이트, 기회 및 권장 사항에 대한 포괄적인 보고서를 제공합니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["SQL Server 워크로드를 최적화하십시오"]
+
+
+
+=== Terraform 지원
+
+이제 코드상자에서 Terraform을 사용하여 Microsoft SQL Server를 배포할 수 있습니다.
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["데이터베이스 서버를 만듭니다"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["코드박스에서 Terraform을 사용합니다"^]
+

@@ -40,17 +40,6 @@
   <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  Workload Factory의 최근 변경사항</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024년 08월 04일</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024년 07월 07일</block>
-  <block id="4b93fd033dead8dde7a70076fe4dfb36" category="doc">비용 절감 계산기 기능 향상</block>
-  <block id="7aeef6f406aa249df106ff2e48e80f59" category="list-text">비용 추정치 설명</block>
-  <block id="797ceaeb99ff17f4fc79415b43e229c3" category="paragraph">이제 비용 절감 계산기에서 비용 추정이 어떻게 계산되는지 알아볼 수 있습니다. Amazon FSx for ONTAP 스토리지를 사용하는 것과 비교하여 Amazon Elastic Block Store 스토리지를 사용하는 Microsoft SQL Server 인스턴스의 모든 계산 설명을 검토할 수 있습니다.</block>
-  <block id="97e6e4674ea0e2696f6137e7c1d5fce2" category="list-text">Always On 가용성 그룹 지원</block>
-  <block id="7e13c18d88bdfda9d3e5101fdaebc5e5" category="paragraph">이제 데이터베이스는 Amazon Elastic Block Store를 사용하는 Microsoft SQL Server에서 Always On 가용성 그룹 배포 유형에 대한 비용 절감 계산을 제공합니다.</block>
-  <block id="d95a98a3c6f52fb50654c75b5740f82a" category="list-text">FSx for ONTAP으로 SQL 서버 라이센스를 최적화하십시오</block>
-  <block id="4f59760365b695f240f546ba35bdcf33" category="paragraph">데이터베이스 계산기는 Amazon Elastic Block Store 스토리지와 함께 사용하는 SQL 라이센스 에디션이 데이터베이스 워크로드에 최적화되었는지 여부를 결정합니다. FSx for ONTAP 스토리지를 사용하는 최적의 SQL 라이센스에 대한 권장사항이 제공됩니다.</block>
-  <block id="97c3c8be68d473c11d60e943dcab0fec" category="list-text">여러 SQL Server 인스턴스</block>
-  <block id="c740ba36619fc4bc695bdeaf1e4ec860" category="paragraph">이제 데이터베이스는 Amazon Elastic Block Store를 사용하여 여러 Microsoft SQL Server 인스턴스를 호스팅하는 구성에 대한 비용 절감 계산을 제공합니다.</block>
-  <block id="6c8658cb4905e48d7d602b288bfcf8be" category="list-text">계산기 설정을 사용자 지정합니다</block>
-  <block id="3d97983d64bf9e9b4ee62805c09d1774" category="paragraph">이제 Microsoft SQL Server, Amazon EC2 및 Elastic Block Store의 설정을 사용자 지정하여 절감액을 수동으로 탐색할 수 있습니다. 비용 절감 계산기는 비용에 따라 최상의 구성을 결정합니다.</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">맞춤화를 통한 절감 효과를 살펴보십시오</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">이제 절감 계산기에서 Amazon EC2의 Microsoft SQL Server에 대한 구성 설정을 FSx for Windows File Server 및 Elastic Block Store 스토리지와 함께 사용자 지정할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">홈 페이지에서 절약 계산기로 이동합니다</block>
@@ -124,4 +113,11 @@
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAP 탭: 현재 사용 중인 FSx for ONTAP 파일 시스템을 표시합니다.</block>
   <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Explore Savings Tab: Elastic Block Store, FSx for Windows File Server 및 Elastic File Systems 스토리지 시스템을 표시합니다. 이 페이지에서 이러한 시스템을 FSx for ONTAP와 비교하여 절감 효과를 살펴볼 수 있습니다.</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024년 11월 03일</block>
+  <block id="0928468cb2283b21e6802a78c6a64e3a" category="doc">데이터베이스를 통해 Microsoft SQL Server 워크로드를 지속적으로 최적화합니다</block>
+  <block id="e73fa899152fb6836032fef4e1c95da4" category="paragraph">BlueXP  워크로드 공장에는 Amazon FSx for NetApp ONTAP에서 Microsoft SQL Server 워크로드의 스토리지 구성 요소에 대한 모범 사례를 지속적으로 최적화하고 준수하기 위해 지속적인 지침과 가드레일이 도입되었습니다. 이 기능은 고객의 Microsoft SQL Server 자산을 지속적으로 검사하여 최고의 성능, 비용 효율성, 규정 준수를 달성하는 데 도움이 되는 인사이트, 기회 및 권장 사항에 대한 포괄적인 보고서를 제공합니다.</block>
+  <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">SQL Server 워크로드를 최적화하십시오</block>
+  <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
+  <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">이제 코드상자에서 Terraform을 사용하여 Microsoft SQL Server를 배포할 수 있습니다.</block>
+  <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">데이터베이스 서버를 만듭니다</block>
+  <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
 </blocks>
