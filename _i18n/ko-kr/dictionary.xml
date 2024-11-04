@@ -66,10 +66,6 @@
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Amazon EC2로 마이그레이션합니다</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">VMware용 Workload Factory는 이제 VMware 마이그레이션 관리자를 사용하여 Amazon EC2로의 마이그레이션을 지원합니다.</block>
-  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Amazon CloudWatch Logs 통합</block>
-  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">이제 생성 가능한 AI 워크로드가 Amazon CloudWatch Logs에 통합되어 생성 가능한 AI 워크로드 로그 파일을 모니터링할 수 있습니다.</block>
-  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">챗봇 애플리케이션 예</block>
-  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">NetApp Workload Factory GenAI 샘플 애플리케이션을 사용하면 웹 기반 챗봇 애플리케이션에서 직접 상호 작용하여 게시된 NetApp Workload Factory 기술 자료에서 인증 및 검색을 테스트할 수 있습니다.</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">추가 청킹 전략</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">생성 AI 워크로드는 이제 데이터 소스에 대해 다중 문장 청킹 및 중복 기반 청킹을 지원합니다.</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">각 기술 자료 전용 볼륨</block>
@@ -120,4 +116,10 @@
   <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware Migration Advisor 데이터 축소율이 도움이 됩니다</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">이번 VMware용 Workload Factory 릴리즈에는 데이터 축소율 지원 기능이 있습니다. 데이터 축소율 도우미를 통해 AWS 클라우드 온보딩을 준비할 때 VMware 인벤토리 및 스토리지 공간에 가장 적합한 비율을 결정할 수 있습니다.</block>
+  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">데이터 가드레일을 사용하여 개인 식별 정보를 마스킹합니다</block>
+  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">Generative AI 워크로드에는 BlueXP  분류를 기반으로 하는 데이터 가드레일 기능이 도입되었습니다. 데이터 가드레일 기능은 개인 식별 정보(PII)를 식별 및 마스킹하여 규정 준수를 유지하고 중요한 조직 데이터의 보안을 강화합니다.</block>
+  <block id="0da805b7cc0727848a84e995ab36cd76" category="inline-link-macro">기술 문서를 작성합니다</block>
+  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
+  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">BlueXP 분류에 대해 알아보십시오</block>
+  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
 </blocks>
