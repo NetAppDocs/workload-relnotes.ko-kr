@@ -1,11 +1,11 @@
 ---
 indexpage:
-  title: BlueXP  Workload Factory 릴리즈 노트
-  summary: 이 릴리즈 노트에서는 BlueXP  Workload Factory에 포함된 클라우드 서비스의 최신 개선 사항에 대해 설명합니다.
-  keywords: BlueXP Workload Factory, release notes, what's new
-  lead: 이 릴리즈 노트에서는 BlueXP  Workload Factory에 포함된 클라우드 서비스의 최신 개선 사항에 대해 설명합니다.
+  title: BlueXP  워크로드 공장 릴리스 노트
+  summary: 이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.
+  keywords: BlueXP workload factory, release notes, what's new
+  lead: 이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.
   tiles:
   - title: 새로운 소식
     links:
-    - title: Workload Factory의 최근 변경 사항
+    - title: BlueXP  워크로드 팩토리의 최근 변경사항
       url: whats-new.html

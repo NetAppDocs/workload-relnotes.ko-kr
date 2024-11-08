@@ -2,16 +2,16 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for netapp ontap, databases, genai, vmware' 
-summary: BlueXP  Workload Factory에 포함된 워크로드의 최근 변경 사항에 대해 알아보십시오. 
+summary: BlueXP  워크로드 팩토리에 포함된 워크로드의 최근 변경사항에 대해 알아보십시오. 
 ---
-= BlueXP  Workload Factory의 최근 변경사항
+= BlueXP  워크로드 팩토리의 최근 변경사항
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-BlueXP  Workload Factory에 포함된 워크로드의 최근 변경 사항에 대해 알아보십시오.
+BlueXP  워크로드 팩토리에 포함된 워크로드의 최근 변경사항에 대해 알아보십시오.
 
 
 

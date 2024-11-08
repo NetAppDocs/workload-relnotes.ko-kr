@@ -19,11 +19,7 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="cce08aba345d6d02161a37f9cd0d876d" category="sidebar">이 릴리즈 노트에서는 BlueXP  Workload Factory에 포함된 클라우드 서비스의 최신 개선 사항에 대해 설명합니다.</block>
-  <block id="0fb18bb5f075569f125aa8add5a67dc2" category="sidebar">BlueXP  Workload Factory 릴리즈 노트</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
-  <block id="608c98c104593db43938566d31ac7d6e" category="sidebar">Workload Factory의 최근 변경 사항</block>
-  <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">작업 부하 공장 릴리스 노트</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">최근 변경 사항</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform 지원</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">코드박스에서 Terraform을 사용합니다</block>
@@ -36,8 +32,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI 워크로드</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">설정 및 관리</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 워크로드</block>
-  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">BlueXP  Workload Factory에 포함된 워크로드의 최근 변경 사항에 대해 알아보십시오.</block>
-  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  Workload Factory의 최근 변경사항</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024년 08월 04일</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024년 07월 07일</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">맞춤화를 통한 절감 효과를 살펴보십시오</block>
@@ -122,4 +116,8 @@
   <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">BlueXP 분류에 대해 알아보십시오</block>
   <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
+  <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">BlueXP  워크로드 팩토리에 포함된 워크로드의 최근 변경사항에 대해 알아보십시오.</block>
+  <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  워크로드 팩토리의 최근 변경사항</block>
+  <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.</block>
+  <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
 </blocks>

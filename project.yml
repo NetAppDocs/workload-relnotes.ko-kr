@@ -18,12 +18,12 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: 작업 부하 공장 릴리스 노트
+  - title: BlueXP  워크로드 공장 릴리스 노트
     url: "/index.html"
   - title: 최근 변경 사항
     url: "/whats-new.html"
   - title: 법적 고지
     url: "/legal-notices.html"
 product-family:
-  name: Workload Factory
+  name: BlueXP workload factory
   repo: workload-family
