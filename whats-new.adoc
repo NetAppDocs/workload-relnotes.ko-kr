@@ -152,7 +152,7 @@ https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["기술 
 
 ==== VMware 마이그레이션 어드바이저의 향상된 기능
 
-이번 VMware용 Workload Factory 릴리즈에는 VMware 마이그레이션 관리자를 사용할 때 마이그레이션 계획을 가져오고 내보내는 기능과 안정성이 향상되었습니다.
+이번 VMware용 워크로드 팩토리에는 기능 및 안정성이 향상되었으며 VMware 마이그레이션 관리자를 사용할 때 마이그레이션 계획을 가져오고 내보내는 기능이 포함되어 있습니다.
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다"]
 
@@ -208,7 +208,7 @@ image:screenshot-explore-savings-home-small.png["Workload Factory 콘솔 홈 페
 
 ==== Amazon EC2로 마이그레이션합니다
 
-VMware용 Workload Factory는 이제 VMware 마이그레이션 관리자를 사용하여 Amazon EC2로의 마이그레이션을 지원합니다.
+VMware용 워크로드 팩토리에서는 이제 VMware 마이그레이션 어드바이저를 사용하여 Amazon EC2로의 마이그레이션을 지원합니다.
 
 
 

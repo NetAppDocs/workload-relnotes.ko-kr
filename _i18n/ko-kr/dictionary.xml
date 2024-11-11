@@ -59,13 +59,11 @@
   <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">AWS 자격 증명을 Workload Factory에 추가합니다</block>
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Amazon EC2로 마이그레이션합니다</block>
-  <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">VMware용 Workload Factory는 이제 VMware 마이그레이션 관리자를 사용하여 Amazon EC2로의 마이그레이션을 지원합니다.</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">추가 청킹 전략</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">생성 AI 워크로드는 이제 데이터 소스에 대해 다중 문장 청킹 및 중복 기반 청킹을 지원합니다.</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">각 기술 자료 전용 볼륨</block>
   <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">이제 Generative AI 워크로드가 새로운 각 기술 자료에 대해 전용 Amazon FSx for NetApp ONTAP 볼륨을 생성하여 각 기술 자료에 대한 개별 스냅샷 정책을 지원하고 장애 및 데이터 중독에 대한 보호 기능을 향상합니다.</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">VMware 마이그레이션 어드바이저의 향상된 기능</block>
-  <block id="bdcdfcdfcb9e0d2084c9c9ff58163d0b" category="paragraph">이번 VMware용 Workload Factory 릴리즈에는 VMware 마이그레이션 관리자를 사용할 때 마이그레이션 계획을 가져오고 내보내는 기능과 안정성이 향상되었습니다.</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024년 09월 19일</block>
@@ -120,4 +118,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  워크로드 팩토리의 최근 변경사항</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
+  <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMware용 워크로드 팩토리에서는 이제 VMware 마이그레이션 어드바이저를 사용하여 Amazon EC2로의 마이그레이션을 지원합니다.</block>
+  <block id="21558f6938275b17b39171353ad95a65" category="paragraph">이번 VMware용 워크로드 팩토리에는 기능 및 안정성이 향상되었으며 VMware 마이그레이션 관리자를 사용할 때 마이그레이션 계획을 가져오고 내보내는 기능이 포함되어 있습니다.</block>
 </blocks>
