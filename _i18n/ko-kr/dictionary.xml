@@ -41,13 +41,10 @@
   <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph">이제 <block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block>홈 페이지에서 절약 계산기로 이동할 수 있습니다. Elastic Block Store 및 FSx for Windows File Server에서 선택하여 시작합니다.</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024년 09월 01일</block>
   <block id="f0881d896f399a09e86122a09c00b74d" category="doc">스토리지 관리를 위한 읽기 모드 지원</block>
-  <block id="8db376980442524a58ebd917532846d7" category="paragraph">읽기 모드는 Workload Factory에서 스토리지 관리에 사용할 수 있습니다. 읽기 모드는 코드형 인프라 템플릿이 특정 변수로 채워지도록 읽기 전용 권한을 추가하여 기본 모드의 환경을 개선합니다. 코드형 인프라 템플릿은 Workload Factory에 대한 수정 권한을 제공하지 않고 AWS 계정에서 직접 실행할 수 있습니다.</block>
   <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">읽기 모드에 대해 자세히 알아봅니다</block>
-  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
   <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">볼륨 삭제 지원 전 백업</block>
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">볼륨을 삭제하기 전에 백업할 수 있습니다. 백업은 삭제될 때까지 파일 시스템에 남아 있습니다.</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">볼륨을 삭제합니다</block>
-  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 구독</block>
   <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">RSS 구독은 에서 사용할 수 <block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>있습니다. RSS 피드를 사용하면 BlueXP  Workload Factory의 변경 사항을 쉽게 확인하고 확인할 수 있습니다.</block>
   <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Workload Factory 콘솔 도움말 드롭다운 메뉴의 스크린샷 RSS를 구독하기 위한 새 단추가 드롭다운 메뉴에 옵션으로 나타납니다.</block>
@@ -73,11 +70,8 @@
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">이제 FSx for Windows File Server 스토리지가 포함된 Amazon EC2에서 감지된 Microsoft SQL 서버의 비용 절감 효과를 이 절약 계산기에서 살펴볼 수 있습니다. SQL 서버 및 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024년 09월 29일</block>
   <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">링크 생성 업데이트</block>
-  <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">Codebox 뷰어: 이제 코드박스가 링크 생성 프로세스에 통합되었습니다. 작업 실행을 위해 AWS로 리디렉션하기 전에 Workload Factory의 Codebox에서 CloudFormation 템플릿을 보고 복사할 수 있습니다.</block>
-  <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">필요한 권한: AWS CloudFormation에서 링크 생성을 실행하는 데 필요한 권한을 이제 Workload Factory의 Create Link 마법사에서 보고 복사할 수 있습니다.</block>
   <block id="3721bd571f4111dad2c363436de34c51" category="list-text">수동 링크 생성 지원: 이 기능을 사용하면 링크 ARN을 수동으로 등록하여 AWS CloudFormation에서 독립 실행형 생성을 수행할 수 있습니다. 보안 또는 DevOps 팀이 링크 생성 프로세스를 지원할 때 유용합니다.</block>
   <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">링크를 만듭니다</block>
-  <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">이제 기술 자료의 시점 복사본을 만들어 3세대 AI 워크로드 데이터를 보호할 수 있습니다. 이렇게 하면 실수로 데이터가 손실되거나 기술 문서 설정이 변경되는 것을 방지할 수 있습니다. 언제든지 이전 버전의 Knowledge Base 볼륨을 복원할 수 있습니다.</block>
@@ -120,4 +114,10 @@
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
   <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMware용 워크로드 팩토리에서는 이제 VMware 마이그레이션 어드바이저를 사용하여 Amazon EC2로의 마이그레이션을 지원합니다.</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">이번 VMware용 워크로드 팩토리에는 기능 및 안정성이 향상되었으며 VMware 마이그레이션 관리자를 사용할 때 마이그레이션 계획을 가져오고 내보내는 기능이 포함되어 있습니다.</block>
+  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">읽기 모드는 워크로드 공장에서 스토리지 관리에 사용할 수 있습니다. 읽기 모드는 코드형 인프라 템플릿이 특정 변수로 채워지도록 읽기 전용 권한을 추가하여 기본 모드의 환경을 개선합니다. 코드형 인프라 템플릿은 워크로드 팩토리에 대한 수정 권한을 제공하지 않고 AWS 계정에서 직접 실행할 수 있습니다.</block>
+  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
+  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
+  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Codebox 뷰어: 이제 코드박스가 링크 생성 프로세스에 통합되었습니다. 작업 실행을 위해 AWS로 리디렉션하기 전에 워크로드 팩토리얼의 Codebox에서 CloudFormation 템플릿을 보고 복사할 수 있습니다.</block>
+  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">필요한 권한: AWS CloudFormation에서 링크 생성을 실행하는 데 필요한 권한을 이제 워크로드 팩토리의 링크 생성 마법사에서 링크 생성 마법사를 보고 복사할 수 있습니다.</block>
+  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
 </blocks>
