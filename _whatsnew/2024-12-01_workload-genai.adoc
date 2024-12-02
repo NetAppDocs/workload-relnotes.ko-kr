@@ -1,0 +1,19 @@
+= 스냅샷에서 지식 베이스를 복제합니다
+:allow-uri-read: 
+
+
+
+
+=== 스냅샷에서 지식 베이스를 복제합니다
+
+GenAI용 BlueXP  워크로드 팩토리에서는 이제 스냅샷으로부터 기술 자료 클론 복제를 지원합니다. 이를 통해 기술 자료를 빠르게 복구하고 기존 데이터 소스를 사용하여 새로운 기술 자료를 작성할 수 있으며 데이터 복구 및 개발에 도움이 됩니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["기술 문서를 복제합니다"]
+
+
+
+=== 온프레미스 ONTAP 클러스터 검색 및 복제
+
+온프레미스 ONTAP 클러스터 데이터를 FSx for ONTAP 파일 시스템으로 검색하고 복제하여 AI 지식 기반을 보강하는 데 사용할 수 있습니다. 모든 사내 검색 및 복제 워크플로는 스토리지 인벤토리의 새로운 * 온-프레미스 ONTAP * 탭에서 사용할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["사내 ONTAP 클러스터를 검색합니다"]

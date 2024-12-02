@@ -31,19 +31,12 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">설정 및 관리</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 워크로드</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024년 08월 04일</block>
-  <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">맞춤화를 통한 절감 효과를 살펴보십시오</block>
-  <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">이제 절감 계산기에서 Amazon EC2의 Microsoft SQL Server에 대한 구성 설정을 FSx for Windows File Server 및 Elastic Block Store 스토리지와 함께 사용자 지정할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.</block>
-  <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">홈 페이지에서 절약 계산기로 이동합니다</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024년 09월 01일</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 구독</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">워크로드당 단일 권한 정책 지원</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">자격 증명 페이지의 권한 구성 섹션의 스크린샷으로 스토리지 관리, AI 워크로드, 데이터베이스 워크로드 및 VMware 워크로드에 대한 권한 정책을 읽기 또는 자동화할 수 있습니다.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Amazon EC2로 마이그레이션합니다</block>
-  <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">추가 청킹 전략</block>
-  <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">생성 AI 워크로드는 이제 데이터 소스에 대해 다중 문장 청킹 및 중복 기반 청킹을 지원합니다.</block>
-  <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">각 기술 자료 전용 볼륨</block>
-  <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">이제 Generative AI 워크로드가 새로운 각 기술 자료에 대해 전용 Amazon FSx for NetApp ONTAP 볼륨을 생성하여 각 기술 자료에 대한 개별 스냅샷 정책을 지원하고 장애 및 데이터 중독에 대한 보호 기능을 향상합니다.</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">VMware 마이그레이션 어드바이저의 향상된 기능</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
@@ -111,9 +104,6 @@
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">이제 에서 워크로드 팩토리를 사용할 수 <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">BlueXP  콘솔에서 워크로드 팩토리에 액세스하는 방법을 알아보십시오</block>
   <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">2024년 11월 11일</block>
-  <block id="e93e8519fa9c34d76ec0735119a46866" category="paragraph">이제 <block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>홈 페이지에서 절약 계산기로 이동할 수 있습니다. Elastic Block Store 및 FSx for Windows File Server에서 선택하여 시작합니다.</block>
-  <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">워크로드 팩토리 콘솔 홈 페이지의 스크린샷 새 절약 탐색 단추가 있는 데이터베이스 타일을 보여 주는 이미지입니다. 버튼을 클릭하여 드롭다운 메뉴를 엽니다. 드롭다운 메뉴에는 EBS의 Microsoft SQL Server와 Windows용 FSx 파일 서버의 Microsoft SQL Server의 두 가지 옵션이 있습니다.</block>
-  <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
   <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">스케일아웃 FSx for ONTAP 파일 시스템용 블록 스토리지</block>
   <block id="152983842f852ef5bae46ac675caec95" category="paragraph">이제 최대 6개의 HA 쌍으로 구성된 스케일아웃 파일 시스템 구축을 사용할 때 FSx for ONTAP을 통해 블록 스토리지를 프로비저닝할 수 있습니다.</block>
@@ -138,4 +128,16 @@
   <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">BlueXP  워크로드 공장에서 FSx for ONTAP로 절감할 수 있는 비용에 대해 알아보십시오</block>
   <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024년 12월 01일</block>
+  <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">지속적인 최적화로 컴퓨팅 문제 해결 및 평가를 추가합니다</block>
+  <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">이제 데이터베이스는 Microsoft SQL Server 인스턴스의 컴퓨팅 리소스를 최적화하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다. CPU 활용률을 측정하고 AWS Compute Optimizer 서비스를 활용하여 최적의 적정 크기의 인스턴스 유형을 추천하고 사용 가능한 운영 체제 패치를 알립니다. 컴퓨팅 리소스를 최적화하면 인스턴스 유형에 대한 정확한 결정을 내릴 수 있어 비용을 절감하고 리소스 활용률을 향상할 수 있습니다.</block>
+  <block id="9aa94e25ba754a44d094b78775213e48" category="inline-link-macro">컴퓨팅 리소스 구성을 최적화합니다</block>
+  <block id="25a5dc6deeba5d476ff665ad9c968a2b" category="paragraph"><block ref="25a5dc6deeba5d476ff665ad9c968a2b" category="inline-link-macro-rx"></block></block>
+  <block id="f3cfd7c95d3ff2b556d90beb191fa77a" category="section-title">PostgreSQL 지원</block>
+  <block id="49db1f79602c9ba8e5704a68010c4023" category="paragraph">이제 데이터베이스의 독립 실행형 PostgreSQL 서버 배포를 배포 및 관리할 수 있습니다.</block>
+  <block id="3627a14d7dc2feba3834d63a37ebb394" category="inline-link-macro">PostgreSQL 서버를 생성합니다</block>
+  <block id="02b7dd87f2a54e2b540ac84598c20252" category="paragraph"><block ref="02b7dd87f2a54e2b540ac84598c20252" category="inline-link-macro-rx"></block></block>
+  <block id="f8a21101d47aa852f29a4be35904736e" category="doc">스냅샷에서 지식 베이스를 복제합니다</block>
+  <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">GenAI용 BlueXP  워크로드 팩토리에서는 이제 스냅샷으로부터 기술 자료 클론 복제를 지원합니다. 이를 통해 기술 자료를 빠르게 복구하고 기존 데이터 소스를 사용하여 새로운 기술 자료를 작성할 수 있으며 데이터 복구 및 개발에 도움이 됩니다.</block>
+  <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">기술 문서를 복제합니다</block>
+  <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
 </blocks>
