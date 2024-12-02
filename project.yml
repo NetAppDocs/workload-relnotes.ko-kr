@@ -15,7 +15,7 @@ settings:
     - workload-vmware
     - workload-genai
     - workload-setup-admin
-  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
   - title: BlueXP  워크로드 공장 릴리스 노트

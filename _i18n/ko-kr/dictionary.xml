@@ -35,11 +35,6 @@
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">이제 절감 계산기에서 Amazon EC2의 Microsoft SQL Server에 대한 구성 설정을 FSx for Windows File Server 및 Elastic Block Store 스토리지와 함께 사용자 지정할 수 있습니다. 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">홈 페이지에서 절약 계산기로 이동합니다</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024년 09월 01일</block>
-  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">스토리지 관리를 위한 읽기 모드 지원</block>
-  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">읽기 모드에 대해 자세히 알아봅니다</block>
-  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">볼륨 삭제 지원 전 백업</block>
-  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">볼륨을 삭제하기 전에 백업할 수 있습니다. 백업은 삭제될 때까지 파일 시스템에 남아 있습니다.</block>
-  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">볼륨을 삭제합니다</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 구독</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">워크로드당 단일 권한 정책 지원</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">자격 증명 페이지의 권한 구성 섹션의 스크린샷으로 스토리지 관리, AI 워크로드, 데이터베이스 워크로드 및 VMware 워크로드에 대한 권한 정책을 읽기 또는 자동화할 수 있습니다.</block>
@@ -101,9 +96,6 @@
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
   <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMware용 워크로드 팩토리에서는 이제 VMware 마이그레이션 어드바이저를 사용하여 Amazon EC2로의 마이그레이션을 지원합니다.</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">이번 VMware용 워크로드 팩토리에는 기능 및 안정성이 향상되었으며 VMware 마이그레이션 관리자를 사용할 때 마이그레이션 계획을 가져오고 내보내는 기능이 포함되어 있습니다.</block>
-  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">읽기 모드는 워크로드 공장에서 스토리지 관리에 사용할 수 있습니다. 읽기 모드는 코드형 인프라 템플릿이 특정 변수로 채워지도록 읽기 전용 권한을 추가하여 기본 모드의 환경을 개선합니다. 코드형 인프라 템플릿은 워크로드 팩토리에 대한 수정 권한을 제공하지 않고 AWS 계정에서 직접 실행할 수 있습니다.</block>
-  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
-  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Codebox 뷰어: 이제 코드박스가 링크 생성 프로세스에 통합되었습니다. 작업 실행을 위해 AWS로 리디렉션하기 전에 워크로드 팩토리얼의 Codebox에서 CloudFormation 템플릿을 보고 복사할 수 있습니다.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">필요한 권한: AWS CloudFormation에서 링크 생성을 실행하는 데 필요한 권한을 이제 워크로드 팩토리의 링크 생성 마법사에서 링크 생성 마법사를 보고 복사할 수 있습니다.</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
@@ -123,4 +115,27 @@
   <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">워크로드 팩토리 콘솔 홈 페이지의 스크린샷 새 절약 탐색 단추가 있는 데이터베이스 타일을 보여 주는 이미지입니다. 버튼을 클릭하여 드롭다운 메뉴를 엽니다. 드롭다운 메뉴에는 EBS의 Microsoft SQL Server와 Windows용 FSx 파일 서버의 Microsoft SQL Server의 두 가지 옵션이 있습니다.</block>
   <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
+  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">스케일아웃 FSx for ONTAP 파일 시스템용 블록 스토리지</block>
+  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">이제 최대 6개의 HA 쌍으로 구성된 스케일아웃 파일 시스템 구축을 사용할 때 FSx for ONTAP을 통해 블록 스토리지를 프로비저닝할 수 있습니다.</block>
+  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">BlueXP  워크로드 팩토리에서 FSx for ONTAP 파일 시스템을 생성합니다</block>
+  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
+  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">마운트 명령을 사용할 수 있습니다</block>
+  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">이제 볼륨에 대한 NFS 및 CIFS 액세스에 마운트 명령을 사용할 수 있습니다. * 기본 작업 * 과 * 마운트 명령 보기 * 를 선택하여 FSx for ONTAP 파일 시스템 내에서 볼륨의 마운트 지점을 얻을 수 있습니다.</block>
+  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">FSx for ONTAP 파일 시스템으로 이동하여 볼륨 메뉴를 선택하고 기본 작업을 선택한 다음, 보기 마운트 명령을 선택하여 마운트 명령을 보는 스크린샷 mount 명령 대화 상자가 나타나고 CIFS 또는 NFS 액세스에 대한 mount 명령이 표시됩니다.</block>
+  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">볼륨에 대한 뷰 마운트 명령</block>
+  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
+  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">볼륨 생성 후 스토리지 효율성 업데이트</block>
+  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">이제 볼륨 생성 후 FlexVol 볼륨의 스토리지 효율성을 사용하거나 사용하지 않도록 설정할 수 있습니다. 스토리지 효율성에는 중복제거, 데이터 압축, 데이터 컴팩션이 포함됩니다. 스토리지 효율성을 높이면 FlexVol volume에서 최적의 공간 절약 효과를 달성할 수 있습니다.</block>
+  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">볼륨에 대한 스토리지 효율성 업데이트</block>
+  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
+  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">온프레미스 ONTAP 클러스터 검색 및 복제</block>
+  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">온프레미스 ONTAP 클러스터 데이터를 FSx for ONTAP 파일 시스템으로 검색하고 복제하여 AI 지식 기반을 보강하는 데 사용할 수 있습니다. 모든 사내 검색 및 복제 워크플로는 스토리지 인벤토리의 새로운 * 온-프레미스 ONTAP * 탭에서 사용할 수 있습니다.</block>
+  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">사내 ONTAP 클러스터를 검색합니다</block>
+  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
+  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">AWS 자격 증명으로 비용 절감 계산기 분석 개선</block>
+  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">이제 절약 계산기에서 AWS 자격 증명을 추가할 수 있습니다. 자격 증명을 추가하면 FSx for ONTAP에 비해 Amazon Elastic Block Store, Elastic File Systems 및 FSx for Windows 파일 서버 스토리지 환경의 절감 계산기 분석의 정확성이 향상됩니다.</block>
+  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">BlueXP  워크로드 공장에서 FSx for ONTAP로 절감할 수 있는 비용에 대해 알아보십시오</block>
+  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024년 12월 01일</block>
 </blocks>
