@@ -15,6 +15,28 @@ BlueXP  워크로드 팩토리에 포함된 워크로드의 최근 변경사항
 
 
 
+== 2025년 01월 05일
+
+
+
+=== NetApp ONTAP용 Amazon FSx
+
+
+
+==== 볼륨 CIFS 공유의 개선 사항
+
+BlueXP  워크로드 공장 에 있는 Amazon FSx for ONTAP 파일 시스템에서 볼륨의 CIFS 공유를 관리할 때 다음과 같은 향상된 기능을 사용할 수 있습니다.
+
+* 볼륨에서 여러 CIFS 공유를 지원합니다
+* 언제든지 사용자와 그룹을 업데이트하는 옵션입니다
+* 사용자 및 그룹의 사용 권한을 언제든지 업데이트하는 옵션입니다
+* CIFS 공유 삭제
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["CIFS 공유를 관리합니다"]
+
+
+
 == 2024년 12월 01일
 
 
@@ -205,21 +227,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 == 2024년 09월 29일
-
-
-
-=== NetApp ONTAP용 Amazon FSx
-
-
-
-==== 링크 생성 업데이트
-
-* Codebox 뷰어: 이제 코드박스가 링크 생성 프로세스에 통합되었습니다. 작업 실행을 위해 AWS로 리디렉션하기 전에 워크로드 팩토리얼의 Codebox에서 CloudFormation 템플릿을 보고 복사할 수 있습니다.
-* 필요한 권한: AWS CloudFormation에서 링크 생성을 실행하는 데 필요한 권한을 이제 워크로드 팩토리의 링크 생성 마법사에서 링크 생성 마법사를 보고 복사할 수 있습니다.
-* 수동 링크 생성 지원: 이 기능을 사용하면 링크 ARN을 수동으로 등록하여 AWS CloudFormation에서 독립 실행형 생성을 수행할 수 있습니다. 보안 또는 DevOps 팀이 링크 생성 프로세스를 지원할 때 유용합니다.
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["링크를 만듭니다"]
 
 
 

@@ -43,9 +43,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">FSx for Windows File Server에서 감지된 Microsoft SQL 서버의 절감 효과에 대해 알아보십시오</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">이제 FSx for Windows File Server 스토리지가 포함된 Amazon EC2에서 감지된 Microsoft SQL 서버의 비용 절감 효과를 이 절약 계산기에서 살펴볼 수 있습니다. SQL 서버 및 스토리지 요구사항에 따라 FSx for ONTAP 스토리지가 데이터베이스 워크로드에 가장 비용 효율적이라는 사실을 발견할 수 있습니다.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024년 09월 29일</block>
-  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">링크 생성 업데이트</block>
-  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">수동 링크 생성 지원: 이 기능을 사용하면 링크 ARN을 수동으로 등록하여 AWS CloudFormation에서 독립 실행형 생성을 수행할 수 있습니다. 보안 또는 DevOps 팀이 링크 생성 프로세스를 지원할 때 유용합니다.</block>
-  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">링크를 만듭니다</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">이제 기술 자료의 시점 복사본을 만들어 3세대 AI 워크로드 데이터를 보호할 수 있습니다. 이렇게 하면 실수로 데이터가 손실되거나 기술 문서 설정이 변경되는 것을 방지할 수 있습니다. 언제든지 이전 버전의 Knowledge Base 볼륨을 복원할 수 있습니다.</block>
@@ -87,9 +84,6 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">이번 VMware용 워크로드 팩토리에는 기능 및 안정성이 향상되었으며 VMware 마이그레이션 관리자를 사용할 때 마이그레이션 계획을 가져오고 내보내는 기능이 포함되어 있습니다.</block>
-  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Codebox 뷰어: 이제 코드박스가 링크 생성 프로세스에 통합되었습니다. 작업 실행을 위해 AWS로 리디렉션하기 전에 워크로드 팩토리얼의 Codebox에서 CloudFormation 템플릿을 보고 복사할 수 있습니다.</block>
-  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">필요한 권한: AWS CloudFormation에서 링크 생성을 실행하는 데 필요한 권한을 이제 워크로드 팩토리의 링크 생성 마법사에서 링크 생성 마법사를 보고 복사할 수 있습니다.</block>
-  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">워크로드 팩토리 콘솔</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">RSS 구독은 에서 사용할 수 <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>있습니다. RSS 피드를 사용하면 BlueXP  워크로드 팩토리에서의 변경 사항을 쉽게 확인하고 인식할 수 있습니다.</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">작업 부하 공장 콘솔 도움말 드롭다운 메뉴의 스크린샷 RSS를 구독하기 위한 새 단추가 드롭다운 메뉴에 옵션으로 나타납니다.</block>
@@ -145,4 +139,13 @@
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">* 빠른 경험과 고급 경험 * : 마이그레이션 관리자를 사용하면 RVtools를 사용하여 빠른 마이그레이션 경험을 선택하거나 마이그레이션 어드바이저 데이터 수집기를 사용하는 고급 환경을 선택할 수 있습니다.</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  워크로드 공장</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">볼륨 CIFS 공유의 개선 사항</block>
+  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">BlueXP  워크로드 공장 에 있는 Amazon FSx for ONTAP 파일 시스템에서 볼륨의 CIFS 공유를 관리할 때 다음과 같은 향상된 기능을 사용할 수 있습니다.</block>
+  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">볼륨에서 여러 CIFS 공유를 지원합니다</block>
+  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">언제든지 사용자와 그룹을 업데이트하는 옵션입니다</block>
+  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">사용자 및 그룹의 사용 권한을 언제든지 업데이트하는 옵션입니다</block>
+  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">CIFS 공유 삭제</block>
+  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">CIFS 공유를 관리합니다</block>
+  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
+  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025년 01월 05일</block>
 </blocks>
