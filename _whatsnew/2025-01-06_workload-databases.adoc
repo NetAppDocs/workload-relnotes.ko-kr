@@ -1,0 +1,36 @@
+= 데이터베이스 대시보드 기능 향상
+:allow-uri-read: 
+
+
+
+
+=== 데이터베이스 대시보드 기능 향상
+
+대시보드의 새로운 설계에는 다음과 같은 그래픽과 개선 사항이 포함되어 있습니다.
+
+* 호스트 배포 그래프는 Microsoft SQL Server 호스트 및 PostgreSQL 호스트의 수를 보여 줍니다
+* 인스턴스 배포 세부 정보에는 검색된 총 인스턴스 수와 관리되는 Microsoft SQL Server 및 PostgreSQL 인스턴스 수가 포함됩니다
+* 데이터베이스 배포 세부 정보에는 총 데이터베이스 수와 관리되는 Microsoft SQL Server 및 PostgreSQL 데이터베이스 수가 포함됩니다
+* 관리 및 온라인 인스턴스에 대한 최적화 점수 및 상태
+* 스토리지, 컴퓨팅 및 애플리케이션 범주에 대한 최적화 세부 정보
+* 스토리지 사이징, 스토리지 레이아웃, ONTAP 스토리지, 컴퓨팅 및 애플리케이션 등과 같은 Microsoft SQL Server 인스턴스 구성에 대한 최적화 세부 정보
+* Amazon FSx for NetApp ONTAP 스토리지와 비교하여 Amazon Elastic Block Store 및 FSx for Windows File Server 스토리지 환경에서 실행되는 데이터베이스 워크로드를 절감할 수 있습니다
+
+
+
+
+=== 작업 모니터링에서 새로운 'Completed with Issues' 상태입니다
+
+이제 데이터베이스에 대한 작업 모니터링 기능이 새로운 'Completed with Issues' 상태를 제공하므로 어떤 하위 작업에 문제가 있는지, 어떤 문제가 있는지 알 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["데이터베이스를 모니터링합니다"]
+
+
+
+=== 오버 프로비저닝된 Microsoft SQL Server 라이선스에 대한 평가 및 최적화
+
+이제 비용 절감 계산기는 Enterprise Edition이 Microsoft SQL Server 배포에 필요한지 여부를 평가합니다. 라이센스가 오버 프로비저닝되면 계산기는 다운그레이드를 권장합니다. 데이터베이스를 최적화하여 라이센스를 자동으로 다운그레이드할 수 있습니다.
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오"^]
+* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["SQL Server 워크로드를 최적화하십시오"]
+
