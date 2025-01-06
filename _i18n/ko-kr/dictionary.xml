@@ -40,23 +40,8 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024년 09월 19일</block>
-  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024년 09월 29일</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
-  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">이제 기술 자료의 시점 복사본을 만들어 3세대 AI 워크로드 데이터를 보호할 수 있습니다. 이렇게 하면 실수로 데이터가 손실되거나 기술 문서 설정이 변경되는 것을 방지할 수 있습니다. 언제든지 이전 버전의 Knowledge Base 볼륨을 복원할 수 있습니다.</block>
-  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">기술 자료 볼륨의 스냅샷을 생성합니다</block>
-  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
-  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">기술 자료 볼륨의 스냅샷을 복원합니다</block>
-  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
-  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">예약된 스캔을 일시 중지합니다</block>
-  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">이제 예약된 데이터 원본 스캔을 일시 중지할 수 있습니다. 기본적으로 Generative AI 워크로드는 매일 각 데이터 소스를 스캔하여 각 기술 자료에 새로운 데이터를 수집합니다. 테스트 중 또는 스냅샷 복원 중에 최신 변경 사항을 수집하지 않으려면 예약된 스캔을 일시 중지하고 언제든지 다시 시작할 수 있습니다.</block>
-  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">기술 자료 관리</block>
-  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
-  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">이제 기술 자료에 지원되는 데이터 보호 볼륨입니다</block>
-  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">이제 기술 자료 볼륨을 선택할 때 NetApp SnapMirror 복제 관계에 포함되는 데이터 보호 볼륨을 선택할 수 있습니다. 따라서 SnapMirror 복제로 이미 보호되는 볼륨에 대한 기술 자료를 저장할 수 있습니다.</block>
-  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">기술 자료에 통합할 데이터 소스를 식별합니다</block>
-  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
-  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">기술 자료 볼륨에 대한 스냅샷 및 복원 지원</block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">스토리지 인벤토리의 탭 보기</block>
   <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">스토리지 인벤토리가 두 개의 탭 보기로 업데이트되었습니다.</block>
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAP 탭: 현재 사용 중인 FSx for ONTAP 파일 시스템을 표시합니다.</block>
@@ -162,4 +147,16 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">오버 프로비저닝된 Microsoft SQL Server 라이선스에 대한 평가 및 최적화</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">이제 비용 절감 계산기는 Enterprise Edition이 Microsoft SQL Server 배포에 필요한지 여부를 평가합니다. 라이센스가 오버 프로비저닝되면 계산기는 다운그레이드를 권장합니다. 데이터베이스를 최적화하여 라이센스를 자동으로 다운그레이드할 수 있습니다.</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025년 01월 06일</block>
+  <block id="a117d99fd0597e840921767ec50fe791" category="doc">사용자 지정 스냅샷 이름입니다</block>
+  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">이제 임시 스냅샷에 대한 스냅샷 이름을 제공할 수 있습니다.</block>
+  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">스냅샷으로 기술 자료 보호</block>
+  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
+  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">사용자 지정 AI 엔진 인스턴스 이름</block>
+  <block id="5a22f1756638135653917db715aeec43" category="paragraph">이제 구축 중에 AI 엔진 인스턴스에 사용자 지정 이름을 지정할 수 있습니다.</block>
+  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">GenAI 인프라를 구축합니다</block>
+  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
+  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">손상되거나 누락된 GenAI 인프라를 재구축합니다</block>
+  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">AI 엔진 인스턴스가 손상되거나 삭제된 경우 워크로드 공장이 자동으로 리빌드하도록 할 수 있습니다. 워크로드 공장에서 재구축이 완료된 후 지식 베이스를 인프라에 자동으로 다시 연결하여 사용할 수 있습니다.</block>
+  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">문제 해결</block>
+  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
 </blocks>
