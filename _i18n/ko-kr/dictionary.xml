@@ -24,22 +24,18 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform 지원</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">코드박스에서 Terraform을 사용합니다</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform은 Amazon FSx for NetApp ONTAP 파일 시스템 배포 및 스토리지 VM 생성에 지원됩니다. 이제 설정 및 관리 가이드에는 코드박스에서 Terraform을 사용하는 방법에 대한 지침이 나와 있습니다.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">데이터베이스 워크로드</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">NetApp ONTAP용 Amazon FSx</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI 워크로드</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">설정 및 관리</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 워크로드</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024년 08월 04일</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024년 09월 01일</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 구독</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">워크로드당 단일 권한 정책 지원</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">자격 증명 페이지의 권한 구성 섹션의 스크린샷으로 스토리지 관리, AI 워크로드, 데이터베이스 워크로드 및 VMware 워크로드에 대한 권한 정책을 읽기 또는 자동화할 수 있습니다.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">VMware 마이그레이션 어드바이저의 향상된 기능</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024년 09월 19일</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">스토리지 인벤토리의 탭 보기</block>
@@ -66,7 +62,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  워크로드 팩토리의 최근 변경사항</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
-  <block id="21558f6938275b17b39171353ad95a65" category="paragraph">이번 VMware용 워크로드 팩토리에는 기능 및 안정성이 향상되었으며 VMware 마이그레이션 관리자를 사용할 때 마이그레이션 계획을 가져오고 내보내는 기능이 포함되어 있습니다.</block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">워크로드 팩토리 콘솔</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">RSS 구독은 에서 사용할 수 <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>있습니다. RSS 피드를 사용하면 BlueXP  워크로드 팩토리에서의 변경 사항을 쉽게 확인하고 인식할 수 있습니다.</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">작업 부하 공장 콘솔 도움말 드롭다운 메뉴의 스크린샷 RSS를 구독하기 위한 새 단추가 드롭다운 메뉴에 옵션으로 나타납니다.</block>
@@ -159,4 +154,10 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">AI 엔진 인스턴스가 손상되거나 삭제된 경우 워크로드 공장이 자동으로 리빌드하도록 할 수 있습니다. 워크로드 공장에서 재구축이 완료된 후 지식 베이스를 인프라에 자동으로 다시 연결하여 사용할 수 있습니다.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">문제 해결</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
+  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">BlueXP  워크로드 팩토리에서 서비스 계정 지원</block>
+  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">이제 서비스 계정이 BlueXP  워크로드 팩토리에서 지원됩니다. 서비스 계정을 생성하여 인프라 운영을 자동화할 수 있습니다.</block>
+  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">서비스 계정 생성 및 관리</block>
+  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
+  <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">* 마이그레이션 계획 저장 또는 다운로드 *: 이제 마이그레이션 계획을 저장하거나 다운로드하고 마이그레이션 계획을 로드하여 마이그레이션 관리자를 채울 수 있습니다. 마이그레이션 계획을 저장하면 작업 부하 공장 계정과 함께 계획이 저장됩니다.</block>
+  <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* 향상된 VM 선택 *: VMware용 BlueXP  워크로드 팩토리에서는 이제 마이그레이션 배포에 포함할 VM 목록의 필터링 및 검색을 지원합니다.</block>
 </blocks>
