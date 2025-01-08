@@ -31,6 +31,6 @@ link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["�
 
 이제 비용 절감 계산기는 Enterprise Edition이 Microsoft SQL Server 배포에 필요한지 여부를 평가합니다. 라이센스가 오버 프로비저닝되면 계산기는 다운그레이드를 권장합니다. 데이터베이스를 최적화하여 라이센스를 자동으로 다운그레이드할 수 있습니다.
 
-* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오"^]
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오"]
 * link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["SQL Server 워크로드를 최적화하십시오"]
 
