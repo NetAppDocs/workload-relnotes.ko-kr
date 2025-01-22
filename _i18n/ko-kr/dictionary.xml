@@ -29,11 +29,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI 워크로드</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">설정 및 관리</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 워크로드</block>
-  <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024년 09월 01일</block>
-  <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS 구독</block>
-  <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">워크로드당 단일 권한 정책 지원</block>
-  <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">자격 증명 페이지의 권한 구성 섹션의 스크린샷으로 스토리지 관리, AI 워크로드, 데이터베이스 워크로드 및 VMware 워크로드에 대한 권한 정책을 읽기 또는 자동화할 수 있습니다.</block>
-  <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오</block>
@@ -61,13 +56,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  워크로드 팩토리의 최근 변경사항</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
-  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">워크로드 팩토리 콘솔</block>
-  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">RSS 구독은 에서 사용할 수 <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>있습니다. RSS 피드를 사용하면 BlueXP  워크로드 팩토리에서의 변경 사항을 쉽게 확인하고 인식할 수 있습니다.</block>
-  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">작업 부하 공장 콘솔 도움말 드롭다운 메뉴의 스크린샷 RSS를 구독하기 위한 새 단추가 드롭다운 메뉴에 옵션으로 나타납니다.</block>
-  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">워크로드 팩토리에서 AWS 자격 증명을 추가할 때 이제 각 워크로드 및 스토리지 관리에 대해 읽기 또는 자동화 모드를 포함한 단일 권한 정책을 선택할 수 있습니다.</block>
-  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">워크로드 팩토리에 AWS 자격 증명을 추가합니다</block>
-  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
   <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">BlueXP  콘솔에 워크로드 팩토리 통합</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP 콘솔</block>
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">이제 에서 워크로드 팩토리를 사용할 수 <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>있습니다. BlueXP  콘솔 환경은 워크로드 팩토리 콘솔과 동일한 기능을 제공합니다.</block>
@@ -160,4 +148,8 @@
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">* 마이그레이션 계획 저장 또는 다운로드 *: 이제 마이그레이션 계획을 저장하거나 다운로드하고 마이그레이션 계획을 로드하여 마이그레이션 관리자를 채울 수 있습니다. 마이그레이션 계획을 저장하면 작업 부하 공장 계정과 함께 계획이 저장됩니다.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* 향상된 VM 선택 *: VMware용 BlueXP  워크로드 팩토리에서는 이제 마이그레이션 배포에 포함할 VM 목록의 필터링 및 검색을 지원합니다.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
+  <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">BlueXP  워크로드 팩토리 권한</block>
+  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">이제 BlueXP  워크로드 팩토리에서 스토리지 환경 검색부터 스토리지 또는 GenAI 워크로드에 대한 기술 자료 등의 AWS 리소스 구축에 이르기까지 다양한 작업을 실행하는 데 사용하는 권한을 확인할 수 있습니다. 스토리지, 데이터베이스, VMware 및 GenAI 워크로드에 대한 IAM 정책 및 권한을 볼 수 있습니다.</block>
+  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
+  <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">2025년 01월 22일</block>
 </blocks>
