@@ -1,0 +1,66 @@
+= BlueXP  워크로드 팩토리 콘솔의 CloudShell
+:allow-uri-read: 
+
+
+
+
+=== BlueXP  워크로드 팩토리 콘솔의 CloudShell
+
+CloudShell은 BlueXP  워크로드 공장 내에서 스토리지용 내장 CLI 기능입니다. CloudShell을 사용하여 워크로드 팩토리 콘솔 내에서 셸 같은 환경의 여러 세션에서 ONTAP 또는 AWS CLI 명령을 생성, 공유, 실행할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["BlueXP  워크로드 공장 내 CloudShell에 대해 자세히 알아보십시오"^]
+
+
+
+=== 재고 데이터 다운로드
+
+이제 BlueXP  워크로드 팩토리의 스토리지에서 FSx for ONTAP 인벤토리 데이터를 Microsoft Excel 또는 CSV 파일로 다운로드할 수 있습니다.
+
+image:screenshot-fsx-inventory-download.png["FSx for ONTAP 파일 시스템 인벤토리 데이터를 다운로드하기 위한 새로운 다운로드 버튼을 보여주는 BlueXP  워크로드 팩토리 스토리지의 스크린샷"]
+
+
+
+=== FSx for ONTAP 파일 시스템 추가 메뉴 옵션
+
+스토리지의 FSx for ONTAP 탭에서 FSx for ONTAP 파일 시스템에 대해 다음과 같이 더 간단하게 수행할 수 있습니다.
+
+* 스토리지 VM을 생성합니다
+* 볼륨을 생성합니다
+* 볼륨 데이터를 복제합니다
+
+
+image:screenshot-filesystem-menu-options.png["스토리지 의 FSx for ONTAP 탭 스크린샷. 스토리지 VM 생성, 볼륨 생성, 볼륨 데이터 복제 등의 새로운 메뉴 옵션이 표시됩니다."]
+
+
+
+=== 볼륨 생성을 위한 Terraform 지원
+
+이제 Codebox에서 Terraform을 사용하여 볼륨을 생성할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["볼륨을 생성합니다"]
+
+
+
+=== 변경 불가능한 파일 기능으로 파일 잠금
+
+이제 FSx for ONTAP 파일 시스템에 대한 볼륨을 생성할 때 변경 불가능한 파일 기능을 사용하여 파일을 잠글 수 있습니다. 파일 잠금을 사용하면 지정된 기간 동안 실수로 또는 의도적으로 파일을 삭제하는 것을 방지할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["볼륨을 생성합니다"]
+
+
+
+=== 추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다
+
+Tracker, 스토리지에서 새로운 모니터링 기능을 사용할 수 있습니다. Tracker를 사용하여 자격 증명, 저장소 및 링크 작업의 진행 상태 및 상태를 모니터링하고 추적하며, 작업 및 하위 작업에 대한 세부 정보를 검토하고, 문제 또는 장애를 진단하고, 실패한 작업에 대한 매개 변수를 편집하고, 실패한 작업을 재시도할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Tracker를 사용하여 운영을 모니터링하고 추적하는 방법에 대해 알아봅니다"]
+
+
+
+=== 2세대 Amazon FSx for NetApp ONTAP 파일 시스템 지원
+
+이제 BlueXP  워크로드 공장에서 Amazon FSx for NetApp ONTAP 2세대 파일 시스템을 사용할 수 있습니다. FSx for ONTAP 2세대 단일 AZ 파일 시스템은 최대 12개의 HA 쌍을 구동하여 최대 72GBps의 처리량 용량과 2,400,000 SSD IOPS를 제공합니다. FSx for ONTAP 2세대 멀티 AZ 파일 시스템은 하나의 HA 쌍을 기반으로 하며 6GBps의 처리량 용량과 200,000 SSD IOPS를 제공합니다.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/add-ha-pairs.html["고가용성 쌍 추가"]
+* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html["Amazon FSx for NetApp ONTAP의 할당량 및 한도"^]
+

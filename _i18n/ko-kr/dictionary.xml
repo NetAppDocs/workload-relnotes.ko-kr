@@ -29,10 +29,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오</block>
-  <block id="31139fb3d548620b7d82f880e4660606" category="doc">스토리지 인벤토리의 탭 보기</block>
-  <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">스토리지 인벤토리가 두 개의 탭 보기로 업데이트되었습니다.</block>
-  <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAP 탭: 현재 사용 중인 FSx for ONTAP 파일 시스템을 표시합니다.</block>
-  <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Explore Savings Tab: Elastic Block Store, FSx for Windows File Server 및 Elastic File Systems 스토리지 시스템을 표시합니다. 이 페이지에서 이러한 시스템을 FSx for ONTAP와 비교하여 절감 효과를 살펴볼 수 있습니다.</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024년 11월 03일</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">SQL Server 워크로드를 최적화하십시오</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
@@ -165,4 +161,34 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> 있습니다.</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">권한 참조 변경 로그</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">BlueXP  워크로드 팩토리 콘솔의 CloudShell</block>
+  <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShell은 BlueXP  워크로드 공장 내에서 스토리지용 내장 CLI 기능입니다. CloudShell을 사용하여 워크로드 팩토리 콘솔 내에서 셸 같은 환경의 여러 세션에서 ONTAP 또는 AWS CLI 명령을 생성, 공유, 실행할 수 있습니다.</block>
+  <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">BlueXP  워크로드 공장 내 CloudShell에 대해 자세히 알아보십시오</block>
+  <block id="feff74472562237513e0ca0c55cd4e38" category="paragraph"><block ref="feff74472562237513e0ca0c55cd4e38" category="inline-link-macro-rx"></block></block>
+  <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">재고 데이터 다운로드</block>
+  <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">이제 BlueXP  워크로드 팩토리의 스토리지에서 FSx for ONTAP 인벤토리 데이터를 Microsoft Excel 또는 CSV 파일로 다운로드할 수 있습니다.</block>
+  <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">FSx for ONTAP 파일 시스템 인벤토리 데이터를 다운로드하기 위한 새로운 다운로드 버튼을 보여주는 BlueXP  워크로드 팩토리 스토리지의 스크린샷</block>
+  <block id="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="paragraph"><block ref="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eae91301e6256990d5311778eafea0e5" category="section-title">FSx for ONTAP 파일 시스템 추가 메뉴 옵션</block>
+  <block id="0ad83f6b2d6e8bf103be3683c0c87ef9" category="paragraph">스토리지의 FSx for ONTAP 탭에서 FSx for ONTAP 파일 시스템에 대해 다음과 같이 더 간단하게 수행할 수 있습니다.</block>
+  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="list-text">스토리지 VM을 생성합니다</block>
+  <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">볼륨을 생성합니다</block>
+  <block id="8221d5fcbb1b8ef8a3fa535553679b44" category="list-text">볼륨 데이터를 복제합니다</block>
+  <block id="bb8210b8fea9fd35bf14070e9b9f7cf9" category="inline-image-macro">스토리지 의 FSx for ONTAP 탭 스크린샷. 스토리지 VM 생성, 볼륨 생성, 볼륨 데이터 복제 등의 새로운 메뉴 옵션이 표시됩니다.</block>
+  <block id="2a10a5b76871c42edb3807a0dec574ae" category="paragraph"><block ref="2a10a5b76871c42edb3807a0dec574ae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2f72c2c06d295d3f5420254934ac77b1" category="section-title">볼륨 생성을 위한 Terraform 지원</block>
+  <block id="7f28d622584eb6b05ee5ce1609e2de38" category="paragraph">이제 Codebox에서 Terraform을 사용하여 볼륨을 생성할 수 있습니다.</block>
+  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
+  <block id="eb139dd9cb815e502d04047858e7c930" category="section-title">변경 불가능한 파일 기능으로 파일 잠금</block>
+  <block id="849a110e76510a6394e4b27714d0bc20" category="paragraph">이제 FSx for ONTAP 파일 시스템에 대한 볼륨을 생성할 때 변경 불가능한 파일 기능을 사용하여 파일을 잠글 수 있습니다. 파일 잠금을 사용하면 지정된 기간 동안 실수로 또는 의도적으로 파일을 삭제하는 것을 방지할 수 있습니다.</block>
+  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다</block>
+  <block id="c016252819aa3f6ede2b315b76b5c5b2" category="paragraph">Tracker, 스토리지에서 새로운 모니터링 기능을 사용할 수 있습니다. Tracker를 사용하여 자격 증명, 저장소 및 링크 작업의 진행 상태 및 상태를 모니터링하고 추적하며, 작업 및 하위 작업에 대한 세부 정보를 검토하고, 문제 또는 장애를 진단하고, 실패한 작업에 대한 매개 변수를 편집하고, 실패한 작업을 재시도할 수 있습니다.</block>
+  <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">Tracker를 사용하여 운영을 모니터링하고 추적하는 방법에 대해 알아봅니다</block>
+  <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
+  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">2세대 Amazon FSx for NetApp ONTAP 파일 시스템 지원</block>
+  <block id="327da4942931ea47a06f556d15726878" category="paragraph">이제 BlueXP  워크로드 공장에서 Amazon FSx for NetApp ONTAP 2세대 파일 시스템을 사용할 수 있습니다. FSx for ONTAP 2세대 단일 AZ 파일 시스템은 최대 12개의 HA 쌍을 구동하여 최대 72GBps의 처리량 용량과 2,400,000 SSD IOPS를 제공합니다. FSx for ONTAP 2세대 멀티 AZ 파일 시스템은 하나의 HA 쌍을 기반으로 하며 6GBps의 처리량 용량과 200,000 SSD IOPS를 제공합니다.</block>
+  <block id="a22d0116b85624117006e75d98d659db" category="inline-link-macro">고가용성 쌍 추가</block>
+  <block id="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="list-text"><block ref="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="inline-link-macro-rx"></block></block>
+  <block id="eeb5242f698ac9fda34591a326f4c0a3" category="inline-link-macro">Amazon FSx for NetApp ONTAP의 할당량 및 한도</block>
+  <block id="94f917accd36ed25f8a73175e8d4cdfb" category="list-text"><block ref="94f917accd36ed25f8a73175e8d4cdfb" category="inline-link-macro-rx"></block></block>
 </blocks>
