@@ -1,0 +1,47 @@
+= PostgreSQL 고가용성 구성 및 빠른 생성
+:allow-uri-read: 
+
+
+
+
+=== PostgreSQL 고가용성 구성 및 빠른 생성
+
+BlueXP  워크로드 공장에서 데이터베이스에 대해 지원되는 두 가지 새로운 기능 영역:
+
+* PostgreSQL HA(고가용성) 구성: 이제 PostgreSQL Server에 대한 HA 구성을 배포할 수 있습니다.
+* 빠른 생성: 이 빠른 배포 옵션을 사용하여 HA 구성 및 내장된 모범 사례를 사용하여 PostgreSQL 서버를 생성할 수 있습니다.
+
+
+link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["PostgreSQL 서버를 생성합니다"]
+
+
+
+=== PostgreSQL 서버 생성을 위한 Terraform 지원
+
+이제 Codebox에서 Terraform을 사용하여 PostgreSQL을 배포할 수 있습니다.
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["PostgreSQL 데이터베이스 서버를 생성합니다"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["코드박스에서 Terraform을 사용합니다"^]
+
+
+
+
+=== 로컬 스냅샷 일정에 대한 복원력 평가
+
+데이터베이스 워크로드에 새로운 복원력 평가를 사용할 수 있습니다. Microsoft SQL Server 인스턴스의 볼륨에 유효한 예약된 스냅샷 정책이 있는지 평가합니다. 스냅샷은 데이터의 특정 시점 복사본이며 데이터 손실 시 데이터베이스 환경의 복원력을 유지하는 데 도움이 됩니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["구성 최적화"]
+
+
+
+=== 데이터베이스 워크로드에 대한 MAXDOP 해결
+
+이제 데이터베이스용 BlueXP  워크로드 팩토리에서는 MAXDOP(Maximum Degree of Parallelism) 서버 구성에 대한 문제 해결을 지원합니다. MAXDOP 구성이 최적화되지 않은 경우 BlueXP  워크로드 공장에서 구성을 최적화하도록 할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["구성 최적화"]
+
+
+
+=== 이메일 절약 분석 보고서
+
+FSx for ONTAP와 비교해 Amazon Elastic Block Store 및 FSx for Windows 파일 서버 스토리지 환경에서 절감할 수 있는 비용을 확인하려는 경우 이제 권장 보고서를 본인, 팀원 및 고객에게 이메일로 보낼 수 있습니다.

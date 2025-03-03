@@ -43,14 +43,6 @@
   <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">사내 ONTAP 클러스터를 검색합니다</block>
   <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024년 12월 01일</block>
-  <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">지속적인 최적화로 컴퓨팅 문제 해결 및 평가를 추가합니다</block>
-  <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">이제 데이터베이스는 Microsoft SQL Server 인스턴스의 컴퓨팅 리소스를 최적화하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다. CPU 활용률을 측정하고 AWS Compute Optimizer 서비스를 활용하여 최적의 적정 크기의 인스턴스 유형을 추천하고 사용 가능한 운영 체제 패치를 알립니다. 컴퓨팅 리소스를 최적화하면 인스턴스 유형에 대한 정확한 결정을 내릴 수 있어 비용을 절감하고 리소스 활용률을 향상할 수 있습니다.</block>
-  <block id="9aa94e25ba754a44d094b78775213e48" category="inline-link-macro">컴퓨팅 리소스 구성을 최적화합니다</block>
-  <block id="25a5dc6deeba5d476ff665ad9c968a2b" category="paragraph"><block ref="25a5dc6deeba5d476ff665ad9c968a2b" category="inline-link-macro-rx"></block></block>
-  <block id="f3cfd7c95d3ff2b556d90beb191fa77a" category="section-title">PostgreSQL 지원</block>
-  <block id="49db1f79602c9ba8e5704a68010c4023" category="paragraph">이제 데이터베이스의 독립 실행형 PostgreSQL 서버 배포를 배포 및 관리할 수 있습니다.</block>
-  <block id="3627a14d7dc2feba3834d63a37ebb394" category="inline-link-macro">PostgreSQL 서버를 생성합니다</block>
-  <block id="02b7dd87f2a54e2b540ac84598c20252" category="paragraph"><block ref="02b7dd87f2a54e2b540ac84598c20252" category="inline-link-macro-rx"></block></block>
   <block id="f8a21101d47aa852f29a4be35904736e" category="doc">스냅샷에서 지식 베이스를 복제합니다</block>
   <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">GenAI용 BlueXP  워크로드 팩토리에서는 이제 스냅샷으로부터 기술 자료 클론 복제를 지원합니다. 이를 통해 기술 자료를 빠르게 복구하고 기존 데이터 소스를 사용하여 새로운 기술 자료를 작성할 수 있으며 데이터 복구 및 개발에 도움이 됩니다.</block>
   <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">기술 문서를 복제합니다</block>
@@ -198,4 +190,23 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker의 CloudShell 이벤트</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">이제 Tracker에서 CloudShell 이벤트를 추적할 수 있습니다.</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025년 03월 02일</block>
+  <block id="e1e5f5c3c58578921409fc2e6d5eedd8" category="doc">PostgreSQL 고가용성 구성 및 빠른 생성</block>
+  <block id="ed9e60a4e06d1c99d8eb3562ecbf8b63" category="paragraph">BlueXP  워크로드 공장에서 데이터베이스에 대해 지원되는 두 가지 새로운 기능 영역:</block>
+  <block id="c657a4dd8aa01cb30f32e751a8482131" category="list-text">PostgreSQL HA(고가용성) 구성: 이제 PostgreSQL Server에 대한 HA 구성을 배포할 수 있습니다.</block>
+  <block id="d86f1a99d557ac15f85400fdfbdb8b14" category="list-text">빠른 생성: 이 빠른 배포 옵션을 사용하여 HA 구성 및 내장된 모범 사례를 사용하여 PostgreSQL 서버를 생성할 수 있습니다.</block>
+  <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">PostgreSQL 서버를 생성합니다</block>
+  <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
+  <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">PostgreSQL 서버 생성을 위한 Terraform 지원</block>
+  <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">이제 Codebox에서 Terraform을 사용하여 PostgreSQL을 배포할 수 있습니다.</block>
+  <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">PostgreSQL 데이터베이스 서버를 생성합니다</block>
+  <block id="61b5b69de9c821f5e486ec9c30a821a4" category="list-text"><block ref="61b5b69de9c821f5e486ec9c30a821a4" category="inline-link-macro-rx"></block></block>
+  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">코드박스에서 Terraform을 사용합니다</block>
+  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
+  <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">로컬 스냅샷 일정에 대한 복원력 평가</block>
+  <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">데이터베이스 워크로드에 새로운 복원력 평가를 사용할 수 있습니다. Microsoft SQL Server 인스턴스의 볼륨에 유효한 예약된 스냅샷 정책이 있는지 평가합니다. 스냅샷은 데이터의 특정 시점 복사본이며 데이터 손실 시 데이터베이스 환경의 복원력을 유지하는 데 도움이 됩니다.</block>
+  <block id="90814442b7f0694d712f43efffe9c178" category="section-title">데이터베이스 워크로드에 대한 MAXDOP 해결</block>
+  <block id="3231190e9014bf678d835272ec7c9234" category="paragraph">이제 데이터베이스용 BlueXP  워크로드 팩토리에서는 MAXDOP(Maximum Degree of Parallelism) 서버 구성에 대한 문제 해결을 지원합니다. MAXDOP 구성이 최적화되지 않은 경우 BlueXP  워크로드 공장에서 구성을 최적화하도록 할 수 있습니다.</block>
+  <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">이메일 절약 분석 보고서</block>
+  <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">FSx for ONTAP와 비교해 Amazon Elastic Block Store 및 FSx for Windows 파일 서버 스토리지 환경에서 절감할 수 있는 비용을 확인하려는 경우 이제 권장 보고서를 본인, 팀원 및 고객에게 이메일로 보낼 수 있습니다.</block>
+  <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">2025년 03월 03일</block>
 </blocks>
