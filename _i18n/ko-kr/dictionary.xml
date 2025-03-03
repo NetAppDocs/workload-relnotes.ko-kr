@@ -38,28 +38,10 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  워크로드 팩토리의 최근 변경사항</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
-  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">스케일아웃 FSx for ONTAP 파일 시스템용 블록 스토리지</block>
-  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">이제 최대 6개의 HA 쌍으로 구성된 스케일아웃 파일 시스템 구축을 사용할 때 FSx for ONTAP을 통해 블록 스토리지를 프로비저닝할 수 있습니다.</block>
-  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">BlueXP  워크로드 팩토리에서 FSx for ONTAP 파일 시스템을 생성합니다</block>
-  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
-  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">마운트 명령을 사용할 수 있습니다</block>
-  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">이제 볼륨에 대한 NFS 및 CIFS 액세스에 마운트 명령을 사용할 수 있습니다. * 기본 작업 * 과 * 마운트 명령 보기 * 를 선택하여 FSx for ONTAP 파일 시스템 내에서 볼륨의 마운트 지점을 얻을 수 있습니다.</block>
-  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">FSx for ONTAP 파일 시스템으로 이동하여 볼륨 메뉴를 선택하고 기본 작업을 선택한 다음, 보기 마운트 명령을 선택하여 마운트 명령을 보는 스크린샷 mount 명령 대화 상자가 나타나고 CIFS 또는 NFS 액세스에 대한 mount 명령이 표시됩니다.</block>
-  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">볼륨에 대한 뷰 마운트 명령</block>
-  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
-  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">볼륨 생성 후 스토리지 효율성 업데이트</block>
-  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">이제 볼륨 생성 후 FlexVol 볼륨의 스토리지 효율성을 사용하거나 사용하지 않도록 설정할 수 있습니다. 스토리지 효율성에는 중복제거, 데이터 압축, 데이터 컴팩션이 포함됩니다. 스토리지 효율성을 높이면 FlexVol volume에서 최적의 공간 절약 효과를 달성할 수 있습니다.</block>
-  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">볼륨에 대한 스토리지 효율성 업데이트</block>
-  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
   <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">온프레미스 ONTAP 클러스터 검색 및 복제</block>
   <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">온프레미스 ONTAP 클러스터 데이터를 FSx for ONTAP 파일 시스템으로 검색하고 복제하여 AI 지식 기반을 보강하는 데 사용할 수 있습니다. 모든 사내 검색 및 복제 워크플로는 스토리지 인벤토리의 새로운 * 온-프레미스 ONTAP * 탭에서 사용할 수 있습니다.</block>
   <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">사내 ONTAP 클러스터를 검색합니다</block>
   <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
-  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">AWS 자격 증명으로 비용 절감 계산기 분석 개선</block>
-  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">이제 절약 계산기에서 AWS 자격 증명을 추가할 수 있습니다. 자격 증명을 추가하면 FSx for ONTAP에 비해 Amazon Elastic Block Store, Elastic File Systems 및 FSx for Windows 파일 서버 스토리지 환경의 절감 계산기 분석의 정확성이 향상됩니다.</block>
-  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">BlueXP  워크로드 공장에서 FSx for ONTAP로 절감할 수 있는 비용에 대해 알아보십시오</block>
-  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024년 12월 01일</block>
   <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">지속적인 최적화로 컴퓨팅 문제 해결 및 평가를 추가합니다</block>
   <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">이제 데이터베이스는 Microsoft SQL Server 인스턴스의 컴퓨팅 리소스를 최적화하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다. CPU 활용률을 측정하고 AWS Compute Optimizer 서비스를 활용하여 최적의 적정 크기의 인스턴스 유형을 추천하고 사용 가능한 운영 체제 패치를 알립니다. 컴퓨팅 리소스를 최적화하면 인스턴스 유형에 대한 정확한 결정을 내릴 수 있어 비용을 절감하고 리소스 활용률을 향상할 수 있습니다.</block>
@@ -195,4 +177,25 @@
   <block id="ba0908c46e81d6dfcc41f1af42be123c" category="paragraph">GenAI는 이제 Amazon Nova 기반 모델을 지원합니다. Amazon Nova Micro, Amazon Nova Lite 및 Amazon Nova Pro가 지원됩니다.</block>
   <block id="43b842fd441ce1ce92d22fb0ca25a507" category="inline-link-macro">GenAI 요구 사항</block>
   <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
+  <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">자동 용량 관리 개선</block>
+  <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">자동 용량 관리가 설정되면 BlueXP  워크로드 팩토리에서는 이제 파일 시스템이 용량 임계값에 도달했는지 2시간마다 아닌 30분마다 확인합니다.</block>
+  <block id="b8f4f574565ae3f9b004976be6075660" category="paragraph">또한 워크로드 팩토리에서는 볼륨에서 사용 가능한 inode를 검색하고 구성된 자동 용량 관리 임계값에 따라 해당 수를 늘립니다.</block>
+  <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">용량 임계값에 도달하면 프로비저닝된 IOPS 설정이 더 이상 영향을 받지 않습니다.</block>
+  <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">변경 불가능한 스냅샷</block>
+  <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">이제 스냅샷을 잠가 특정 보존 기간 동안 변경 불가능한 상태로 만들 수 있습니다. 잠금은 무단 액세스 및 스냅샷의 악의적인 삭제를 방지합니다. 스냅샷 정책 생성 중, 수동 스냅샷 생성 시 및 스냅샷 생성 후 변경 불가능한 스냅샷을 설정할 수 있습니다.</block>
+  <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">변경 불가능한 파일이 업데이트됩니다</block>
+  <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">이제 변경 불가능한 파일 구성을 보존 정책, 보존 기간, 자동 커밋 기간 및 볼륨 추가 모드와 같이 변경할 수 있습니다.</block>
+  <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">변경 불가능한 파일을 관리합니다</block>
+  <block id="0825291b8f1461ab76888807d639764b" category="paragraph"><block ref="0825291b8f1461ab76888807d639764b" category="inline-link-macro-rx"></block></block>
+  <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">데이터 복제 기능 개선</block>
+  <block id="114e60d7d0f811f597761cf833328a96" category="list-text">교차 계정 복제: 두 AWS 계정 간의 복제는 BlueXP  워크로드 팩토리 콘솔과 복제 관리에서 지원됩니다.</block>
+  <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">데이터 보호 볼륨 복제: 이제 데이터 보호 볼륨은 복제된 볼륨에서 볼륨을 복제할 때 계단식 복제를 지원합니다.</block>
+  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">데이터 보호 볼륨을 복제합니다</block>
+  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
+  <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">복제 일시 중지 및 다시 시작: 소스 볼륨에서 대상 볼륨으로 예약된 복제 업데이트를 일시 중지(중지)한 다음 준비가 되면 복제 일정을 재개할 수 있습니다. 일시 중지 중에는 소스 볼륨과 타겟 볼륨이 독립적이며 타겟 볼륨이 읽기 전용에서 읽기-쓰기로 전환됩니다.</block>
+  <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">복제 관계를 일시 중지했다가 다시 시작합니다</block>
+  <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
+  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker의 CloudShell 이벤트</block>
+  <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">이제 Tracker에서 CloudShell 이벤트를 추적할 수 있습니다.</block>
+  <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025년 03월 02일</block>
 </blocks>
