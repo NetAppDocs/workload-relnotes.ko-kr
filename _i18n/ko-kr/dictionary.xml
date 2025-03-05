@@ -188,9 +188,7 @@
   <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">PostgreSQL 서버 생성을 위한 Terraform 지원</block>
   <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">이제 Codebox에서 Terraform을 사용하여 PostgreSQL을 배포할 수 있습니다.</block>
   <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">PostgreSQL 데이터베이스 서버를 생성합니다</block>
-  <block id="61b5b69de9c821f5e486ec9c30a821a4" category="list-text"><block ref="61b5b69de9c821f5e486ec9c30a821a4" category="inline-link-macro-rx"></block></block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">코드박스에서 Terraform을 사용합니다</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">로컬 스냅샷 일정에 대한 복원력 평가</block>
   <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">데이터베이스 워크로드에 새로운 복원력 평가를 사용할 수 있습니다. Microsoft SQL Server 인스턴스의 볼륨에 유효한 예약된 스냅샷 정책이 있는지 평가합니다. 스냅샷은 데이터의 특정 시점 복사본이며 데이터 손실 시 데이터베이스 환경의 복원력을 유지하는 데 도움이 됩니다.</block>
   <block id="90814442b7f0694d712f43efffe9c178" category="section-title">데이터베이스 워크로드에 대한 MAXDOP 해결</block>
@@ -215,4 +213,6 @@
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">* Estimated instance type *: 마이그레이션 어드바이저는 이제 환경의 요구 사항을 검토하고 각 VM에 대해 예상되는 Amazon EC2 인스턴스 유형을 제공할 수 있습니다. 마이그레이션 관리자의 범위 단계에서 각 VM에 대한 예상 인스턴스 유형을 포함하도록 선택할 수 있습니다.</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Amazon EBS 볼륨을 추천할 수 있는 능력 *: 이제 마이그레이션 어드바이저는 특정 지역의 특정 용량 또는 성능 요구사항으로 인해 Amazon FSx for NetApp ONTAP 대신 Amazon EBS(Elastic Block Store)로 데이터 볼륨을 마이그레이션할 것을 권장합니다.</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* 향상된 파일 시스템 자동 할당 *: NetApp ONTAP용 Amazon FSx 파일 시스템 할당이 개선되어 비용을 최적화하고 처리량을 최소화할 수 있습니다.</block>
+  <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
+  <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
 </blocks>
