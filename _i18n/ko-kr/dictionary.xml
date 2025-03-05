@@ -127,7 +127,6 @@
   <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">BlueXP  워크로드 팩토리 콘솔의 CloudShell</block>
   <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShell은 BlueXP  워크로드 공장 내에서 스토리지용 내장 CLI 기능입니다. CloudShell을 사용하여 워크로드 팩토리 콘솔 내에서 셸 같은 환경의 여러 세션에서 ONTAP 또는 AWS CLI 명령을 생성, 공유, 실행할 수 있습니다.</block>
   <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">BlueXP  워크로드 공장 내 CloudShell에 대해 자세히 알아보십시오</block>
-  <block id="feff74472562237513e0ca0c55cd4e38" category="paragraph"><block ref="feff74472562237513e0ca0c55cd4e38" category="inline-link-macro-rx"></block></block>
   <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">재고 데이터 다운로드</block>
   <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">이제 BlueXP  워크로드 팩토리의 스토리지에서 FSx for ONTAP 인벤토리 데이터를 Microsoft Excel 또는 CSV 파일로 다운로드할 수 있습니다.</block>
   <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">FSx for ONTAP 파일 시스템 인벤토리 데이터를 다운로드하기 위한 새로운 다운로드 버튼을 보여주는 BlueXP  워크로드 팩토리 스토리지의 스크린샷</block>
@@ -167,7 +166,6 @@
   <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">변경 불가능한 파일이 업데이트됩니다</block>
   <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">이제 변경 불가능한 파일 구성을 보존 정책, 보존 기간, 자동 커밋 기간 및 볼륨 추가 모드와 같이 변경할 수 있습니다.</block>
   <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">변경 불가능한 파일을 관리합니다</block>
-  <block id="0825291b8f1461ab76888807d639764b" category="paragraph"><block ref="0825291b8f1461ab76888807d639764b" category="inline-link-macro-rx"></block></block>
   <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">데이터 복제 기능 개선</block>
   <block id="114e60d7d0f811f597761cf833328a96" category="list-text">교차 계정 복제: 두 AWS 계정 간의 복제는 BlueXP  워크로드 팩토리 콘솔과 복제 관리에서 지원됩니다.</block>
   <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">데이터 보호 볼륨 복제: 이제 데이터 보호 볼륨은 복제된 볼륨에서 볼륨을 복제할 때 계단식 복제를 지원합니다.</block>
@@ -215,4 +213,6 @@
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* 향상된 파일 시스템 자동 할당 *: NetApp ONTAP용 Amazon FSx 파일 시스템 할당이 개선되어 비용을 최적화하고 처리량을 최소화할 수 있습니다.</block>
   <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
+  <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
+  <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
 </blocks>

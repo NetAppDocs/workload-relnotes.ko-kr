@@ -95,7 +95,7 @@ FSx for ONTAP와 비교해 Amazon Elastic Block Store 및 FSx for Windows 파일
 
 이제 변경 불가능한 파일 구성을 보존 정책, 보존 기간, 자동 커밋 기간 및 볼륨 추가 모드와 같이 변경할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["변경 불가능한 파일을 관리합니다"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["변경 불가능한 파일을 관리합니다"]
 
 
 
@@ -213,7 +213,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 CloudShell은 BlueXP  워크로드 공장 내에서 스토리지용 내장 CLI 기능입니다. CloudShell을 사용하여 워크로드 팩토리 콘솔 내에서 셸 같은 환경의 여러 세션에서 ONTAP 또는 AWS CLI 명령을 생성, 공유, 실행할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["BlueXP  워크로드 공장 내 CloudShell에 대해 자세히 알아보십시오"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["BlueXP  워크로드 공장 내 CloudShell에 대해 자세히 알아보십시오"]
 
 
 

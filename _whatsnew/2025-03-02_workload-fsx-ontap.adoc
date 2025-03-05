@@ -24,7 +24,7 @@
 
 이제 변경 불가능한 파일 구성을 보존 정책, 보존 기간, 자동 커밋 기간 및 볼륨 추가 모드와 같이 변경할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["변경 불가능한 파일을 관리합니다"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["변경 불가능한 파일을 관리합니다"]
 
 
 
