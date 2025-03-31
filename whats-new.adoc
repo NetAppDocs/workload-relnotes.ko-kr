@@ -15,6 +15,30 @@ BlueXP  워크로드 팩토리에 포함된 워크로드의 최근 변경사항
 
 
 
+== 2025년 03월 30일
+
+
+
+=== 설정 및 관리
+
+
+
+==== CloudShell은 ONTAP CLI 명령에 대해 AI에서 생성된 오류를 보고합니다
+
+CloudShell을 사용할 경우 ONTAP CLI 명령을 실행하고 오류가 발생할 때마다 실패 설명, 장애 원인, 상세한 해결 방법 등을 통해 AI에서 생성된 오류에 대한 응답을 받을 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["CloudShell을 사용합니다"]
+
+
+
+==== IAM: SimulatePermissionPolicy 권한 업데이트
+
+이제 AWS 계정 자격 증명을 추가하거나 GenAI 워크로드와 같은 새로운 워크로드 기능을 추가할 때 워크로드 팩토리 콘솔에서 권한을 관리할 수 있습니다 `iam:SimulatePrincipalPolicy`.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["권한 참조 변경 로그"]
+
+
+
 == 2025년 03월 03일
 
 
@@ -446,18 +470,6 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Ge
 AI 엔진 인스턴스가 손상되거나 삭제된 경우 워크로드 공장이 자동으로 리빌드하도록 할 수 있습니다. 워크로드 공장에서 재구축이 완료된 후 지식 베이스를 인프라에 자동으로 다시 연결하여 사용할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["문제 해결"]
-
-
-
-=== 설정 및 관리
-
-
-
-==== BlueXP  워크로드 팩토리에서 서비스 계정 지원
-
-이제 서비스 계정이 BlueXP  워크로드 팩토리에서 지원됩니다. 서비스 계정을 생성하여 인프라 운영을 자동화할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["서비스 계정 생성 및 관리"]
 
 
 
