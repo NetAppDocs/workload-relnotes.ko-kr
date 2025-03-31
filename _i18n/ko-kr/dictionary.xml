@@ -35,12 +35,8 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  워크로드 팩토리의 최근 변경사항</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
-  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024년 12월 01일</block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2 마이그레이션 어드바이저 개선 사항</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">이번 릴리즈의 VMware용 BlueXP  워크로드 팩토리는 마이그레이션 조언자 환경에서 다음과 같은 여러 가지 향상된 기능을 제공합니다.</block>
-  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">* 데이터 수집 *: VMware용 BlueXP  워크로드 팩토리에서는 마이그레이션 관리자를 사용할 때 특정 기간 동안 데이터를 수집할 수 있습니다.</block>
-  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">* VM 선택 *: VMware용 BlueXP  워크로드 팩토리에서는 이제 마이그레이션 배포에 포함할 VM을 선택할 수 있습니다.</block>
-  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">* 빠른 경험과 고급 경험 * : 마이그레이션 관리자를 사용하면 RVtools를 사용하여 빠른 마이그레이션 경험을 선택하거나 마이그레이션 어드바이저 데이터 수집기를 사용하는 고급 환경을 선택할 수 있습니다.</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  워크로드 공장</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025년 01월 05일</block>
@@ -60,18 +56,6 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">오버 프로비저닝된 Microsoft SQL Server 라이선스에 대한 평가 및 최적화</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">이제 비용 절감 계산기는 Enterprise Edition이 Microsoft SQL Server 배포에 필요한지 여부를 평가합니다. 라이센스가 오버 프로비저닝되면 계산기는 다운그레이드를 권장합니다. 데이터베이스를 최적화하여 라이센스를 자동으로 다운그레이드할 수 있습니다.</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025년 01월 06일</block>
-  <block id="a117d99fd0597e840921767ec50fe791" category="doc">사용자 지정 스냅샷 이름입니다</block>
-  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">이제 임시 스냅샷에 대한 스냅샷 이름을 제공할 수 있습니다.</block>
-  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">스냅샷으로 기술 자료 보호</block>
-  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
-  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">사용자 지정 AI 엔진 인스턴스 이름</block>
-  <block id="5a22f1756638135653917db715aeec43" category="paragraph">이제 구축 중에 AI 엔진 인스턴스에 사용자 지정 이름을 지정할 수 있습니다.</block>
-  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">GenAI 인프라를 구축합니다</block>
-  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
-  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">손상되거나 누락된 GenAI 인프라를 재구축합니다</block>
-  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">AI 엔진 인스턴스가 손상되거나 삭제된 경우 워크로드 공장이 자동으로 리빌드하도록 할 수 있습니다. 워크로드 공장에서 재구축이 완료된 후 지식 베이스를 인프라에 자동으로 다시 연결하여 사용할 수 있습니다.</block>
-  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">문제 해결</block>
-  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">* 마이그레이션 계획 저장 또는 다운로드 *: 이제 마이그레이션 계획을 저장하거나 다운로드하고 마이그레이션 계획을 로드하여 마이그레이션 관리자를 채울 수 있습니다. 마이그레이션 계획을 저장하면 작업 부하 공장 계정과 함께 계획이 저장됩니다.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* 향상된 VM 선택 *: VMware용 BlueXP  워크로드 팩토리에서는 이제 마이그레이션 배포에 포함할 VM 목록의 필터링 및 검색을 지원합니다.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -219,4 +203,20 @@
   <block id="1680d9abb7a22a23c44b7a4b6381f160" category="list-text">_Balanced(자동) _</block>
   <block id="ba8ad03a370d66806f12b2e607ea29c7" category="list-text">_비용 최적화(모두) _</block>
   <block id="c9c6a4f8a60589f93e4860841bc03333" category="list-text">_성능 최적화(스냅샷만 해당) _</block>
+  <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">이 GenAI 릴리스는 데이터 소스에서 파일을 인제스트할 때 JSON 및 JSONP 파일 형식 지원을 도입합니다.<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block> 중첩된 객체가 있는 JSON 파일이 지원되며 중첩된 배열에 대한 지원이 제한됩니다.</block>
+  <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">외부 챗봇 샘플 애플리케이션에 대한 국제화 지원</block>
+  <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">이제 GenAI 샘플 외부 챗봇 애플리케이션의 사용자 인터페이스를 다른 언어 또는 로캘로 쉽게 변경할 수 있습니다.</block>
+  <block id="5b8a8facbec8623a03d7cae8b62bfeb7" category="inline-link-macro">GenAI 외부 샘플 챗봇 애플리케이션</block>
+  <block id="4d79fade08f1e8c2d92bbdf0e3237924" category="paragraph"><block ref="4d79fade08f1e8c2d92bbdf0e3237924" category="inline-link-macro-rx"></block></block>
+  <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">Anthropic Claude Sonnet 3.7 채팅 모델을 지원합니다</block>
+  <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">GenAI는 이제 Anthropic Claude 3.7 Sonnet 채팅 모델을 지원합니다. Claude 3.7 Sonnet의 베타 기능은 요청당 최대 128K의 출력 토큰을 허용하고 새로운 컴퓨터 사용 작업을 지원합니다. Claude 3.7 Sonnet 확장 사고 모드는 향후 GenAI 릴리스에서 지원될 예정입니다.</block>
+  <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">GenAI 기술 자료를 만듭니다</block>
+  <block id="fe72cb2aff5f7bf6138e806921c5d3d6" category="paragraph"><block ref="fe72cb2aff5f7bf6138e806921c5d3d6" category="inline-link-macro-rx"></block></block>
+  <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">일반 NFS/SMB 공유에서 데이터 소스 추가 지원</block>
+  <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">이제 워크로드 팩토리 API를 사용하여 일반 NFSv3, NFSv4 또는 SMB 공유에서 데이터 소스를 추가할 수 있습니다. NFS 또는 SMB 공유에서 데이터 소스를 추가할 경우 기술 자료 볼륨은 Amazon FSx for NetApp ONTAP 볼륨에 유지됩니다. 워크로드 팩토리 웹 UI는 향후 릴리즈에서 이 기능을 지원할 예정입니다.</block>
+  <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">VPC 피어링 지원</block>
+  <block id="52bc46202bc9013e258f32f66b8bf88a" category="inline-link-macro">피어링된 가상 프라이빗 클라우드(VPC)</block>
+  <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">이제 GenAI 인프라를 같은 지역에 배포하고 동일한 AWS 계정을 사용할 수 <block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>있습니다. VPC에 AI 엔진을 구축한 다음 피어링된 VPC에 기술 자료를 생성하고 피어링된 VPC에 상주하는 Amazon FSx for NetApp ONTAP 파일 시스템을 선택할 수 있습니다.</block>
+  <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">* 향상된 볼륨 할당 지침 *: EC2 마이그레이션 어드바이저의 볼륨 할당 정보는 "분류" 및 "패키지" 단계에서 읽기 편이성과 사용성이 향상되었습니다. 각 볼륨에 대한 보다 유용한 정보가 표시되므로 볼륨을 보다 잘 식별하고 볼륨을 할당하는 방법을 결정할 수 있습니다.</block>
+  <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">* 데이터 수집기 스크립트 효율성 향상 *: EC2 마이그레이션 어드바이저 데이터 수집기 스크립트는 소규모 VM 배포를 위해 데이터를 수집할 때 CPU 사용을 최적화합니다.</block>
 </blocks>

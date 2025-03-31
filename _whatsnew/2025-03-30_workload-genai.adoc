@@ -1,0 +1,41 @@
+= 향상된 파일 형식 지원
+:allow-uri-read: 
+
+
+
+
+=== 향상된 파일 형식 지원
+
+이 GenAI 릴리스는 데이터 소스에서 파일을 인제스트할 때 JSON 및 JSONP 파일 형식 지원을 도입합니다. `.json` 중첩된 객체가 있는 JSON 파일이 지원되며 중첩된 배열에 대한 지원이 제한됩니다.
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
+
+
+
+=== 외부 챗봇 샘플 애플리케이션에 대한 국제화 지원
+
+이제 GenAI 샘플 외부 챗봇 애플리케이션의 사용자 인터페이스를 다른 언어 또는 로캘로 쉽게 변경할 수 있습니다.
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["GenAI 외부 샘플 챗봇 애플리케이션"]
+
+
+
+=== Anthropic Claude Sonnet 3.7 채팅 모델을 지원합니다
+
+GenAI는 이제 Anthropic Claude 3.7 Sonnet 채팅 모델을 지원합니다. Claude 3.7 Sonnet의 베타 기능은 요청당 최대 128K의 출력 토큰을 허용하고 새로운 컴퓨터 사용 작업을 지원합니다. Claude 3.7 Sonnet 확장 사고 모드는 향후 GenAI 릴리스에서 지원될 예정입니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
+
+
+
+=== 일반 NFS/SMB 공유에서 데이터 소스 추가 지원
+
+이제 워크로드 팩토리 API를 사용하여 일반 NFSv3, NFSv4 또는 SMB 공유에서 데이터 소스를 추가할 수 있습니다. NFS 또는 SMB 공유에서 데이터 소스를 추가할 경우 기술 자료 볼륨은 Amazon FSx for NetApp ONTAP 볼륨에 유지됩니다. 워크로드 팩토리 웹 UI는 향후 릴리즈에서 이 기능을 지원할 예정입니다.
+
+
+
+=== VPC 피어링 지원
+
+이제 GenAI 인프라를 같은 지역에 배포하고 동일한 AWS 계정을 사용할 수 link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["피어링된 가상 프라이빗 클라우드(VPC)"^]있습니다. VPC에 AI 엔진을 구축한 다음 피어링된 VPC에 기술 자료를 생성하고 피어링된 VPC에 상주하는 Amazon FSx for NetApp ONTAP 파일 시스템을 선택할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
