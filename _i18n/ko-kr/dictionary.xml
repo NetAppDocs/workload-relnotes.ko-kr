@@ -221,4 +221,8 @@
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">워크로드 팩토리 API를 사용하십시오</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell은 ONTAP CLI 명령에 대한 AI에서 생성된 오류 응답을 보고합니다</block>
+  <block id="4992f7a0d7d6ee4776bb87ff9118642c" category="section-title">파일 시스템 생성을 위한 보안 그룹 세부 정보입니다</block>
+  <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">보안 그룹은 FSx for ONTAP 파일 시스템 생성 프로세스의 일부로 생성됩니다. 이제 프로토콜, 포트 및 역할을 포함한 보안 그룹 세부 정보를 사용할 수 있습니다.</block>
+  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">파일 시스템을 생성합니다</block>
+  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
 </blocks>

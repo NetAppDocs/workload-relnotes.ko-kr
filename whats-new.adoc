@@ -58,6 +58,14 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 
 
 
+==== 파일 시스템 생성을 위한 보안 그룹 세부 정보입니다
+
+보안 그룹은 FSx for ONTAP 파일 시스템 생성 프로세스의 일부로 생성됩니다. 이제 프로토콜, 포트 및 역할을 포함한 보안 그룹 세부 정보를 사용할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["파일 시스템을 생성합니다"]
+
+
+
 === VMware 워크로드
 
 
