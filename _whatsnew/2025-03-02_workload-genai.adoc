@@ -26,7 +26,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["GenAI
 
 * 채팅 모델은 향상된 CSV 지원을 제공합니다. 이렇게 하면 CSV 파일에서 데이터를 쿼리할 때 보다 유용한 응답을 사용할 수 있습니다.
 * GenAI는 이제 데이터 소스에서 Apache Parquet 파일을 수집할 수 있습니다.
-* GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다.
+* GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다. DOCX 문서에 포함된 이미지가 스캔되고 포함된 이미지의 텍스트 통찰력이 기술 자료 쿼리에 대한 응답에 포함됩니다.
 
 
 link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
