@@ -28,9 +28,6 @@
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 워크로드</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">데이터베이스 워크로드에서 FSx for ONTAP으로 비용 절감 에 대해 알아보십시오</block>
-  <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">SQL Server 워크로드를 최적화하십시오</block>
-  <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">BlueXP  워크로드 팩토리에 포함된 워크로드의 최근 변경사항에 대해 알아보십시오.</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  워크로드 팩토리의 최근 변경사항</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.</block>
@@ -40,25 +37,8 @@
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  워크로드 공장</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025년 01월 05일</block>
-  <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">데이터베이스 대시보드 기능 향상</block>
-  <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">대시보드의 새로운 설계에는 다음과 같은 그래픽과 개선 사항이 포함되어 있습니다.</block>
-  <block id="47ecffc6ee3a1f9bca5a81d55169b8b6" category="list-text">호스트 배포 그래프는 Microsoft SQL Server 호스트 및 PostgreSQL 호스트의 수를 보여 줍니다</block>
-  <block id="ec506ecd03b96cac2e19d3abac7aa16e" category="list-text">인스턴스 배포 세부 정보에는 검색된 총 인스턴스 수와 관리되는 Microsoft SQL Server 및 PostgreSQL 인스턴스 수가 포함됩니다</block>
-  <block id="9bb5ee528a11ed94b071f88a078be55e" category="list-text">데이터베이스 배포 세부 정보에는 총 데이터베이스 수와 관리되는 Microsoft SQL Server 및 PostgreSQL 데이터베이스 수가 포함됩니다</block>
-  <block id="01fe24ee345a62672acb8a16826117d0" category="list-text">관리 및 온라인 인스턴스에 대한 최적화 점수 및 상태</block>
-  <block id="341934677d47967f5c6e737476247396" category="list-text">스토리지, 컴퓨팅 및 애플리케이션 범주에 대한 최적화 세부 정보</block>
-  <block id="fb2f60a13243e168f321a9de2af52d51" category="list-text">스토리지 사이징, 스토리지 레이아웃, ONTAP 스토리지, 컴퓨팅 및 애플리케이션 등과 같은 Microsoft SQL Server 인스턴스 구성에 대한 최적화 세부 정보</block>
-  <block id="18168aa68b74c030711fe95b2b74afac" category="list-text">Amazon FSx for NetApp ONTAP 스토리지와 비교하여 Amazon Elastic Block Store 및 FSx for Windows File Server 스토리지 환경에서 실행되는 데이터베이스 워크로드를 절감할 수 있습니다</block>
-  <block id="1886db6545ee593b7bf9014a318fd354" category="section-title">작업 모니터링에서 새로운 'Completed with Issues' 상태입니다</block>
-  <block id="ddd4a54acb0820f07017dcad26528779" category="paragraph">이제 데이터베이스에 대한 작업 모니터링 기능이 새로운 'Completed with Issues' 상태를 제공하므로 어떤 하위 작업에 문제가 있는지, 어떤 문제가 있는지 알 수 있습니다.</block>
-  <block id="c72aad21ecf48b0a4f27430d70c166da" category="inline-link-macro">데이터베이스를 모니터링합니다</block>
-  <block id="5c89f4f6af1a71c2ed6cfac605e94c16" category="paragraph"><block ref="5c89f4f6af1a71c2ed6cfac605e94c16" category="inline-link-macro-rx"></block></block>
-  <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">오버 프로비저닝된 Microsoft SQL Server 라이선스에 대한 평가 및 최적화</block>
-  <block id="f90a806c02db45741274868bc065ab90" category="paragraph">이제 비용 절감 계산기는 Enterprise Edition이 Microsoft SQL Server 배포에 필요한지 여부를 평가합니다. 라이센스가 오버 프로비저닝되면 계산기는 다운그레이드를 권장합니다. 데이터베이스를 최적화하여 라이센스를 자동으로 다운그레이드할 수 있습니다.</block>
-  <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025년 01월 06일</block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">* 마이그레이션 계획 저장 또는 다운로드 *: 이제 마이그레이션 계획을 저장하거나 다운로드하고 마이그레이션 계획을 로드하여 마이그레이션 관리자를 채울 수 있습니다. 마이그레이션 계획을 저장하면 작업 부하 공장 계정과 함께 계획이 저장됩니다.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* 향상된 VM 선택 *: VMware용 BlueXP  워크로드 팩토리에서는 이제 마이그레이션 배포에 포함할 VM 목록의 필터링 및 검색을 지원합니다.</block>
-  <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
   <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">BlueXP  워크로드 팩토리 권한</block>
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">이제 BlueXP  워크로드 팩토리에서 스토리지 환경 검색부터 스토리지 또는 GenAI 워크로드에 대한 기술 자료 등의 AWS 리소스 구축에 이르기까지 다양한 작업을 실행하는 데 사용하는 권한을 확인할 수 있습니다. 스토리지, 데이터베이스, VMware 및 GenAI 워크로드에 대한 IAM 정책 및 권한을 볼 수 있습니다.</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
@@ -225,4 +205,23 @@
   <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">GenAI는 이제 이미지와 그래프 설명뿐만 아니라 문서 텍스트로부터 얻은 통찰력으로 지식 기반 쿼리에 대한 응답성을 향상시켜 보다 풍부하고 높은 품질의 답변을 제공합니다. GenAI는 이제 PDF 파일 내에서 이미지 파일 및 이미지를 스캔할 수 있습니다(다중 모드 파일 지원이라고도 함). 이미지나 PDF 파일을 스캔하도록 선택하면 이미지의 텍스트(PDF 문서에 포함된 이미지 포함)가 데이터 원본으로 스캔되고 스캔의 통찰력은 기술 자료 쿼리에 대한 응답에 포함됩니다.</block>
   <block id="603e61783fa33cd04788f143e949760c" category="paragraph">GenAI는 이제 하이브리드 검색을 사용하여 검색 결과의 관련성과 정확성을 크게 향상시킬 수 있습니다. 하이브리드 검색은 기존의 키워드 기반 검색의 강점과 고급 밀도 벡터 기반 의미 검색 기법을 결합합니다. 표준 키워드 검색 결과는 유사한 일치 및 언어적 뉘앙스로 보강되어 관련성을 향상시킵니다. 그런 다음 GenAI는 COHERE Rerank 및 Amazon Rerank와 같은 고급 재순위 모델을 사용하여 이러한 결과를 더욱 구체화하고 가장 관련성이 높은 결과를 반환합니다. 이 기능은 새로 작성된 기술 자료에 사용할 수 있습니다.</block>
   <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다. DOCX 문서에 포함된 이미지가 스캔되고 포함된 이미지의 텍스트 통찰력이 기술 자료 쿼리에 대한 응답에 포함됩니다.</block>
+  <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">최적화 개선 사항</block>
+  <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">데이터베이스 환경을 최적화할 때 새로운 최적화 평가, 해결 및 여러 리소스 표시를 사용할 수 있습니다.</block>
+  <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">복구 성능 평가</block>
+  <block id="218733e992141498b68631094f232446" category="paragraph">향상된 기능으로는 데이터 이중화 및 재해 복구 기능이 데이터베이스 환경에 맞게 구성되었는지 확인하기 위한 새로운 복구 성능 평가가 포함됩니다.</block>
+  <block id="a8b36cbcd13facdcd526df9ca0c4aba5" category="list-text">FSx for ONTAP 백업: SQL Server 인스턴스의 볼륨을 지원하는 FSx for ONTAP 파일 시스템이 예약된 FSx for ONTAP 백업을 사용하여 구성되었는지 여부를 분석합니다.</block>
+  <block id="3ddd695d01877806196cb9bc8be009da" category="list-text">지역 간 복제: Microsoft SQL Server 인스턴스를 지원하는 FSx for ONTAP 파일 시스템이 지역 간 복제로 구성되는지 평가합니다.</block>
+  <block id="233f3c54635152d78b375495cd0b5580" category="section-title">컴퓨팅 조정</block>
+  <block id="c4b982d56748631e5cf80fe05312f901" category="paragraph">RSS(Receive Side Scaling) 조정은 RSS를 구성하여 여러 프로세서에 걸쳐 네트워크 처리를 분산시키고 효율적인 로드 분산을 보장합니다.</block>
+  <block id="9ed609dc6760dae060dbad52b3aa2d42" category="section-title">로컬 스냅샷 수정</block>
+  <block id="229b55b063b8208ec58911841f6bad18" category="paragraph">로컬 스냅샷 해결을 통해 Microsoft SQL Server 인스턴스 볼륨에 대한 스냅샷 정책을 설정하여 데이터 손실 시 데이터베이스 환경의 복원력을 유지합니다.</block>
+  <block id="14684cd0a52a7f7301e2400ff9ce8c16" category="section-title">여러 리소스 선택 지원</block>
+  <block id="909e5b19987da9dd66e288802ac9729e" category="paragraph">이제 데이터베이스 구성을 최적화할 때 모든 리소스 대신 특정 리소스를 선택할 수 있습니다.</block>
+  <block id="d36362545a72cd1eef4186ca8a99dca1" category="section-title">인벤토리 보기가 개선되었습니다</block>
+  <block id="9f3b67d6f0d3de869a895be1df755a3b" category="paragraph">워크로드 팩토리 콘솔의 인벤토리 탭은 Amazon FSx for NetApp ONTAP에서 실행되는 SQL 서버만 포함되도록 간소화되었습니다. 이제 온프레미스에서 Amazon Elastic Block Store 및 Amazon FSx for Windows File Server에서 실행되는 SQL 서버를 탐색 절약 탭에 찾을 수 있습니다.</block>
+  <block id="b66e93ffc0672f74db831d8f9d81fdba" category="section-title">PostgreSQL 서버 배포에 빠른 생성을 사용할 수 있습니다</block>
+  <block id="f7d019f8da84eee0771921896cbb0cd5" category="paragraph">이 빠른 배포 옵션을 사용하여 HA 구성 및 내장된 모범 사례를 사용하여 PostgreSQL 서버를 생성할 수 있습니다.</block>
+  <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">BlueXP  워크로드 팩터리에서 PostgreSQL 서버를 생성합니다</block>
+  <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
+  <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025년 04월 04일</block>
 </blocks>
