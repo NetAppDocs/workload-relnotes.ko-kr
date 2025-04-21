@@ -8,7 +8,7 @@
 
 이 GenAI 릴리스는 데이터 소스에서 파일을 인제스트할 때 JSON 및 JSONP 파일 형식 지원을 도입합니다. `.json` 중첩된 객체가 있는 JSON 파일이 지원되며 중첩된 배열에 대한 지원이 제한됩니다.
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
 
 
 

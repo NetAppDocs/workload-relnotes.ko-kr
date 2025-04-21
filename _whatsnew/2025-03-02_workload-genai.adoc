@@ -29,4 +29,4 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["GenAI
 * GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다. DOCX 문서에 포함된 이미지가 스캔되고 포함된 이미지의 텍스트 통찰력이 기술 자료 쿼리에 대한 응답에 포함됩니다.
 
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
