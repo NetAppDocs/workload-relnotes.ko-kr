@@ -1,0 +1,35 @@
+= Amazon Q용 NetApp ONTAP 커넥터 지원
+:allow-uri-read: 
+
+
+
+
+=== Amazon Q용 NetApp ONTAP 커넥터 지원
+
+이번 GenAI 릴리스는 NetApp ONTAP Connector for Amazon Q에 대한 지원을 도입함으로써 Amazon Q Business용 커넥터를 생성할 수 있습니다. Amazon Bedrock용 GenAI 지식 기반을 구축하는 것보다 초기 구성이 적은 Amazon Q Business AI Assistant를 빠르고 쉽게 활용할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business용 GenAI 커넥터를 생성합니다"]
+
+
+
+=== 향상된 채팅 모델 지원
+
+GenAI는 이제 기술 자료에 대해 다음과 같은 추가 채팅 모델을 지원합니다.
+
+* link:https://docs.mistral.ai/getting-started/models/models_overview/["미스트랄 AI 모델"^]
+* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon Titan 텍스트 모델"^]
+* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Meta Llama 모델"^]
+* link:https://docs.ai21.com/["Jamba 1.5 모델"^]
+* link:https://docs.cohere.com/docs/the-cohere-platform["COHERE 명령 모델"^]
+* link:https://aws.amazon.com/bedrock/deepseek/["Deepseek 모델"^]
+
+
+GenAI는 Amazon Bedrock이 지원하는 각 공급자의 모델을 지원합니다. link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["아마존 Bedrock에서 기반 모델을 지원했습니다"^]
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
+
+
+
+=== 사용 권한 용어가 업데이트되었습니다
+
+워크로드 팩토리 사용자 인터페이스 및 설명서에서는 이제 "읽기 전용"을 사용하여 읽기 권한을 참조하고 "읽기-쓰기"를 사용하여 사용 권한을 자동화합니다.

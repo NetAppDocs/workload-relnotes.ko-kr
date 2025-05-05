@@ -1,0 +1,127 @@
+= FSx for ONTAP 파일 시스템에 대한 자율적인 랜섬웨어 방어
+:allow-uri-read: 
+
+
+
+
+=== FSx for ONTAP 파일 시스템에 대한 자율적인 랜섬웨어 방어
+
+NAS(NFS/SMB) 환경에서 워크로드 분석을 사용하여 랜섬웨어 공격으로 이어질 수 있는 비정상적인 활동을 감지하여 경고하는 기능인 ARP(자율적 랜섬웨어 방어)로 데이터를 보호합니다. 공격이 의심되면 ARP는 데이터를 복원할 수 있는 변경 불가능한 새로운 스냅샷을 만듭니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["자율적 랜섬웨어 방어 기능으로 데이터를 보호하십시오"]
+
+
+
+=== FlexGroup 볼륨 재조정 개선 사항
+
+BlueXP  워크로드 팩토리에서는 FlexGroup 볼륨의 데이터 균형을 재조정하는 다양한 레이아웃 옵션이 포함된 FlexGroup 볼륨 재조정 마법사를 소개합니다. 재조정은 데이터를 FlexGroup 구성원 볼륨에 균등하게 재분배합니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["FlexGroup 볼륨에서 용량을 재조정합니다"]
+
+
+
+=== FSx for ONTAP 파일 시스템에 대한 모범 사례 구현
+
+BlueXP  워크로드 팩토리에서는 파일 시스템 구성의 체계적으로 상태를 검토할 수 있는 대시보드를 제공합니다. 이 분석을 활용하여 FSx for ONTAP 파일 시스템에 대한 모범 사례를 구현할 수 있습니다. 파일 시스템 구성 분석에는 SSD 용량 임계값, 예약된 로컬 스냅샷, 예약된 FSx for ONTAP 백업, 데이터 계층화, 원격 데이터 복제 구성이 포함됩니다.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["파일 시스템 구성을 위한 잘 설계된 분석에 대해 알아보십시오"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["파일 시스템에 대한 모범 사례 구현"]
+
+
+
+
+=== 이중 프로토콜 볼륨 보안 스타일 옵션
+
+NTFS 또는 UNIX를 볼륨의 보안 스타일로 선택하여 사용자와 권한이 볼륨에 액세스하는 방법을 결정할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["볼륨을 생성합니다"]
+
+
+
+=== 향상된 복제 기능
+
+
+
+==== FSx for ONTAP에서 온프레미스로 역복제가 지원됩니다
+
+이제 워크로드 공장 콘솔 내에서 FSx for ONTAP 파일 시스템에서 온프레미스 ONTAP 클러스터로 역방향 복제를 사용할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/reverse-replication.html["역방향 복제"]
+
+
+
+==== 데이터 보호 볼륨 복제
+
+이제 데이터 보호 볼륨을 복제할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["데이터 보호 볼륨을 복제합니다"]
+
+
+
+==== 다중 볼륨 선택
+
+여러 볼륨을 선택할 수 있으므로 복제할 볼륨을 정확히 선택할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["복제 관계를 생성합니다"]
+
+
+
+==== 장기 보존 정책 레이블
+
+복제 관계에 대해 장기 보존을 설정하는 경우 소스 및 타겟 볼륨 레이블이 정확히 일치해야 합니다. 이제 BlueXP  워크로드 팩토리에서 누락된 소스 볼륨 레이블을 자동으로 생성할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["복제 관계를 생성합니다"]
+
+
+
+=== FSx for ONTAP 파일 이름이 볼륨 생성 시 표시됩니다
+
+볼륨 생성 중에 FSx for ONTAP 파일 시스템의 가시성을 개선했습니다. 볼륨을 생성할 때 FSx for ONTAP 파일 시스템을 보게 되므로 볼륨이 생성되는 위치를 정확하게 알 수 있습니다.
+
+
+
+=== 스토리지 워크로드 전체에 AWS 계정이 표시됩니다
+
+스토리지 작업 부하에서 계정 가시성이 개선되었습니다. 볼륨 *, * 스토리지 VM * 및 * 복제 * 탭으로 이동하면 AWS 계정이 표시됩니다.
+
+
+
+=== 링크 연결 기능 향상
+
+* 재고 탭에서 FSx for ONTAP 파일 시스템의 링크를 빠르게 연결할 수 있습니다.
+* 이제 BlueXP  워크로드 팩토리에서는 링크 연결에 대체 ONTAP 사용자 자격 증명의 사용을 지원합니다.
+
+
+
+
+=== AWS Secrets Manager에 대한 링크 인증 지원
+
+이제 AWS Secrets Manager의 비밀을 사용하여 링크를 인증할 수 있으므로 BlueXP  워크로드 팩토리얼에 저장된 자격 증명을 사용할 필요가 없습니다.
+
+
+
+=== Tracker 응답 지원
+
+이제 추적기는 작업과 관련된 REST API 출력을 볼 수 있도록 API 응답을 제공합니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Tracker를 사용하여 작업을 모니터링합니다"]
+
+
+
+=== 백업에서 볼륨을 복구할 때의 용량 검증
+
+백업에서 볼륨을 복원할 때 BlueXP  워크로드 팩토리얼은 복원에 필요한 용량이 충분한지 확인하고, 그렇지 않을 경우 SSD 스토리지 계층 용량을 자동으로 추가할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/restore-from-backup.html["백업에서 볼륨을 복원합니다"]
+
+
+
+=== 대체 ONTAP 사용자 자격 증명 지원
+
+이제 워크로드 팩토리에서 파일 시스템을 생성하여 보안 위험을 최소화할 수 있도록 대체 ONTAP 자격 증명 세트를 지원합니다. fsxadmin 사용자만 사용하는 대신 다른 ONTAP 자격 증명 세트를 선택하거나 fsxadmin 및 vsaadmin 사용자의 암호를 제공하지 않도록 선택할 수 있습니다.
+
+
+
+=== 사용 권한 용어가 업데이트되었습니다
+
+워크로드 팩토리 사용자 인터페이스 및 설명서에서는 이제 "읽기 전용"을 사용하여 읽기 권한을 참조하고 "읽기-쓰기"를 사용하여 사용 권한을 자동화합니다.
