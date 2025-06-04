@@ -66,38 +66,13 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker의 CloudShell 이벤트</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">이제 Tracker에서 CloudShell 이벤트를 추적할 수 있습니다.</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025년 03월 02일</block>
-  <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">PostgreSQL 서버를 생성합니다</block>
-  <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
-  <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">PostgreSQL 서버 생성을 위한 Terraform 지원</block>
-  <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">이제 Codebox에서 Terraform을 사용하여 PostgreSQL을 배포할 수 있습니다.</block>
-  <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">PostgreSQL 데이터베이스 서버를 생성합니다</block>
-  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">코드박스에서 Terraform을 사용합니다</block>
-  <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">로컬 스냅샷 일정에 대한 복원력 평가</block>
-  <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">데이터베이스 워크로드에 새로운 복원력 평가를 사용할 수 있습니다. Microsoft SQL Server 인스턴스의 볼륨에 유효한 예약된 스냅샷 정책이 있는지 평가합니다. 스냅샷은 데이터의 특정 시점 복사본이며 데이터 손실 시 데이터베이스 환경의 복원력을 유지하는 데 도움이 됩니다.</block>
-  <block id="90814442b7f0694d712f43efffe9c178" category="section-title">데이터베이스 워크로드에 대한 MAXDOP 해결</block>
-  <block id="3231190e9014bf678d835272ec7c9234" category="paragraph">이제 데이터베이스용 BlueXP  워크로드 팩토리에서는 MAXDOP(Maximum Degree of Parallelism) 서버 구성에 대한 문제 해결을 지원합니다. MAXDOP 구성이 최적화되지 않은 경우 BlueXP  워크로드 공장에서 구성을 최적화하도록 할 수 있습니다.</block>
-  <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">이메일 절약 분석 보고서</block>
-  <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">FSx for ONTAP와 비교해 Amazon Elastic Block Store 및 FSx for Windows 파일 서버 스토리지 환경에서 절감할 수 있는 비용을 확인하려는 경우 이제 권장 보고서를 본인, 팀원 및 고객에게 이메일로 보낼 수 있습니다.</block>
-  <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">2025년 03월 03일</block>
-  <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">임베디드 챗봇 개선 사항</block>
-  <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">이제 질문 및 응답을 클립보드에 직접 복사하고 채팅 창의 크기를 조정하며 제목을 변경할 수 있습니다. 또한 채팅 응답에는 이제 표를 포함할 수 있으며, 이 테이블도 복사할 수 있습니다.</block>
-  <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">GenAI 기술 자료를 테스트합니다</block>
-  <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">채팅 응답 인용 지원</block>
-  <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">채팅 응답에는 응답을 생성하는 데 사용된 파일 및 데이터 청크가 나열된 인용이 포함됩니다.</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">향상된 파일 형식 지원</block>
-  <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">이번 GenAI 릴리스는 향상된 파일 지원을 제공합니다.</block>
-  <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">채팅 모델은 향상된 CSV 지원을 제공합니다. 이렇게 하면 CSV 파일에서 데이터를 쿼리할 때 보다 유용한 응답을 사용할 수 있습니다.</block>
-  <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI는 이제 데이터 소스에서 Apache Parquet 파일을 수집할 수 있습니다.</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">지원되는 데이터 소스 파일 형식</block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">이 VMware용 BlueXP  워크로드 팩토리에는 Amazon EC2 마이그레이션 조언자 환경이 여러 가지 향상되었습니다.</block>
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">* Estimated instance type *: 마이그레이션 어드바이저는 이제 환경의 요구 사항을 검토하고 각 VM에 대해 예상되는 Amazon EC2 인스턴스 유형을 제공할 수 있습니다. 마이그레이션 관리자의 범위 단계에서 각 VM에 대한 예상 인스턴스 유형을 포함하도록 선택할 수 있습니다.</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Amazon EBS 볼륨을 추천할 수 있는 능력 *: 이제 마이그레이션 어드바이저는 특정 지역의 특정 용량 또는 성능 요구사항으로 인해 Amazon FSx for NetApp ONTAP 대신 Amazon EBS(Elastic Block Store)로 데이터 볼륨을 마이그레이션할 것을 권장합니다.</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* 향상된 파일 시스템 자동 할당 *: NetApp ONTAP용 Amazon FSx 파일 시스템 할당이 개선되어 비용을 최적화하고 처리량을 최소화할 수 있습니다.</block>
-  <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
-  <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
-  <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL 고가용성 구성입니다</block>
-  <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">이제 PostgreSQL Server에 대한 고가용성(HA) 구성을 배포할 수 있습니다.</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShell을 사용할 경우 ONTAP CLI 명령을 실행하고 오류가 발생할 때마다 실패 설명, 장애 원인, 상세한 해결 방법 등을 통해 AI에서 생성된 오류에 대한 응답을 받을 수 있습니다.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM: SimulatePermissionPolicy 권한 업데이트</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">이제 AWS 계정 자격 증명을 추가하거나 GenAI 워크로드와 같은 새로운 워크로드 기능을 추가할 때 워크로드 팩토리 콘솔에서 권한을 관리할 수 있습니다<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
@@ -142,7 +117,6 @@
   <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">보안 그룹은 FSx for ONTAP 파일 시스템 생성 프로세스의 일부로 생성됩니다. 이제 프로토콜, 포트 및 역할을 포함한 보안 그룹 세부 정보를 사용할 수 있습니다.</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">파일 시스템을 생성합니다</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
-  <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다. DOCX 문서에 포함된 이미지가 스캔되고 포함된 이미지의 텍스트 통찰력이 기술 자료 쿼리에 대한 응답에 포함됩니다.</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">최적화 개선 사항</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">데이터베이스 환경을 최적화할 때 새로운 최적화 평가, 해결 및 여러 리소스 표시를 사용할 수 있습니다.</block>
   <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">복구 성능 평가</block>
@@ -162,7 +136,6 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">BlueXP  워크로드 팩터리에서 PostgreSQL 서버를 생성합니다</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025년 04월 04일</block>
-  <block id="77a89cd0e5a14d8b8709467f579b8edc" category="paragraph"><block ref="77a89cd0e5a14d8b8709467f579b8edc" category="inline-link-macro-rx"></block></block>
   <block id="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="paragraph"><block ref="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="inline-link-macro-rx"></block></block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">향상된 대시보드 기능</block>
@@ -253,4 +226,21 @@
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">이 VMware용 BlueXP  워크로드 팩토리에는 Amazon EC2 마이그레이션 조언자 환경이 다음과 같이 개선되었습니다.</block>
   <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">* 데이터 소스로서의 NetApp 데이터 인프라 인사이트 *: 이제 워크로드 팩토리가 NetApp 데이터 인프라 통찰력과 직접 연결되어 EC2 마이그레이션 어드바이저 데이터 수집기를 사용할 때 VMware 배포 정보를 수집합니다.</block>
   <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025년 05월 04일</block>
+  <block id="938691193541892254da342a65418ef3" category="doc">PostgreSQL 및 Oracle 감지</block>
+  <block id="a35833d039b2504ef8c787b30e723967" category="paragraph">이제 워크로드 팩토리 콘솔에서 AWS 계정에서 PostgreSQL 서버 데이터베이스와 Oracle 데이터베이스 배포를 실행하는 인스턴스를 검색할 수 있습니다. 검색된 인스턴스는 데이터베이스 인벤토리에 표시됩니다.</block>
+  <block id="fd1fe4efcf471a552598d4396db84a26" category="section-title">업데이트된 "최적화" 용어</block>
+  <block id="a832a618559e9b6325bfe90eb3e86587" category="paragraph">이전에는 "최적화"라고 불렸던 워크로드 팩토리는 이제 "잘 설계된 문제"와 "잘 설계된 상태"를 사용하여 데이터베이스 구성 분석을 설명하고 "수정"을 사용하여 모범 사례 권장 사항을 충족하도록 데이터베이스 구성을 개선할 수 있는 기회를 수정하는 방법을 설명합니다.</block>
+  <block id="c551233916d554410ddca9f767142b1a" category="inline-link-macro">워크로드 팩토리의 데이터베이스 환경에 대한 구성 분석</block>
+  <block id="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="paragraph"><block ref="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="inline-link-macro-rx"></block></block>
+  <block id="f0b8560f05681c5a0a0de7a2cb0d761e" category="section-title">호스트 인스턴스에 대한 향상된 온보딩</block>
+  <block id="2acb806aac138a6758718c6f833095ab" category="paragraph">호스트 인스턴스 관리에 "감지되지 않음", "관리되지 않음" 또는 "관리됨"이라는 용어를 사용하는 대신, 이제 워크로드 팩토리는 호스트 인스턴스 온보딩에 "등록"을 사용합니다. 새로운 등록 프로세스에는 호스트 인스턴스 인증 및 준비가 포함되어 워크로드 팩토리 콘솔에서 데이터베이스 구성의 리소스를 생성, 모니터링, 분석 및 수정할 수 있습니다. 등록 프로세스의 준비 단계는 호스트 인스턴스가 관리할 준비가 되었는지 여부를 나타냅니다.</block>
+  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">인스턴스 관리</block>
+  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
+  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다</block>
+  <block id="8daed4c7913162875cceb19ef5e0bf4c" category="paragraph">GenAI에서 Tracker 모니터링 기능을 사용할 수 있습니다. Tracker를 사용하면 보류 중, 진행 중 및 완료된 작업의 진행 상황과 상태를 모니터링 및 추적하고, 작업 및 하위 작업의 세부 정보를 검토하고, 문제나 오류를 진단하고, 실패한 작업의 매개변수를 편집하고, 실패한 작업을 다시 시도할 수 있습니다.</block>
+  <block id="27e9b8493c313885af8902ac1ae67e24" category="inline-link-macro">BlueXP 워크로드 팩토리의 Tracker를 사용하여 워크로드 작업을 모니터링합니다.</block>
+  <block id="6cfb11211ef97bba3b2359a766b22994" category="paragraph"><block ref="6cfb11211ef97bba3b2359a766b22994" category="inline-link-macro-rx"></block></block>
+  <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">지식 기반에 대한 재순위 모델을 선택하세요</block>
+  <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">이제 지식 기반에 사용할 특정 리랭커 모델을 선택하여 리랭킹된 쿼리 결과의 관련성을 높일 수 있습니다. GenAI는 Cohere Rerank 및 Amazon Rerank 모델을 지원합니다.</block>
+  <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025년 06월 03일</block>
 </blocks>

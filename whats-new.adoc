@@ -15,6 +15,56 @@ BlueXP  워크로드 팩토리에 포함된 워크로드의 최근 변경사항
 
 
 
+== 2025년 06월 03일
+
+
+
+=== 데이터베이스 워크로드
+
+
+
+==== PostgreSQL 및 Oracle 감지
+
+이제 워크로드 팩토리 콘솔에서 AWS 계정에서 PostgreSQL 서버 데이터베이스와 Oracle 데이터베이스 배포를 실행하는 인스턴스를 검색할 수 있습니다. 검색된 인스턴스는 데이터베이스 인벤토리에 표시됩니다.
+
+
+
+==== 업데이트된 "최적화" 용어
+
+이전에는 "최적화"라고 불렸던 워크로드 팩토리는 이제 "잘 설계된 문제"와 "잘 설계된 상태"를 사용하여 데이터베이스 구성 분석을 설명하고 "수정"을 사용하여 모범 사례 권장 사항을 충족하도록 데이터베이스 구성을 개선할 수 있는 기회를 수정하는 방법을 설명합니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["워크로드 팩토리의 데이터베이스 환경에 대한 구성 분석"]
+
+
+
+==== 호스트 인스턴스에 대한 향상된 온보딩
+
+호스트 인스턴스 관리에 "감지되지 않음", "관리되지 않음" 또는 "관리됨"이라는 용어를 사용하는 대신, 이제 워크로드 팩토리는 호스트 인스턴스 온보딩에 "등록"을 사용합니다. 새로운 등록 프로세스에는 호스트 인스턴스 인증 및 준비가 포함되어 워크로드 팩토리 콘솔에서 데이터베이스 구성의 리소스를 생성, 모니터링, 분석 및 수정할 수 있습니다. 등록 프로세스의 준비 단계는 호스트 인스턴스가 관리할 준비가 되었는지 여부를 나타냅니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["인스턴스 관리"]
+
+
+
+=== GenAI 워크로드
+
+
+
+==== 추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다
+
+GenAI에서 Tracker 모니터링 기능을 사용할 수 있습니다. Tracker를 사용하면 보류 중, 진행 중 및 완료된 작업의 진행 상황과 상태를 모니터링 및 추적하고, 작업 및 하위 작업의 세부 정보를 검토하고, 문제나 오류를 진단하고, 실패한 작업의 매개변수를 편집하고, 실패한 작업을 다시 시도할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["BlueXP 워크로드 팩토리의 Tracker를 사용하여 워크로드 작업을 모니터링합니다."]
+
+
+
+==== 지식 기반에 대한 재순위 모델을 선택하세요
+
+이제 지식 기반에 사용할 특정 리랭커 모델을 선택하여 리랭킹된 쿼리 결과의 관련성을 높일 수 있습니다. GenAI는 Cohere Rerank 및 Amazon Rerank 모델을 지원합니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
+
+
+
 == 2025년 05월 04일
 
 
@@ -462,54 +512,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 
 
-== 2025년 03월 03일
-
-
-
-=== 데이터베이스 워크로드
-
-
-
-==== PostgreSQL 고가용성 구성입니다
-
-이제 PostgreSQL Server에 대한 고가용성(HA) 구성을 배포할 수 있습니다.
-
-link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["PostgreSQL 서버를 생성합니다"]
-
-
-
-==== PostgreSQL 서버 생성을 위한 Terraform 지원
-
-이제 Codebox에서 Terraform을 사용하여 PostgreSQL을 배포할 수 있습니다.
-
-* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["PostgreSQL 데이터베이스 서버를 생성합니다"]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["코드박스에서 Terraform을 사용합니다"]
-
-
-
-
-==== 로컬 스냅샷 일정에 대한 복원력 평가
-
-데이터베이스 워크로드에 새로운 복원력 평가를 사용할 수 있습니다. Microsoft SQL Server 인스턴스의 볼륨에 유효한 예약된 스냅샷 정책이 있는지 평가합니다. 스냅샷은 데이터의 특정 시점 복사본이며 데이터 손실 시 데이터베이스 환경의 복원력을 유지하는 데 도움이 됩니다.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["구성 최적화"]
-
-
-
-==== 데이터베이스 워크로드에 대한 MAXDOP 해결
-
-이제 데이터베이스용 BlueXP  워크로드 팩토리에서는 MAXDOP(Maximum Degree of Parallelism) 서버 구성에 대한 문제 해결을 지원합니다. MAXDOP 구성이 최적화되지 않은 경우 BlueXP  워크로드 공장에서 구성을 최적화하도록 할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["구성 최적화"]
-
-
-
-==== 이메일 절약 분석 보고서
-
-FSx for ONTAP와 비교해 Amazon Elastic Block Store 및 FSx for Windows 파일 서버 스토리지 환경에서 절감할 수 있는 비용을 확인하려는 경우 이제 권장 보고서를 본인, 팀원 및 고객에게 이메일로 보낼 수 있습니다.
-
-
-
 == 2025년 03월 02일
 
 
@@ -573,39 +575,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["T
 
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다"]
-
-
-
-=== GenAI 워크로드
-
-
-
-==== 임베디드 챗봇 개선 사항
-
-이제 질문 및 응답을 클립보드에 직접 복사하고 채팅 창의 크기를 조정하며 제목을 변경할 수 있습니다. 또한 채팅 응답에는 이제 표를 포함할 수 있으며, 이 테이블도 복사할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["GenAI 기술 자료를 테스트합니다"]
-
-
-
-==== 채팅 응답 인용 지원
-
-채팅 응답에는 응답을 생성하는 데 사용된 파일 및 데이터 청크가 나열된 인용이 포함됩니다.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["GenAI 기술 자료를 테스트합니다"]
-
-
-
-==== 향상된 파일 형식 지원
-
-이번 GenAI 릴리스는 향상된 파일 지원을 제공합니다.
-
-* 채팅 모델은 향상된 CSV 지원을 제공합니다. 이렇게 하면 CSV 파일에서 데이터를 쿼리할 때 보다 유용한 응답을 사용할 수 있습니다.
-* GenAI는 이제 데이터 소스에서 Apache Parquet 파일을 수집할 수 있습니다.
-* GenAI는 이제 이미지가 포함된 Microsoft Word DOCX 파일의 수집을 지원합니다. DOCX 문서에 포함된 이미지가 스캔되고 포함된 이미지의 텍스트 통찰력이 기술 자료 쿼리에 대한 응답에 포함됩니다.
-
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["지원되는 데이터 소스 파일 형식"]
 
 
 

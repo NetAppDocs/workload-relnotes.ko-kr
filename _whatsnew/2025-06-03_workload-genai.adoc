@@ -1,0 +1,19 @@
+= 추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다
+:allow-uri-read: 
+
+
+
+
+=== 추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다
+
+GenAI에서 Tracker 모니터링 기능을 사용할 수 있습니다. Tracker를 사용하면 보류 중, 진행 중 및 완료된 작업의 진행 상황과 상태를 모니터링 및 추적하고, 작업 및 하위 작업의 세부 정보를 검토하고, 문제나 오류를 진단하고, 실패한 작업의 매개변수를 편집하고, 실패한 작업을 다시 시도할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["BlueXP 워크로드 팩토리의 Tracker를 사용하여 워크로드 작업을 모니터링합니다."]
+
+
+
+=== 지식 기반에 대한 재순위 모델을 선택하세요
+
+이제 지식 기반에 사용할 특정 리랭커 모델을 선택하여 리랭킹된 쿼리 결과의 관련성을 높일 수 있습니다. GenAI는 Cohere Rerank 및 Amazon Rerank 모델을 지원합니다.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["GenAI 기술 자료를 만듭니다"]
