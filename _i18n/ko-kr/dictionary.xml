@@ -48,23 +48,6 @@
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">볼륨을 생성합니다</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">Tracker를 사용하여 운영을 모니터링하고 추적하는 방법에 대해 알아봅니다</block>
-  <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
-  <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">자동 용량 관리 개선</block>
-  <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">자동 용량 관리가 설정되면 BlueXP  워크로드 팩토리에서는 이제 파일 시스템이 용량 임계값에 도달했는지 2시간마다 아닌 30분마다 확인합니다.</block>
-  <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">용량 임계값에 도달하면 프로비저닝된 IOPS 설정이 더 이상 영향을 받지 않습니다.</block>
-  <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">변경 불가능한 스냅샷</block>
-  <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">이제 스냅샷을 잠가 특정 보존 기간 동안 변경 불가능한 상태로 만들 수 있습니다. 잠금은 무단 액세스 및 스냅샷의 악의적인 삭제를 방지합니다. 스냅샷 정책 생성 중, 수동 스냅샷 생성 시 및 스냅샷 생성 후 변경 불가능한 스냅샷을 설정할 수 있습니다.</block>
-  <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">변경 불가능한 파일이 업데이트됩니다</block>
-  <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">이제 변경 불가능한 파일 구성을 보존 정책, 보존 기간, 자동 커밋 기간 및 볼륨 추가 모드와 같이 변경할 수 있습니다.</block>
-  <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">변경 불가능한 파일을 관리합니다</block>
-  <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">데이터 복제 기능 개선</block>
-  <block id="114e60d7d0f811f597761cf833328a96" category="list-text">교차 계정 복제: 두 AWS 계정 간의 복제는 BlueXP  워크로드 팩토리 콘솔과 복제 관리에서 지원됩니다.</block>
-  <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">복제 일시 중지 및 다시 시작: 소스 볼륨에서 대상 볼륨으로 예약된 복제 업데이트를 일시 중지(중지)한 다음 준비가 되면 복제 일정을 재개할 수 있습니다. 일시 중지 중에는 소스 볼륨과 타겟 볼륨이 독립적이며 타겟 볼륨이 읽기 전용에서 읽기-쓰기로 전환됩니다.</block>
-  <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">복제 관계를 일시 중지했다가 다시 시작합니다</block>
-  <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
-  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker의 CloudShell 이벤트</block>
-  <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">이제 Tracker에서 CloudShell 이벤트를 추적할 수 있습니다.</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025년 03월 02일</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">향상된 파일 형식 지원</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">지원되는 데이터 소스 파일 형식</block>
@@ -72,7 +55,6 @@
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">* Estimated instance type *: 마이그레이션 어드바이저는 이제 환경의 요구 사항을 검토하고 각 VM에 대해 예상되는 Amazon EC2 인스턴스 유형을 제공할 수 있습니다. 마이그레이션 관리자의 범위 단계에서 각 VM에 대한 예상 인스턴스 유형을 포함하도록 선택할 수 있습니다.</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Amazon EBS 볼륨을 추천할 수 있는 능력 *: 이제 마이그레이션 어드바이저는 특정 지역의 특정 용량 또는 성능 요구사항으로 인해 Amazon FSx for NetApp ONTAP 대신 Amazon EBS(Elastic Block Store)로 데이터 볼륨을 마이그레이션할 것을 권장합니다.</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* 향상된 파일 시스템 자동 할당 *: NetApp ONTAP용 Amazon FSx 파일 시스템 할당이 개선되어 비용을 최적화하고 처리량을 최소화할 수 있습니다.</block>
-  <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShell을 사용할 경우 ONTAP CLI 명령을 실행하고 오류가 발생할 때마다 실패 설명, 장애 원인, 상세한 해결 방법 등을 통해 AI에서 생성된 오류에 대한 응답을 받을 수 있습니다.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM: SimulatePermissionPolicy 권한 업데이트</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">이제 AWS 계정 자격 증명을 추가하거나 GenAI 워크로드와 같은 새로운 워크로드 기능을 추가할 때 워크로드 팩토리 콘솔에서 권한을 관리할 수 있습니다<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
@@ -243,4 +225,22 @@
   <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">지식 기반에 대한 재순위 모델을 선택하세요</block>
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">이제 지식 기반에 사용할 특정 리랭커 모델을 선택하여 리랭킹된 쿼리 결과의 관련성을 높일 수 있습니다. GenAI는 Cohere Rerank 및 Amazon Rerank 모델을 지원합니다.</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025년 06월 03일</block>
+  <block id="7583f12b4559f6687c67d8588da1e2f7" category="doc">볼륨 자동 증가 향상</block>
+  <block id="b57fe4f5ee65a0e01f61993297811ebf" category="paragraph">이제 볼륨의 자동 증가 크기를 설정하여 볼륨 크기가 비즈니스 요구 사항과 애플리케이션 요구 사항에 맞게 프로비저닝된 크기를 넘어 증가할 수 있습니다.</block>
+  <block id="9f1effd9ace68ca00fe9e9e3c024b362" category="inline-link-macro">볼륨 자동 확장 활성화</block>
+  <block id="0177289fb77b50bdfc34ab44aa432a21" category="paragraph"><block ref="0177289fb77b50bdfc34ab44aa432a21" category="inline-link-macro-rx"></block></block>
+  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">잘 설계된 분석 업데이트</block>
+  <block id="8500b95246538dfef049532751c1e9f5" category="paragraph">이제 Workload Factory가 FSx for ONTAP 파일 시스템을 분석하여 데이터 압축, 중복 제거를 포함한 스토리지 효율성이 활용되고 있는지 확인합니다. 스토리지 효율성은 파일 시스템이 사용 가능한 공간을 얼마나 효율적으로 사용하는지 측정합니다.</block>
+  <block id="26e5625f54c5c47a57293d23260101c7" category="inline-link-macro">잘 설계된 저장 효율성 상태를 확인하세요</block>
+  <block id="80378f8a6a0c86610258fa79cd78497b" category="paragraph"><block ref="80378f8a6a0c86610258fa79cd78497b" category="inline-link-macro-rx"></block></block>
+  <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">스토리지 대시보드 개선</block>
+  <block id="47586d678be72b51ea7ac193f83c19b2" category="paragraph">오늘부터 워크로드 팩토리 콘솔에서 스토리지 워크로드를 열면 *대시보드*가 표시됩니다. 새롭게 디자인된 대시보드는 파일 시스템 수, 총 SSD 용량, 잘 설계된 상태 개요, 데이터 보호 개요, 복제 관계 상태 등 FSx for ONTAP 시스템에 대한 전체적인 정보를 제공합니다.</block>
+  <block id="74d3ed8321cbdac2928290eee4795cef" category="section-title">볼륨 탭 개선</block>
+  <block id="0d25e8e0a888c31329b48ed4a33f98f6" category="paragraph">스토리지 워크로드는 워크로드 팩토리 콘솔의 FSx for ONTAP 파일 시스템 내 볼륨 탭을 개선했습니다. 개선된 기능은 다음과 같습니다.</block>
+  <block id="90a8a55f34e9e967f8619ecc5b0ba92a" category="list-text">*새로운 카드*: SSD 용량, 용량 풀 및 자율 랜섬웨어 보호(ARP)</block>
+  <block id="f80c9595c105a10d312aac80217ebb84" category="list-text">*새로운 열*: 용량 분배, 사용된 SSD 용량, 사용된 용량 풀 및 SSD 효율성</block>
+  <block id="92eacda944854c6bfa8676c60aaa4c96" category="section-title">볼륨 생성을 위한 스토리지 효율성 업데이트</block>
+  <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">새 볼륨을 생성할 때 데이터 압축, 압축, 중복 제거를 포함한 스토리지 효율성이 기본적으로 활성화됩니다.</block>
+  <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">워크로드 팩토리에서 새 볼륨을 만듭니다.</block>
+  <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
 </blocks>
