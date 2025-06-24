@@ -232,7 +232,6 @@
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">빌더 워크로드 초기 릴리즈</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">Builders용 BlueXP  워크로드 팩토리에서는 소프트웨어 버전 사용 및 액세스를 간소화하여 사용자 지정 툴이나 스크립트가 필요하지 않습니다. 소프트웨어 버전을 Perforce Helix Core와 통합된 즉각적인 클론으로 사용하여 개발 프로세스를 위한 편리한 작업 공간으로서 시간과 리소스를 절약할 수 있습니다.</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">초기 릴리스에는 프로젝트 및 작업 영역을 관리하고 Codebox를 사용하여 작업을 자동화하는 기능이 포함되어 있습니다. 또한 Builders를 Perforce Helix Core와 통합하여 각 프로젝트의 다양한 버전을 관리하고 프로젝트 간에 신속하게 전환할 수 있습니다.</block>
-  <block id="e562428972beeca78a1b44b300444717" category="paragraph">&lt;stdin&gt;에 해결되지 않은 지시어 - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024년 12월 01일</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">클론 지원</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">이제 Builders용 BlueXP 워크로드 팩토리에서 프로젝트를 복제할 수 있습니다. 프로젝트를 복제하면 Builders는 스냅샷에서 원본과 동일한 구성으로 새 프로젝트를 생성합니다. 복제는 유사한 프로젝트를 빠르게 생성하거나 테스트 목적으로 사용할 때 유용합니다. Builders의 지침에 따라 새 프로젝트 복제본을 마운트할 수 있습니다.</block>
@@ -244,4 +243,5 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">데이터베이스에 대한 사용 권한 업데이트</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> 있습니다.</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025년 02월 02일</block>
+  <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">빌더 작업량</block>
 </blocks>
