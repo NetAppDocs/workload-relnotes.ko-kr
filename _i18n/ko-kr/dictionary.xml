@@ -35,14 +35,10 @@
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2 마이그레이션 어드바이저 개선 사항</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  워크로드 공장</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">구성 최적화</block>
-  <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
   <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">CloudShell을 사용합니다</block>
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">권한 참조 변경 로그</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">볼륨을 생성합니다</block>
-  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">이 VMware용 BlueXP  워크로드 팩토리에는 Amazon EC2 마이그레이션 조언자 환경이 여러 가지 향상되었습니다.</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShell을 사용할 경우 ONTAP CLI 명령을 실행하고 오류가 발생할 때마다 실패 설명, 장애 원인, 상세한 해결 방법 등을 통해 AI에서 생성된 오류에 대한 응답을 받을 수 있습니다.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM: SimulatePermissionPolicy 권한 업데이트</block>
@@ -53,24 +49,6 @@
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">* 데이터 수집기 스크립트 효율성 향상 *: EC2 마이그레이션 어드바이저 데이터 수집기 스크립트는 소규모 VM 배포를 위해 데이터를 수집할 때 CPU 사용을 최적화합니다.</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell은 ONTAP CLI 명령에 대한 AI에서 생성된 오류 응답을 보고합니다</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">최적화 개선 사항</block>
-  <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">데이터베이스 환경을 최적화할 때 새로운 최적화 평가, 해결 및 여러 리소스 표시를 사용할 수 있습니다.</block>
-  <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">복구 성능 평가</block>
-  <block id="218733e992141498b68631094f232446" category="paragraph">향상된 기능으로는 데이터 이중화 및 재해 복구 기능이 데이터베이스 환경에 맞게 구성되었는지 확인하기 위한 새로운 복구 성능 평가가 포함됩니다.</block>
-  <block id="a8b36cbcd13facdcd526df9ca0c4aba5" category="list-text">FSx for ONTAP 백업: SQL Server 인스턴스의 볼륨을 지원하는 FSx for ONTAP 파일 시스템이 예약된 FSx for ONTAP 백업을 사용하여 구성되었는지 여부를 분석합니다.</block>
-  <block id="3ddd695d01877806196cb9bc8be009da" category="list-text">지역 간 복제: Microsoft SQL Server 인스턴스를 지원하는 FSx for ONTAP 파일 시스템이 지역 간 복제로 구성되는지 평가합니다.</block>
-  <block id="233f3c54635152d78b375495cd0b5580" category="section-title">컴퓨팅 조정</block>
-  <block id="c4b982d56748631e5cf80fe05312f901" category="paragraph">RSS(Receive Side Scaling) 조정은 RSS를 구성하여 여러 프로세서에 걸쳐 네트워크 처리를 분산시키고 효율적인 로드 분산을 보장합니다.</block>
-  <block id="9ed609dc6760dae060dbad52b3aa2d42" category="section-title">로컬 스냅샷 수정</block>
-  <block id="229b55b063b8208ec58911841f6bad18" category="paragraph">로컬 스냅샷 해결을 통해 Microsoft SQL Server 인스턴스 볼륨에 대한 스냅샷 정책을 설정하여 데이터 손실 시 데이터베이스 환경의 복원력을 유지합니다.</block>
-  <block id="14684cd0a52a7f7301e2400ff9ce8c16" category="section-title">여러 리소스 선택 지원</block>
-  <block id="909e5b19987da9dd66e288802ac9729e" category="paragraph">이제 데이터베이스 구성을 최적화할 때 모든 리소스 대신 특정 리소스를 선택할 수 있습니다.</block>
-  <block id="d36362545a72cd1eef4186ca8a99dca1" category="section-title">인벤토리 보기가 개선되었습니다</block>
-  <block id="9f3b67d6f0d3de869a895be1df755a3b" category="paragraph">워크로드 팩토리 콘솔의 인벤토리 탭은 Amazon FSx for NetApp ONTAP에서 실행되는 SQL 서버만 포함되도록 간소화되었습니다. 이제 온프레미스에서 Amazon Elastic Block Store 및 Amazon FSx for Windows File Server에서 실행되는 SQL 서버를 탐색 절약 탭에 찾을 수 있습니다.</block>
-  <block id="b66e93ffc0672f74db831d8f9d81fdba" category="section-title">PostgreSQL 서버 배포에 빠른 생성을 사용할 수 있습니다</block>
-  <block id="f7d019f8da84eee0771921896cbb0cd5" category="paragraph">이 빠른 배포 옵션을 사용하여 HA 구성 및 내장된 모범 사례를 사용하여 PostgreSQL 서버를 생성할 수 있습니다.</block>
-  <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">BlueXP  워크로드 팩터리에서 PostgreSQL 서버를 생성합니다</block>
-  <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
-  <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025년 04월 04일</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">향상된 대시보드 기능</block>
   <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">교차 계정 및 교차 지역 보기는 BlueXP  워크로드 팩토리 콘솔에서 탭 간을 탐색할 때 사용할 수 있습니다. 새로운 뷰를 통해 리소스 관리, 모니터링 및 최적화가 향상됩니다.</block>
@@ -84,56 +62,6 @@
   <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">구성 분석을 연기하고 해제합니다</block>
   <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">일부 구성은 데이터베이스 환경에 적용되지 않을 수 있습니다. 이제 특정 구성 분석을 30일 연기하거나 해석을 취소할 수 있습니다.</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">사용 권한 용어가 업데이트되었습니다</block>
-  <block id="36099969c15a5d064d7174336be7e668" category="doc">FSx for ONTAP 파일 시스템에 대한 자율적인 랜섬웨어 방어</block>
-  <block id="08c5452d94d72a6c740ead774c83f8a0" category="paragraph">NAS(NFS/SMB) 환경에서 워크로드 분석을 사용하여 랜섬웨어 공격으로 이어질 수 있는 비정상적인 활동을 감지하여 경고하는 기능인 ARP(자율적 랜섬웨어 방어)로 데이터를 보호합니다. 공격이 의심되면 ARP는 데이터를 복원할 수 있는 변경 불가능한 새로운 스냅샷을 만듭니다.</block>
-  <block id="19fcea201a57b2af997865e1bebd5eb8" category="inline-link-macro">자율적 랜섬웨어 방어 기능으로 데이터를 보호하십시오</block>
-  <block id="8deff747fe441bd05b94960711ba6dc7" category="paragraph"><block ref="8deff747fe441bd05b94960711ba6dc7" category="inline-link-macro-rx"></block></block>
-  <block id="a915f8d1a90241b0905e5e0102866336" category="section-title">FlexGroup 볼륨 재조정 개선 사항</block>
-  <block id="b4e8b949e8b2a108d117e8d00573baa5" category="paragraph">BlueXP  워크로드 팩토리에서는 FlexGroup 볼륨의 데이터 균형을 재조정하는 다양한 레이아웃 옵션이 포함된 FlexGroup 볼륨 재조정 마법사를 소개합니다. 재조정은 데이터를 FlexGroup 구성원 볼륨에 균등하게 재분배합니다.</block>
-  <block id="a3fa0d8d3f4c7edc445cef1c52eb31b4" category="inline-link-macro">FlexGroup 볼륨에서 용량을 재조정합니다</block>
-  <block id="ba5f40b0cbda6629d8835a8ddec32ba7" category="paragraph"><block ref="ba5f40b0cbda6629d8835a8ddec32ba7" category="inline-link-macro-rx"></block></block>
-  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">FSx for ONTAP 파일 시스템에 대한 모범 사례 구현</block>
-  <block id="23298c67bec69aa678274ba1b4e76d09" category="paragraph">BlueXP  워크로드 팩토리에서는 파일 시스템 구성의 체계적으로 상태를 검토할 수 있는 대시보드를 제공합니다. 이 분석을 활용하여 FSx for ONTAP 파일 시스템에 대한 모범 사례를 구현할 수 있습니다. 파일 시스템 구성 분석에는 SSD 용량 임계값, 예약된 로컬 스냅샷, 예약된 FSx for ONTAP 백업, 데이터 계층화, 원격 데이터 복제 구성이 포함됩니다.</block>
-  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">파일 시스템 구성을 위한 잘 설계된 분석에 대해 알아보십시오</block>
-  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
-  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">파일 시스템에 대한 모범 사례 구현</block>
-  <block id="809288260d1cdd9ac42626b2cf175ba5" category="list-text"><block ref="809288260d1cdd9ac42626b2cf175ba5" category="inline-link-macro-rx"></block></block>
-  <block id="b9b3a3dd5e7f3f2002c13a1dde978328" category="section-title">이중 프로토콜 볼륨 보안 스타일 옵션</block>
-  <block id="8138182381112922a4c0de3123a20759" category="paragraph">NTFS 또는 UNIX를 볼륨의 보안 스타일로 선택하여 사용자와 권한이 볼륨에 액세스하는 방법을 결정할 수 있습니다.</block>
-  <block id="01723ef9eeaed61dd2633adc90d31f85" category="section-title">향상된 복제 기능</block>
-  <block id="b2e52f2d95b8128fa0aa997184d2e917" category="section-title">FSx for ONTAP에서 온프레미스로 역복제가 지원됩니다</block>
-  <block id="987500c5a62dc35588c50c1cdc64759a" category="paragraph">이제 워크로드 공장 콘솔 내에서 FSx for ONTAP 파일 시스템에서 온프레미스 ONTAP 클러스터로 역방향 복제를 사용할 수 있습니다.</block>
-  <block id="7ffd90bebe955a3d38da9e78eaaaf49b" category="inline-link-macro">역방향 복제</block>
-  <block id="ad52c9d51cc60d89ce36c30b38feb597" category="paragraph"><block ref="ad52c9d51cc60d89ce36c30b38feb597" category="inline-link-macro-rx"></block></block>
-  <block id="e949ed7c07a946c5c5337cf0219fbc8a" category="section-title">데이터 보호 볼륨 복제</block>
-  <block id="b160179bf174efa559aefeb2a6a265ff" category="paragraph">이제 데이터 보호 볼륨을 복제할 수 있습니다.</block>
-  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">데이터 보호 볼륨을 복제합니다</block>
-  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
-  <block id="f45e31e9eb62670abb227bd17e863909" category="section-title">다중 볼륨 선택</block>
-  <block id="11b72bb293d845376d594d8db15c5c42" category="paragraph">여러 볼륨을 선택할 수 있으므로 복제할 볼륨을 정확히 선택할 수 있습니다.</block>
-  <block id="ca0c3dd7dca9f636af3209d526098e1e" category="inline-link-macro">복제 관계를 생성합니다</block>
-  <block id="4027269222ebe19f8c7ce0489bd4a099" category="paragraph"><block ref="4027269222ebe19f8c7ce0489bd4a099" category="inline-link-macro-rx"></block></block>
-  <block id="a07aceed52eedb73437d4be9dffb7512" category="section-title">장기 보존 정책 레이블</block>
-  <block id="4f41e87d14e054d42c2670ea8c528589" category="paragraph">복제 관계에 대해 장기 보존을 설정하는 경우 소스 및 타겟 볼륨 레이블이 정확히 일치해야 합니다. 이제 BlueXP  워크로드 팩토리에서 누락된 소스 볼륨 레이블을 자동으로 생성할 수 있습니다.</block>
-  <block id="cfe8fde03c6d1a12606f20570c95dd3a" category="section-title">FSx for ONTAP 파일 이름이 볼륨 생성 시 표시됩니다</block>
-  <block id="15ed156f4715eb4b7e7feb040d7c9c90" category="paragraph">볼륨 생성 중에 FSx for ONTAP 파일 시스템의 가시성을 개선했습니다. 볼륨을 생성할 때 FSx for ONTAP 파일 시스템을 보게 되므로 볼륨이 생성되는 위치를 정확하게 알 수 있습니다.</block>
-  <block id="92698312f3f978b9a3975381093aea27" category="section-title">스토리지 워크로드 전체에 AWS 계정이 표시됩니다</block>
-  <block id="d4ba91ca8b32dac38d8a02560db45f99" category="paragraph">스토리지 작업 부하에서 계정 가시성이 개선되었습니다. 볼륨 *, * 스토리지 VM * 및 * 복제 * 탭으로 이동하면 AWS 계정이 표시됩니다.</block>
-  <block id="44918ad8d6b4fa49e31aa71e8c3e972b" category="section-title">링크 연결 기능 향상</block>
-  <block id="730fff71d8c1a3c83285cf73a189adc1" category="list-text">재고 탭에서 FSx for ONTAP 파일 시스템의 링크를 빠르게 연결할 수 있습니다.</block>
-  <block id="794643699de592957f5ae7ac7b70d1be" category="list-text">이제 BlueXP  워크로드 팩토리에서는 링크 연결에 대체 ONTAP 사용자 자격 증명의 사용을 지원합니다.</block>
-  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">AWS Secrets Manager에 대한 링크 인증 지원</block>
-  <block id="9eee39cc8777da8f7dbd19a76d917105" category="paragraph">이제 AWS Secrets Manager의 비밀을 사용하여 링크를 인증할 수 있으므로 BlueXP  워크로드 팩토리얼에 저장된 자격 증명을 사용할 필요가 없습니다.</block>
-  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="section-title">Tracker 응답 지원</block>
-  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">이제 추적기는 작업과 관련된 REST API 출력을 볼 수 있도록 API 응답을 제공합니다.</block>
-  <block id="2e0c4c64c2671f5575eb184e577dcdae" category="inline-link-macro">Tracker를 사용하여 작업을 모니터링합니다</block>
-  <block id="51901acdd0b1d27e153698e9d896b4ab" category="paragraph"><block ref="51901acdd0b1d27e153698e9d896b4ab" category="inline-link-macro-rx"></block></block>
-  <block id="3d84fc344c6f90d01ec1ed67bf66b2cf" category="section-title">백업에서 볼륨을 복구할 때의 용량 검증</block>
-  <block id="02fb27a360f5d3b300cee7fd194ec4ab" category="paragraph">백업에서 볼륨을 복원할 때 BlueXP  워크로드 팩토리얼은 복원에 필요한 용량이 충분한지 확인하고, 그렇지 않을 경우 SSD 스토리지 계층 용량을 자동으로 추가할 수 있습니다.</block>
-  <block id="669e24f4895025d47b6321e03f0890e4" category="inline-link-macro">백업에서 볼륨을 복원합니다</block>
-  <block id="6a04144fb90318983f201c0a346bc6b3" category="paragraph"><block ref="6a04144fb90318983f201c0a346bc6b3" category="inline-link-macro-rx"></block></block>
-  <block id="2bbce7d3d059871083eb12013b7bc70d" category="section-title">대체 ONTAP 사용자 자격 증명 지원</block>
-  <block id="21fe54f48c52f1924f6b2b74751f1611" category="paragraph">이제 워크로드 팩토리에서 파일 시스템을 생성하여 보안 위험을 최소화할 수 있도록 대체 ONTAP 자격 증명 세트를 지원합니다. fsxadmin 사용자만 사용하는 대신 다른 ONTAP 자격 증명 세트를 선택하거나 fsxadmin 및 vsaadmin 사용자의 암호를 제공하지 않도록 선택할 수 있습니다.</block>
   <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">향상된 채팅 모델 지원</block>
   <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">GenAI는 이제 기술 자료에 대해 다음과 같은 추가 채팅 모델을 지원합니다.</block>
   <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">미스트랄 AI 모델</block>
@@ -161,8 +89,6 @@
   <block id="a832a618559e9b6325bfe90eb3e86587" category="paragraph">이전에는 "최적화"라고 불렸던 워크로드 팩토리는 이제 "잘 설계된 문제"와 "잘 설계된 상태"를 사용하여 데이터베이스 구성 분석을 설명하고 "수정"을 사용하여 모범 사례 권장 사항을 충족하도록 데이터베이스 구성을 개선할 수 있는 기회를 수정하는 방법을 설명합니다.</block>
   <block id="c551233916d554410ddca9f767142b1a" category="inline-link-macro">워크로드 팩토리의 데이터베이스 환경에 대한 구성 분석</block>
   <block id="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="paragraph"><block ref="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="inline-link-macro-rx"></block></block>
-  <block id="f0b8560f05681c5a0a0de7a2cb0d761e" category="section-title">호스트 인스턴스에 대한 향상된 온보딩</block>
-  <block id="2acb806aac138a6758718c6f833095ab" category="paragraph">호스트 인스턴스 관리에 "감지되지 않음", "관리되지 않음" 또는 "관리됨"이라는 용어를 사용하는 대신, 이제 워크로드 팩토리는 호스트 인스턴스 온보딩에 "등록"을 사용합니다. 새로운 등록 프로세스에는 호스트 인스턴스 인증 및 준비가 포함되어 워크로드 팩토리 콘솔에서 데이터베이스 구성의 리소스를 생성, 모니터링, 분석 및 수정할 수 있습니다. 등록 프로세스의 준비 단계는 호스트 인스턴스가 관리할 준비가 되었는지 여부를 나타냅니다.</block>
   <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">인스턴스 관리</block>
   <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
   <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다</block>
@@ -236,4 +162,55 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">데이터베이스에 대한 사용 권한 업데이트</block>
   <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">다음 권한은 이제 데이터베이스에 대한 _읽기 전용_ 모드에서 사용 가능합니다. <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
   <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
+  <block id="a43e14359a13ff9144351ad74db7b351" category="section-title">인스턴스에 대한 향상된 온보딩</block>
+  <block id="af2ef84a7c6d5792c23eddfef4cc4ed9" category="paragraph">인스턴스 관리에 "감지되지 않음", "관리되지 않음" 또는 "관리됨"이라는 용어를 사용하는 대신, 워크로드 팩토리는 이제 인스턴스 온보딩에 "등록"을 사용합니다. 새로운 등록 프로세스에는 인스턴스 인증 및 준비가 포함되어 워크로드 팩토리 콘솔에서 데이터베이스 구성의 리소스를 생성, 모니터링, 분석 및 수정할 수 있습니다. 등록 프로세스의 준비 단계는 인스턴스가 관리할 준비가 되었는지 여부를 나타냅니다.</block>
+  <block id="a10c281531128badfefa7086b353ead0" category="paragraph"><block ref="a10c281531128badfefa7086b353ead0" category="inline-link-macro-rx"></block></block>
+  <block id="16608889ffd4210e3527b28d2cabeee1" category="paragraph">워크로드 팩토리 콘솔의 스토리지 대시보드에 새로운 절감 기회 카드가 추가되었습니다. 대시보드 상단의 카드는 Amazon Elastic Block Store(EBS), Amazon FSx for Windows File Server, Amazon Elastic File Systems(EFS)에서 실행되는 스토리지 환경에 대한 절감 기회 수를 대시보드 하단에는 Amazon 스토리지 서비스별 절감 기회(EBS, FSx for Windows File Server, EFS)를 표시하는 세 개의 새로운 카드가 추가되었습니다 모든 카드에서 절감 기회를 더 자세히 살펴볼 수 있습니다.</block>
+  <block id="e2fc557edefb4b2854999f60dbd0d379" category="paragraph">FSx for ONTAP 보호 범위 카드와 복제 관계 상태 카드를 통해 FSx for ONTAP 파일 시스템에 부분적으로 보호된 볼륨이 있는지 확인하고 복제 관계 관련 문제를 조사할 수 있습니다. 두 경우 모두 문제 해결을 위한 조치를 취할 수 있습니다.</block>
+  <block id="34ccfe489231e34890602e4f0419b843" category="section-title">볼륨 탭 향상</block>
+  <block id="f659fbcb502240d4138a6337d4da17d5" category="paragraph">워크로드 팩토리 콘솔의 볼륨 탭이 개선되어 FSx for ONTAP 파일 시스템을 더욱 포괄적으로 볼 수 있습니다. SSD 용량, 용량 풀, NetApp Autonomous Ransomware Protection with AI(ARP/AI)를 위한 새로운 카드가 추가되었습니다. 이 카드는 파일 시스템의 모든 볼륨에 대한 용량 사용률과 ARP/AI 보호 기능을 요약합니다.</block>
+  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">2세대 Amazon FSx for NetApp ONTAP 파일 시스템 지원</block>
+  <block id="7efd44dd06c377a68f3fc78abf7d91fb" category="paragraph">Workload Factory는 이제 2세대 Amazon FSx for NetApp ONTAP 파일 시스템을 지원합니다. Workload Factory 콘솔에서 2세대 파일 시스템을 생성, 관리 및 모니터링할 수 있습니다. 모든 신규 상용 리전이 지원됩니다.</block>
+  <block id="cd0ce691a9b616ae8983f22db2fb8a6d" category="inline-link-macro">Workload Factory에서 2세대 파일 시스템 생성</block>
+  <block id="f784f74601a71805db546f7b6842f0e5" category="paragraph"><block ref="f784f74601a71805db546f7b6842f0e5" category="inline-link-macro-rx"></block></block>
+  <block id="094caa4bbbbdba779d6ef8c57b995856" category="section-title">볼륨 용량 재조정을 위한 FlexVol 볼륨 지원</block>
+  <block id="ab0d60978b39ce0cb886ec1fbf91bad8" category="paragraph">FlexVol 볼륨은 워크로드 팩토리 콘솔에서 확인할 수 있습니다. FlexVol 볼륨의 잔액을 확인하고, 새 파일 추가 및 파일 증가로 인해 시간이 지남에 따라 용량 불균형이 발생할 경우 FlexVol 볼륨을 재조정하여 용량을 재분배할 수 있습니다.</block>
+  <block id="226bb141f0b474b8b8d4e55bfe659a94" category="inline-link-macro">FlexVol 볼륨의 용량 재조정</block>
+  <block id="7f11a5de29d58c93cc212be8cf51b761" category="paragraph"><block ref="7f11a5de29d58c93cc212be8cf51b761" category="inline-link-macro-rx"></block></block>
+  <block id="d7581ee541e7cfa51fd2f75f93b7e64e" category="section-title">용어 업데이트</block>
+  <block id="6e0c2d8cb551de024f6700ca0407257e" category="paragraph">워크로드 팩토리 콘솔에서 "자율 랜섬웨어 보호"(ARP)라는 용어가 "AI를 통한 NetApp 자율 랜섬웨어 보호"(ARP/AI)로 업데이트되었습니다.</block>
+  <block id="d474538a7c98b462c08197d24f7c1c60" category="section-title">새 볼륨에 대해 기본적으로 ARP/AI가 활성화됨</block>
+  <block id="6a3bf8c141dbbeed37af8236f412b19a" category="paragraph">워크로드 팩토리 콘솔에서 새 볼륨을 생성하면 파일 시스템에 ARP/AI 정책이 있는 경우 NetApp Autonomous Ransomware Protection with AI(ARP/AI)가 기본적으로 활성화됩니다. 즉, AI 기반 탐지 및 대응 기능을 사용하여 볼륨이 랜섬웨어 공격으로부터 자동으로 보호됩니다.</block>
+  <block id="7e0b28b27ce3985a4a8d693330a04cb7" category="inline-link-macro">워크로드 팩토리에서 볼륨을 생성합니다.</block>
+  <block id="3bf76f3556904b928c43201c04108364" category="paragraph"><block ref="3bf76f3556904b928c43201c04108364" category="inline-link-macro-rx"></block></block>
+  <block id="442d07125b5c2363eae9c33039172225" category="section-title">변경 불가능한 파일에 대한 복제 지원</block>
+  <block id="6250cd311debe5758acc69f81921ab78" category="paragraph">Workload Factory는 중요한 데이터를 실수로 삭제하거나 랜섬웨어와 같은 악의적인 공격으로부터 보호하기 위해 한 FSx for ONTAP 시스템에서 다른 FSx for ONTAP 파일 시스템으로 변경 불가능한 볼륨을 복제하는 기능을 지원합니다. 대상 볼륨과 호스트 파일 시스템은 변경 불가능하거나 잠기게 되며, 대상 파일 시스템의 모든 데이터는 보존 기간이 끝날 때까지 수정하거나 삭제할 수 없습니다.</block>
+  <block id="b6fc33d7434bb860ad528753113881b1" category="inline-link-macro">복제 관계를 만드는 방법을 알아보세요</block>
+  <block id="d3dbddfb353eaaa957947efb04ca7013" category="paragraph"><block ref="d3dbddfb353eaaa957947efb04ca7013" category="inline-link-macro-rx"></block></block>
+  <block id="d836bf4f72557e9399ce062e72ef15f6" category="section-title">링크 생성 향상</block>
+  <block id="1f8ca754f0193efb8fdc1c63a4d96672" category="paragraph">워크로드 팩토리 콘솔의 링크 생성 프로세스가 다음과 같이 향상되었습니다.</block>
+  <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">Lambda 링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다</block>
+  <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
+  <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">링크 생성 중 IAM 실행 역할 및 권한 관리</block>
+  <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">이제 워크로드 팩토리 콘솔에서 링크를 생성하여 IAM 실행 역할과 연결된 권한 정책을 관리할 수 있습니다. 링크는 워크로드 팩토리 계정과 하나 이상의 FSx for ONTAP 파일 시스템 간의 연결을 설정합니다. IAM 실행 역할과 링크 권한을 할당하는 데는 자동 또는 사용자 지정, 두 가지 옵션이 있습니다. 워크로드 팩토리에서 실행 역할과 연결된 권한 정책을 관리하면 더 이상 타사 코드를 사용할 필요가 없습니다.</block>
+  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">링크 생성을 위한 Terraform 지원</block>
+  <block id="d993aa63b5e96ec8db4090bd87d5c850" category="paragraph">이제 Codebox에서 Terraform을 사용하여 FSx for ONTAP 파일 시스템과 연결할 링크를 생성할 수 있습니다. 이 기능은 링크를 수동으로 생성하는 사용자를 위한 기능입니다.</block>
+  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">Workload Factory는 데이터베이스에 대해 다음과 같은 알림을 제공합니다.</block>
+  <block id="33e3371223dba19c723617802e06af8d" category="list-text">잘 구성된 보고서</block>
+  <block id="d415d128365eca1587931ed756de7819" category="list-text">호스트 배포</block>
+  <block id="83f1d9ca1a0c4c2fc51a371c0d773f76" category="list-text">보호</block>
+  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">인스턴스 등록을 위한 온보딩 향상</block>
+  <block id="0a969bb4f7ed7e29d7225c0409a1750b" category="paragraph">데이터베이스용 워크로드 팩토리는 Amazon FSx for NetApp ONTAP 스토리지에서 실행되는 인스턴스를 등록하는 온보딩 프로세스를 개선했습니다. 이제 등록할 인스턴스를 대량으로 선택할 수 있습니다. 인스턴스가 등록되면 워크로드 팩토리 콘솔에서 데이터베이스 호스트 리소스를 생성하고 관리할 수 있습니다.</block>
+  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft Multipath I/O 시간 초과 설정에 대한 분석 및 수정</block>
+  <block id="221618cb9e519d5c3dd0fcbb1e4f1205" category="paragraph">데이터베이스 호스트 인스턴스의 잘 설계된 상태에는 이제 Microsoft 다중 경로 I/O(MPIO) 시간 제한 설정에 대한 분석 및 수정 사항이 포함됩니다. MPIO 시간 제한을 60초로 설정하면 FSx for ONTAP 스토리지 연결 및 장애 조치(failover) 중 안정성이 보장됩니다. MPIO 설정이 제대로 설정되지 않은 경우, Workload Factory에서 MPIO 시간 제한 값을 60초로 설정하는 수정 사항을 제공합니다.</block>
+  <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">워크로드 팩토리에서 잘 설계된 데이터베이스 구성을 구현합니다.</block>
+  <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
+  <block id="2bf19cd7fefccda37a9e51c8d6ae9ef1" category="section-title">호스트 인벤토리의 그래픽 향상</block>
+  <block id="29a6225f1f6846093fcfd562090e8654" category="paragraph">호스트 인벤토리 화면에서 처리량 및 IOPS와 같은 다양한 리소스 사용률 그래프가 7일 동안의 데이터를 표시하여 워크로드 팩토리 콘솔에서 SQL 노드의 성능을 더욱 효율적으로 모니터링할 수 있습니다. SQL 노드에서 수집된 성능 지표는 Amazon CloudWatch에 저장되어 Logs Insights에 활용하거나 환경의 다른 분석 서비스와 통합할 수 있습니다.</block>
+  <block id="02212e54266ecdf641215b97bf4ab24e" category="paragraph">호스트 인벤토리 내의 인스턴스 및 데이터베이스 탭에서 호스트 보호에 대한 설명과 시각화를 개선했습니다.</block>
+  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">워크로드 팩토리에서 Windows 인증 지원</block>
+  <block id="b3a0e7d1a5170a15143af7a7f86f02b8" category="paragraph">이제 워크로드 팩토리는 Windows 인증 사용자를 사용하여 호스트 인스턴스를 등록하고 호스트 관리 기능의 이점을 활용하는 SQL Server 인증을 지원합니다.</block>
+  <block id="47668721b89b4afabeb23e27f6ac9b38" category="inline-link-macro">데이터베이스의 워크로드 팩토리에 호스트 인스턴스 등록</block>
+  <block id="4f178ea0296d3da0481606b8e3df7542" category="paragraph"><block ref="4f178ea0296d3da0481606b8e3df7542" category="inline-link-macro-rx"></block></block>
+  <block id="0a9f9a33b436eb81633ee8f4b2cb121d" category="section-title">2025년 06월 30일</block>
 </blocks>
