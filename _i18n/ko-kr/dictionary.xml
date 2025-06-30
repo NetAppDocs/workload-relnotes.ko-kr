@@ -217,11 +217,6 @@
   <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Builders 프로젝트를 위한 BlueXP 워크로드 팩토리 버전 관리</block>
   <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">2025년 06월 16일</block>
-  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">BlueXP  워크로드 공장 콘솔에서 사용할 수 있는 CloudShell</block>
-  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell은 BlueXP  워크로드 공장 콘솔의 모든 곳에서 사용할 수 있습니다. CloudShell을 사용하면 BlueXP  계정에 제공한 AWS 및 ONTAP 자격 증명을 사용하고 셸 유사 환경에서 AWS CLI 명령 또는 ONTAP CLI 명령을 실행할 수 있습니다.</block>
-  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">데이터베이스에 대한 사용 권한 업데이트</block>
-  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">이제 데이터베이스에 대해 _READ_MODE에서 다음 권한을 사용할 수<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> 있습니다.</block>
-  <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025년 02월 02일</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">빌더 작업량</block>
   <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">일반 NFS/SMB 파일 시스템에 호스팅된 데이터 소스 지원</block>
   <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">이제 일반 SMB 또는 NFS 공유에서 데이터 소스를 추가할 수 있습니다. 이를 통해 Amazon FSx for NetApp ONTAP 이외의 파일 시스템에서 호스팅되는 볼륨에 저장된 파일을 포함할 수 있습니다.</block>
@@ -234,4 +229,8 @@
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">마이그레이션 어드바이저를 사용하여 Amazon EVS에 대한 배포 계획을 만듭니다.</block>
   <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
   <block id="32d7d361955b5f8cb1cd26f6803b7d7d" category="section-title">2025년 06월 29일</block>
+  <block id="64c17706e0528a5c44c7beee628cc101" category="doc">BlueXP 워크로드 팩토리 알림 서비스 지원</block>
+  <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">BlueXP 워크로드 팩토리 알림 서비스를 사용하면 워크로드 팩토리가 BlueXP 알림 서비스 또는 Amazon SNS 주제로 알림을 전송할 수 있습니다. BlueXP 알림으로 전송된 알림은 BlueXP 알림 패널에 표시됩니다. 워크로드 팩토리가 Amazon SNS 주제에 알림을 게시하면 해당 주제 구독자(예: 사용자 또는 다른 애플리케이션)는 해당 주제에 대해 구성된 엔드포인트(예: 이메일 또는 SMS 메시지)에서 알림을 수신합니다.</block>
+  <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">BlueXP 워크로드 팩토리 알림 구성</block>
+  <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
 </blocks>
