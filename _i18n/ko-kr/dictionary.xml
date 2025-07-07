@@ -187,30 +187,25 @@
   <block id="6250cd311debe5758acc69f81921ab78" category="paragraph">Workload Factory는 중요한 데이터를 실수로 삭제하거나 랜섬웨어와 같은 악의적인 공격으로부터 보호하기 위해 한 FSx for ONTAP 시스템에서 다른 FSx for ONTAP 파일 시스템으로 변경 불가능한 볼륨을 복제하는 기능을 지원합니다. 대상 볼륨과 호스트 파일 시스템은 변경 불가능하거나 잠기게 되며, 대상 파일 시스템의 모든 데이터는 보존 기간이 끝날 때까지 수정하거나 삭제할 수 없습니다.</block>
   <block id="b6fc33d7434bb860ad528753113881b1" category="inline-link-macro">복제 관계를 만드는 방법을 알아보세요</block>
   <block id="d3dbddfb353eaaa957947efb04ca7013" category="paragraph"><block ref="d3dbddfb353eaaa957947efb04ca7013" category="inline-link-macro-rx"></block></block>
-  <block id="d836bf4f72557e9399ce062e72ef15f6" category="section-title">링크 생성 향상</block>
-  <block id="1f8ca754f0193efb8fdc1c63a4d96672" category="paragraph">워크로드 팩토리 콘솔의 링크 생성 프로세스가 다음과 같이 향상되었습니다.</block>
   <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">Lambda 링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다</block>
   <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
   <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">링크 생성 중 IAM 실행 역할 및 권한 관리</block>
   <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">이제 워크로드 팩토리 콘솔에서 링크를 생성하여 IAM 실행 역할과 연결된 권한 정책을 관리할 수 있습니다. 링크는 워크로드 팩토리 계정과 하나 이상의 FSx for ONTAP 파일 시스템 간의 연결을 설정합니다. IAM 실행 역할과 링크 권한을 할당하는 데는 자동 또는 사용자 지정, 두 가지 옵션이 있습니다. 워크로드 팩토리에서 실행 역할과 연결된 권한 정책을 관리하면 더 이상 타사 코드를 사용할 필요가 없습니다.</block>
-  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">링크 생성을 위한 Terraform 지원</block>
-  <block id="d993aa63b5e96ec8db4090bd87d5c850" category="paragraph">이제 Codebox에서 Terraform을 사용하여 FSx for ONTAP 파일 시스템과 연결할 링크를 생성할 수 있습니다. 이 기능은 링크를 수동으로 생성하는 사용자를 위한 기능입니다.</block>
   <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">Workload Factory는 데이터베이스에 대해 다음과 같은 알림을 제공합니다.</block>
   <block id="33e3371223dba19c723617802e06af8d" category="list-text">잘 구성된 보고서</block>
   <block id="d415d128365eca1587931ed756de7819" category="list-text">호스트 배포</block>
-  <block id="83f1d9ca1a0c4c2fc51a371c0d773f76" category="list-text">보호</block>
   <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">인스턴스 등록을 위한 온보딩 향상</block>
-  <block id="0a969bb4f7ed7e29d7225c0409a1750b" category="paragraph">데이터베이스용 워크로드 팩토리는 Amazon FSx for NetApp ONTAP 스토리지에서 실행되는 인스턴스를 등록하는 온보딩 프로세스를 개선했습니다. 이제 등록할 인스턴스를 대량으로 선택할 수 있습니다. 인스턴스가 등록되면 워크로드 팩토리 콘솔에서 데이터베이스 호스트 리소스를 생성하고 관리할 수 있습니다.</block>
   <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft Multipath I/O 시간 초과 설정에 대한 분석 및 수정</block>
-  <block id="221618cb9e519d5c3dd0fcbb1e4f1205" category="paragraph">데이터베이스 호스트 인스턴스의 잘 설계된 상태에는 이제 Microsoft 다중 경로 I/O(MPIO) 시간 제한 설정에 대한 분석 및 수정 사항이 포함됩니다. MPIO 시간 제한을 60초로 설정하면 FSx for ONTAP 스토리지 연결 및 장애 조치(failover) 중 안정성이 보장됩니다. MPIO 설정이 제대로 설정되지 않은 경우, Workload Factory에서 MPIO 시간 제한 값을 60초로 설정하는 수정 사항을 제공합니다.</block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">워크로드 팩토리에서 잘 설계된 데이터베이스 구성을 구현합니다.</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
-  <block id="2bf19cd7fefccda37a9e51c8d6ae9ef1" category="section-title">호스트 인벤토리의 그래픽 향상</block>
-  <block id="29a6225f1f6846093fcfd562090e8654" category="paragraph">호스트 인벤토리 화면에서 처리량 및 IOPS와 같은 다양한 리소스 사용률 그래프가 7일 동안의 데이터를 표시하여 워크로드 팩토리 콘솔에서 SQL 노드의 성능을 더욱 효율적으로 모니터링할 수 있습니다. SQL 노드에서 수집된 성능 지표는 Amazon CloudWatch에 저장되어 Logs Insights에 활용하거나 환경의 다른 분석 서비스와 통합할 수 있습니다.</block>
-  <block id="02212e54266ecdf641215b97bf4ab24e" category="paragraph">호스트 인벤토리 내의 인스턴스 및 데이터베이스 탭에서 호스트 보호에 대한 설명과 시각화를 개선했습니다.</block>
   <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">워크로드 팩토리에서 Windows 인증 지원</block>
-  <block id="b3a0e7d1a5170a15143af7a7f86f02b8" category="paragraph">이제 워크로드 팩토리는 Windows 인증 사용자를 사용하여 호스트 인스턴스를 등록하고 호스트 관리 기능의 이점을 활용하는 SQL Server 인증을 지원합니다.</block>
-  <block id="47668721b89b4afabeb23e27f6ac9b38" category="inline-link-macro">데이터베이스의 워크로드 팩토리에 호스트 인스턴스 등록</block>
-  <block id="4f178ea0296d3da0481606b8e3df7542" category="paragraph"><block ref="4f178ea0296d3da0481606b8e3df7542" category="inline-link-macro-rx"></block></block>
   <block id="0a9f9a33b436eb81633ee8f4b2cb121d" category="section-title">2025년 06월 30일</block>
+  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">데이터베이스용 워크로드 팩토리는 Amazon FSx for NetApp ONTAP 스토리지에서 실행되는 인스턴스를 등록하는 온보딩 프로세스를 개선했습니다. 이제 등록할 인스턴스를 대량으로 선택할 수 있습니다. 인스턴스가 등록되면 워크로드 팩토리 콘솔에서 데이터베이스 리소스를 만들고 관리할 수 있습니다.</block>
+  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">이제 데이터베이스 인스턴스의 잘 설계된 상태에는 Microsoft Multipath I/O(MPIO) 시간 초과 설정에 대한 분석 및 수정 사항이 포함됩니다. MPIO 시간 제한을 60초로 설정하면 FSx for ONTAP 스토리지 연결 및 장애 조치(failover) 중 안정성이 보장됩니다. MPIO 설정이 제대로 설정되지 않은 경우, Workload Factory에서 MPIO 시간 제한 값을 60초로 설정하는 수정 사항을 제공합니다.</block>
+  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">인스턴스 인벤토리의 그래픽 향상</block>
+  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">인스턴스 인벤토리 화면에서 처리량, IOPS 등 다양한 리소스 활용도 그래프가 이제 7일치 데이터를 표시하므로 워크로드 팩토리 콘솔에서 SQL 노드의 성능을 보다 효율적으로 모니터링할 수 있습니다. SQL 노드에서 수집된 성능 지표는 Amazon CloudWatch에 저장되어 Logs Insights에 활용하거나 환경의 다른 분석 서비스와 통합할 수 있습니다.</block>
+  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">인벤토리 내의 인스턴스 및 데이터베이스 탭에서 보호에 대한 설명과 시각화를 개선했습니다.</block>
+  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">이제 워크로드 팩토리는 Windows 인증 사용자를 사용하여 인스턴스를 등록하고 관리 기능의 이점을 활용하는 SQL Server 인증을 지원합니다.</block>
+  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">데이터베이스의 워크로드 팩토리에 인스턴스 등록</block>
+  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
 </blocks>
