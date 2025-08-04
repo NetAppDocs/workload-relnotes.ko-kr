@@ -39,14 +39,11 @@
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">권한 참조 변경 로그</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="cec87a8931004e5402a3f18575682723" category="paragraph">이 VMware용 BlueXP  워크로드 팩토리에는 Amazon EC2 마이그레이션 조언자 환경이 여러 가지 향상되었습니다.</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShell을 사용할 경우 ONTAP CLI 명령을 실행하고 오류가 발생할 때마다 실패 설명, 장애 원인, 상세한 해결 방법 등을 통해 AI에서 생성된 오류에 대한 응답을 받을 수 있습니다.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM: SimulatePermissionPolicy 권한 업데이트</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">이제 AWS 계정 자격 증명을 추가하거나 GenAI 워크로드와 같은 새로운 워크로드 기능을 추가할 때 워크로드 팩토리 콘솔에서 권한을 관리할 수 있습니다<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025년 03월 30일</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">GenAI 기술 자료를 만듭니다</block>
-  <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">* 향상된 볼륨 할당 지침 *: EC2 마이그레이션 어드바이저의 볼륨 할당 정보는 "분류" 및 "패키지" 단계에서 읽기 편이성과 사용성이 향상되었습니다. 각 볼륨에 대한 보다 유용한 정보가 표시되므로 볼륨을 보다 잘 식별하고 볼륨을 할당하는 방법을 결정할 수 있습니다.</block>
-  <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">* 데이터 수집기 스크립트 효율성 향상 *: EC2 마이그레이션 어드바이저 데이터 수집기 스크립트는 소규모 VM 배포를 위해 데이터를 수집할 때 CPU 사용을 최적화합니다.</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell은 ONTAP CLI 명령에 대한 AI에서 생성된 오류 응답을 보고합니다</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">최적화 개선 사항</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
@@ -228,4 +225,10 @@
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">볼륨에 대한 CIFS 공유 만들기</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
   <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025년 8월 3일</block>
+  <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">Amazon Elastic VMWare Service에 대한 향상된 마이그레이션 어드바이저 지원</block>
+  <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Amazon Elastic VMware Service 마이그레이션 어드바이저는 이제 Amazon FSx for NetApp ONTAP 파일 시스템의 자동 배포 및 마운트를 지원합니다. 이를 통해 Amazon EVS 환경으로의 마이그레이션이 완료되면 FSx for ONTAP 파일 시스템에 VM 배포를 시작할 수 있습니다.</block>
+  <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">Amazon Elastic VMware Service로 마이그레이션 시 비용 절감 계산</block>
+  <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">이제 VMware 워크로드를 Amazon Elastic VMware Service(EVS)로 마이그레이션하여 얻을 수 있는 잠재적인 비용 절감 효과를 살펴보실 수 있습니다. 절감 계산기를 사용하면 기본 스토리지로 Amazon FSx for NetApp ONTAP 사용하거나 사용하지 않고 Amazon EVS를 사용할 때의 비용을 비교할 수 있습니다. 계산기는 환경 특성을 조정하면서 잠재적인 절감액을 실시간으로 표시합니다.</block>
+  <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">BlueXP workload factory 통해 Amazon Elastic VMware Service에 대한 절감 혜택을 살펴보세요.</block>
+  <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
 </blocks>
