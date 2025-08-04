@@ -45,19 +45,7 @@
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025년 03월 30일</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">GenAI 기술 자료를 만듭니다</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell은 ONTAP CLI 명령에 대한 AI에서 생성된 오류 응답을 보고합니다</block>
-  <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">최적화 개선 사항</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">향상된 대시보드 기능</block>
-  <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">교차 계정 및 교차 지역 보기는 BlueXP  워크로드 팩토리 콘솔에서 탭 간을 탐색할 때 사용할 수 있습니다. 새로운 뷰를 통해 리소스 관리, 모니터링 및 최적화가 향상됩니다.</block>
-  <block id="6e21267988cadc818dd398393c695465" category="list-text">대시보드의 * potential savings * 타일에서 Amazon Elastic Block Store 또는 Amazon FSx for Windows 파일 서버에서 FSx for ONTAP로 전환하여 저장할 수 있는 항목을 빠르게 검토할 수 있습니다.</block>
-  <block id="255a96bb0a74416846fbad7e40f8ddf4" category="section-title">데이터베이스 구성에 대해 Ad Hoc 스캔을 사용할 수 있습니다</block>
-  <block id="2b1a16b6cd72c9555872ec61d3334af5" category="paragraph">데이터베이스용 BlueXP  워크로드 팩토리는 관리형 Microsoft SQL Server 인스턴스를 FSx for ONTAP 스토리지로 자동으로 검사하여 잠재적인 구성 문제가 있는지 확인합니다. 이제 매일 스캔하는 것 외에도 언제든지 스캔할 수 있습니다.</block>
-  <block id="365d8fe4130e8c12f4a3defc920178dd" category="section-title">온프레미스 평가 기록 제거</block>
-  <block id="c4fd25bd6650f0eaedfd01e29fbecddd" category="paragraph">Microsoft SQL Server 온-프레미스 호스트의 절감 효과를 살펴본 후 BlueXP  워크로드 공장에서 온-프레미스 호스트 레코드를 제거할 수 있습니다.</block>
-  <block id="ae548505379d0043460d8c15540cb546" category="section-title">클론 정리</block>
-  <block id="0d003b1e16a8cf8a4b6c0774ee3a0f41" category="paragraph">클론 정리 진단 및 문제 해결은 비용이 많이 드는 오래된 클론을 식별하고 관리합니다. 60일이 지난 클론은 BlueXP  워크로드 팩토리 콘솔에서 새로 고치거나 삭제할 수 있습니다.</block>
-  <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">구성 분석을 연기하고 해제합니다</block>
-  <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">일부 구성은 데이터베이스 환경에 적용되지 않을 수 있습니다. 이제 특정 구성 분석을 30일 연기하거나 해석을 취소할 수 있습니다.</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">사용 권한 용어가 업데이트되었습니다</block>
   <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">향상된 채팅 모델 지원</block>
   <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">GenAI는 이제 기술 자료에 대해 다음과 같은 추가 채팅 모델을 지원합니다.</block>
@@ -231,4 +219,15 @@
   <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">이제 VMware 워크로드를 Amazon Elastic VMware Service(EVS)로 마이그레이션하여 얻을 수 있는 잠재적인 비용 절감 효과를 살펴보실 수 있습니다. 절감 계산기를 사용하면 기본 스토리지로 Amazon FSx for NetApp ONTAP 사용하거나 사용하지 않고 Amazon EVS를 사용할 때의 비용을 비교할 수 있습니다. 계산기는 환경 특성을 조정하면서 잠재적인 절감액을 실시간으로 표시합니다.</block>
   <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">BlueXP workload factory 통해 Amazon Elastic VMware Service에 대한 절감 혜택을 살펴보세요.</block>
   <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
+  <block id="65bff5c812b0782e85c3554a907e01d2" category="doc">잘 설계된 분석에는 고가용성 클러스터 검증이 포함됩니다.</block>
+  <block id="bdd55244a112c438dfe30c6c85a4fcb1" category="paragraph">잘 설계된 분석에는 이제 고가용성 클러스터에 대한 검증이 포함됩니다. 이 검증에서는 디스크 가용성 및 두 노드의 구성, Windows 클러스터 구성, 장애 조치 준비 상태를 포함하여 서버 측의 모든 클러스터 관련 구성을 확인합니다. 이렇게 하면 Windows 클러스터가 올바르게 설정되고 필요할 때 성공적으로 장애 조치를 수행할 수 있습니다.</block>
+  <block id="ad229ca0142680e057d4328835a9c1ef" category="section-title">인스턴스에 대해 다단계 메뉴 사용 가능</block>
+  <block id="de0915fdab5af6d02111d53dcfd6ccb3" category="paragraph">워크로드 팩토리 콘솔에 이제 인스턴스에 대한 다단계 메뉴가 포함되었습니다. 이러한 변경으로 인스턴스 관리를 위한 보다 체계적이고 직관적인 탐색 구조가 제공됩니다. 인스턴스 관리를 위한 메뉴 옵션에는 인스턴스 대시보드 보기, 데이터베이스 보기, 데이터베이스 생성, 샌드박스 복제본 생성이 포함됩니다.</block>
+  <block id="8d79c3f1283ecc54b044e383580c41e0" category="inline-image-macro">다중 레벨 메뉴 구조를 갖춘 인스턴스 테이블 메뉴의 스크린샷입니다. 인스턴스 테이블 메뉴를 선택한 다음 인스턴스 관리를 선택하면 데이터베이스를 보고, 데이터베이스를 만들고, 샌드박스 복제본을 만들 수 있습니다.</block>
+  <block id="6f3cad43f8bb61ac11ebd8e87e6d6240" category="paragraph"><block ref="6f3cad43f8bb61ac11ebd8e87e6d6240" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5892d833ba074396906362cfc3ad6370" category="section-title">저축을 탐색하기 위한 새로운 인증 옵션</block>
+  <block id="3035f336d9539562dbf5355f26c10a4f" category="paragraph">때<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> 사용자에게 Microsoft SQL Server에 대한 충분한 권한이 없는 경우 SQL Server 자격 증명으로 인증하거나 누락된 SQL Server 권한을 추가할 수 있습니다.<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> .</block>
+  <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Amazon FSx for NetApp ONTAP 통해 데이터베이스 환경의 잠재적 비용 절감을 살펴보세요.</block>
+  <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
+  <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025년 8월 4일</block>
 </blocks>
