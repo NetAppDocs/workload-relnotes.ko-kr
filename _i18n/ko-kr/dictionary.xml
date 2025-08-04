@@ -98,24 +98,7 @@
   <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">지식 기반에 대한 재순위 모델을 선택하세요</block>
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">이제 지식 기반에 사용할 특정 리랭커 모델을 선택하여 리랭킹된 쿼리 결과의 관련성을 높일 수 있습니다. GenAI는 Cohere Rerank 및 Amazon Rerank 모델을 지원합니다.</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025년 06월 03일</block>
-  <block id="7583f12b4559f6687c67d8588da1e2f7" category="doc">볼륨 자동 증가 향상</block>
-  <block id="b57fe4f5ee65a0e01f61993297811ebf" category="paragraph">이제 볼륨의 자동 증가 크기를 설정하여 볼륨 크기가 비즈니스 요구 사항과 애플리케이션 요구 사항에 맞게 프로비저닝된 크기를 넘어 증가할 수 있습니다.</block>
-  <block id="9f1effd9ace68ca00fe9e9e3c024b362" category="inline-link-macro">볼륨 자동 확장 활성화</block>
-  <block id="0177289fb77b50bdfc34ab44aa432a21" category="paragraph"><block ref="0177289fb77b50bdfc34ab44aa432a21" category="inline-link-macro-rx"></block></block>
-  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">잘 설계된 분석 업데이트</block>
-  <block id="8500b95246538dfef049532751c1e9f5" category="paragraph">이제 Workload Factory가 FSx for ONTAP 파일 시스템을 분석하여 데이터 압축, 중복 제거를 포함한 스토리지 효율성이 활용되고 있는지 확인합니다. 스토리지 효율성은 파일 시스템이 사용 가능한 공간을 얼마나 효율적으로 사용하는지 측정합니다.</block>
-  <block id="26e5625f54c5c47a57293d23260101c7" category="inline-link-macro">잘 설계된 저장 효율성 상태를 확인하세요</block>
-  <block id="80378f8a6a0c86610258fa79cd78497b" category="paragraph"><block ref="80378f8a6a0c86610258fa79cd78497b" category="inline-link-macro-rx"></block></block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">스토리지 대시보드 개선</block>
-  <block id="47586d678be72b51ea7ac193f83c19b2" category="paragraph">오늘부터 워크로드 팩토리 콘솔에서 스토리지 워크로드를 열면 *대시보드*가 표시됩니다. 새롭게 디자인된 대시보드는 파일 시스템 수, 총 SSD 용량, 잘 설계된 상태 개요, 데이터 보호 개요, 복제 관계 상태 등 FSx for ONTAP 시스템에 대한 전체적인 정보를 제공합니다.</block>
-  <block id="74d3ed8321cbdac2928290eee4795cef" category="section-title">볼륨 탭 개선</block>
-  <block id="0d25e8e0a888c31329b48ed4a33f98f6" category="paragraph">스토리지 워크로드는 워크로드 팩토리 콘솔의 FSx for ONTAP 파일 시스템 내 볼륨 탭을 개선했습니다. 개선된 기능은 다음과 같습니다.</block>
-  <block id="90a8a55f34e9e967f8619ecc5b0ba92a" category="list-text">*새로운 카드*: SSD 용량, 용량 풀 및 자율 랜섬웨어 보호(ARP)</block>
-  <block id="f80c9595c105a10d312aac80217ebb84" category="list-text">*새로운 열*: 용량 분배, 사용된 SSD 용량, 사용된 용량 풀 및 SSD 효율성</block>
-  <block id="92eacda944854c6bfa8676c60aaa4c96" category="section-title">볼륨 생성을 위한 스토리지 효율성 업데이트</block>
-  <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">새 볼륨을 생성할 때 데이터 압축, 압축, 중복 제거를 포함한 스토리지 효율성이 기본적으로 활성화됩니다.</block>
-  <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">워크로드 팩토리에서 새 볼륨을 만듭니다.</block>
-  <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
   <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">Amazon Q Business용 NetApp 커넥터 지원</block>
   <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">GenAI의 이번 릴리스에서는 Amazon Q Business용 NetApp Connector에 대한 지원이 도입되어 Amazon Q Business용 커넥터를 생성할 수 있습니다. Amazon Bedrock용 GenAI 지식 기반을 구축하는 것보다 초기 구성이 적은 Amazon Q Business AI Assistant를 빠르고 쉽게 활용할 수 있습니다.</block>
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Amazon Q Business용 NetApp 커넥터 만들기</block>
@@ -208,4 +191,41 @@
   <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">이제 워크로드 팩토리는 Windows 인증 사용자를 사용하여 인스턴스를 등록하고 관리 기능의 이점을 활용하는 SQL Server 인증을 지원합니다.</block>
   <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">데이터베이스의 워크로드 팩토리에 인스턴스 등록</block>
   <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">복제 관계 탭 개선</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">*복제 관계* 탭에서 복제 관계에 대한 자세한 정보를 제공하기 위해 복제 관계 표에 여러 개의 새 열을 추가했습니다. 이제 표에는 다음 열이 포함됩니다.</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirror 정책</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">소스 파일 시스템</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">대상 파일 시스템</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">관계의 상태</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">마지막 환승 시간</block>
+  <block id="8fc34772d0100e115cdb03c17176f5bc" category="section-title">AI(ARP/AI)를 통한 NetApp 자율 랜섬웨어 보호 기능 향상</block>
+  <block id="5cd47e76c4117ef90e78977edb2349c2" category="paragraph">이번 릴리스에서는 랜섬웨어 보호 기능에 인공 지능을 통합한 것을 더 잘 반영하기 위해 "NetApp 자율형 랜섬웨어 보호(ARP/AI)"라는 업데이트된 용어를 소개합니다.</block>
+  <block id="d0ab441d90a6563b6caf3b18a96b121c" category="paragraph">또한 ARP/AI에 다음과 같은 개선 사항이 적용되었습니다.</block>
+  <block id="19f6fcd2887386ba088303687102d4fd" category="list-text">볼륨 수준 ARP/AI: 이제 볼륨 수준에서 ARP/AI를 활성화하여 FSx for ONTAP 파일 시스템 내의 특정 볼륨을 보호할 수 있습니다.</block>
+  <block id="ef292cf56fa95b6bcb87c8b89a0273e1" category="list-text">자동 스냅샷 생성: ARP/AI 정책을 설정하여 자동 스냅샷을 생성하고 ARP/AI가 활성화된 볼륨에 대해 스냅샷을 생성하는 빈도를 정의하여 데이터 보호 전략을 강화할 수 있습니다.</block>
+  <block id="7ebe1fb355350f028323680fa93854c0" category="list-text">변경 불가능한 스냅샷: ARP/AI는 이제 삭제나 수정이 불가능한 변경 불가능한 스냅샷을 지원하여 랜섬웨어 공격에 대한 보안을 한층 강화했습니다.</block>
+  <block id="dc86b2499972aa0a3c70449e20618ca2" category="list-text">탐지: 볼륨 수준에서 높은 엔트로피 데이터 전송률, 파일 생성률, 파일 이름 변경률, 파일 삭제률, 동작 분석과 이전에 본 적이 없는 파일 확장자 등 다양한 탐지 방법을 포함하여 이상 징후와 잠재적인 랜섬웨어 공격을 탐지하는 데 도움이 됩니다.</block>
+  <block id="0b3b06fcd7ae5de19a9937c92e9669fe" category="inline-link-macro">AI(ARP/AI)를 탑재한 NetApp Autonomous Ransomware Protection으로 데이터를 보호하세요</block>
+  <block id="b4b81f7655965069dc9b6d72c40d3191" category="paragraph"><block ref="b4b81f7655965069dc9b6d72c40d3191" category="inline-link-macro-rx"></block></block>
+  <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">잘 설계된 분석 업데이트</block>
+  <block id="3c7a76fc8745c5306663d7f95b167472" category="paragraph">Workload Factory는 이제 다음 구성에 대해 FSx for ONTAP 파일 시스템을 분석합니다.</block>
+  <block id="e30059be004aa836033b5a45f85d0fe0" category="list-text">장기 보존 데이터 안정성: 소스 볼륨의 스냅샷 정책에 할당된 레이블이 장기 보존 정책에 할당된 레이블과 동일한지 확인합니다. 레이블이 동일하면 소스 볼륨과 대상 볼륨 간의 데이터 복제가 안정적으로 이루어집니다.</block>
+  <block id="d991a7b8584b3d26f44a90d9e27f7f7d" category="list-text">AI(ARP/AI)를 탑재한 NetApp 자율형 랜섬웨어 보호: 파일 시스템에서 ARP/AI가 활성화되어 있는지 확인합니다. 이 기능은 랜섬웨어 공격을 탐지하고 복구하는 데 도움이 됩니다.</block>
+  <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">ONTAP 파일 시스템용 FSx의 잘 설계된 상태를 확인하세요.</block>
+  <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
+  <block id="e3d4a0c1fd9bad5ddfe8b2fc326f6d42" category="section-title">잘 설계된 분석에서 구성을 해제합니다.</block>
+  <block id="0b27c1a80fbacb5253a337c3d45236f9" category="paragraph">이제 잘 설계된 분석에서 하나 이상의 구성을 해제할 수 있습니다. 이를 통해 현재 처리하고 싶지 않은 특정 구성을 무시할 수 있습니다.</block>
+  <block id="c4a9d2577a7099266e1214d55f11cf0b" category="paragraph"><block ref="c4a9d2577a7099266e1214d55f11cf0b" category="inline-link-macro-rx"></block></block>
+  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">링크 생성을 위한 Terraform 지원</block>
+  <block id="19c03fb90a9425b9fecd16c7b0e03e4e" category="paragraph">이제 Codebox에서 Terraform을 사용하여 FSx for ONTAP 파일 시스템과의 연결을 위한 링크를 생성할 수 있습니다. 이 기능은 수동으로 링크를 만드는 사용자를 위한 것입니다.</block>
+  <block id="b1dfc57db13615cb83125300396102cb" category="section-title">저장소 절약 탐색을 위한 새로운 지역 지원</block>
+  <block id="dc2d48a6756b8920e1a0b103864fa0c3" category="paragraph">이제 다음과 같은 새로운 지역에서 Amazon Elastic Block Store(EBS), FSx for Windows File Server 및 Elastic File Systems(EFS)에 대한 절감을 탐색할 수 있습니다.</block>
+  <block id="8dbb07a18d46f63d8b3c8994d5ccc351" category="list-text">멕시코</block>
+  <block id="103357e3e40a9c0e4e9d36110f7bbc7a" category="list-text">태국</block>
+  <block id="743828d5c9c11b38d3dbbf76d787f497" category="section-title">SMB/CIFS 주식 생성 및 관리 기능 향상</block>
+  <block id="421075462886e558113f14b52fe22487" category="paragraph">이제 볼륨 내의 디렉토리를 가리키는 SMB/CIFS 공유를 만들 수 있습니다. 볼륨 내에서 어떤 공유가 있는지, 공유가 가리키는 곳은 어디인지, 특정 사용자와 그룹에 부여된 권한은 무엇인지 확인할 수 있습니다.</block>
+  <block id="4662a232249c09ca958781da08211b0c" category="paragraph">데이터 보호 볼륨의 경우, SMB/CIFS 공유를 생성하는 흐름에 이제 마운트 목적으로 볼륨에 대한 연결 경로를 생성하는 작업이 포함됩니다.</block>
+  <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">볼륨에 대한 CIFS 공유 만들기</block>
+  <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
+  <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025년 8월 3일</block>
 </blocks>
