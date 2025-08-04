@@ -47,22 +47,6 @@
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell은 ONTAP CLI 명령에 대한 AI에서 생성된 오류 응답을 보고합니다</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">사용 권한 용어가 업데이트되었습니다</block>
-  <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">향상된 채팅 모델 지원</block>
-  <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">GenAI는 이제 기술 자료에 대해 다음과 같은 추가 채팅 모델을 지원합니다.</block>
-  <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">미스트랄 AI 모델</block>
-  <block id="fffe8738239ad19b2e24fda4b92d99f8" category="list-text"><block ref="fffe8738239ad19b2e24fda4b92d99f8" category="inline-link-macro-rx"></block></block>
-  <block id="ac4754b088e15ec23e2e33942607b0db" category="inline-link-macro">Amazon Titan 텍스트 모델</block>
-  <block id="91b642108b49f539aef5f1e7e8429b9a" category="list-text"><block ref="91b642108b49f539aef5f1e7e8429b9a" category="inline-link-macro-rx"></block></block>
-  <block id="3e431ea8f1bf6f1b755d11be49ab7215" category="inline-link-macro">Meta Llama 모델</block>
-  <block id="957aa19111afb49cbdb72a75c11a7824" category="list-text"><block ref="957aa19111afb49cbdb72a75c11a7824" category="inline-link-macro-rx"></block></block>
-  <block id="025fda77b8ffb8c9e7812b66f625dcdb" category="inline-link-macro">Jamba 1.5 모델</block>
-  <block id="00be89811246b5f1554783fae811628a" category="list-text"><block ref="00be89811246b5f1554783fae811628a" category="inline-link-macro-rx"></block></block>
-  <block id="d5bedd5eb6b3c4a63a27527880abc5ae" category="inline-link-macro">COHERE 명령 모델</block>
-  <block id="01f2d137c910887f5780defdf71aa720" category="list-text"><block ref="01f2d137c910887f5780defdf71aa720" category="inline-link-macro-rx"></block></block>
-  <block id="7af238b1ae959fcc9ca0417cb2d5f9a7" category="inline-link-macro">Deepseek 모델</block>
-  <block id="96734ae1eb62df22f906e39314369633" category="list-text"><block ref="96734ae1eb62df22f906e39314369633" category="inline-link-macro-rx"></block></block>
-  <block id="dbc68fe7976455ff2b6f2e5143dfd308" category="inline-link-macro">아마존 Bedrock에서 기반 모델을 지원했습니다</block>
-  <block id="b198f4cca9409499187762bec5420672" category="paragraph">GenAI는 Amazon Bedrock이 지원하는 각 공급자의 모델을 지원합니다. <block ref="9f10081366e85554159ed4dc640b95c7" category="inline-link-macro-rx"></block></block>
   <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">CloudShell 자동 지원</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">BlueXP  워크로드 팩토리 CloudShell을 사용하는 경우 명령 입력을 시작하고 Tab 키를 눌러 사용 가능한 옵션을 볼 수 있습니다. 가능성이 여러 개인 경우 CLI에 제안 목록이 표시됩니다. 이 기능은 오류를 최소화하고 명령 실행 속도를 높여 생산성을 향상시킵니다.</block>
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">이 VMware용 BlueXP  워크로드 팩토리에는 Amazon EC2 마이그레이션 조언자 환경이 다음과 같이 개선되었습니다.</block>
@@ -84,10 +68,6 @@
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">이제 지식 기반에 사용할 특정 리랭커 모델을 선택하여 리랭킹된 쿼리 결과의 관련성을 높일 수 있습니다. GenAI는 Cohere Rerank 및 Amazon Rerank 모델을 지원합니다.</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025년 06월 03일</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">스토리지 대시보드 개선</block>
-  <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">Amazon Q Business용 NetApp 커넥터 지원</block>
-  <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">GenAI의 이번 릴리스에서는 Amazon Q Business용 NetApp Connector에 대한 지원이 도입되어 Amazon Q Business용 커넥터를 생성할 수 있습니다. Amazon Bedrock용 GenAI 지식 기반을 구축하는 것보다 초기 구성이 적은 Amazon Q Business AI Assistant를 빠르고 쉽게 활용할 수 있습니다.</block>
-  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Amazon Q Business용 NetApp 커넥터 만들기</block>
-  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">워크로드 팩토리 사용자 인터페이스와 문서에서는 이제 읽기 권한을 나타내는 데 "읽기 전용"을 사용하고 자동화 권한을 나타내는 데 "읽기/쓰기"를 사용합니다.</block>
   <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">문제 해결을 위한 새로운 잘 설계된 분석 및 지원</block>
   <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">FSx for ONTAP 파일 시스템에 대한 자동 용량 관리가 이제 잘 설계된 상태 대시보드의 구성 분석으로 포함되었습니다.</block>
@@ -230,4 +210,10 @@
   <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Amazon FSx for NetApp ONTAP 통해 데이터베이스 환경의 잠재적 비용 절감을 살펴보세요.</block>
   <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
   <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025년 8월 4일</block>
+  <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">구조화된 데이터 결과에 대한 안전한 저장</block>
+  <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">챗봇 쿼리 결과에 구조화된 데이터가 포함되어 있는 경우 GenAI는 해당 결과를 Amazon S3 버킷에 저장할 수 있습니다.  이러한 결과가 S3 버킷에 저장되면 채팅 세션 내의 다운로드 링크를 사용하여 다운로드할 수 있습니다.</block>
+  <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">MCP 서버 가용성</block>
+  <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp 이제 GenAI를 위한 BlueXP workload factory 와 함께 MCP(Model Context Protocol) 서버를 제공합니다.  서버를 로컬에 설치하여 외부 MCP 클라이언트가 GenAI 지식 기반에서 쿼리 결과를 검색하고 검색할 수 있도록 할 수 있습니다.</block>
+  <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetApp 워크로드 팩토리 GenAI MCP 서버</block>
+  <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
 </blocks>
