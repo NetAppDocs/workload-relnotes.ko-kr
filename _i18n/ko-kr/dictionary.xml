@@ -52,12 +52,6 @@
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">이 VMware용 BlueXP  워크로드 팩토리에는 Amazon EC2 마이그레이션 조언자 환경이 다음과 같이 개선되었습니다.</block>
   <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">* 데이터 소스로서의 NetApp 데이터 인프라 인사이트 *: 이제 워크로드 팩토리가 NetApp 데이터 인프라 통찰력과 직접 연결되어 EC2 마이그레이션 어드바이저 데이터 수집기를 사용할 때 VMware 배포 정보를 수집합니다.</block>
   <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025년 05월 04일</block>
-  <block id="938691193541892254da342a65418ef3" category="doc">PostgreSQL 및 Oracle 감지</block>
-  <block id="a35833d039b2504ef8c787b30e723967" category="paragraph">이제 워크로드 팩토리 콘솔에서 AWS 계정에서 PostgreSQL 서버 데이터베이스와 Oracle 데이터베이스 배포를 실행하는 인스턴스를 검색할 수 있습니다. 검색된 인스턴스는 데이터베이스 인벤토리에 표시됩니다.</block>
-  <block id="fd1fe4efcf471a552598d4396db84a26" category="section-title">업데이트된 "최적화" 용어</block>
-  <block id="a832a618559e9b6325bfe90eb3e86587" category="paragraph">이전에는 "최적화"라고 불렸던 워크로드 팩토리는 이제 "잘 설계된 문제"와 "잘 설계된 상태"를 사용하여 데이터베이스 구성 분석을 설명하고 "수정"을 사용하여 모범 사례 권장 사항을 충족하도록 데이터베이스 구성을 개선할 수 있는 기회를 수정하는 방법을 설명합니다.</block>
-  <block id="c551233916d554410ddca9f767142b1a" category="inline-link-macro">워크로드 팩토리의 데이터베이스 환경에 대한 구성 분석</block>
-  <block id="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="paragraph"><block ref="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="inline-link-macro-rx"></block></block>
   <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">인스턴스 관리</block>
   <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
   <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다</block>
@@ -110,8 +104,6 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">데이터베이스에 대한 사용 권한 업데이트</block>
   <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">다음 권한은 이제 데이터베이스에 대한 _읽기 전용_ 모드에서 사용 가능합니다. <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
   <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
-  <block id="a43e14359a13ff9144351ad74db7b351" category="section-title">인스턴스에 대한 향상된 온보딩</block>
-  <block id="af2ef84a7c6d5792c23eddfef4cc4ed9" category="paragraph">인스턴스 관리에 "감지되지 않음", "관리되지 않음" 또는 "관리됨"이라는 용어를 사용하는 대신, 워크로드 팩토리는 이제 인스턴스 온보딩에 "등록"을 사용합니다. 새로운 등록 프로세스에는 인스턴스 인증 및 준비가 포함되어 워크로드 팩토리 콘솔에서 데이터베이스 구성의 리소스를 생성, 모니터링, 분석 및 수정할 수 있습니다. 등록 프로세스의 준비 단계는 인스턴스가 관리할 준비가 되었는지 여부를 나타냅니다.</block>
   <block id="a10c281531128badfefa7086b353ead0" category="paragraph"><block ref="a10c281531128badfefa7086b353ead0" category="inline-link-macro-rx"></block></block>
   <block id="16608889ffd4210e3527b28d2cabeee1" category="paragraph">워크로드 팩토리 콘솔의 스토리지 대시보드에 새로운 절감 기회 카드가 추가되었습니다. 대시보드 상단의 카드는 Amazon Elastic Block Store(EBS), Amazon FSx for Windows File Server, Amazon Elastic File Systems(EFS)에서 실행되는 스토리지 환경에 대한 절감 기회 수를 대시보드 하단에는 Amazon 스토리지 서비스별 절감 기회(EBS, FSx for Windows File Server, EFS)를 표시하는 세 개의 새로운 카드가 추가되었습니다 모든 카드에서 절감 기회를 더 자세히 살펴볼 수 있습니다.</block>
   <block id="e2fc557edefb4b2854999f60dbd0d379" category="paragraph">FSx for ONTAP 보호 범위 카드와 복제 관계 상태 카드를 통해 FSx for ONTAP 파일 시스템에 부분적으로 보호된 볼륨이 있는지 확인하고 복제 관계 관련 문제를 조사할 수 있습니다. 두 경우 모두 문제 해결을 위한 조치를 취할 수 있습니다.</block>
@@ -216,4 +208,11 @@
   <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp 이제 GenAI를 위한 BlueXP workload factory 와 함께 MCP(Model Context Protocol) 서버를 제공합니다.  서버를 로컬에 설치하여 외부 MCP 클라이언트가 GenAI 지식 기반에서 쿼리 결과를 검색하고 검색할 수 있도록 할 수 있습니다.</block>
   <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetApp 워크로드 팩토리 GenAI MCP 서버</block>
   <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
+  <block id="22218c6d37412d25750364bd0d4047b5" category="doc">BlueXP backup and recovery 이제 Microsoft SQL Server 워크로드를 지원합니다.</block>
+  <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">BlueXP backup and recovery 사용하면 Microsoft SQL Server 데이터베이스와 가용성 그룹을 백업, 복원, 확인 및 복제할 수 있습니다. 워크로드 팩토리 콘솔에서 BlueXP backup and recovery 에 액세스하여 사용하여 Microsoft SQL Server 워크로드를 보호할 수 있습니다.</block>
+  <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">워크로드 팩토리 콘솔을 통해 Microsoft SQL Server 워크로드를 보호하는 방법을 알아보세요.</block>
+  <block id="479793fb579bc2de418f794ebb8ef29a" category="paragraph"><block ref="9a9685babd9ed5904e91ddba265de923" category="inline-link-macro-rx"></block> .</block>
+  <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">BlueXP backup and recovery 통한 Microsoft SQL 워크로드 보호 개요</block>
+  <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">BlueXP backup and recovery 에 대한 자세한 내용은 다음을 참조하세요.<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block> .</block>
+  <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025년 8월 12일</block>
 </blocks>
