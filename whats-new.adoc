@@ -15,6 +15,52 @@ BlueXP  워크로드 팩토리에 포함된 워크로드의 최근 변경사항
 
 
 
+== 2025년 9월 1일
+
+
+
+=== 데이터베이스 워크로드
+
+
+
+==== Agentic AI 기반 오류 로그 분석기
+
+Agentic AI 기반 오류 로그 분석기는 고급 머신 러닝 알고리즘을 활용하여 로그 파일의 오류를 자동으로 감지하고 분석하는 새로운 기능입니다. 이 도구는 로그에서 식별된 패턴을 기반으로 개발자에게 실행 가능한 통찰력과 권장 사항을 제공하여 문제 해결 프로세스를 간소화하는 것을 목표로 합니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Agentic AI 기반 오류 로그 분석기에 대해 자세히 알아보세요."]
+
+
+
+==== 오라클 지원
+
+Workload Factory에는 Oracle 데이터베이스에 대한 지원이 포함되어 있습니다. 워크로드 팩토리 콘솔에서는 인벤토리에서 Oracle 데이터베이스를 보고, 워크로드 팩토리의 고급 기능을 사용하기 위해 데이터베이스를 등록하고, 잘 설계된 기능을 사용하여 모범 사례에 맞춰 Oracle 데이터베이스를 분석할 수 있습니다. 잘 설계된 분석을 통해 Oracle 데이터베이스의 스토리지 구성이 최적화되었는지 확인할 수 있습니다. 이 정보를 사용하면 데이터베이스 배포에 대한 정보에 입각한 결정을 내리고 데이터베이스가 효율적으로 실행되는지 확인할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["워크로드 팩토리에서 잘 설계된 데이터베이스 구성을 구현합니다."]
+
+
+
+==== 2세대 FSx for ONTAP 파일 시스템에서 Microsoft SQL Server 배포 지원
+
+Workload Factory는 2세대 FSx for ONTAP 파일 시스템에서 Microsoft SQL Server 배포를 지원합니다. 이 향상된 기능을 사용하면 SQL Server 작업 부하를 관리하는 동시에 2세대 파일 시스템에서 제공되는 최신 기능과 성능 개선 사항을 활용할 수 있습니다.
+
+
+
+==== SQL Server 보호를 위한 Windows 인증
+
+Windows 자격 증명을 사용하여 Microsoft SQL Server 인스턴스를 인증하는 작업은 BlueXP backup and recovery 통해 Microsoft SQL Server 호스트를 보호하기 위한 워크플로에 포함되어 있습니다. 이 단계는 수동으로 완료해야 하는 필수 단계였습니다. 대신 Windows 자격 증명을 사용하여 워크로드 팩토리에 호스트를 등록하지 않은 경우 관리자 액세스 권한으로 Windows 자격 증명을 공유하라는 메시지가 표시됩니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["워크로드 팩토리 콘솔을 통해 Microsoft SQL Server 워크로드를 보호하는 방법을 알아보세요."] .
+
+
+
+==== 잘 설계된 분석에는 SQL Server에 대한 MTU 정렬이 포함됩니다.
+
+잘 설계된 분석은 FSx for ONTAP 스토리지의 Microsoft SQL Server에서 엔드포인트 간의 최대 전송 단위(MTU) 정렬 오류를 평가하고 수정합니다. MTU 설정을 맞추면 네트워크 성능을 최적화하고 SQL Server 작업 부하의 대기 시간을 줄이는 데 도움이 됩니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["워크로드 팩토리에서 잘 설계된 데이터베이스 구성을 구현합니다."]
+
+
+
 == 2025년 8월 12일
 
 
@@ -187,60 +233,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 NetApp 이제 GenAI를 위한 BlueXP workload factory 와 함께 MCP(Model Context Protocol) 서버를 제공합니다.  서버를 로컬에 설치하여 외부 MCP 클라이언트가 GenAI 지식 기반에서 쿼리 결과를 검색하고 검색할 수 있도록 할 수 있습니다.
 
 link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetApp 워크로드 팩토리 GenAI MCP 서버"^]
-
-
-
-== 2025년 06월 30일
-
-
-
-=== 데이터베이스 워크로드
-
-
-
-==== BlueXP 워크로드 팩토리 알림 서비스 지원
-
-BlueXP 워크로드 팩토리 알림 서비스를 사용하면 워크로드 팩토리가 BlueXP 알림 서비스 또는 Amazon SNS 주제로 알림을 전송할 수 있습니다. BlueXP 알림으로 전송된 알림은 BlueXP 알림 패널에 표시됩니다. 워크로드 팩토리가 Amazon SNS 주제에 알림을 게시하면 해당 주제 구독자(예: 사용자 또는 다른 애플리케이션)는 해당 주제에 대해 구성된 엔드포인트(예: 이메일 또는 SMS 메시지)에서 알림을 수신합니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP 워크로드 팩토리 알림 구성"^]
-
-Workload Factory는 데이터베이스에 대해 다음과 같은 알림을 제공합니다.
-
-* 잘 구성된 보고서
-* 호스트 배포
-
-
-
-
-==== 인스턴스 등록을 위한 온보딩 향상
-
-데이터베이스용 워크로드 팩토리는 Amazon FSx for NetApp ONTAP 스토리지에서 실행되는 인스턴스를 등록하는 온보딩 프로세스를 개선했습니다. 이제 등록할 인스턴스를 대량으로 선택할 수 있습니다. 인스턴스가 등록되면 워크로드 팩토리 콘솔에서 데이터베이스 리소스를 만들고 관리할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["인스턴스 관리"]
-
-
-
-==== Microsoft Multipath I/O 시간 초과 설정에 대한 분석 및 수정
-
-이제 데이터베이스 인스턴스의 잘 설계된 상태에는 Microsoft Multipath I/O(MPIO) 시간 초과 설정에 대한 분석 및 수정 사항이 포함됩니다. MPIO 시간 제한을 60초로 설정하면 FSx for ONTAP 스토리지 연결 및 장애 조치(failover) 중 안정성이 보장됩니다. MPIO 설정이 제대로 설정되지 않은 경우, Workload Factory에서 MPIO 시간 제한 값을 60초로 설정하는 수정 사항을 제공합니다.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["워크로드 팩토리에서 잘 설계된 데이터베이스 구성을 구현합니다."]
-
-
-
-==== 인스턴스 인벤토리의 그래픽 향상
-
-인스턴스 인벤토리 화면에서 처리량, IOPS 등 다양한 리소스 활용도 그래프가 이제 7일치 데이터를 표시하므로 워크로드 팩토리 콘솔에서 SQL 노드의 성능을 보다 효율적으로 모니터링할 수 있습니다. SQL 노드에서 수집된 성능 지표는 Amazon CloudWatch에 저장되어 Logs Insights에 활용하거나 환경의 다른 분석 서비스와 통합할 수 있습니다.
-
-인벤토리 내의 인스턴스 및 데이터베이스 탭에서 보호에 대한 설명과 시각화를 개선했습니다.
-
-
-
-==== 워크로드 팩토리에서 Windows 인증 지원
-
-이제 워크로드 팩토리는 Windows 인증 사용자를 사용하여 인스턴스를 등록하고 관리 기능의 이점을 활용하는 SQL Server 인증을 지원합니다.
-
-link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["데이터베이스의 워크로드 팩토리에 인스턴스 등록"]
 
 
 
