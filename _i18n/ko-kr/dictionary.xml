@@ -61,19 +61,6 @@
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025년 06월 03일</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">스토리지 대시보드 개선</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">워크로드 팩토리 사용자 인터페이스와 문서에서는 이제 읽기 권한을 나타내는 데 "읽기 전용"을 사용하고 자동화 권한을 나타내는 데 "읽기/쓰기"를 사용합니다.</block>
-  <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">문제 해결을 위한 새로운 잘 설계된 분석 및 지원</block>
-  <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">FSx for ONTAP 파일 시스템에 대한 자동 용량 관리가 이제 잘 설계된 상태 대시보드의 구성 분석으로 포함되었습니다.</block>
-  <block id="5a5b21f778da0dbaf4794873b0deb067" category="paragraph">또한, 워크로드 팩토리는 이제 다음과 같은 구성 문제를 해결하는 기능을 지원합니다.</block>
-  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="list-text">SSD 용량 임계값입니다</block>
-  <block id="396928510e06818ef017921022cce2af" category="list-text">데이터 계층화</block>
-  <block id="aff279b636a9024db3b44375d88e80eb" category="list-text">예약된 로컬 스냅샷</block>
-  <block id="667bda9d5b08fe1666f3fe061ce424aa" category="list-text">ONTAP 백업을 위한 FSx</block>
-  <block id="887673b402c7bbc141e56321e277605f" category="list-text">원격 데이터 복제</block>
-  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">스토리지 효율성</block>
-  <block id="f2be69b635c39988351f6636a52c66bd" category="list-text">자동 용량 관리</block>
-  <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">구성 문제 해결</block>
-  <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
-  <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025년 06월 08일</block>
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">빌더 워크로드 초기 릴리즈</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">Builders용 BlueXP  워크로드 팩토리에서는 소프트웨어 버전 사용 및 액세스를 간소화하여 사용자 지정 툴이나 스크립트가 필요하지 않습니다. 소프트웨어 버전을 Perforce Helix Core와 통합된 즉각적인 클론으로 사용하여 개발 프로세스를 위한 편리한 작업 공간으로서 시간과 리소스를 절약할 수 있습니다.</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">초기 릴리스에는 프로젝트 및 작업 영역을 관리하고 Codebox를 사용하여 작업을 자동화하는 기능이 포함되어 있습니다. 또한 Builders를 Perforce Helix Core와 통합하여 각 프로젝트의 다양한 버전을 관리하고 프로젝트 간에 신속하게 전환할 수 있습니다.</block>
@@ -211,4 +198,29 @@
   <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">잘 설계된 분석에는 SQL Server에 대한 MTU 정렬이 포함됩니다.</block>
   <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">잘 설계된 분석은 FSx for ONTAP 스토리지의 Microsoft SQL Server에서 엔드포인트 간의 최대 전송 단위(MTU) 정렬 오류를 평가하고 수정합니다. MTU 설정을 맞추면 네트워크 성능을 최적화하고 SQL Server 작업 부하의 대기 시간을 줄이는 데 도움이 됩니다.</block>
   <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">2025년 9월 1일</block>
+  <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">저장소 인벤토리 보고서 개선</block>
+  <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템에 대해 보고되는 데이터를 향상시켰습니다. FSx for ONTAP 인벤토리 페이지에서 다운로드할 수 있는 보고서에는 다음과 같은 새로운 열이 포함되어 있습니다.</block>
+  <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">사용된 SSD: 사용된 SSD 용량 값을 보여줍니다.</block>
+  <block id="a1a4ea0fabd62225adb4786dd703d1a7" category="list-text">SSD 사용률: 사용 중인 SSD 용량의 백분율을 보여줍니다.</block>
+  <block id="c016cb9916988a0ea698d070fd6b702a" category="list-text">처리량 활용도: 지난 30일 동안의 평균 및 최대 활용도를 보여줍니다.</block>
+  <block id="197af635c10bcbf35ba56184f54cb088" category="list-text">IO 사용률: 지난 30일 동안의 평균 및 최대 IO 사용률을 보여줍니다.</block>
+  <block id="92bce71ffaebc031ec78d565e6ad7032" category="list-text">CPU 사용률: 지난 30일 동안의 평균 및 최대 CPU 사용률을 보여줍니다.</block>
+  <block id="95851c89a4d869fdb94916625564bb6c" category="section-title">스냅샷 관리 향상</block>
+  <block id="fbb3322fb25c1109310e7be3bcc20fd5" category="paragraph">Workload Factory에서는 볼륨 스냅샷 세부 정보를 보고 볼륨 스냅샷을 관리하기 위해 여러 가지 기능이 향상되었습니다. 이러한 향상된 기능을 통해 스냅샷 상태를 더 쉽게 파악하고 데이터를 보호할 수 있습니다.</block>
+  <block id="3ecb130f0ffe2d8e485cb11c629b90b5" category="inline-image-macro">기본 작업과 볼륨 세부 정보를 볼 수 있는 FSx for ONTAP 볼륨 메뉴를 보여주는 스크린샷입니다.</block>
+  <block id="d26eb7e0d00b2e5069d790d2b9be49ba" category="paragraph"><block ref="d26eb7e0d00b2e5069d790d2b9be49ba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb34ab44253ae9c736786f23dc173879" category="paragraph">추가 항목은 보호 탭의 볼륨 세부 정보에 나타납니다.</block>
+  <block id="6d4b26be686dd37e202e23010a22bf04" category="list-text">스냅샷 정책 이름</block>
+  <block id="a81cec6ec43470b1419a033e0457112d" category="list-text">스냅샷 공간 예약</block>
+  <block id="c04d4554f0391d80036dceaa0e930ee2" category="list-text">스냅샷 공간 예약 용량</block>
+  <block id="06fd2134099fd30808caa961b2bc9b21" category="inline-image-macro">보호 탭이 열려 있는 FSx for ONTAP 볼륨 세부 정보를 보여주는 스크린샷입니다.</block>
+  <block id="b52491919b24cba6fd1efad7447c7798" category="paragraph"><block ref="b52491919b24cba6fd1efad7447c7798" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e987130d3b26cda391ff2f1e5149f444" category="paragraph">새로운 스냅샷 관리 화면은 볼륨에서 접근할 수 있으며, 볼륨의 스냅샷 정책에 대한 정보를 제공하고 모든 볼륨 스냅샷이 포함된 표가 포함되어 있습니다. 표에는 다음과 같은 스냅샷 세부 정보가 표시됩니다. 생성 시간, 크기, 만료 시간, 변경 불가능한 스냅샷 보호 및 레이블. 관리 화면에서 볼륨의 스냅샷 정책을 변경하고, 스냅샷을 수동으로 생성하고, 스냅샷을 편집, 액세스, 복원, 삭제할 수 있습니다.</block>
+  <block id="ad8f55b88a50703984e58a23e36e9026" category="inline-image-macro">스냅샷 관리 화면을 보여주는 스크린샷입니다.</block>
+  <block id="404a59509c6a806310ecbd1d601e0ee6" category="paragraph"><block ref="404a59509c6a806310ecbd1d601e0ee6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSD 저장 용량 감소 가능</block>
+  <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">Workload Factory는 1세대 및 2세대 파일 시스템의 SSD(솔리드 스테이트 드라이브) 용량을 줄이는 것을 지원합니다. 탄력적인 파일 시스템 용량을 사용하면 작업 부하 요구 사항에 맞게 파일 시스템 용량을 동적으로 조정할 수 있습니다.</block>
+  <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">파일 시스템 용량 조정</block>
+  <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
+  <block id="a68e5a2143abf532b515a7b3b1734351" category="section-title">2025년 9월 9일</block>
 </blocks>
