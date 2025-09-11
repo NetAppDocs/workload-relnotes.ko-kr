@@ -26,50 +26,20 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI 워크로드</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">설정 및 관리</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 워크로드</block>
-  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">마이그레이션 관리자를 사용하여 Amazon EC2에 대한 배포 계획을 생성합니다</block>
-  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">BlueXP  워크로드 팩토리에 포함된 워크로드의 최근 변경사항에 대해 알아보십시오.</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  워크로드 팩토리의 최근 변경사항</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">이 릴리즈 노트에서는 BlueXP  워크로드 팩토리에 포함된 클라우드 서비스의 최근 개선사항에 대해 설명합니다.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  워크로드 공장 릴리스 노트</block>
-  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2 마이그레이션 어드바이저 개선 사항</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  워크로드 공장</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">CloudShell을 사용합니다</block>
-  <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">권한 참조 변경 로그</block>
-  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">CloudShell을 사용할 경우 ONTAP CLI 명령을 실행하고 오류가 발생할 때마다 실패 설명, 장애 원인, 상세한 해결 방법 등을 통해 AI에서 생성된 오류에 대한 응답을 받을 수 있습니다.</block>
-  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM: SimulatePermissionPolicy 권한 업데이트</block>
-  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">이제 AWS 계정 자격 증명을 추가하거나 GenAI 워크로드와 같은 새로운 워크로드 기능을 추가할 때 워크로드 팩토리 콘솔에서 권한을 관리할 수 있습니다<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
-  <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025년 03월 30일</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">GenAI 기술 자료를 만듭니다</block>
-  <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell은 ONTAP CLI 명령에 대한 AI에서 생성된 오류 응답을 보고합니다</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">사용 권한 용어가 업데이트되었습니다</block>
-  <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">CloudShell 자동 지원</block>
-  <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">BlueXP  워크로드 팩토리 CloudShell을 사용하는 경우 명령 입력을 시작하고 Tab 키를 눌러 사용 가능한 옵션을 볼 수 있습니다. 가능성이 여러 개인 경우 CLI에 제안 목록이 표시됩니다. 이 기능은 오류를 최소화하고 명령 실행 속도를 높여 생산성을 향상시킵니다.</block>
-  <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">이 VMware용 BlueXP  워크로드 팩토리에는 Amazon EC2 마이그레이션 조언자 환경이 다음과 같이 개선되었습니다.</block>
-  <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">* 데이터 소스로서의 NetApp 데이터 인프라 인사이트 *: 이제 워크로드 팩토리가 NetApp 데이터 인프라 통찰력과 직접 연결되어 EC2 마이그레이션 어드바이저 데이터 수집기를 사용할 때 VMware 배포 정보를 수집합니다.</block>
-  <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025년 05월 04일</block>
-  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">추적기를 사용하여 작업을 모니터링하고 추적할 수 있습니다</block>
-  <block id="8daed4c7913162875cceb19ef5e0bf4c" category="paragraph">GenAI에서 Tracker 모니터링 기능을 사용할 수 있습니다. Tracker를 사용하면 보류 중, 진행 중 및 완료된 작업의 진행 상황과 상태를 모니터링 및 추적하고, 작업 및 하위 작업의 세부 정보를 검토하고, 문제나 오류를 진단하고, 실패한 작업의 매개변수를 편집하고, 실패한 작업을 다시 시도할 수 있습니다.</block>
-  <block id="27e9b8493c313885af8902ac1ae67e24" category="inline-link-macro">BlueXP 워크로드 팩토리의 Tracker를 사용하여 워크로드 작업을 모니터링합니다.</block>
-  <block id="6cfb11211ef97bba3b2359a766b22994" category="paragraph"><block ref="6cfb11211ef97bba3b2359a766b22994" category="inline-link-macro-rx"></block></block>
-  <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">지식 기반에 대한 재순위 모델을 선택하세요</block>
-  <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">이제 지식 기반에 사용할 특정 리랭커 모델을 선택하여 리랭킹된 쿼리 결과의 관련성을 높일 수 있습니다. GenAI는 Cohere Rerank 및 Amazon Rerank 모델을 지원합니다.</block>
-  <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025년 06월 03일</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">스토리지 대시보드 개선</block>
-  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">워크로드 팩토리 사용자 인터페이스와 문서에서는 이제 읽기 권한을 나타내는 데 "읽기 전용"을 사용하고 자동화 권한을 나타내는 데 "읽기/쓰기"를 사용합니다.</block>
-  <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">빌더 워크로드 초기 릴리즈</block>
-  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">Builders용 BlueXP  워크로드 팩토리에서는 소프트웨어 버전 사용 및 액세스를 간소화하여 사용자 지정 툴이나 스크립트가 필요하지 않습니다. 소프트웨어 버전을 Perforce Helix Core와 통합된 즉각적인 클론으로 사용하여 개발 프로세스를 위한 편리한 작업 공간으로서 시간과 리소스를 절약할 수 있습니다.</block>
-  <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">초기 릴리스에는 프로젝트 및 작업 영역을 관리하고 Codebox를 사용하여 작업을 자동화하는 기능이 포함되어 있습니다. 또한 Builders를 Perforce Helix Core와 통합하여 각 프로젝트의 다양한 버전을 관리하고 프로젝트 간에 신속하게 전환할 수 있습니다.</block>
-  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024년 12월 01일</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">클론 지원</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">이제 Builders용 BlueXP 워크로드 팩토리에서 프로젝트를 복제할 수 있습니다. 프로젝트를 복제하면 Builders는 스냅샷에서 원본과 동일한 구성으로 새 프로젝트를 생성합니다. 복제는 유사한 프로젝트를 빠르게 생성하거나 테스트 목적으로 사용할 때 유용합니다. Builders의 지침에 따라 새 프로젝트 복제본을 마운트할 수 있습니다.</block>
   <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Builders 프로젝트를 위한 BlueXP 워크로드 팩토리 버전 관리</block>
   <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
-  <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">2025년 06월 16일</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">빌더 작업량</block>
   <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">일반 NFS/SMB 파일 시스템에 호스팅된 데이터 소스 지원</block>
   <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">이제 일반 SMB 또는 NFS 공유에서 데이터 소스를 추가할 수 있습니다. 이를 통해 Amazon FSx for NetApp ONTAP 이외의 파일 시스템에서 호스팅되는 볼륨에 저장된 파일을 포함할 수 있습니다.</block>
@@ -81,7 +51,6 @@
   <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">VMware용 BlueXP 워크로드 팩토리가 이제 Amazon Elastic VMware Service를 지원합니다. 마이그레이션 어드바이저를 사용하여 온프레미스 VMware 워크로드를 Amazon Elastic VMware Service로 신속하게 마이그레이션하여 비용을 최적화하고 애플리케이션을 리팩토링하거나 플랫폼을 재구축할 필요 없이 VMware 환경을 더욱 효과적으로 제어할 수 있습니다.</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">마이그레이션 어드바이저를 사용하여 Amazon EVS에 대한 배포 계획을 만듭니다.</block>
   <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
-  <block id="32d7d361955b5f8cb1cd26f6803b7d7d" category="section-title">2025년 06월 29일</block>
   <block id="64c17706e0528a5c44c7beee628cc101" category="doc">BlueXP 워크로드 팩토리 알림 서비스 지원</block>
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">BlueXP 워크로드 팩토리 알림 서비스를 사용하면 워크로드 팩토리가 BlueXP 알림 서비스 또는 Amazon SNS 주제로 알림을 전송할 수 있습니다. BlueXP 알림으로 전송된 알림은 BlueXP 알림 패널에 표시됩니다. 워크로드 팩토리가 Amazon SNS 주제에 알림을 게시하면 해당 주제 구독자(예: 사용자 또는 다른 애플리케이션)는 해당 주제에 대해 구성된 엔드포인트(예: 이메일 또는 SMS 메시지)에서 알림을 수신합니다.</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">BlueXP 워크로드 팩토리 알림 구성</block>
@@ -154,7 +123,6 @@
   <block id="4662a232249c09ca958781da08211b0c" category="paragraph">데이터 보호 볼륨의 경우, SMB/CIFS 공유를 생성하는 흐름에 이제 마운트 목적으로 볼륨에 대한 연결 경로를 생성하는 작업이 포함됩니다.</block>
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">볼륨에 대한 CIFS 공유 만들기</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
-  <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025년 8월 3일</block>
   <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">Amazon Elastic VMWare Service에 대한 향상된 마이그레이션 어드바이저 지원</block>
   <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Amazon Elastic VMware Service 마이그레이션 어드바이저는 이제 Amazon FSx for NetApp ONTAP 파일 시스템의 자동 배포 및 마운트를 지원합니다. 이를 통해 Amazon EVS 환경으로의 마이그레이션이 완료되면 FSx for ONTAP 파일 시스템에 VM 배포를 시작할 수 있습니다.</block>
   <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">Amazon Elastic VMware Service로 마이그레이션 시 비용 절감 계산</block>
@@ -171,7 +139,6 @@
   <block id="3035f336d9539562dbf5355f26c10a4f" category="paragraph">때<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> 사용자에게 Microsoft SQL Server에 대한 충분한 권한이 없는 경우 SQL Server 자격 증명으로 인증하거나 누락된 SQL Server 권한을 추가할 수 있습니다.<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> .</block>
   <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Amazon FSx for NetApp ONTAP 통해 데이터베이스 환경의 잠재적 비용 절감을 살펴보세요.</block>
   <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
-  <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025년 8월 4일</block>
   <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">구조화된 데이터 결과에 대한 안전한 저장</block>
   <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">챗봇 쿼리 결과에 구조화된 데이터가 포함되어 있는 경우 GenAI는 해당 결과를 Amazon S3 버킷에 저장할 수 있습니다.  이러한 결과가 S3 버킷에 저장되면 채팅 세션 내의 다운로드 링크를 사용하여 다운로드할 수 있습니다.</block>
   <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">MCP 서버 가용성</block>
@@ -182,7 +149,6 @@
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">워크로드 팩토리 콘솔을 통해 Microsoft SQL Server 워크로드를 보호하는 방법을 알아보세요.</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">BlueXP backup and recovery 통한 Microsoft SQL 워크로드 보호 개요</block>
   <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">BlueXP backup and recovery 에 대한 자세한 내용은 다음을 참조하세요.<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block> .</block>
-  <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025년 8월 12일</block>
   <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> .</block>
   <block id="1d7888e9a7739b1a3282310704484ae5" category="doc">BlueXP backup and recovery 이제 Microsoft SQL Server 워크로드를 지원합니다.</block>
   <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Agentic AI 기반 오류 로그 분석기</block>
@@ -197,7 +163,6 @@
   <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">Windows 자격 증명을 사용하여 Microsoft SQL Server 인스턴스를 인증하는 작업은 BlueXP backup and recovery 통해 Microsoft SQL Server 호스트를 보호하기 위한 워크플로에 포함되어 있습니다. 이 단계는 수동으로 완료해야 하는 필수 단계였습니다. 대신 Windows 자격 증명을 사용하여 워크로드 팩토리에 호스트를 등록하지 않은 경우 관리자 액세스 권한으로 Windows 자격 증명을 공유하라는 메시지가 표시됩니다.</block>
   <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">잘 설계된 분석에는 SQL Server에 대한 MTU 정렬이 포함됩니다.</block>
   <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">잘 설계된 분석은 FSx for ONTAP 스토리지의 Microsoft SQL Server에서 엔드포인트 간의 최대 전송 단위(MTU) 정렬 오류를 평가하고 수정합니다. MTU 설정을 맞추면 네트워크 성능을 최적화하고 SQL Server 작업 부하의 대기 시간을 줄이는 데 도움이 됩니다.</block>
-  <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">2025년 9월 1일</block>
   <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">저장소 인벤토리 보고서 개선</block>
   <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템에 대해 보고되는 데이터를 향상시켰습니다. FSx for ONTAP 인벤토리 페이지에서 다운로드할 수 있는 보고서에는 다음과 같은 새로운 열이 포함되어 있습니다.</block>
   <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">사용된 SSD: 사용된 SSD 용량 값을 보여줍니다.</block>
@@ -222,5 +187,28 @@
   <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">Workload Factory는 1세대 및 2세대 파일 시스템의 SSD(솔리드 스테이트 드라이브) 용량을 줄이는 것을 지원합니다. 탄력적인 파일 시스템 용량을 사용하면 작업 부하 요구 사항에 맞게 파일 시스템 용량을 동적으로 조정할 수 있습니다.</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">파일 시스템 용량 조정</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="a68e5a2143abf532b515a7b3b1734351" category="section-title">2025년 9월 9일</block>
+  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">Workload Factory는 데이터베이스에 대해 다음과 같은 알림을 제공합니다.</block>
+  <block id="33e3371223dba19c723617802e06af8d" category="list-text">잘 구성된 보고서</block>
+  <block id="d415d128365eca1587931ed756de7819" category="list-text">호스트 배포</block>
+  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">인스턴스 등록을 위한 온보딩 향상</block>
+  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">데이터베이스용 워크로드 팩토리는 Amazon FSx for NetApp ONTAP 에서 실행되는 인스턴스를 등록하기 위한 온보딩 프로세스를 개선했습니다.  이제 등록을 위해 대량으로 인스턴스를 선택할 수 있습니다.  인스턴스가 등록되면 워크로드 팩토리 콘솔에서 데이터베이스 리소스를 만들고 관리할 수 있습니다.</block>
+  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">인스턴스 관리</block>
+  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
+  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft Multipath I/O 시간 초과 설정에 대한 분석 및 수정</block>
+  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">이제 데이터베이스 인스턴스의 잘 설계된 상태에는 Microsoft Multipath I/O(MPIO) 시간 초과 설정에 대한 분석 및 수정 사항이 포함됩니다.  MPIO 시간 초과를 60초로 설정하면 장애 조치 중에 FSx for ONTAP 스토리지 연결과 안정성이 보장됩니다.  MPIO 설정이 제대로 설정되지 않으면 워크로드 팩토리에서 MPIO 시간 초과 값을 60초로 설정하는 수정 사항을 제공합니다.</block>
+  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">인스턴스 인벤토리의 그래픽 향상</block>
+  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">인스턴스 인벤토리 화면에서 처리량, IOPS 등 다양한 리소스 활용도 그래프가 이제 7일치 데이터를 표시하므로 워크로드 팩토리 콘솔에서 SQL 노드의 성능을 보다 효율적으로 모니터링할 수 있습니다.  SQL 노드에서 수집된 성능 지표는 Amazon CloudWatch에 저장되며, 이를 Logs Insights에 사용하거나 사용자 환경의 다른 분석 서비스와 통합하는 데 사용할 수 있습니다.</block>
+  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">인벤토리 내의 인스턴스 및 데이터베이스 탭에서 보호에 대한 설명과 시각화를 개선했습니다.</block>
+  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">워크로드 팩토리에서 Windows 인증 지원</block>
+  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">이제 워크로드 팩토리는 Windows 인증 사용자를 사용하여 인스턴스를 등록하고 관리 기능의 이점을 활용하는 SQL Server 인증을 지원합니다.</block>
+  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">데이터베이스의 워크로드 팩토리에 인스턴스 등록</block>
+  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
+  <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025년 9월 9일</block>
+  <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">2025년 9월 1일</block>
+  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025년 8월 12일</block>
+  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">2025년 8월 4일</block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025년 8월 3일</block>
+  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025년 6월 30일</block>
+  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025년 6월 29일</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025년 6월 16일</block>
 </blocks>
