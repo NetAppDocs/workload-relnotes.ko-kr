@@ -36,10 +36,6 @@
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">GenAI 기술 자료를 만듭니다</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">스토리지 대시보드 개선</block>
-  <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">클론 지원</block>
-  <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">이제 Builders용 BlueXP 워크로드 팩토리에서 프로젝트를 복제할 수 있습니다. 프로젝트를 복제하면 Builders는 스냅샷에서 원본과 동일한 구성으로 새 프로젝트를 생성합니다. 복제는 유사한 프로젝트를 빠르게 생성하거나 테스트 목적으로 사용할 때 유용합니다. Builders의 지침에 따라 새 프로젝트 복제본을 마운트할 수 있습니다.</block>
-  <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Builders 프로젝트를 위한 BlueXP 워크로드 팩토리 버전 관리</block>
-  <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">빌더 작업량</block>
   <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">일반 NFS/SMB 파일 시스템에 호스팅된 데이터 소스 지원</block>
   <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">이제 일반 SMB 또는 NFS 공유에서 데이터 소스를 추가할 수 있습니다. 이를 통해 Amazon FSx for NetApp ONTAP 이외의 파일 시스템에서 호스팅되는 볼륨에 저장된 파일을 포함할 수 있습니다.</block>
@@ -184,7 +180,6 @@
   <block id="ad8f55b88a50703984e58a23e36e9026" category="inline-image-macro">스냅샷 관리 화면을 보여주는 스크린샷입니다.</block>
   <block id="404a59509c6a806310ecbd1d601e0ee6" category="paragraph"><block ref="404a59509c6a806310ecbd1d601e0ee6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSD 저장 용량 감소 가능</block>
-  <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">Workload Factory는 1세대 및 2세대 파일 시스템의 SSD(솔리드 스테이트 드라이브) 용량을 줄이는 것을 지원합니다. 탄력적인 파일 시스템 용량을 사용하면 작업 부하 요구 사항에 맞게 파일 시스템 용량을 동적으로 조정할 수 있습니다.</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">파일 시스템 용량 조정</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
   <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">Workload Factory는 데이터베이스에 대해 다음과 같은 알림을 제공합니다.</block>
@@ -210,5 +205,5 @@
   <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025년 8월 3일</block>
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025년 6월 30일</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025년 6월 29일</block>
-  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025년 6월 16일</block>
+  <block id="edfbca9622799a953a48987a288fe283" category="paragraph">Workload Factory는 2세대 파일 시스템의 SSD(솔리드 스테이트 드라이브) 용량을 줄이는 것을 지원합니다. 탄력적인 파일 시스템 용량을 사용하면 작업 부하 요구 사항에 맞게 파일 시스템 용량을 동적으로 조정할 수 있습니다.</block>
 </blocks>
