@@ -1,0 +1,49 @@
+= BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.
+:allow-uri-read: 
+
+
+
+
+=== BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.
+
+BlueXP 데이터 인프라 관리에 있어서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다. 결과적으로 BlueXP workload factory NetApp 워크로드 팩토리로 이름이 변경되었습니다.
+
+
+
+=== Workload Factory 콘솔의 Oracle 향상 기능
+
+
+
+==== Oracle 데이터베이스 리소스 화면
+
+각 Oracle 데이터베이스에는 데이터베이스 인벤토리에서 사용할 수 있는 전용 리소스 화면이 있습니다. 리소스 화면은 데이터베이스 이름, 상태(온라인 또는 오프라인), 테넌시, 배포 유형에 대한 개요를 제공합니다. 또한 3개월 기간 동안의 CPU 사용률, 지연 시간, IOPS 및 처리량에 대한 데이터가 포함된 차트도 포함되어 있습니다. 용량 활용도는 데이터베이스의 총 크기, 기록된 데이터 크기, 사용된 솔리드 스테이트 드라이브 용량, 사용된 용량 풀 스토리지를 제공합니다.
+
+리소스 화면에서 Oracle 서버(배포 모델, OS, 에디션, 버전 등), 위치(AWS 계정, 지역, 가용성 영역 및 서브넷), 스토리지 및 컴퓨팅(FSx for ONTAP 파일 시스템 세부 정보, 데이터베이스 인스턴스 유형 및 연결된 LUN과 볼륨), 연결(VPC 및 액세스 프로토콜)에 대한 정보를 볼 수 있습니다. 또한 데이터베이스 구성의 잘 설계된 상태를 확인하고 데이터베이스와 연관된 플러그형 데이터베이스(PDB)를 볼 수도 있습니다.
+
+
+
+==== Oracle 플러그 가능 데이터베이스 지원
+
+Oracle 플러그 가능 데이터베이스는 데이터베이스 인벤토리와 부모 컨테이너 데이터베이스의 리소스 화면에서 볼 수 있습니다. PDB에 대한 다음 정보를 사용할 수 있습니다: CDB 이름, 호스트 이름, 보호 상태, 데이터베이스 크기, FSx for ONTAP 파일 시스템, AWS 자격 증명, AWS 계정 및 지역.
+
+
+
+==== Oracle을 위한 잘 설계된 분석
+
+잘 설계된 분석에는 NFS 또는 ASM(자동 스토리지 관리)이 있거나 없는 iSCSI를 통한 Oracle 데이터베이스의 스토리지 레이아웃 구성 문제와 iSCSI LUN을 통한 Oracle 운영 체제의 스토리지 구성 문제에 대한 평가가 포함됩니다. 이 정보를 사용하면 데이터베이스 배포에 대한 정보에 입각한 결정을 내리고 데이터베이스가 효율적으로 실행되는지 확인할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다."]
+
+
+
+=== 데이터베이스 인벤토리 향상
+
+데이터베이스 인벤토리의 인스턴스 화면에서는 Microsoft SQL Server의 단일 또는 여러 인스턴스나 Oracle의 단일 또는 여러 데이터베이스에 대한 구성 문제를 수정, 연기 및 해제하는 옵션을 사용할 수 있습니다.
+
+
+
+=== Amazon Elastic Block Store(EBS)의 스토리지 계산기에서 비용 절감을 최적화하세요.
+
+Workload Factory는 EBS 성능 사용량을 분석한 후 가장 적합하고 비용 효율적인 FSx for ONTAP 구성을 제안해 FSx for ONTAP 으로 전환하면 더 많은 비용을 절감할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Workload Factory 콘솔에서 감지된 스토리지 환경에 대한 절감 효과를 살펴보세요."]

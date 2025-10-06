@@ -72,7 +72,6 @@
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">볼륨에 대한 CIFS 공유 만들기</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
   <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">Amazon Elastic VMWare Service에 대한 향상된 마이그레이션 어드바이저 지원</block>
-  <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Amazon Elastic VMware Service 마이그레이션 어드바이저는 이제 Amazon FSx for NetApp ONTAP 파일 시스템의 자동 배포 및 마운트를 지원합니다. 이를 통해 Amazon EVS 환경으로의 마이그레이션이 완료되면 FSx for ONTAP 파일 시스템에 VM 배포를 시작할 수 있습니다.</block>
   <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">Amazon Elastic VMware Service로 마이그레이션 시 비용 절감 계산</block>
   <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">이제 VMware 워크로드를 Amazon Elastic VMware Service(EVS)로 마이그레이션하여 얻을 수 있는 잠재적인 비용 절감 효과를 살펴보실 수 있습니다. 절감 계산기를 사용하면 기본 스토리지로 Amazon FSx for NetApp ONTAP 사용하거나 사용하지 않고 Amazon EVS를 사용할 때의 비용을 비교할 수 있습니다. 계산기는 환경 특성을 조정하면서 잠재적인 절감액을 실시간으로 표시합니다.</block>
   <block id="65bff5c812b0782e85c3554a907e01d2" category="doc">잘 설계된 분석에는 고가용성 클러스터 검증이 포함됩니다.</block>
@@ -159,7 +158,6 @@
   <block id="041a7335d4bfbe01ea8a2d2f780732b6" category="inline-link">BlueXP Workload Factory를 통해 Amazon Elastic VMware Service에 대한 절감 혜택을 살펴보세요</block>
   <block id="1a1b8cfea3181a2937851fe76b4862d4" category="paragraph"><block ref="1a1b8cfea3181a2937851fe76b4862d4" category="inline-link-rx"></block></block>
   <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link-macro">커넥터에 데이터 소스 추가</block>
-  <block id="b77ed2f5662201a26b98b92e98329049" category="section-title">VMware 워크로드 계획 센터 소개</block>
   <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">VMware 워크로드 계획 센터를 사용하면 한 곳에서 VM 인벤토리와 마이그레이션 계획을 보고 관리할 수 있습니다. 다양한 환경에서 여러 VM 인벤토리를 업로드하고 저장할 수 있으며, 그 중 하나를 AWS EC2 또는 Amazon Elastic VMware 서비스로 마이그레이션할 계획을 세울 수 있습니다. AWS EC2 또는 EVS 마이그레이션 계획을 만들고 저장할 수도 있습니다.</block>
   <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">VMware 워크로드 계획 센터 탐색</block>
   <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
@@ -191,4 +189,22 @@
   <block id="f484540569100bc3d0403ccb87d3a713" category="paragraph"><block ref="f484540569100bc3d0403ccb87d3a713" category="inline-link-macro-rx"></block></block>
   <block id="872ee1a2a3a499ce76f0f789c2151656" category="section-title">변경 불가능한 파일은 권한 있는 삭제를 지원합니다.</block>
   <block id="0a7266fd80158c418fbcd6837ec4dbe0" category="paragraph">이 기능을 사용하면 FSx for ONTAP 파일 시스템에서 변경 불가능한 파일에 대한 권한 있는 삭제 액세스를 구성할 수 있습니다. 이를 통해 중요한 데이터가 실수로 또는 악의적으로 삭제되는 것을 방지하는 동시에, 권한이 있는 사용자가 잠금을 해제하고 필요에 따라 해당 파일을 삭제할 수 있습니다. 볼륨 생성 중이나 기존 볼륨에 대해 권한 있는 삭제를 활성화할 수 있습니다.</block>
+  <block id="dcf522fe0928ea448e17a8ccb7b14d76" category="paragraph">NetApp Workload Factory는 이제 Amazon FSx for NetApp ONTAP 파일 시스템의 자동 배포 및 마운트를 지원합니다. 이를 통해 Amazon EVS 환경으로의 마이그레이션이 완료되면 FSx for ONTAP 파일 시스템에 VM 배포를 시작할 수 있습니다.</block>
+  <block id="74f9db7fefcf8c24332761c003d46a02" category="section-title">VMware 워크로드 계획 센터 소개</block>
+  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="section-title">Amazon Elastic VMWare Service에 대한 마이그레이션 어드바이저 지원 소개</block>
+  <block id="c1ed477ef5d58aa5d9931821badda717" category="paragraph">VMware용 BlueXP Workload Factory를 사용하면 이제 Amazon Elastic VMware Service 마이그레이션 어드바이저를 사용하여 온프레미스 VMware 워크로드를 Amazon Elastic VMware Service로 빠르게 마이그레이션할 수 있습니다. 마이그레이션 어드바이저를 사용하여 마이그레이션 계획을 생성하면 해당 계획은 계획 센터의 마이그레이션 계획 목록에 자동으로 저장됩니다.</block>
+  <block id="c2ec0e17d82dd73344c2ef80a6de22f1" category="paragraph"><block ref="c2ec0e17d82dd73344c2ef80a6de22f1" category="inline-link-rx"></block></block>
+  <block id="fe1ae90129b3fc6c05d6d55d62ca79b2" category="section-title">Workload Factory 콘솔의 Oracle 향상 기능</block>
+  <block id="bde440a6f221f754dda1ba04c79f7982" category="section-title">Oracle 데이터베이스 리소스 화면</block>
+  <block id="b9e6ca1860385235df9a27b8a183c14b" category="paragraph">각 Oracle 데이터베이스에는 데이터베이스 인벤토리에서 사용할 수 있는 전용 리소스 화면이 있습니다. 리소스 화면은 데이터베이스 이름, 상태(온라인 또는 오프라인), 테넌시, 배포 유형에 대한 개요를 제공합니다. 또한 3개월 기간 동안의 CPU 사용률, 지연 시간, IOPS 및 처리량에 대한 데이터가 포함된 차트도 포함되어 있습니다. 용량 활용도는 데이터베이스의 총 크기, 기록된 데이터 크기, 사용된 솔리드 스테이트 드라이브 용량, 사용된 용량 풀 스토리지를 제공합니다.</block>
+  <block id="61e62ed73221a8d36e3b5ccff5df1c34" category="paragraph">리소스 화면에서 Oracle 서버(배포 모델, OS, 에디션, 버전 등), 위치(AWS 계정, 지역, 가용성 영역 및 서브넷), 스토리지 및 컴퓨팅(FSx for ONTAP 파일 시스템 세부 정보, 데이터베이스 인스턴스 유형 및 연결된 LUN과 볼륨), 연결(VPC 및 액세스 프로토콜)에 대한 정보를 볼 수 있습니다. 또한 데이터베이스 구성의 잘 설계된 상태를 확인하고 데이터베이스와 연관된 플러그형 데이터베이스(PDB)를 볼 수도 있습니다.</block>
+  <block id="2a862d414b58bb1053d6a8628126f4e0" category="section-title">Oracle 플러그 가능 데이터베이스 지원</block>
+  <block id="345333792e16177a530fc4095c146b12" category="paragraph">Oracle 플러그 가능 데이터베이스는 데이터베이스 인벤토리와 부모 컨테이너 데이터베이스의 리소스 화면에서 볼 수 있습니다. PDB에 대한 다음 정보를 사용할 수 있습니다: CDB 이름, 호스트 이름, 보호 상태, 데이터베이스 크기, FSx for ONTAP 파일 시스템, AWS 자격 증명, AWS 계정 및 지역.</block>
+  <block id="41d5af71402e1d82f05775556afa695b" category="section-title">Oracle을 위한 잘 설계된 분석</block>
+  <block id="87e54cc3f4d743196aa5ce47b68e9f65" category="paragraph">잘 설계된 분석에는 NFS 또는 ASM(자동 스토리지 관리)이 있거나 없는 iSCSI를 통한 Oracle 데이터베이스의 스토리지 레이아웃 구성 문제와 iSCSI LUN을 통한 Oracle 운영 체제의 스토리지 구성 문제에 대한 평가가 포함됩니다. 이 정보를 사용하면 데이터베이스 배포에 대한 정보에 입각한 결정을 내리고 데이터베이스가 효율적으로 실행되는지 확인할 수 있습니다.</block>
+  <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다.</block>
+  <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
+  <block id="d90600b832876e9302411cfab905b9bc" category="section-title">데이터베이스 인벤토리 향상</block>
+  <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">데이터베이스 인벤토리의 인스턴스 화면에서는 Microsoft SQL Server의 단일 또는 여러 인스턴스나 Oracle의 단일 또는 여러 데이터베이스에 대한 구성 문제를 수정, 연기 및 해제하는 옵션을 사용할 수 있습니다.</block>
+  <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
 </blocks>
