@@ -26,55 +26,13 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI 워크로드</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">설정 및 관리</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 워크로드</block>
-  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">권한 참조 변경 로그</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">GenAI 기술 자료를 만듭니다</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">스토리지 대시보드 개선</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">빌더 작업량</block>
-  <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">일반 NFS/SMB 파일 시스템에 호스팅된 데이터 소스 지원</block>
-  <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">이제 일반 SMB 또는 NFS 공유에서 데이터 소스를 추가할 수 있습니다. 이를 통해 Amazon FSx for NetApp ONTAP 이외의 파일 시스템에서 호스팅되는 볼륨에 저장된 파일을 포함할 수 있습니다.</block>
-  <block id="5cba57d460e5683815517b44a7811760" category="inline-link">지식 기반에 데이터 소스 추가</block>
-  <block id="b37629096d44c6fda917848365c84ebe" category="paragraph"><block ref="b37629096d44c6fda917848365c84ebe" category="inline-link-rx"></block></block>
-  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link">커넥터에 데이터 소스 추가</block>
-  <block id="5cd676bef1867c904c092c33ad4a8f2d" category="paragraph"><block ref="5cd676bef1867c904c092c33ad4a8f2d" category="inline-link-rx"></block></block>
-  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="doc">Amazon Elastic VMWare Service에 대한 마이그레이션 어드바이저 지원 소개</block>
-  <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">VMware용 BlueXP 워크로드 팩토리가 이제 Amazon Elastic VMware Service를 지원합니다. 마이그레이션 어드바이저를 사용하여 온프레미스 VMware 워크로드를 Amazon Elastic VMware Service로 신속하게 마이그레이션하여 비용을 최적화하고 애플리케이션을 리팩토링하거나 플랫폼을 재구축할 필요 없이 VMware 환경을 더욱 효과적으로 제어할 수 있습니다.</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">마이그레이션 어드바이저를 사용하여 Amazon EVS에 대한 배포 계획을 만듭니다.</block>
   <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
-  <block id="64c17706e0528a5c44c7beee628cc101" category="doc">BlueXP 워크로드 팩토리 알림 서비스 지원</block>
-  <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">BlueXP 워크로드 팩토리 알림 서비스를 사용하면 워크로드 팩토리가 BlueXP 알림 서비스 또는 Amazon SNS 주제로 알림을 전송할 수 있습니다. BlueXP 알림으로 전송된 알림은 BlueXP 알림 패널에 표시됩니다. 워크로드 팩토리가 Amazon SNS 주제에 알림을 게시하면 해당 주제 구독자(예: 사용자 또는 다른 애플리케이션)는 해당 주제에 대해 구성된 엔드포인트(예: 이메일 또는 SMS 메시지)에서 알림을 수신합니다.</block>
-  <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">BlueXP 워크로드 팩토리 알림 구성</block>
-  <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
-  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">데이터베이스에 대한 사용 권한 업데이트</block>
-  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">다음 권한은 이제 데이터베이스에 대한 _읽기 전용_ 모드에서 사용 가능합니다. <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
-  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
-  <block id="a10c281531128badfefa7086b353ead0" category="paragraph"><block ref="a10c281531128badfefa7086b353ead0" category="inline-link-macro-rx"></block></block>
-  <block id="16608889ffd4210e3527b28d2cabeee1" category="paragraph">워크로드 팩토리 콘솔의 스토리지 대시보드에 새로운 절감 기회 카드가 추가되었습니다. 대시보드 상단의 카드는 Amazon Elastic Block Store(EBS), Amazon FSx for Windows File Server, Amazon Elastic File Systems(EFS)에서 실행되는 스토리지 환경에 대한 절감 기회 수를 대시보드 하단에는 Amazon 스토리지 서비스별 절감 기회(EBS, FSx for Windows File Server, EFS)를 표시하는 세 개의 새로운 카드가 추가되었습니다 모든 카드에서 절감 기회를 더 자세히 살펴볼 수 있습니다.</block>
-  <block id="e2fc557edefb4b2854999f60dbd0d379" category="paragraph">FSx for ONTAP 보호 범위 카드와 복제 관계 상태 카드를 통해 FSx for ONTAP 파일 시스템에 부분적으로 보호된 볼륨이 있는지 확인하고 복제 관계 관련 문제를 조사할 수 있습니다. 두 경우 모두 문제 해결을 위한 조치를 취할 수 있습니다.</block>
-  <block id="34ccfe489231e34890602e4f0419b843" category="section-title">볼륨 탭 향상</block>
-  <block id="f659fbcb502240d4138a6337d4da17d5" category="paragraph">워크로드 팩토리 콘솔의 볼륨 탭이 개선되어 FSx for ONTAP 파일 시스템을 더욱 포괄적으로 볼 수 있습니다. SSD 용량, 용량 풀, NetApp Autonomous Ransomware Protection with AI(ARP/AI)를 위한 새로운 카드가 추가되었습니다. 이 카드는 파일 시스템의 모든 볼륨에 대한 용량 사용률과 ARP/AI 보호 기능을 요약합니다.</block>
-  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">2세대 Amazon FSx for NetApp ONTAP 파일 시스템 지원</block>
-  <block id="7efd44dd06c377a68f3fc78abf7d91fb" category="paragraph">Workload Factory는 이제 2세대 Amazon FSx for NetApp ONTAP 파일 시스템을 지원합니다. Workload Factory 콘솔에서 2세대 파일 시스템을 생성, 관리 및 모니터링할 수 있습니다. 모든 신규 상용 리전이 지원됩니다.</block>
-  <block id="cd0ce691a9b616ae8983f22db2fb8a6d" category="inline-link-macro">Workload Factory에서 2세대 파일 시스템 생성</block>
-  <block id="f784f74601a71805db546f7b6842f0e5" category="paragraph"><block ref="f784f74601a71805db546f7b6842f0e5" category="inline-link-macro-rx"></block></block>
-  <block id="094caa4bbbbdba779d6ef8c57b995856" category="section-title">볼륨 용량 재조정을 위한 FlexVol 볼륨 지원</block>
-  <block id="ab0d60978b39ce0cb886ec1fbf91bad8" category="paragraph">FlexVol 볼륨은 워크로드 팩토리 콘솔에서 확인할 수 있습니다. FlexVol 볼륨의 잔액을 확인하고, 새 파일 추가 및 파일 증가로 인해 시간이 지남에 따라 용량 불균형이 발생할 경우 FlexVol 볼륨을 재조정하여 용량을 재분배할 수 있습니다.</block>
-  <block id="226bb141f0b474b8b8d4e55bfe659a94" category="inline-link-macro">FlexVol 볼륨의 용량 재조정</block>
-  <block id="7f11a5de29d58c93cc212be8cf51b761" category="paragraph"><block ref="7f11a5de29d58c93cc212be8cf51b761" category="inline-link-macro-rx"></block></block>
-  <block id="d7581ee541e7cfa51fd2f75f93b7e64e" category="section-title">용어 업데이트</block>
-  <block id="6e0c2d8cb551de024f6700ca0407257e" category="paragraph">워크로드 팩토리 콘솔에서 "자율 랜섬웨어 보호"(ARP)라는 용어가 "AI를 통한 NetApp 자율 랜섬웨어 보호"(ARP/AI)로 업데이트되었습니다.</block>
-  <block id="d474538a7c98b462c08197d24f7c1c60" category="section-title">새 볼륨에 대해 기본적으로 ARP/AI가 활성화됨</block>
-  <block id="6a3bf8c141dbbeed37af8236f412b19a" category="paragraph">워크로드 팩토리 콘솔에서 새 볼륨을 생성하면 파일 시스템에 ARP/AI 정책이 있는 경우 NetApp Autonomous Ransomware Protection with AI(ARP/AI)가 기본적으로 활성화됩니다. 즉, AI 기반 탐지 및 대응 기능을 사용하여 볼륨이 랜섬웨어 공격으로부터 자동으로 보호됩니다.</block>
-  <block id="7e0b28b27ce3985a4a8d693330a04cb7" category="inline-link-macro">워크로드 팩토리에서 볼륨을 생성합니다.</block>
-  <block id="3bf76f3556904b928c43201c04108364" category="paragraph"><block ref="3bf76f3556904b928c43201c04108364" category="inline-link-macro-rx"></block></block>
-  <block id="442d07125b5c2363eae9c33039172225" category="section-title">변경 불가능한 파일에 대한 복제 지원</block>
-  <block id="6250cd311debe5758acc69f81921ab78" category="paragraph">Workload Factory는 중요한 데이터를 실수로 삭제하거나 랜섬웨어와 같은 악의적인 공격으로부터 보호하기 위해 한 FSx for ONTAP 시스템에서 다른 FSx for ONTAP 파일 시스템으로 변경 불가능한 볼륨을 복제하는 기능을 지원합니다. 대상 볼륨과 호스트 파일 시스템은 변경 불가능하거나 잠기게 되며, 대상 파일 시스템의 모든 데이터는 보존 기간이 끝날 때까지 수정하거나 삭제할 수 없습니다.</block>
-  <block id="b6fc33d7434bb860ad528753113881b1" category="inline-link-macro">복제 관계를 만드는 방법을 알아보세요</block>
-  <block id="d3dbddfb353eaaa957947efb04ca7013" category="paragraph"><block ref="d3dbddfb353eaaa957947efb04ca7013" category="inline-link-macro-rx"></block></block>
   <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">Lambda 링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다</block>
   <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
-  <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">링크 생성 중 IAM 실행 역할 및 권한 관리</block>
-  <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">이제 워크로드 팩토리 콘솔에서 링크를 생성하여 IAM 실행 역할과 연결된 권한 정책을 관리할 수 있습니다. 링크는 워크로드 팩토리 계정과 하나 이상의 FSx for ONTAP 파일 시스템 간의 연결을 설정합니다. IAM 실행 역할과 링크 권한을 할당하는 데는 자동 또는 사용자 지정, 두 가지 옵션이 있습니다. 워크로드 팩토리에서 실행 역할과 연결된 권한 정책을 관리하면 더 이상 타사 코드를 사용할 필요가 없습니다.</block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">워크로드 팩토리에서 잘 설계된 데이터베이스 구성을 구현합니다.</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
   <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">복제 관계 탭 개선</block>
@@ -176,36 +134,19 @@
   <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSD 저장 용량 감소 가능</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">파일 시스템 용량 조정</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">Workload Factory는 데이터베이스에 대해 다음과 같은 알림을 제공합니다.</block>
-  <block id="33e3371223dba19c723617802e06af8d" category="list-text">잘 구성된 보고서</block>
-  <block id="d415d128365eca1587931ed756de7819" category="list-text">호스트 배포</block>
-  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">인스턴스 등록을 위한 온보딩 향상</block>
-  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">데이터베이스용 워크로드 팩토리는 Amazon FSx for NetApp ONTAP 에서 실행되는 인스턴스를 등록하기 위한 온보딩 프로세스를 개선했습니다.  이제 등록을 위해 대량으로 인스턴스를 선택할 수 있습니다.  인스턴스가 등록되면 워크로드 팩토리 콘솔에서 데이터베이스 리소스를 만들고 관리할 수 있습니다.</block>
-  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">인스턴스 관리</block>
-  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
-  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft Multipath I/O 시간 초과 설정에 대한 분석 및 수정</block>
-  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">이제 데이터베이스 인스턴스의 잘 설계된 상태에는 Microsoft Multipath I/O(MPIO) 시간 초과 설정에 대한 분석 및 수정 사항이 포함됩니다.  MPIO 시간 초과를 60초로 설정하면 장애 조치 중에 FSx for ONTAP 스토리지 연결과 안정성이 보장됩니다.  MPIO 설정이 제대로 설정되지 않으면 워크로드 팩토리에서 MPIO 시간 초과 값을 60초로 설정하는 수정 사항을 제공합니다.</block>
-  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">인스턴스 인벤토리의 그래픽 향상</block>
-  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">인스턴스 인벤토리 화면에서 처리량, IOPS 등 다양한 리소스 활용도 그래프가 이제 7일치 데이터를 표시하므로 워크로드 팩토리 콘솔에서 SQL 노드의 성능을 보다 효율적으로 모니터링할 수 있습니다.  SQL 노드에서 수집된 성능 지표는 Amazon CloudWatch에 저장되며, 이를 Logs Insights에 사용하거나 사용자 환경의 다른 분석 서비스와 통합하는 데 사용할 수 있습니다.</block>
-  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">인벤토리 내의 인스턴스 및 데이터베이스 탭에서 보호에 대한 설명과 시각화를 개선했습니다.</block>
-  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">워크로드 팩토리에서 Windows 인증 지원</block>
-  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">이제 워크로드 팩토리는 Windows 인증 사용자를 사용하여 인스턴스를 등록하고 관리 기능의 이점을 활용하는 SQL Server 인증을 지원합니다.</block>
-  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">데이터베이스의 워크로드 팩토리에 인스턴스 등록</block>
-  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025년 9월 9일</block>
   <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">2025년 9월 1일</block>
   <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025년 8월 12일</block>
   <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">2025년 8월 4일</block>
   <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025년 8월 3일</block>
-  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025년 6월 30일</block>
-  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025년 6월 29일</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">Workload Factory는 2세대 파일 시스템의 SSD(솔리드 스테이트 드라이브) 용량을 줄이는 것을 지원합니다. 탄력적인 파일 시스템 용량을 사용하면 작업 부하 요구 사항에 맞게 파일 시스템 용량을 동적으로 조정할 수 있습니다.</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp 워크로드 팩토리</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대해 알아보세요.</block>
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">NetApp Workload Factory의 최근 변경 사항</block>
-  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025년 6월 16일</block>
-  <block id="7d8a5882e1c618b27e728777a89e9734" category="paragraph">&lt;stdin&gt;에 해결되지 않은 지시어가 있습니다 - include::_whatsnew/2025-06-16_workload-builders.adoc[leveloffset=+1]</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">이 릴리스 노트에서는 NetApp Workload Factory에 포함된 클라우드 서비스의 최근 개선 사항을 설명합니다.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 릴리스 노트</block>
+  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.</block>
+  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP 데이터 인프라 관리에 있어서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다. 결과적으로 BlueXP workload factory NetApp 워크로드 팩토리로 이름이 변경되었습니다.</block>
+  <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">2025년 10월 5일</block>
 </blocks>

@@ -1,0 +1,9 @@
+= BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.
+:allow-uri-read: 
+
+
+
+
+=== BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.
+
+BlueXP 데이터 인프라 관리에 있어서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다. 결과적으로 BlueXP workload factory NetApp 워크로드 팩토리로 이름이 변경되었습니다.
