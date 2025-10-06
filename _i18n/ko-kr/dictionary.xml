@@ -163,4 +163,11 @@
   <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">VMware 워크로드 계획 센터를 사용하면 한 곳에서 VM 인벤토리와 마이그레이션 계획을 보고 관리할 수 있습니다. 다양한 환경에서 여러 VM 인벤토리를 업로드하고 저장할 수 있으며, 그 중 하나를 AWS EC2 또는 Amazon Elastic VMware 서비스로 마이그레이션할 계획을 세울 수 있습니다. AWS EC2 또는 EVS 마이그레이션 계획을 만들고 저장할 수도 있습니다.</block>
   <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">VMware 워크로드 계획 센터 탐색</block>
   <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
+  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">저장소에 대한 새로운 알림</block>
+  <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">NetApp Workload Factory 알림 서비스에는 스토리지에 대한 잘 설계된 문제에 대한 알림이 포함되어 있습니다.</block>
+  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory에 대한 알림</block>
+  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">MCP와 Ask Me 통합</block>
+  <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Workload Factory의 AI 어시스턴트인 Ask Me는 MCP(Model Context Protocol)와 통합되어 있습니다. Ask Me는 MCP를 사용하여 외부 환경과 안전하게 인터페이스하고 API 도구를 쿼리하여 특정 스토리지 환경에 맞춤형 응답을 제공합니다.</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025년 10월 6일</block>
 </blocks>
