@@ -19,12 +19,12 @@ settings:
   langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: BlueXP  워크로드 공장 릴리스 노트
+  - title: NetApp Workload Factory 릴리스 노트
     url: "/index.html"
   - title: 최근 변경 사항
     url: "/whats-new.html"
   - title: 법적 고지
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP workload factory
+  name: NetApp Workload Factory
   repo: workload-family
