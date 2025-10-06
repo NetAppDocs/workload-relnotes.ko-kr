@@ -19,6 +19,24 @@ NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대
 
 
 
+=== VMware 워크로드
+
+
+
+==== BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.
+
+BlueXP 데이터 인프라 관리에 있어서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다. 결과적으로 BlueXP workload factory NetApp 워크로드 팩토리로 이름이 변경되었습니다.
+
+
+
+==== VMware 워크로드 계획 센터 소개
+
+VMware 워크로드 계획 센터를 사용하면 한 곳에서 VM 인벤토리와 마이그레이션 계획을 보고 관리할 수 있습니다. 다양한 환경에서 여러 VM 인벤토리를 업로드하고 저장할 수 있으며, 그 중 하나를 AWS EC2 또는 Amazon Elastic VMware 서비스로 마이그레이션할 계획을 세울 수 있습니다. AWS EC2 또는 EVS 마이그레이션 계획을 만들고 저장할 수도 있습니다.
+
+https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["VMware 워크로드 계획 센터 탐색"]
+
+
+
 === GenAI 워크로드
 
 
@@ -35,7 +53,7 @@ Workload Factory API를 사용하면 이제 일반 NFSv3, NFSv4 또는 SMB 공�
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business용 NetApp 커넥터 만들기"]
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["커넥터에 데이터 소스 추가"]
 
 
 
@@ -312,7 +330,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manua
 
 이제 VMware 워크로드를 Amazon Elastic VMware Service(EVS)로 마이그레이션하여 얻을 수 있는 잠재적인 비용 절감 효과를 살펴보실 수 있습니다. 절감 계산기를 사용하면 기본 스토리지로 Amazon FSx for NetApp ONTAP 사용하거나 사용하지 않고 Amazon EVS를 사용할 때의 비용을 비교할 수 있습니다. 계산기는 환경 특성을 조정하면서 잠재적인 절감액을 실시간으로 표시합니다.
 
-https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["BlueXP workload factory 통해 Amazon Elastic VMware Service에 대한 절감 혜택을 살펴보세요."]
+https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["BlueXP Workload Factory를 통해 Amazon Elastic VMware Service에 대한 절감 혜택을 살펴보세요"]
 
 
 

@@ -16,7 +16,7 @@ Workload Factory API를 사용하면 이제 일반 NFSv3, NFSv4 또는 SMB 공�
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Amazon Q Business용 NetApp 커넥터 만들기"]
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["커넥터에 데이터 소스 추가"]
 
 
 
