@@ -43,3 +43,11 @@ image:screenshot-manage-snapshots-screen.png["스냅샷 관리 화면을 보여�
 Workload Factory는 2세대 파일 시스템의 SSD(솔리드 스테이트 드라이브) 용량을 줄이는 것을 지원합니다. 탄력적인 파일 시스템 용량을 사용하면 작업 부하 요구 사항에 맞게 파일 시스템 용량을 동적으로 조정할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["파일 시스템 용량 조정"]
+
+
+
+=== 저장소에 대한 새로운 알림
+
+워크로드 팩토리 알림 서비스에는 스토리지의 자동 용량 관리를 위한 성공 및 실패 알림이 포함되어 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factory 에 대한 알림"^]
