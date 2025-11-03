@@ -161,18 +161,15 @@
   <block id="13c47466230be92e5e3aa6588809aeac" category="list-text">캐시 볼륨 미리 채우기</block>
   <block id="52fc772a9179443c2c2ba75c94518e8f" category="list-text">캐시 볼륨 삭제</block>
   <block id="7826298c658de05b150f4b10fc144ea2" category="inline-link-macro">캐시 볼륨 관리</block>
-  <block id="9223fd31c285815a2492912ef49bdbbb" category="paragraph"><block ref="9223fd31c285815a2492912ef49bdbbb" category="inline-link-macro-rx"></block></block>
   <block id="7c0216aac73557cb5845492aebaeab8a" category="section-title">자동 inode 관리 가능</block>
   <block id="31dcfbe8cd69ef4085402c0f104858cd" category="paragraph">자동 용량 관리를 활성화하지 않고도 자동 inode 관리를 활성화할 수 있습니다.</block>
   <block id="71e9d4ada3104308778ade0ba22de28d" category="inline-link-macro">자동 inode 관리 활성화</block>
-  <block id="c38d477b997e2c8216a0b40479691f29" category="paragraph"><block ref="c38d477b997e2c8216a0b40479691f29" category="inline-link-macro-rx"></block></block>
   <block id="22fcde27b4672d89a21e10e9be49cdee" category="section-title">용량 및 inode 사용량에 대한 임계값 경고 설정</block>
   <block id="cc72208ba5327054f030d802d324477c" category="inline-link-macro">NetApp Workload Factory 알림 서비스</block>
   <block id="f1ff66cdf2af497189be6ebd8f6e5fcd" category="paragraph">용량 및 inode 사용량에 대한 임계값 경고를 사용할 수 있습니다. 자동 용량 또는 inode 관리를 활성화할 때 이러한 임계값을 설정할 수 있습니다. 이 설정을 사용하려면 다음을 사용하여 알림을 구성해야 합니다.<block ref="52b0820c6dc6b8d67591785df8b1a634" category="inline-link-macro-rx"></block> .</block>
   <block id="76170a72d0c8b98ef012c3b57dc6dbe8" category="section-title">볼륨 크기 감소 가능</block>
   <block id="26b07c7813c6a780d507b42d999b4792" category="paragraph">NetApp Workload Factory 에서 NFS 및 SMB/CIFS 볼륨의 크기를 줄일 수 있습니다. 이 기능을 사용하면 현재 용량으로는 더 이상 필요하지 않은 볼륨의 크기를 줄여서 스토리지 리소스를 보다 효과적으로 관리할 수 있습니다.</block>
   <block id="fcbcb93b74f64a75b2b710bb8328b4e0" category="inline-link-macro">볼륨의 용량을 줄이세요</block>
-  <block id="e1b7073be30c28b07f5c847e0a1b56ed" category="paragraph"><block ref="e1b7073be30c28b07f5c847e0a1b56ed" category="inline-link-macro-rx"></block></block>
   <block id="f09c98d35d5b89f3f833636d36ca3283" category="section-title">ONTAP 리소스 상태를 위한 향상된 FSx</block>
   <block id="9d017083ba2041742b1b85bbb1a846c4" category="paragraph">Workload Factory는 리소스의 실제 문제에 대한 설명을 포함하도록 "잘못 구성된" 리소스 상태를 개선했습니다.</block>
   <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">Workload Factory는 다음 구성에 대해 FSx for ONTAP 파일 시스템을 분석합니다.</block>
@@ -189,7 +186,6 @@
   <block id="c4a6983274098ca737ffda27862010ea" category="section-title">ONTAP 사이버 볼트 지원을 위한 FSx</block>
   <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">FSx for ONTAP 을 사이버 볼트 아키텍처의 소스 또는 대상으로 사용하여 사이버 볼트를 생성할 수 있습니다. 사이버 금고는 중요한 데이터를 저장하기 위한 안전하고 격리된 환경을 제공하여 랜섬웨어 및 기타 사이버 위협으로부터 데이터를 보호합니다.</block>
   <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">FSx for ONTAP 사용하여 사이버 볼트 설정</block>
-  <block id="545bd81803e837dd73a7bceb1a798b8a" category="paragraph"><block ref="545bd81803e837dd73a7bceb1a798b8a" category="inline-link-macro-rx"></block></block>
   <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2025년 11월 2일</block>
   <block id="58abe9f5fbda29b547f9ab2de50f2332" category="section-title">Amazon Elastic Block Store(EBS) 사용량에 따라 절감액 최적화</block>
   <block id="3cab156afe8725e62725f4973a3c9949" category="doc">대시보드 개선</block>
@@ -214,4 +210,18 @@
   <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">Workload Factory의 오류 분석 기능을 사용하면 인프라 중심 태그로 Microsoft SQL Server 오류 로그를 필터링하고 볼 수 있습니다. 이 향상된 기능은 문제를 신속하게 분류하고 해결하는 데 도움이 됩니다.</block>
   <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">태그 필터링을 사용하여 오류 로그 분석</block>
   <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
+  <block id="8763b09bbcb06ec11c1d0d3331ba74f4" category="paragraph"><block ref="8763b09bbcb06ec11c1d0d3331ba74f4" category="inline-link-macro-rx"></block></block>
+  <block id="8cc5e5335040870d41183130dad2a0a6" category="paragraph"><block ref="8cc5e5335040870d41183130dad2a0a6" category="inline-link-macro-rx"></block></block>
+  <block id="6b49a1e6e88960820791afdda16a063c" category="paragraph"><block ref="6b49a1e6e88960820791afdda16a063c" category="inline-link-macro-rx"></block></block>
+  <block id="7999c939951d1cfce0556df15a76a345" category="paragraph"><block ref="7999c939951d1cfce0556df15a76a345" category="inline-link-macro-rx"></block></block>
+  <block id="1aa6907369c233df8f3cc388c26b9890" category="paragraph"><block ref="1aa6907369c233df8f3cc388c26b9890" category="inline-link-macro-rx"></block></block>
+  <block id="a8652a10fdfc1f87b6bf65a1067a7fd9" category="doc">권한 업데이트</block>
+  <block id="27d373ed8bf1b1a511ec6680dde4e448" category="paragraph">이번 릴리스에서는 보안과 사용자 제어를 강화하기 위해 저장소, 데이터베이스 및 VMware 워크로드에 대한 권한 정책을 대폭 업데이트했습니다. 원하는 대로 권한을 추가하거나 해제하여 권한 설정을 더욱 세부적으로 사용자 지정할 수 있습니다.</block>
+  <block id="6ab8e8b21fd457b68a33554bd8f64377" category="inline-link-macro">Workload Factory에 대한 권한 참조</block>
+  <block id="f5baf95dfead3e34e749c6d871873a72" category="paragraph"><block ref="f5baf95dfead3e34e749c6d871873a72" category="inline-link-macro-rx"></block></block>
+  <block id="7723c7d7d2f2eb53098d3c771a7b7854" category="paragraph">NetApp Workload Factory 알림 서비스에는 스토리지의 자동 inode 관리에 대한 알림이 포함되어 있습니다.</block>
+  <block id="ef97320a660fe1bab5cd9dea0fdf90c3" category="section-title">자동 용량 및 inode 관리에 대한 임계값 경고</block>
+  <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">스토리지에 대한 자동 용량 및 inode 관리 기능은 Workload Factory 알림 서비스에서 알림을 트리거하는 경고 임계값을 통해 설정될 수 있습니다. 이 기능을 사용하려면 먼저 Workload Factory 알림 서비스를 활성화해야 합니다.</block>
+  <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">NetApp Workload Factory 에 대한 알림 구성</block>
+  <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
 </blocks>

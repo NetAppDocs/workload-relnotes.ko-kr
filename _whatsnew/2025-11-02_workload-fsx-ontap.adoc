@@ -16,7 +16,7 @@ Workload Factory 콘솔에서 다음과 같은 캐시 볼륨 관리 작업을 �
 * 캐시 볼륨 삭제
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["캐시 볼륨 관리"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["캐시 볼륨 관리"]
 
 
 
@@ -24,7 +24,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 자동 용량 관리를 활성화하지 않고도 자동 inode 관리를 활성화할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["자동 inode 관리 활성화"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["자동 inode 관리 활성화"]
 
 
 
@@ -38,7 +38,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-manag
 
 NetApp Workload Factory 에서 NFS 및 SMB/CIFS 볼륨의 크기를 줄일 수 있습니다. 이 기능을 사용하면 현재 용량으로는 더 이상 필요하지 않은 볼륨의 크기를 줄여서 스토리지 리소스를 보다 효과적으로 관리할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["볼륨의 용량을 줄이세요"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["볼륨의 용량을 줄이세요"]
 
 
 
@@ -69,7 +69,7 @@ Workload Factory는 특정 작업에 필요한 권한에 대한 명확성을 제
 
 자격 증명을 추가할 때 Workload Factory에 제공하려는 액세스 수준에 따라 이러한 권한 정책 중 하나 이상을 선택할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["워크로드 팩토리 권한 참조"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["워크로드 팩토리 권한 참조"]
 
 
 
@@ -77,4 +77,4 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 FSx for ONTAP 을 사이버 볼트 아키텍처의 소스 또는 대상으로 사용하여 사이버 볼트를 생성할 수 있습니다. 사이버 금고는 중요한 데이터를 저장하기 위한 안전하고 격리된 환경을 제공하여 랜섬웨어 및 기타 사이버 위협으로부터 데이터를 보호합니다.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["FSx for ONTAP 사용하여 사이버 볼트 설정"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["FSx for ONTAP 사용하여 사이버 볼트 설정"]
