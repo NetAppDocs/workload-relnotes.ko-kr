@@ -1,0 +1,59 @@
+= 대시보드 개선
+:allow-uri-read: 
+
+
+
+
+=== 대시보드 개선
+
+새로운 대시보드는 간소화되고 더 잘 구성되어 데이터베이스 리소스와 Workload Factory의 주요 기능에 대한 개요를 한 화면에서 더 명확하게 제공합니다. 한 카드는 데이터베이스 리소스를 강조 표시하고, 한 카드는 잘 설계된 점수와 분석에 대한 정보를 제공하고, 한 카드는 오류 분석을 표시하고, 두 카드는 월별 비용과 잠재적 절감액을 표시하고, 한 카드는 샌드박스에 대한 정보를 표시합니다.
+
+
+
+=== Oracle을 위한 잘 설계된 분석
+
+잘 설계된 분석에는 Oracle 구성에 대한 다음과 같은 평가와 수정 사항이 포함됩니다.
+
+* NFS 프로토콜을 사용하는 스토리지 구성 운영 체제: 기존 Oracle 데이터베이스 배포에 대한 NFS 구성의 구성 문제를 평가하고 수정합니다.
+* iSCSI 프로토콜을 사용하는 스토리지 구성 운영 체제: 기존 Oracle 데이터베이스 배포에 대한 iSCSI 구성의 구성 문제를 평가하고 수정합니다.
+* ASM(자동 스토리지 관리)을 사용한 스토리지 구성 운영 체제: 기존 Oracle 데이터베이스 배포에 대한 ASM 구성의 구성 문제를 평가합니다.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다."]
+
+
+
+=== 데이터베이스용 Workload Factory에 대한 권한 변경
+
+Workload Factory for Databases는 특정 작업에 필요한 사항과 필요한 권한만 선택할 수 있는 세부적인 내용을 더 명확하게 제공하기 위해 권한 정책을 업데이트했습니다. 자격 증명을 추가하면 이전 권한 모델인 _읽기 전용_ 및 _읽기/쓰기_ 대신 세 가지 권한 옵션 중에서 선택할 수 있습니다. 새로운 권한 모델은 권한 정책을 다음과 같이 구분합니다.
+
+* _보기, 계획 및 분석_: 데이터베이스 리소스 인벤토리를 보고, 리소스 상태에 대해 알아보고, 데이터베이스 구성에 대한 잘 설계된 분석을 검토하고, 오류 로그 분석을 받고, 절감 효과를 살펴보세요.
+* _운영 및 수정_: 데이터베이스 리소스에 대한 운영 작업을 수행하고 데이터베이스 구성 및 기본 FSx for ONTAP 파일 시스템 스토리지에 대한 문제를 해결합니다.
+* _데이터베이스 호스트 생성_: 모범 사례에 따라 데이터베이스 호스트와 기본 FSx for ONTAP 파일 시스템 스토리지를 배포합니다.
+
+
+자격 증명을 추가할 때 Workload Factory for Databases에 제공하려는 액세스 수준에 따라 이러한 권한 정책 중 하나 이상을 선택할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["워크로드 팩토리 권한 참조"^]
+
+
+
+=== 잘 설계된 대시보드 화면 추가
+
+데이터베이스 메뉴에 새로운 _잘 설계된_ 대시보드 화면이 추가되었습니다. 이 화면에서 전체 데이터베이스 자산의 구성 상태를 집계하여 볼 수 있습니다.
+
+
+
+=== NetApp Backup and Recovery 에서 데이터베이스 배포에 대한 편집 보호
+
+Workload Factory 콘솔에서 보호된 리소스에 대한 보호를 편집하도록 선택한 다음 NetApp Console 의 백업 및 복구로 리디렉션되어 보호 정책이나 일정을 수정할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["데이터베이스 배포에 대한 편집 보호"]
+
+
+
+=== 오류 분석 기능에 사용 가능한 태그별 오류 필터링
+
+Workload Factory의 오류 분석 기능을 사용하면 인프라 중심 태그로 Microsoft SQL Server 오류 로그를 필터링하고 볼 수 있습니다. 이 향상된 기능은 문제를 신속하게 분류하고 해결하는 데 도움이 됩니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["태그 필터링을 사용하여 오류 로그 분석"^]

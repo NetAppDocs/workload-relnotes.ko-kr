@@ -42,7 +42,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
-=== Amazon Elastic Block Store(EBS)의 스토리지 계산기에서 비용 절감을 최적화하세요.
+=== Amazon Elastic Block Store(EBS) 사용량에 따라 절감액 최적화
 
 Workload Factory는 EBS 성능 사용량을 분석한 후 가장 적합하고 비용 효율적인 FSx for ONTAP 구성을 제안해 FSx for ONTAP 으로 전환하면 더 많은 비용을 절감할 수 있습니다.
 

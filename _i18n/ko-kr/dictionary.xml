@@ -191,4 +191,27 @@
   <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">FSx for ONTAP 사용하여 사이버 볼트 설정</block>
   <block id="545bd81803e837dd73a7bceb1a798b8a" category="paragraph"><block ref="545bd81803e837dd73a7bceb1a798b8a" category="inline-link-macro-rx"></block></block>
   <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2025년 11월 2일</block>
+  <block id="58abe9f5fbda29b547f9ab2de50f2332" category="section-title">Amazon Elastic Block Store(EBS) 사용량에 따라 절감액 최적화</block>
+  <block id="3cab156afe8725e62725f4973a3c9949" category="doc">대시보드 개선</block>
+  <block id="18657a21385444f338b37f8f0116ffc3" category="paragraph">새로운 대시보드는 간소화되고 더 잘 구성되어 데이터베이스 리소스와 Workload Factory의 주요 기능에 대한 개요를 한 화면에서 더 명확하게 제공합니다. 한 카드는 데이터베이스 리소스를 강조 표시하고, 한 카드는 잘 설계된 점수와 분석에 대한 정보를 제공하고, 한 카드는 오류 분석을 표시하고, 두 카드는 월별 비용과 잠재적 절감액을 표시하고, 한 카드는 샌드박스에 대한 정보를 표시합니다.</block>
+  <block id="52d93a06ea30bbc0d2d568569c6686f5" category="paragraph">잘 설계된 분석에는 Oracle 구성에 대한 다음과 같은 평가와 수정 사항이 포함됩니다.</block>
+  <block id="4667bb7539009ed136b942febb5737ba" category="list-text">NFS 프로토콜을 사용하는 스토리지 구성 운영 체제: 기존 Oracle 데이터베이스 배포에 대한 NFS 구성의 구성 문제를 평가하고 수정합니다.</block>
+  <block id="679f71c6d98f7a5f25e9535eb16a19b5" category="list-text">iSCSI 프로토콜을 사용하는 스토리지 구성 운영 체제: 기존 Oracle 데이터베이스 배포에 대한 iSCSI 구성의 구성 문제를 평가하고 수정합니다.</block>
+  <block id="7548e2cbb02ea769fa6f01e70f1d34ee" category="list-text">ASM(자동 스토리지 관리)을 사용한 스토리지 구성 운영 체제: 기존 Oracle 데이터베이스 배포에 대한 ASM 구성의 구성 문제를 평가합니다.</block>
+  <block id="bff5f6ac72c7a46da345751a22e8e0a1" category="section-title">데이터베이스용 Workload Factory에 대한 권한 변경</block>
+  <block id="c3cf114e732250ac6b24d30e117ab24b" category="paragraph">Workload Factory for Databases는 특정 작업에 필요한 사항과 필요한 권한만 선택할 수 있는 세부적인 내용을 더 명확하게 제공하기 위해 권한 정책을 업데이트했습니다. 자격 증명을 추가하면 이전 권한 모델인 _읽기 전용_ 및 _읽기/쓰기_ 대신 세 가지 권한 옵션 중에서 선택할 수 있습니다. 새로운 권한 모델은 권한 정책을 다음과 같이 구분합니다.</block>
+  <block id="d9fff61478503c71474a780705c79af6" category="list-text">_보기, 계획 및 분석_: 데이터베이스 리소스 인벤토리를 보고, 리소스 상태에 대해 알아보고, 데이터베이스 구성에 대한 잘 설계된 분석을 검토하고, 오류 로그 분석을 받고, 절감 효과를 살펴보세요.</block>
+  <block id="9ef8eb2bc51c8c6f6ba459302a542484" category="list-text">_운영 및 수정_: 데이터베이스 리소스에 대한 운영 작업을 수행하고 데이터베이스 구성 및 기본 FSx for ONTAP 파일 시스템 스토리지에 대한 문제를 해결합니다.</block>
+  <block id="3f285f24375531d34b8b7d73726b69bc" category="list-text">_데이터베이스 호스트 생성_: 모범 사례에 따라 데이터베이스 호스트와 기본 FSx for ONTAP 파일 시스템 스토리지를 배포합니다.</block>
+  <block id="6ca55df595e9339b20f869e49eb0d710" category="paragraph">자격 증명을 추가할 때 Workload Factory for Databases에 제공하려는 액세스 수준에 따라 이러한 권한 정책 중 하나 이상을 선택할 수 있습니다.</block>
+  <block id="034b7227f8903ae8faac7359c9b3d064" category="section-title">잘 설계된 대시보드 화면 추가</block>
+  <block id="7a524d371f7a263dae481eea0bc3de88" category="paragraph">데이터베이스 메뉴에 새로운 _잘 설계된_ 대시보드 화면이 추가되었습니다. 이 화면에서 전체 데이터베이스 자산의 구성 상태를 집계하여 볼 수 있습니다.</block>
+  <block id="54543cd5b64fb08ea26d865ed21c8691" category="section-title">NetApp Backup and Recovery 에서 데이터베이스 배포에 대한 편집 보호</block>
+  <block id="c7c9b75c76356b2b8aa328068cd75a1c" category="paragraph">Workload Factory 콘솔에서 보호된 리소스에 대한 보호를 편집하도록 선택한 다음 NetApp Console 의 백업 및 복구로 리디렉션되어 보호 정책이나 일정을 수정할 수 있습니다.</block>
+  <block id="f3a2b46dc542d840ca95ad3799ace39b" category="inline-link-macro">데이터베이스 배포에 대한 편집 보호</block>
+  <block id="2a601eb3188e615c20b76da1a5734646" category="paragraph"><block ref="2a601eb3188e615c20b76da1a5734646" category="inline-link-macro-rx"></block></block>
+  <block id="cf6dca9fc5d1f30c46f70906ef3152ce" category="section-title">오류 분석 기능에 사용 가능한 태그별 오류 필터링</block>
+  <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">Workload Factory의 오류 분석 기능을 사용하면 인프라 중심 태그로 Microsoft SQL Server 오류 로그를 필터링하고 볼 수 있습니다. 이 향상된 기능은 문제를 신속하게 분류하고 해결하는 데 도움이 됩니다.</block>
+  <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">태그 필터링을 사용하여 오류 로그 분석</block>
+  <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
 </blocks>
