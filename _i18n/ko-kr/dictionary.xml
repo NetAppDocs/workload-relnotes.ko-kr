@@ -224,4 +224,16 @@
   <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">스토리지에 대한 자동 용량 및 inode 관리 기능은 Workload Factory 알림 서비스에서 알림을 트리거하는 경고 임계값을 통해 설정될 수 있습니다. 이 기능을 사용하려면 먼저 Workload Factory 알림 서비스를 활성화해야 합니다.</block>
   <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">NetApp Workload Factory 에 대한 알림 구성</block>
   <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
+  <block id="24469e003440641648ff205b984a0ac7" category="doc">FSx for ONTAP 파일 시스템 배포 마법사에서 Amazon Elastic VMware Service 기본 설정 소개</block>
+  <block id="0e8989988334c8827a95bf9733f5311e" category="paragraph">Amazon Elastic VMware Service의 외부 NFS 데이터 저장소로 사용할 FSx for ONTAP 파일 시스템을 배포하는 경우 이제 데이터 저장소가 연결될 EVS 환경을 선택할 수 있습니다. 이렇게 하면 배포 마법사의 여러 필드가 자동으로 채워져 배포 프로세스가 간소화됩니다.</block>
+  <block id="6dab83facb5fd4298e37906481e1055b" category="inline-link">ONTAP 파일 시스템에 권장되는 FSx 배포</block>
+  <block id="876ee64bc6b6627784cd32512c519f60" category="paragraph"><block ref="876ee64bc6b6627784cd32512c519f60" category="inline-link-rx"></block></block>
+  <block id="8bf32647108c4a28e744e9ba5a1683bf" category="section-title">VMware 워크로드에 대한 권한 변경</block>
+  <block id="18a162715dca6df2cf24f0158d03bddd" category="paragraph">VMware 워크로드는 특정 작업에 필요한 권한에 대한 명확성을 제공하고 필요한 권한만 선택할 수 있는 세분성을 제공합니다. 자격 증명을 추가하면 이전 권한 모델인 _읽기 전용_ 및 _읽기/쓰기_ 대신 두 가지 권한 옵션 중에서 선택할 수 있습니다. 새로운 권한 모델은 권한 정책을 다음과 같이 구분합니다.</block>
+  <block id="0a015f0bd274c5e6c7a774ac18592871" category="list-text">_보기, 계획 및 분석_: EVS 가상화 환경 인벤토리를 보고, 시스템에 대한 잘 설계된 분석을 얻고, 절감 방안을 알아보세요.</block>
+  <block id="56522cb8a8b15eeca3868896cb875225" category="list-text">_데이터 저장소 배포 및 연결_: 권장되는 VM 레이아웃을 AWS vSphere 클러스터의 Amazon EVS, Amazon EC2 또는 VMware Cloud에 배포하고 사용자 정의된 Amazon FSx for NetApp ONTAP 파일 시스템을 외부 데이터 저장소로 사용합니다.</block>
+  <block id="59371e7e2c46a6e1dae0e4d3224dd7ef" category="paragraph">자격 증명을 추가할 때 VMware 워크로드에 제공하려는 액세스 수준에 따라 이러한 권한 정책 중 하나 이상을 선택할 수 있습니다.</block>
+  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="section-title">Amazon EC2 마이그레이션 어드바이저 개선 사항</block>
+  <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">VMware용 NetApp Workload Factory 의 이번 릴리스에서는 마이그레이션 어드바이저 환경에 대한 여러 가지 개선 사항이 적용되었습니다.</block>
+  <block id="62057df0ae6e346379f483246f31203b" category="list-text">*마이그레이션 계획 저장 또는 다운로드*: 이제 마이그레이션 계획을 PDF 또는 CSV 파일로 저장하거나 다운로드할 수 있습니다. 마이그레이션 계획을 저장하면 해당 계획이 Workload Factory 계정에 저장됩니다.</block>
 </blocks>
