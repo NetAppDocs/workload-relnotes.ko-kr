@@ -220,4 +220,17 @@
   <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">NetApp Workload Factory 통해 Amazon Elastic VMware Service에 대한 절감 혜택을 살펴보세요</block>
   <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
   <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025년 11월 27일</block>
+  <block id="4afeabae14ccab1ba1ff53887c3a9701" category="doc">Amazon Elastic Block Store(EBS) 데이터베이스 계산기에서 비용 절감 최적화</block>
+  <block id="d9f7bd12b1b11b300e5288560b5e9987" category="paragraph">두 가지 새로운 계산기 기능은 EBS 스토리지를 사용하여 여러 인스턴스를 실행할 때 비용 절감 분석을 개선하여 FSx for ONTAP 으로 전환하면 더 많은 비용을 절감할 수 있습니다.</block>
+  <block id="32ccdc5dd4f059ebfa9dabaa8c301cf0" category="list-text">Workload Factory는 하나의 FSx for ONTAP 파일 시스템에서 여러 데이터베이스 호스트를 위한 통합 스토리지 솔루션을 제공합니다. 이러한 통합을 통해 여러 데이터베이스 호스트에 필요한 파일 시스템 수가 줄어들어 스토리지 비용이 최적화되고, 결과적으로 비용 절감 효과가 더욱 커집니다.</block>
+  <block id="e11501c7d779140aaf7bc3e06e0c5005" category="list-text">Workload Factory는 EBS 성능 사용량을 분석한 후 ONTAP 구성에 가장 적합하고 비용 효율적인 FSx를 제안합니다.</block>
+  <block id="754cab29df96851e5cc6bac19fb8e4de" category="inline-link-macro">감지된 EBS 호스트에 대한 절감액 살펴보기</block>
+  <block id="9c9dd70e9f385deab27852576ec6db9a" category="paragraph"><block ref="9c9dd70e9f385deab27852576ec6db9a" category="inline-link-macro-rx"></block></block>
+  <block id="0694112a63d48c58b25bbffa268e0b70" category="section-title">잘 설계된 대시보드에 사용 가능한 Excel 보고서</block>
+  <block id="5f00eea0cea6c8b64f9e110f5d403194" category="paragraph">잘 설계된 대시보드의 Excel 보고서를 다운로드할 수 있습니다. 이 보고서는 데이터베이스 리소스에 대한 잘 설계된 상태와 운영 체제 및 ONTAP 에 대한 하위 구성을 포함한 모든 리소스 구성에 대한 권장 사항을 제공합니다.</block>
+  <block id="9dc9a356684c35282d9c1ed4aa30e7a3" category="section-title">Oracle 데이터베이스에 사용 가능한 오류 로그 분석기</block>
+  <block id="269a351d2772f2eea3d4497bdc4e42cf" category="paragraph">Agentic AI 기반 오류 로그 분석기는 Oracle 데이터베이스에서 사용할 수 있습니다. 이 기능은 고급 머신 러닝 알고리즘을 활용하여 로그 파일의 오류를 자동으로 감지하고 분석합니다. 이 도구는 로그에서 식별된 패턴을 기반으로 개발자에게 실행 가능한 통찰력과 권장 사항을 제공하여 문제 해결 프로세스를 간소화하는 것을 목표로 합니다.</block>
+  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Agentic AI 기반 오류 로그 분석기에 대해 자세히 알아보세요.</block>
+  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
+  <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">잘 설계된 분석에는 두 가지 새로운 스토리지 크기 구성이 포함되어 있습니다. 분석은 기존 Oracle 데이터베이스 배포에 대한 스왑 공간 할당 및 파일 시스템 여유 공간과 관련된 구성 문제를 평가하고 수정합니다.</block>
 </blocks>
