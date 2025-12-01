@@ -19,6 +19,62 @@ NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대
 
 
 
+=== NetApp ONTAP용 Amazon FSx
+
+
+
+==== NetApp Workload Factory 의 블록 장치 지원
+
+NetApp Workload Factory 에서 새롭게 도입된 블록 장치 지원을 통해 블록 장치를 보다 효과적으로 관리하세요. 이 기능을 사용하면 iSCSI LUN에 대한 세부 정보를 보고 용량을 늘릴 수 있어 스토리지 요구 사항에 대한 유연성이 향상됩니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html["Workload Factory에서 블록 장치 관리"]
+
+
+
+==== 잘 설계된 분석 업데이트
+
+Workload Factory는 다음 구성에 대해 FSx for ONTAP 파일 시스템을 분석합니다.
+
+* 불필요한 스냅샷 삭제: 볼륨에 오래되고 불필요한 스냅샷이 있는지 확인하여 비용을 절감할 수 있습니다.
+* FlexGroup 볼륨 재조정: 최적의 성능을 보장하기 위해 FlexGroup 볼륨이 각 멤버 볼륨 전체에서 균등하게 균형을 이루고 있는지 확인합니다.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["ONTAP 파일 시스템용 FSx의 잘 설계된 상태를 확인하세요."]
+
+
+
+==== NetApp Workload Factory 의 EMS 이벤트를 위한 AI 분석기
+
+NetApp Workload Factory ONTAP 이벤트 관리 시스템(EMS) 이벤트를 위한 AI 기반 분석기를 소개합니다. 이 기능은 EMS 이벤트 데이터 분석을 기반으로 통찰력과 권장 사항을 제공하여 문제를 신속하게 식별하고 해결하는 데 도움이 됩니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["Workload Factory에서 EMS 이벤트 분석"]
+
+
+
+==== FSx for ONTAP 파일 시스템의 비용 및 사용 추세 모니터링
+
+NetApp Workload Factory 콘솔에서 직접 FSx for ONTAP 파일 시스템의 비용 및 사용 추세를 모니터링할 수 있습니다. 이 기능은 스토리지 소비량과 비용 측정 항목은 물론, 세부 비용도 제공하여 리소스 할당과 예산 계획을 최적화하는 데 도움이 됩니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-costs.html["Workload Factory에서 FSx for ONTAP 파일 시스템에 대한 비용 추적"]
+
+
+
+==== NetApp Workload Factory 에서 파일 시스템의 FSx 태그 관리
+
+NetApp Workload Factory 콘솔에서 직접 파일 시스템의 FSx 태그를 쉽게 관리할 수 있습니다. 이 기능을 사용하면 태그를 추가, 편집 또는 제거할 수 있어 FSx for ONTAP 파일 시스템을 보다 효과적으로 구성하고 분류할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-fsx-tags.html["Workload Factory에서 FSx 태그 관리"]
+
+
+
+==== ONTAP 파일 시스템용 FSx의 캐시 용량 조정
+
+Workload Factory 콘솔에서 캐시 볼륨의 용량을 늘리거나 줄일 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Workload Factory에서 캐시 볼륨 관리"]
+
+
+
 === 데이터베이스 워크로드
 
 

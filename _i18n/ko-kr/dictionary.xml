@@ -233,4 +233,26 @@
   <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Agentic AI 기반 오류 로그 분석기에 대해 자세히 알아보세요.</block>
   <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
   <block id="08b4436fffbd9bb2227d03f1cf33889b" category="paragraph">잘 설계된 분석에는 두 가지 새로운 스토리지 크기 구성이 포함되어 있습니다. 분석은 기존 Oracle 데이터베이스 배포에 대한 스왑 공간 할당 및 파일 시스템 여유 공간과 관련된 구성 문제를 평가하고 수정합니다.</block>
+  <block id="081af9c5870a1e2b72453c8137d7fc73" category="doc">NetApp Workload Factory 의 블록 장치 지원</block>
+  <block id="41c0f3170443e12c1081a0a411a2c7a4" category="paragraph">NetApp Workload Factory 에서 새롭게 도입된 블록 장치 지원을 통해 블록 장치를 보다 효과적으로 관리하세요. 이 기능을 사용하면 iSCSI LUN에 대한 세부 정보를 보고 용량을 늘릴 수 있어 스토리지 요구 사항에 대한 유연성이 향상됩니다.</block>
+  <block id="83fd7a4dba0970697d173ce4398c1b71" category="inline-link-macro">Workload Factory에서 블록 장치 관리</block>
+  <block id="e739cb7976f49d4295e9ffa8e259037b" category="paragraph"><block ref="e739cb7976f49d4295e9ffa8e259037b" category="inline-link-macro-rx"></block></block>
+  <block id="90b40f16cf91d89fc22fbcc0a38efa7c" category="list-text">불필요한 스냅샷 삭제: 볼륨에 오래되고 불필요한 스냅샷이 있는지 확인하여 비용을 절감할 수 있습니다.</block>
+  <block id="2945c0b218624e42ee523aefde446d66" category="list-text">FlexGroup 볼륨 재조정: 최적의 성능을 보장하기 위해 FlexGroup 볼륨이 각 멤버 볼륨 전체에서 균등하게 균형을 이루고 있는지 확인합니다.</block>
+  <block id="0f80b197268947adedcc0297fc4a4efd" category="section-title">NetApp Workload Factory 의 EMS 이벤트를 위한 AI 분석기</block>
+  <block id="b0e5de397c4ec9c39df271c0f4cf05e1" category="paragraph">NetApp Workload Factory ONTAP 이벤트 관리 시스템(EMS) 이벤트를 위한 AI 기반 분석기를 소개합니다. 이 기능은 EMS 이벤트 데이터 분석을 기반으로 통찰력과 권장 사항을 제공하여 문제를 신속하게 식별하고 해결하는 데 도움이 됩니다.</block>
+  <block id="a661f5e2ef22dbf468d0f8427ad8323e" category="inline-link-macro">Workload Factory에서 EMS 이벤트 분석</block>
+  <block id="8121ebebfc076bea222c1f4c838b09ec" category="paragraph"><block ref="8121ebebfc076bea222c1f4c838b09ec" category="inline-link-macro-rx"></block></block>
+  <block id="1df24a9e91a6f6d01b5ce32608b6f3f7" category="section-title">FSx for ONTAP 파일 시스템의 비용 및 사용 추세 모니터링</block>
+  <block id="56a2825e2abb3758584b94544cfdba40" category="paragraph">NetApp Workload Factory 콘솔에서 직접 FSx for ONTAP 파일 시스템의 비용 및 사용 추세를 모니터링할 수 있습니다. 이 기능은 스토리지 소비량과 비용 측정 항목은 물론, 세부 비용도 제공하여 리소스 할당과 예산 계획을 최적화하는 데 도움이 됩니다.</block>
+  <block id="bd89bba18a943a5ad32117396fcdea90" category="inline-link-macro">Workload Factory에서 FSx for ONTAP 파일 시스템에 대한 비용 추적</block>
+  <block id="d5905c9d9cba2248871f04654e4f9b1d" category="paragraph"><block ref="d5905c9d9cba2248871f04654e4f9b1d" category="inline-link-macro-rx"></block></block>
+  <block id="5b58af6390ae44b5a39c726b4820fffb" category="section-title">NetApp Workload Factory 에서 파일 시스템의 FSx 태그 관리</block>
+  <block id="543e684a4a914d6bef4f91873d32e315" category="paragraph">NetApp Workload Factory 콘솔에서 직접 파일 시스템의 FSx 태그를 쉽게 관리할 수 있습니다. 이 기능을 사용하면 태그를 추가, 편집 또는 제거할 수 있어 FSx for ONTAP 파일 시스템을 보다 효과적으로 구성하고 분류할 수 있습니다.</block>
+  <block id="8945587d036e5b09c39322767239857a" category="inline-link-macro">Workload Factory에서 FSx 태그 관리</block>
+  <block id="3c57420160e53dc4967d9ca75a5d5d06" category="paragraph"><block ref="3c57420160e53dc4967d9ca75a5d5d06" category="inline-link-macro-rx"></block></block>
+  <block id="1b931c0909a42d2dd6b1b28eeb36252c" category="section-title">ONTAP 파일 시스템용 FSx의 캐시 용량 조정</block>
+  <block id="aed1296ef373ba8df468af355d85d3ce" category="paragraph">Workload Factory 콘솔에서 캐시 볼륨의 용량을 늘리거나 줄일 수 있습니다.</block>
+  <block id="012110073acf8459d2a77ef54f547130" category="inline-link-macro">Workload Factory에서 캐시 볼륨 관리</block>
+  <block id="cfd839007fdba7ba7d7a5a35de4aa55a" category="paragraph"><block ref="cfd839007fdba7ba7d7a5a35de4aa55a" category="inline-link-macro-rx"></block></block>
 </blocks>
