@@ -33,31 +33,6 @@
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">잘 설계된 분석 업데이트</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">ONTAP 파일 시스템용 FSx의 잘 설계된 상태를 확인하세요.</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
-  <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">저장소 인벤토리 보고서 개선</block>
-  <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템에 대해 보고되는 데이터를 향상시켰습니다. FSx for ONTAP 인벤토리 페이지에서 다운로드할 수 있는 보고서에는 다음과 같은 새로운 열이 포함되어 있습니다.</block>
-  <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">사용된 SSD: 사용된 SSD 용량 값을 보여줍니다.</block>
-  <block id="a1a4ea0fabd62225adb4786dd703d1a7" category="list-text">SSD 사용률: 사용 중인 SSD 용량의 백분율을 보여줍니다.</block>
-  <block id="c016cb9916988a0ea698d070fd6b702a" category="list-text">처리량 활용도: 지난 30일 동안의 평균 및 최대 활용도를 보여줍니다.</block>
-  <block id="197af635c10bcbf35ba56184f54cb088" category="list-text">IO 사용률: 지난 30일 동안의 평균 및 최대 IO 사용률을 보여줍니다.</block>
-  <block id="92bce71ffaebc031ec78d565e6ad7032" category="list-text">CPU 사용률: 지난 30일 동안의 평균 및 최대 CPU 사용률을 보여줍니다.</block>
-  <block id="95851c89a4d869fdb94916625564bb6c" category="section-title">스냅샷 관리 향상</block>
-  <block id="fbb3322fb25c1109310e7be3bcc20fd5" category="paragraph">Workload Factory에서는 볼륨 스냅샷 세부 정보를 보고 볼륨 스냅샷을 관리하기 위해 여러 가지 기능이 향상되었습니다. 이러한 향상된 기능을 통해 스냅샷 상태를 더 쉽게 파악하고 데이터를 보호할 수 있습니다.</block>
-  <block id="3ecb130f0ffe2d8e485cb11c629b90b5" category="inline-image-macro">기본 작업과 볼륨 세부 정보를 볼 수 있는 FSx for ONTAP 볼륨 메뉴를 보여주는 스크린샷입니다.</block>
-  <block id="d26eb7e0d00b2e5069d790d2b9be49ba" category="paragraph"><block ref="d26eb7e0d00b2e5069d790d2b9be49ba" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cb34ab44253ae9c736786f23dc173879" category="paragraph">추가 항목은 보호 탭의 볼륨 세부 정보에 나타납니다.</block>
-  <block id="6d4b26be686dd37e202e23010a22bf04" category="list-text">스냅샷 정책 이름</block>
-  <block id="a81cec6ec43470b1419a033e0457112d" category="list-text">스냅샷 공간 예약</block>
-  <block id="c04d4554f0391d80036dceaa0e930ee2" category="list-text">스냅샷 공간 예약 용량</block>
-  <block id="06fd2134099fd30808caa961b2bc9b21" category="inline-image-macro">보호 탭이 열려 있는 FSx for ONTAP 볼륨 세부 정보를 보여주는 스크린샷입니다.</block>
-  <block id="b52491919b24cba6fd1efad7447c7798" category="paragraph"><block ref="b52491919b24cba6fd1efad7447c7798" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e987130d3b26cda391ff2f1e5149f444" category="paragraph">새로운 스냅샷 관리 화면은 볼륨에서 접근할 수 있으며, 볼륨의 스냅샷 정책에 대한 정보를 제공하고 모든 볼륨 스냅샷이 포함된 표가 포함되어 있습니다. 표에는 다음과 같은 스냅샷 세부 정보가 표시됩니다. 생성 시간, 크기, 만료 시간, 변경 불가능한 스냅샷 보호 및 레이블. 관리 화면에서 볼륨의 스냅샷 정책을 변경하고, 스냅샷을 수동으로 생성하고, 스냅샷을 편집, 액세스, 복원, 삭제할 수 있습니다.</block>
-  <block id="ad8f55b88a50703984e58a23e36e9026" category="inline-image-macro">스냅샷 관리 화면을 보여주는 스크린샷입니다.</block>
-  <block id="404a59509c6a806310ecbd1d601e0ee6" category="paragraph"><block ref="404a59509c6a806310ecbd1d601e0ee6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSD 저장 용량 감소 가능</block>
-  <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">파일 시스템 용량 조정</block>
-  <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025년 9월 9일</block>
-  <block id="edfbca9622799a953a48987a288fe283" category="paragraph">Workload Factory는 2세대 파일 시스템의 SSD(솔리드 스테이트 드라이브) 용량을 줄이는 것을 지원합니다. 탄력적인 파일 시스템 용량을 사용하면 작업 부하 요구 사항에 맞게 파일 시스템 용량을 동적으로 조정할 수 있습니다.</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp 워크로드 팩토리</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대해 알아보세요.</block>
@@ -125,11 +100,6 @@
   <block id="d90600b832876e9302411cfab905b9bc" category="section-title">데이터베이스 인벤토리 향상</block>
   <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">데이터베이스 인벤토리의 인스턴스 화면에서는 Microsoft SQL Server의 단일 또는 여러 인스턴스나 Oracle의 단일 또는 여러 데이터베이스에 대한 구성 문제를 수정, 연기 및 해제하는 옵션을 사용할 수 있습니다.</block>
   <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
-  <block id="ba72fdb3bdfd568a9dee9e12c3566da1" category="paragraph">워크로드 팩토리 알림 서비스에는 스토리지의 자동 용량 관리를 위한 성공 및 실패 알림이 포함되어 있습니다.</block>
-  <block id="28a2c493e9a663d617e582302e1bcf28" category="inline-link-macro">BlueXP workload factory 에 대한 알림</block>
-  <block id="165f0ade723f657a5d7981bfecbfc75a" category="paragraph"><block ref="165f0ade723f657a5d7981bfecbfc75a" category="inline-link-macro-rx"></block></block>
-  <block id="fd46c6801c12745a0b45c3f9e025fb2e" category="paragraph">BlueXP workload factory 알림 서비스에는 스토리지의 자동 용량 관리에 대한 알림이 포함되어 있습니다.</block>
-  <block id="a4bdb4b5125441fbfaec27ac4bb48be0" category="paragraph"><block ref="a4bdb4b5125441fbfaec27ac4bb48be0" category="inline-link-macro-rx"></block></block>
   <block id="e36df438b5b93dceba2c7403d4b29005" category="doc">캐시 볼륨 관리</block>
   <block id="97da28c7fc13e427cbb28f833b8e7e6e" category="paragraph">Workload Factory 콘솔에서 다음과 같은 캐시 볼륨 관리 작업을 수행할 수 있습니다.</block>
   <block id="705987d425caa32725844671dba5db96" category="list-text">캐시 이름 편집</block>
@@ -270,4 +240,13 @@
   <block id="9650d80f3b4a8975eb2cc3145efe97fd" category="list-text"><block ref="9650d80f3b4a8975eb2cc3145efe97fd" category="inline-link-macro-rx"></block></block>
   <block id="3e2c74c8c2d6921bd86b94a0e3ce7846" category="inline-link-macro">볼륨에 대한 S3 액세스 포인트 관리</block>
   <block id="bec075d59b91517943ea96b4d56e06de" category="list-text"><block ref="bec075d59b91517943ea96b4d56e06de" category="inline-link-macro-rx"></block></block>
+  <block id="e75004bce0e2abb43e6673b8bd4bbd2f" category="doc">Active Directory 통합 기능 향상</block>
+  <block id="4be7fbd19e77cc55e8637326f3cc569d" category="paragraph">Workload Factory for Databases는 고급 생성 옵션을 사용하여 Microsoft SQL Server를 배포할 때 세 가지 새로운 Active Directory(AD) 필드를 포함합니다. 이러한 개선 사항을 통해 Active Directory 가입 기본 설정을 지정하고 관리형 서비스 계정을 사용할 수 있습니다.</block>
+  <block id="2d652258eef11b26b58d2ac1040af4fb" category="paragraph">새로운 AD 필드는 다음과 같습니다.</block>
+  <block id="f069ee08ebc87aaad1c479cd4f54611c" category="list-text">선호하는 도메인 컨트롤러</block>
+  <block id="5a90d56c7caec61381ba4316f0a43849" category="list-text">선호하는 조직 단위 경로</block>
+  <block id="b535bc12ab7716de58cac2633cbe0ec8" category="list-text">대상 Active Directory 그룹</block>
+  <block id="f43a09fcb5f30e27a88e58e1804f13d0" category="inline-link-macro">Microsoft SQL Server 배포</block>
+  <block id="8139c8013582edc0d0eba7cc713f8ffd" category="paragraph"><block ref="8139c8013582edc0d0eba7cc713f8ffd" category="inline-link-macro-rx"></block></block>
+  <block id="bfcc9fa5a3178fd803540af87a6b6ab7" category="section-title">2025년 12월 18일</block>
 </blocks>
