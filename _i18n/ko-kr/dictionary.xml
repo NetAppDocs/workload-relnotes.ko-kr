@@ -26,10 +26,7 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI 워크로드</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">설정 및 관리</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 워크로드</block>
-  <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">GenAI 기술 자료를 만듭니다</block>
-  <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">빌더 작업량</block>
-  <block id="e64998710319712d47612cc187a1dc35" category="inline-link">마이그레이션 어드바이저를 사용하여 Amazon EVS에 대한 배포 계획을 만듭니다.</block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">잘 설계된 분석 업데이트</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">ONTAP 파일 시스템용 FSx의 잘 설계된 상태를 확인하세요.</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
@@ -39,67 +36,12 @@
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">NetApp Workload Factory의 최근 변경 사항</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">이 릴리스 노트에서는 NetApp Workload Factory에 포함된 클라우드 서비스의 최근 개선 사항을 설명합니다.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 릴리스 노트</block>
-  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factory NetApp 워크로드 팩토리로 변경되었습니다.</block>
-  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP 데이터 인프라 관리에 있어서의 역할을 더 잘 반영하도록 이름이 바뀌고 재설계되었습니다. 결과적으로 BlueXP workload factory NetApp 워크로드 팩토리로 이름이 변경되었습니다.</block>
-  <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">2025년 10월 5일</block>
-  <block id="3ddc651759568c7b8f0de7c7f9a41828" category="section-title">Amazon Q Business용 NetApp 커넥터에서 일반 NFS/SMB 데이터 소스 추가 지원</block>
-  <block id="a0689e9e0b6114698a732a2dc7c3c921" category="paragraph">Workload Factory API를 사용하면 이제 일반 NFSv3, NFSv4 또는 SMB 공유의 데이터 소스를 Amazon Q Business용 NetApp Connector에 추가할 수 있습니다. 이를 통해 Amazon FSx for NetApp ONTAP 이외의 파일 시스템에서 호스팅되는 볼륨에 저장된 파일을 포함할 수 있습니다.</block>
-  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Amazon Q Business용 NetApp 커넥터 만들기</block>
-  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
-  <block id="b6016044adc61a2efcd415d2be8b12bc" category="paragraph"><block ref="b6016044adc61a2efcd415d2be8b12bc" category="inline-link-macro-rx"></block></block>
-  <block id="b0462077e62a0ea67b3f53638651e833" category="section-title">지식 기반을 위한 고급 채팅 구성</block>
-  <block id="5335798f91a37df8ffc1be273ef666fa" category="paragraph">이제 지식 기반의 채팅 모델에 적용할 수 있는 고급 채팅 설정(응답 길이, 온도, 추론 설정 등)을 구성할 수 있습니다. 최근성 및 수정 시간 설정, 고급 검색 설정, 시스템 프롬프트 등 일부 설정은 Workload Factory API를 통해서만 사용할 수 있습니다.</block>
-  <block id="7ff7a0c83b9f68a4add0d263a7292e9c" category="section-title">이제 임베딩, 채팅 및 재순위 지정 모델에 대한 추론 유형 선택이 지원됩니다.</block>
-  <block id="a4c5c24aeea4d68e48565188546da1a5" category="paragraph">선택한 임베딩, 채팅 또는 재순위 지정 모델에 추론 설정이 있는 경우 이제 추론 유형을 선택할 수 있습니다. 이를 통해 사용자의 필요에 맞게 챗봇 성능과 리소스 요구 사항을 더 잘 조정할 수 있습니다.</block>
-  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link-macro">커넥터에 데이터 소스 추가</block>
-  <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">VMware 워크로드 계획 센터를 사용하면 한 곳에서 VM 인벤토리와 마이그레이션 계획을 보고 관리할 수 있습니다. 다양한 환경에서 여러 VM 인벤토리를 업로드하고 저장할 수 있으며, 그 중 하나를 AWS EC2 또는 Amazon Elastic VMware 서비스로 마이그레이션할 계획을 세울 수 있습니다. AWS EC2 또는 EVS 마이그레이션 계획을 만들고 저장할 수도 있습니다.</block>
-  <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">VMware 워크로드 계획 센터 탐색</block>
-  <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
   <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">저장소에 대한 새로운 알림</block>
-  <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">NetApp Workload Factory 알림 서비스에는 스토리지에 대한 잘 설계된 문제에 대한 알림이 포함되어 있습니다.</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory에 대한 알림</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
-  <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">MCP와 Ask Me 통합</block>
-  <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Workload Factory의 AI 어시스턴트인 Ask Me는 MCP(Model Context Protocol)와 통합되어 있습니다. Ask Me는 MCP를 사용하여 외부 환경과 안전하게 인터페이스하고 API 도구를 쿼리하여 특정 스토리지 환경에 맞춤형 응답을 제공합니다.</block>
-  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025년 10월 6일</block>
-  <block id="945d9800b1b25a8b224232b57dabb8a6" category="doc">Amazon Elastic Block Store(EBS)의 스토리지 계산기에서 비용 절감을 최적화하세요.</block>
-  <block id="b051b129322b1fa228bb46d5704f8ad2" category="paragraph">Workload Factory는 EBS 성능 사용량을 분석한 후 가장 적합하고 비용 효율적인 FSx for ONTAP 구성을 제안해 FSx for ONTAP 으로 전환하면 더 많은 비용을 절감할 수 있습니다.</block>
-  <block id="75851f48043c7a3877391f5330fb19c1" category="inline-link-macro">Workload Factory 콘솔에서 감지된 스토리지 환경에 대한 절감 효과를 살펴보세요.</block>
-  <block id="4f3edd63a55b4b51bcfc2a68ac50724c" category="paragraph"><block ref="4f3edd63a55b4b51bcfc2a68ac50724c" category="inline-link-macro-rx"></block></block>
-  <block id="524dbd97409f5770f9a380227ba4daea" category="section-title">파일 시스템 인벤토리에서 리소스 화면에 빠르게 액세스</block>
-  <block id="be962e12d3d4430561fa9a1d6c25c200" category="paragraph">FSx for ONTAP 인벤토리에서 파일 시스템 이름(이제 하이퍼링크)을 선택하면 FSx for ONTAP 파일 시스템 리소스 화면으로 빠르게 이동할 수 있습니다.</block>
-  <block id="5c731a647da91c3579ce81b8d9274fca" category="section-title">Workload Factory 콘솔에서 캐시 관계 검색</block>
-  <block id="7736e3de8e44f415eeeee23744591c40" category="paragraph">FSx for ONTAP 파일 시스템과 다른 유형의 ONTAP 스토리지(온프레미스 시스템, Cloud Volumes ONTAP, FSx for ONTAP) 사이에 _캐시_ 관계가 있는 경우 Workload Factory 콘솔에서 이를 검색하고 볼 수 있습니다. 이를 통해 데이터 흐름을 더 잘 이해하고, 캐시 활용도를 최적화하고, 분산 환경 전반에서 효율성을 개선할 수 있습니다.</block>
-  <block id="a9ace78aa94256517b0d3b32c8e62e7e" category="inline-link-macro">Workload Factory 콘솔에서 캐시 관계를 검색하고 확인하세요.</block>
-  <block id="0d0589415fc04e290e6c826d0b2f4d56" category="paragraph"><block ref="0d0589415fc04e290e6c826d0b2f4d56" category="inline-link-macro-rx"></block></block>
-  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">잘 설계된 분석 업데이트</block>
-  <block id="c9e2abe4bb9341b4452bdb977083efb6" category="paragraph">Workload Factory는 이제 다음 구성에 대해 FSx for ONTAP 파일 시스템을 분석합니다.</block>
-  <block id="0d646d7995307f809d73f1d2f653df3d" category="paragraph">볼륨 파일 용량 사용률 임계값: 파일 용량 임계값이 80% 이하로 설정되어 있는지 확인합니다. 이렇게 하면 파일 시스템의 공간 부족을 방지할 수 있습니다.</block>
-  <block id="99caf3ded950ba093933b266e2734b14" category="section-title">구성 문제에 대한 작업 개선</block>
-  <block id="8c66f900656d8687c4beaead10bd47de" category="paragraph">FSx for ONTAP 파일 시스템의 대시보드에 있는 *잘 설계된 분석* 탭에서 파일 시스템의 전체 구성을 해제하는 대신, 파일 시스템 내에서 하나 이상의 볼륨을 선택하여 수정, 해제 또는 다시 활성화할 수도 있습니다.</block>
-  <block id="3b6856525ae98f397c04f2dd7b07deae" category="section-title">저장에 대한 추가 알림</block>
-  <block id="b62e88c90eef0f29a13cbdcb4e304ae2" category="paragraph">NetApp Workload Factory 알림 서비스에는 잘 설계된 구성 문제에 대한 알림이 매주 포함됩니다.</block>
-  <block id="06ccf3bb3519e2c352207978ae4f36eb" category="inline-link-macro">Workload Factory 설정 및 관리 설명서의 알림 유형 및 메시지</block>
-  <block id="f484540569100bc3d0403ccb87d3a713" category="paragraph"><block ref="f484540569100bc3d0403ccb87d3a713" category="inline-link-macro-rx"></block></block>
-  <block id="872ee1a2a3a499ce76f0f789c2151656" category="section-title">변경 불가능한 파일은 권한 있는 삭제를 지원합니다.</block>
-  <block id="0a7266fd80158c418fbcd6837ec4dbe0" category="paragraph">이 기능을 사용하면 FSx for ONTAP 파일 시스템에서 변경 불가능한 파일에 대한 권한 있는 삭제 액세스를 구성할 수 있습니다. 이를 통해 중요한 데이터가 실수로 또는 악의적으로 삭제되는 것을 방지하는 동시에, 권한이 있는 사용자가 잠금을 해제하고 필요에 따라 해당 파일을 삭제할 수 있습니다. 볼륨 생성 중이나 기존 볼륨에 대해 권한 있는 삭제를 활성화할 수 있습니다.</block>
-  <block id="74f9db7fefcf8c24332761c003d46a02" category="section-title">VMware 워크로드 계획 센터 소개</block>
-  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="section-title">Amazon Elastic VMWare Service에 대한 마이그레이션 어드바이저 지원 소개</block>
-  <block id="c1ed477ef5d58aa5d9931821badda717" category="paragraph">VMware용 BlueXP Workload Factory를 사용하면 이제 Amazon Elastic VMware Service 마이그레이션 어드바이저를 사용하여 온프레미스 VMware 워크로드를 Amazon Elastic VMware Service로 빠르게 마이그레이션할 수 있습니다. 마이그레이션 어드바이저를 사용하여 마이그레이션 계획을 생성하면 해당 계획은 계획 센터의 마이그레이션 계획 목록에 자동으로 저장됩니다.</block>
-  <block id="c2ec0e17d82dd73344c2ef80a6de22f1" category="paragraph"><block ref="c2ec0e17d82dd73344c2ef80a6de22f1" category="inline-link-rx"></block></block>
-  <block id="fe1ae90129b3fc6c05d6d55d62ca79b2" category="section-title">Workload Factory 콘솔의 Oracle 향상 기능</block>
-  <block id="bde440a6f221f754dda1ba04c79f7982" category="section-title">Oracle 데이터베이스 리소스 화면</block>
-  <block id="b9e6ca1860385235df9a27b8a183c14b" category="paragraph">각 Oracle 데이터베이스에는 데이터베이스 인벤토리에서 사용할 수 있는 전용 리소스 화면이 있습니다. 리소스 화면은 데이터베이스 이름, 상태(온라인 또는 오프라인), 테넌시, 배포 유형에 대한 개요를 제공합니다. 또한 3개월 기간 동안의 CPU 사용률, 지연 시간, IOPS 및 처리량에 대한 데이터가 포함된 차트도 포함되어 있습니다. 용량 활용도는 데이터베이스의 총 크기, 기록된 데이터 크기, 사용된 솔리드 스테이트 드라이브 용량, 사용된 용량 풀 스토리지를 제공합니다.</block>
-  <block id="61e62ed73221a8d36e3b5ccff5df1c34" category="paragraph">리소스 화면에서 Oracle 서버(배포 모델, OS, 에디션, 버전 등), 위치(AWS 계정, 지역, 가용성 영역 및 서브넷), 스토리지 및 컴퓨팅(FSx for ONTAP 파일 시스템 세부 정보, 데이터베이스 인스턴스 유형 및 연결된 LUN과 볼륨), 연결(VPC 및 액세스 프로토콜)에 대한 정보를 볼 수 있습니다. 또한 데이터베이스 구성의 잘 설계된 상태를 확인하고 데이터베이스와 연관된 플러그형 데이터베이스(PDB)를 볼 수도 있습니다.</block>
-  <block id="2a862d414b58bb1053d6a8628126f4e0" category="section-title">Oracle 플러그 가능 데이터베이스 지원</block>
-  <block id="345333792e16177a530fc4095c146b12" category="paragraph">Oracle 플러그 가능 데이터베이스는 데이터베이스 인벤토리와 부모 컨테이너 데이터베이스의 리소스 화면에서 볼 수 있습니다. PDB에 대한 다음 정보를 사용할 수 있습니다: CDB 이름, 호스트 이름, 보호 상태, 데이터베이스 크기, FSx for ONTAP 파일 시스템, AWS 자격 증명, AWS 계정 및 지역.</block>
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">Oracle을 위한 잘 설계된 분석</block>
-  <block id="87e54cc3f4d743196aa5ce47b68e9f65" category="paragraph">잘 설계된 분석에는 NFS 또는 ASM(자동 스토리지 관리)이 있거나 없는 iSCSI를 통한 Oracle 데이터베이스의 스토리지 레이아웃 구성 문제와 iSCSI LUN을 통한 Oracle 운영 체제의 스토리지 구성 문제에 대한 평가가 포함됩니다. 이 정보를 사용하면 데이터베이스 배포에 대한 정보에 입각한 결정을 내리고 데이터베이스가 효율적으로 실행되는지 확인할 수 있습니다.</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다.</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="d90600b832876e9302411cfab905b9bc" category="section-title">데이터베이스 인벤토리 향상</block>
-  <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">데이터베이스 인벤토리의 인스턴스 화면에서는 Microsoft SQL Server의 단일 또는 여러 인스턴스나 Oracle의 단일 또는 여러 데이터베이스에 대한 구성 문제를 수정, 연기 및 해제하는 옵션을 사용할 수 있습니다.</block>
-  <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
   <block id="e36df438b5b93dceba2c7403d4b29005" category="doc">캐시 볼륨 관리</block>
   <block id="97da28c7fc13e427cbb28f833b8e7e6e" category="paragraph">Workload Factory 콘솔에서 다음과 같은 캐시 볼륨 관리 작업을 수행할 수 있습니다.</block>
   <block id="705987d425caa32725844671dba5db96" category="list-text">캐시 이름 편집</block>
@@ -135,7 +77,6 @@
   <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">FSx for ONTAP 을 사이버 볼트 아키텍처의 소스 또는 대상으로 사용하여 사이버 볼트를 생성할 수 있습니다. 사이버 금고는 중요한 데이터를 저장하기 위한 안전하고 격리된 환경을 제공하여 랜섬웨어 및 기타 사이버 위협으로부터 데이터를 보호합니다.</block>
   <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">FSx for ONTAP 사용하여 사이버 볼트 설정</block>
   <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2025년 11월 2일</block>
-  <block id="58abe9f5fbda29b547f9ab2de50f2332" category="section-title">Amazon Elastic Block Store(EBS) 사용량에 따라 절감액 최적화</block>
   <block id="3cab156afe8725e62725f4973a3c9949" category="doc">대시보드 개선</block>
   <block id="18657a21385444f338b37f8f0116ffc3" category="paragraph">새로운 대시보드는 간소화되고 더 잘 구성되어 데이터베이스 리소스와 Workload Factory의 주요 기능에 대한 개요를 한 화면에서 더 명확하게 제공합니다. 한 카드는 데이터베이스 리소스를 강조 표시하고, 한 카드는 잘 설계된 점수와 분석에 대한 정보를 제공하고, 한 카드는 오류 분석을 표시하고, 두 카드는 월별 비용과 잠재적 절감액을 표시하고, 한 카드는 샌드박스에 대한 정보를 표시합니다.</block>
   <block id="52d93a06ea30bbc0d2d568569c6686f5" category="paragraph">잘 설계된 분석에는 Oracle 구성에 대한 다음과 같은 평가와 수정 사항이 포함됩니다.</block>
@@ -249,4 +190,7 @@
   <block id="f43a09fcb5f30e27a88e58e1804f13d0" category="inline-link-macro">Microsoft SQL Server 배포</block>
   <block id="8139c8013582edc0d0eba7cc713f8ffd" category="paragraph"><block ref="8139c8013582edc0d0eba7cc713f8ffd" category="inline-link-macro-rx"></block></block>
   <block id="bfcc9fa5a3178fd803540af87a6b6ab7" category="section-title">2025년 12월 18일</block>
+  <block id="5e3b7f958129022f75fe2931c55615b2" category="doc">Ask me AI 어시스턴트 홈페이지 통합</block>
+  <block id="65bcc541760e8f25e0281edbfdfbf7f3" category="paragraph">Workload Factory 콘솔 홈 페이지에는 Ask me AI 어시스턴트가 내장되어 있어 스토리지 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있습니다. Ask me 기능을 사용하면 콘솔을 벗어나지 않고도 워크로드를 이해하고, 문제를 해결하고, Workload Factory에 대해 자세히 알아볼 수 있습니다.</block>
+  <block id="334f5b13a66630c66877aaf36ce24673" category="section-title">2026년 1월 4일</block>
 </blocks>
