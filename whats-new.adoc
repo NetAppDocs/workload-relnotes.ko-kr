@@ -19,6 +19,70 @@ NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대
 
 
 
+=== NetApp ONTAP용 Amazon FSx
+
+
+
+==== 잘 설계된 분석 업데이트
+
+Workload Factory는 다음 구성에 대해 FSx for ONTAP 파일 시스템을 분석합니다.
+
+* NetApp 자율형 랜섬웨어 보호(ARP/AI) 비활성화 여부(블록 장치 포함): 블록 장치 볼륨에서 ARP/AI가 비활성화되었는지 확인합니다.
+* 캐시 관계 쓰기 모드: 캐시 볼륨 워크로드에 대해 쓰기 모드가 최적인지 확인합니다.
+* 불필요한 백업 삭제: 비용 절감을 위해 삭제할 수 있는 오래되었거나 불필요한 백업이 있는지 확인합니다.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["ONTAP 파일 시스템용 FSx의 잘 설계된 상태를 확인하세요."]
+
+
+
+==== Ask me AI 어시스턴트 홈페이지 통합
+
+Workload Factory 콘솔 홈 페이지에는 Ask me AI 어시스턴트가 내장되어 있어 스토리지 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있습니다. Ask me 기능을 사용하면 콘솔을 벗어나지 않고도 워크로드를 이해하고, 문제를 해결하고, Workload Factory에 대해 자세히 알아볼 수 있습니다.
+
+
+
+==== Lambda 링크 리소스 기반 권한 정책에서 IAM 사용자 주체 사용
+
+워크로드 팩토리 계정과 하나 이상의 FSx for ONTAP 파일 시스템을 연결하여 고급 ONTAP 작업을 수행하는 데 사용되는 Lambda 링크는 이제 리소스 기반 정책 권한에 IAM 사용자 주체를 사용합니다. 이번 변경 사항은 AWS 리소스 액세스에 대한 업계 모범 사례와의 더 나은 일치를 제공합니다.
+
+
+
+==== 응급 의료 상황 분석을 위한 AI 분석기에 분석 화면이 추가되었습니다.
+
+저장소 메뉴에 새로운 _분석_ 화면이 추가되었습니다. 이 화면에서 ONTAP EMS 이벤트 기능에 대한 FSx용 AI 분석기를 사용할 수 있습니다.
+
+
+
+==== NetApp Workload Factory 의 블록 장치 개선 사항
+
+블록 장치에 대해 다음과 같은 개선 사항이 적용되었습니다.
+
+
+
+===== 블록 장치 생성
+
+NetApp Workload Factory FSx for ONTAP 파일 시스템에서 iSCSI 프로토콜을 사용하여 블록 장치를 생성할 수 있도록 지원하므로 Workload Factory 콘솔에서 기간 업무(LOB) 애플리케이션을 더욱 효과적으로 지원할 수 있습니다.
+
+
+
+===== 블록 장치 관리 개선 사항
+
+NetApp Workload Factory 다음과 같은 향상된 기능이 포함되어 있습니다. link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html["블록 장치 관리"]. 이제 워크로드 팩토리 콘솔에서 다음 작업을 수행할 수 있습니다.
+
+* 클라이언트 액세스 관리
+* 아카이브 블록 장치 데이터
+* 차단 장치를 삭제합니다
+
+
+
+
+===== 블록 장치를 포함하는 FlexVol 볼륨에서 ARP/AI 지원
+
+활성화할 수 있습니다 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["AI(ARP/AI)를 활용한 NetApp 자율형 랜섬웨어 보호"] 블록 장치가 포함된 FlexVol 볼륨에서. ARP/AI를 활성화하면 AI를 사용하여 랜섬웨어 공격을 탐지하고 데이터 복구를 지원합니다.
+
+
+
 === 데이터베이스 워크로드
 
 
