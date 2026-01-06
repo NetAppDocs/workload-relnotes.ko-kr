@@ -214,4 +214,7 @@
   <block id="3c4600754ec66ef615c303417126da12" category="section-title">블록 장치를 포함하는 FlexVol 볼륨에서 ARP/AI 지원</block>
   <block id="3043237188bfe3f198084dbfe55d05c0" category="inline-link-macro">AI(ARP/AI)를 활용한 NetApp 자율형 랜섬웨어 보호</block>
   <block id="34f4bbf8697d1205da43ee612001efe7" category="paragraph">활성화할 수 있습니다 <block ref="028271ae216dacdd20feb47aea2c131d" category="inline-link-macro-rx"></block> 블록 장치가 포함된 FlexVol 볼륨에서. ARP/AI를 활성화하면 AI를 사용하여 랜섬웨어 공격을 탐지하고 데이터 복구를 지원합니다.</block>
+  <block id="ef702fb37688ffbfdf16f6b005df7436" category="doc">NetApp Workload Factory for Builders가 이제 NetApp Workload Factory for EDA로 변경되었습니다.</block>
+  <block id="f48bd4568e33f95e23f1ea90df81f8af" category="paragraph">Workload Factory for Builders가 이제 Workload Factory for EDA로 이름이 변경되었습니다. 이번 명칭 변경은 전자 설계 자동화(EDA) 워크로드에 대한 집중을 반영합니다.</block>
+  <block id="8e2c84558eaf80d5e8e99422d320b395" category="paragraph">Workload Factory for EDA는 여러 파일 시스템에서 ONTAP 용 FSx를 최적화하는 데 도움을 줍니다. 스토리지 매개변수를 자동화하고, 성능 제약 조건을 분석하고, EDA 프로젝트에 대한 통찰력을 얻음으로써 성능을 최적화하고 운영 비용을 절감할 수 있습니다. EDA용 워크로드 팩토리는 IaC(Infrastructure as Code) 프레임워크와 통합되도록 설계되었습니다.</block>
 </blocks>
