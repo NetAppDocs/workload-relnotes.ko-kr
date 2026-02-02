@@ -36,95 +36,10 @@
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">NetApp Workload Factory의 최근 변경 사항</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">이 릴리스 노트에서는 NetApp Workload Factory에 포함된 클라우드 서비스의 최근 개선 사항을 설명합니다.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 릴리스 노트</block>
-  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">저장소에 대한 새로운 알림</block>
-  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory에 대한 알림</block>
-  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">Oracle을 위한 잘 설계된 분석</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다.</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="e36df438b5b93dceba2c7403d4b29005" category="doc">캐시 볼륨 관리</block>
-  <block id="97da28c7fc13e427cbb28f833b8e7e6e" category="paragraph">Workload Factory 콘솔에서 다음과 같은 캐시 볼륨 관리 작업을 수행할 수 있습니다.</block>
-  <block id="705987d425caa32725844671dba5db96" category="list-text">캐시 이름 편집</block>
-  <block id="fb7f41847231da20e771064f5b566df4" category="list-text">캐시 볼륨의 용량을 늘리세요</block>
-  <block id="64fe5cd33226afdb2a1244ea9e67be19" category="list-text">캐시 볼륨에 대한 마운트 경로 또는 내보내기 정책 편집</block>
-  <block id="322c847779d1746b4e7d66ee05dcefcd" category="list-text">캐시 볼륨에 대한 캐싱 방법 또는 모드를 변경합니다.</block>
-  <block id="13c47466230be92e5e3aa6588809aeac" category="list-text">캐시 볼륨 미리 채우기</block>
-  <block id="52fc772a9179443c2c2ba75c94518e8f" category="list-text">캐시 볼륨 삭제</block>
-  <block id="7826298c658de05b150f4b10fc144ea2" category="inline-link-macro">캐시 볼륨 관리</block>
-  <block id="7c0216aac73557cb5845492aebaeab8a" category="section-title">자동 inode 관리 가능</block>
-  <block id="31dcfbe8cd69ef4085402c0f104858cd" category="paragraph">자동 용량 관리를 활성화하지 않고도 자동 inode 관리를 활성화할 수 있습니다.</block>
-  <block id="71e9d4ada3104308778ade0ba22de28d" category="inline-link-macro">자동 inode 관리 활성화</block>
-  <block id="22fcde27b4672d89a21e10e9be49cdee" category="section-title">용량 및 inode 사용량에 대한 임계값 경고 설정</block>
-  <block id="cc72208ba5327054f030d802d324477c" category="inline-link-macro">NetApp Workload Factory 알림 서비스</block>
-  <block id="f1ff66cdf2af497189be6ebd8f6e5fcd" category="paragraph">용량 및 inode 사용량에 대한 임계값 경고를 사용할 수 있습니다. 자동 용량 또는 inode 관리를 활성화할 때 이러한 임계값을 설정할 수 있습니다. 이 설정을 사용하려면 다음을 사용하여 알림을 구성해야 합니다.<block ref="52b0820c6dc6b8d67591785df8b1a634" category="inline-link-macro-rx"></block> .</block>
-  <block id="76170a72d0c8b98ef012c3b57dc6dbe8" category="section-title">볼륨 크기 감소 가능</block>
-  <block id="26b07c7813c6a780d507b42d999b4792" category="paragraph">NetApp Workload Factory 에서 NFS 및 SMB/CIFS 볼륨의 크기를 줄일 수 있습니다. 이 기능을 사용하면 현재 용량으로는 더 이상 필요하지 않은 볼륨의 크기를 줄여서 스토리지 리소스를 보다 효과적으로 관리할 수 있습니다.</block>
-  <block id="fcbcb93b74f64a75b2b710bb8328b4e0" category="inline-link-macro">볼륨의 용량을 줄이세요</block>
-  <block id="f09c98d35d5b89f3f833636d36ca3283" category="section-title">ONTAP 리소스 상태를 위한 향상된 FSx</block>
-  <block id="9d017083ba2041742b1b85bbb1a846c4" category="paragraph">Workload Factory는 리소스의 실제 문제에 대한 설명을 포함하도록 "잘못 구성된" 리소스 상태를 개선했습니다.</block>
   <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">Workload Factory는 다음 구성에 대해 FSx for ONTAP 파일 시스템을 분석합니다.</block>
-  <block id="04cc0a87491bd184b66866438266882a" category="list-text">볼륨 사용률이 거의 가득 찼습니다. 볼륨이 파일 용량의 80% 이상을 사용하고 있는지 확인합니다. 이를 통해 추가 용량이 필요할 수 있는 볼륨을 식별하는 데 도움이 됩니다.</block>
-  <block id="39e165c09308fcda245787c3a6d7bf78" category="list-text">볼륨에 대한 무단 액세스: NFS 또는 SMB/CIFS 마운트 경로를 사용하여 iSCSI 볼륨에 액세스할 수 있는지 확인하고 보안 위험을 방지하기 위해 볼륨에 대한 무단 액세스를 제거할 수 있습니다.</block>
-  <block id="bfd11f24993c810a26cdef233ebbdfb6" category="section-title">Storage용 Workload Factory에 대한 권한 변경</block>
-  <block id="bdc39f4be3514cc2cad7e4ca6cba0988" category="paragraph">Workload Factory는 특정 작업에 필요한 권한에 대한 명확성을 제공하고 필요한 권한만 선택할 수 있는 세분성을 제공합니다. 자격 증명을 추가하면 이전 권한 모델인 _읽기 전용_ 및 _읽기/쓰기_ 대신 세 가지 권한 옵션 중에서 선택할 수 있습니다. 새로운 권한 모델은 권한 정책을 다음과 같이 구분합니다.</block>
-  <block id="f9113d285c58dd831a3240c5b41a6f84" category="list-text">_보기, 계획 및 분석_: FSx for ONTAP 파일 시스템을 보고, 시스템 상태에 대해 알아보고, 시스템에 맞게 잘 설계된 분석을 받고, 절감 방안을 알아보세요.</block>
-  <block id="a45538554e2c413a5e22df853abb4d27" category="list-text">_운영 및 수정_: 파일 시스템 용량을 조정하고 파일 시스템 구성에 대한 문제를 해결하는 등의 운영 작업을 수행합니다.</block>
-  <block id="036d0224d85e6a18c7e85f034ace65c1" category="list-text">_파일 시스템 생성 및 삭제_: FSx for ONTAP 파일 시스템과 스토리지 VM을 생성하고 삭제합니다.</block>
-  <block id="c1c8be0a907c363e6506c96d16870672" category="paragraph">자격 증명을 추가할 때 Workload Factory에 제공하려는 액세스 수준에 따라 이러한 권한 정책 중 하나 이상을 선택할 수 있습니다.</block>
-  <block id="b20b01e02162a68002ca1747d1bd3c10" category="inline-link-macro">워크로드 팩토리 권한 참조</block>
-  <block id="444b052e3d1349e221d4ceb42e6c1cf7" category="paragraph"><block ref="444b052e3d1349e221d4ceb42e6c1cf7" category="inline-link-macro-rx"></block></block>
-  <block id="c4a6983274098ca737ffda27862010ea" category="section-title">ONTAP 사이버 볼트 지원을 위한 FSx</block>
-  <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">FSx for ONTAP 을 사이버 볼트 아키텍처의 소스 또는 대상으로 사용하여 사이버 볼트를 생성할 수 있습니다. 사이버 금고는 중요한 데이터를 저장하기 위한 안전하고 격리된 환경을 제공하여 랜섬웨어 및 기타 사이버 위협으로부터 데이터를 보호합니다.</block>
-  <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">FSx for ONTAP 사용하여 사이버 볼트 설정</block>
-  <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2025년 11월 2일</block>
-  <block id="3cab156afe8725e62725f4973a3c9949" category="doc">대시보드 개선</block>
-  <block id="18657a21385444f338b37f8f0116ffc3" category="paragraph">새로운 대시보드는 간소화되고 더 잘 구성되어 데이터베이스 리소스와 Workload Factory의 주요 기능에 대한 개요를 한 화면에서 더 명확하게 제공합니다. 한 카드는 데이터베이스 리소스를 강조 표시하고, 한 카드는 잘 설계된 점수와 분석에 대한 정보를 제공하고, 한 카드는 오류 분석을 표시하고, 두 카드는 월별 비용과 잠재적 절감액을 표시하고, 한 카드는 샌드박스에 대한 정보를 표시합니다.</block>
-  <block id="52d93a06ea30bbc0d2d568569c6686f5" category="paragraph">잘 설계된 분석에는 Oracle 구성에 대한 다음과 같은 평가와 수정 사항이 포함됩니다.</block>
-  <block id="4667bb7539009ed136b942febb5737ba" category="list-text">NFS 프로토콜을 사용하는 스토리지 구성 운영 체제: 기존 Oracle 데이터베이스 배포에 대한 NFS 구성의 구성 문제를 평가하고 수정합니다.</block>
-  <block id="679f71c6d98f7a5f25e9535eb16a19b5" category="list-text">iSCSI 프로토콜을 사용하는 스토리지 구성 운영 체제: 기존 Oracle 데이터베이스 배포에 대한 iSCSI 구성의 구성 문제를 평가하고 수정합니다.</block>
-  <block id="7548e2cbb02ea769fa6f01e70f1d34ee" category="list-text">ASM(자동 스토리지 관리)을 사용한 스토리지 구성 운영 체제: 기존 Oracle 데이터베이스 배포에 대한 ASM 구성의 구성 문제를 평가합니다.</block>
-  <block id="bff5f6ac72c7a46da345751a22e8e0a1" category="section-title">데이터베이스용 Workload Factory에 대한 권한 변경</block>
-  <block id="c3cf114e732250ac6b24d30e117ab24b" category="paragraph">Workload Factory for Databases는 특정 작업에 필요한 사항과 필요한 권한만 선택할 수 있는 세부적인 내용을 더 명확하게 제공하기 위해 권한 정책을 업데이트했습니다. 자격 증명을 추가하면 이전 권한 모델인 _읽기 전용_ 및 _읽기/쓰기_ 대신 세 가지 권한 옵션 중에서 선택할 수 있습니다. 새로운 권한 모델은 권한 정책을 다음과 같이 구분합니다.</block>
-  <block id="d9fff61478503c71474a780705c79af6" category="list-text">_보기, 계획 및 분석_: 데이터베이스 리소스 인벤토리를 보고, 리소스 상태에 대해 알아보고, 데이터베이스 구성에 대한 잘 설계된 분석을 검토하고, 오류 로그 분석을 받고, 절감 효과를 살펴보세요.</block>
-  <block id="9ef8eb2bc51c8c6f6ba459302a542484" category="list-text">_운영 및 수정_: 데이터베이스 리소스에 대한 운영 작업을 수행하고 데이터베이스 구성 및 기본 FSx for ONTAP 파일 시스템 스토리지에 대한 문제를 해결합니다.</block>
-  <block id="3f285f24375531d34b8b7d73726b69bc" category="list-text">_데이터베이스 호스트 생성_: 모범 사례에 따라 데이터베이스 호스트와 기본 FSx for ONTAP 파일 시스템 스토리지를 배포합니다.</block>
-  <block id="034b7227f8903ae8faac7359c9b3d064" category="section-title">잘 설계된 대시보드 화면 추가</block>
-  <block id="7a524d371f7a263dae481eea0bc3de88" category="paragraph">데이터베이스 메뉴에 새로운 _잘 설계된_ 대시보드 화면이 추가되었습니다. 이 화면에서 전체 데이터베이스 자산의 구성 상태를 집계하여 볼 수 있습니다.</block>
-  <block id="54543cd5b64fb08ea26d865ed21c8691" category="section-title">NetApp Backup and Recovery 에서 데이터베이스 배포에 대한 편집 보호</block>
-  <block id="c7c9b75c76356b2b8aa328068cd75a1c" category="paragraph">Workload Factory 콘솔에서 보호된 리소스에 대한 보호를 편집하도록 선택한 다음 NetApp Console 의 백업 및 복구로 리디렉션되어 보호 정책이나 일정을 수정할 수 있습니다.</block>
-  <block id="f3a2b46dc542d840ca95ad3799ace39b" category="inline-link-macro">데이터베이스 배포에 대한 편집 보호</block>
-  <block id="2a601eb3188e615c20b76da1a5734646" category="paragraph"><block ref="2a601eb3188e615c20b76da1a5734646" category="inline-link-macro-rx"></block></block>
-  <block id="cf6dca9fc5d1f30c46f70906ef3152ce" category="section-title">오류 분석 기능에 사용 가능한 태그별 오류 필터링</block>
-  <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">Workload Factory의 오류 분석 기능을 사용하면 인프라 중심 태그로 Microsoft SQL Server 오류 로그를 필터링하고 볼 수 있습니다. 이 향상된 기능은 문제를 신속하게 분류하고 해결하는 데 도움이 됩니다.</block>
-  <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">태그 필터링을 사용하여 오류 로그 분석</block>
-  <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
-  <block id="8763b09bbcb06ec11c1d0d3331ba74f4" category="paragraph"><block ref="8763b09bbcb06ec11c1d0d3331ba74f4" category="inline-link-macro-rx"></block></block>
-  <block id="8cc5e5335040870d41183130dad2a0a6" category="paragraph"><block ref="8cc5e5335040870d41183130dad2a0a6" category="inline-link-macro-rx"></block></block>
-  <block id="6b49a1e6e88960820791afdda16a063c" category="paragraph"><block ref="6b49a1e6e88960820791afdda16a063c" category="inline-link-macro-rx"></block></block>
-  <block id="7999c939951d1cfce0556df15a76a345" category="paragraph"><block ref="7999c939951d1cfce0556df15a76a345" category="inline-link-macro-rx"></block></block>
-  <block id="1aa6907369c233df8f3cc388c26b9890" category="paragraph"><block ref="1aa6907369c233df8f3cc388c26b9890" category="inline-link-macro-rx"></block></block>
-  <block id="a8652a10fdfc1f87b6bf65a1067a7fd9" category="doc">권한 업데이트</block>
-  <block id="27d373ed8bf1b1a511ec6680dde4e448" category="paragraph">이번 릴리스에서는 보안과 사용자 제어를 강화하기 위해 저장소, 데이터베이스 및 VMware 워크로드에 대한 권한 정책을 대폭 업데이트했습니다. 원하는 대로 권한을 추가하거나 해제하여 권한 설정을 더욱 세부적으로 사용자 지정할 수 있습니다.</block>
-  <block id="6ab8e8b21fd457b68a33554bd8f64377" category="inline-link-macro">Workload Factory에 대한 권한 참조</block>
-  <block id="f5baf95dfead3e34e749c6d871873a72" category="paragraph"><block ref="f5baf95dfead3e34e749c6d871873a72" category="inline-link-macro-rx"></block></block>
-  <block id="7723c7d7d2f2eb53098d3c771a7b7854" category="paragraph">NetApp Workload Factory 알림 서비스에는 스토리지의 자동 inode 관리에 대한 알림이 포함되어 있습니다.</block>
-  <block id="ef97320a660fe1bab5cd9dea0fdf90c3" category="section-title">자동 용량 및 inode 관리에 대한 임계값 경고</block>
-  <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">스토리지에 대한 자동 용량 및 inode 관리 기능은 Workload Factory 알림 서비스에서 알림을 트리거하는 경고 임계값을 통해 설정될 수 있습니다. 이 기능을 사용하려면 먼저 Workload Factory 알림 서비스를 활성화해야 합니다.</block>
-  <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">NetApp Workload Factory 에 대한 알림 구성</block>
-  <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
-  <block id="24469e003440641648ff205b984a0ac7" category="doc">FSx for ONTAP 파일 시스템 배포 마법사에서 Amazon Elastic VMware Service 기본 설정 소개</block>
-  <block id="0e8989988334c8827a95bf9733f5311e" category="paragraph">Amazon Elastic VMware Service의 외부 NFS 데이터 저장소로 사용할 FSx for ONTAP 파일 시스템을 배포하는 경우 이제 데이터 저장소가 연결될 EVS 환경을 선택할 수 있습니다. 이렇게 하면 배포 마법사의 여러 필드가 자동으로 채워져 배포 프로세스가 간소화됩니다.</block>
-  <block id="6dab83facb5fd4298e37906481e1055b" category="inline-link">ONTAP 파일 시스템에 권장되는 FSx 배포</block>
-  <block id="876ee64bc6b6627784cd32512c519f60" category="paragraph"><block ref="876ee64bc6b6627784cd32512c519f60" category="inline-link-rx"></block></block>
-  <block id="8bf32647108c4a28e744e9ba5a1683bf" category="section-title">VMware 워크로드에 대한 권한 변경</block>
-  <block id="18a162715dca6df2cf24f0158d03bddd" category="paragraph">VMware 워크로드는 특정 작업에 필요한 권한에 대한 명확성을 제공하고 필요한 권한만 선택할 수 있는 세분성을 제공합니다. 자격 증명을 추가하면 이전 권한 모델인 _읽기 전용_ 및 _읽기/쓰기_ 대신 두 가지 권한 옵션 중에서 선택할 수 있습니다. 새로운 권한 모델은 권한 정책을 다음과 같이 구분합니다.</block>
-  <block id="0a015f0bd274c5e6c7a774ac18592871" category="list-text">_보기, 계획 및 분석_: EVS 가상화 환경 인벤토리를 보고, 시스템에 대한 잘 설계된 분석을 얻고, 절감 방안을 알아보세요.</block>
-  <block id="56522cb8a8b15eeca3868896cb875225" category="list-text">_데이터 저장소 배포 및 연결_: 권장되는 VM 레이아웃을 AWS vSphere 클러스터의 Amazon EVS, Amazon EC2 또는 VMware Cloud에 배포하고 사용자 정의된 Amazon FSx for NetApp ONTAP 파일 시스템을 외부 데이터 저장소로 사용합니다.</block>
-  <block id="59371e7e2c46a6e1dae0e4d3224dd7ef" category="paragraph">자격 증명을 추가할 때 VMware 워크로드에 제공하려는 액세스 수준에 따라 이러한 권한 정책 중 하나 이상을 선택할 수 있습니다.</block>
-  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="section-title">Amazon EC2 마이그레이션 어드바이저 개선 사항</block>
-  <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">VMware용 NetApp Workload Factory 의 이번 릴리스에서는 마이그레이션 어드바이저 환경에 대한 여러 가지 개선 사항이 적용되었습니다.</block>
-  <block id="62057df0ae6e346379f483246f31203b" category="list-text">*마이그레이션 계획 저장 또는 다운로드*: 이제 마이그레이션 계획을 PDF 또는 CSV 파일로 저장하거나 다운로드할 수 있습니다. 마이그레이션 계획을 저장하면 해당 계획이 Workload Factory 계정에 저장됩니다.</block>
-  <block id="d0892726ec1e74441a4a801494ed29bb" category="paragraph">자격 증명을 추가할 때 Workload Factory for Databases에 제공하려는 액세스 수준에 따라 이러한 권한 정책 중 하나 이상을 선택할 수 있습니다.</block>
   <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">특정 지역의 Amazon Elastic VMware Service로 마이그레이션할 경우 비용 절감을 계산합니다.</block>
   <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">이제 클라우드 마이그레이션을 위한 다양한 배포 옵션의 가치를 알아보고, 솔루션 평가에 투자한 노력을 최적화하고, 클라우드에서 가치와 비용 절감을 제공할 수 있는 솔루션을 심층적으로 살펴볼 수 있습니다.</block>
   <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">EVS 배포에 FSx for ONTAP 을 사용하면 vCPU 코어에서 얼마나 많은 절감 효과를 얻을 수 있는지도 검토할 수 있습니다.</block>
@@ -217,4 +132,13 @@
   <block id="ef702fb37688ffbfdf16f6b005df7436" category="doc">NetApp Workload Factory for Builders가 이제 NetApp Workload Factory for EDA로 변경되었습니다.</block>
   <block id="f48bd4568e33f95e23f1ea90df81f8af" category="paragraph">Workload Factory for Builders가 이제 Workload Factory for EDA로 이름이 변경되었습니다. 이번 명칭 변경은 전자 설계 자동화(EDA) 워크로드에 대한 집중을 반영합니다.</block>
   <block id="8e2c84558eaf80d5e8e99422d320b395" category="paragraph">Workload Factory for EDA는 여러 파일 시스템에서 ONTAP 용 FSx를 최적화하는 데 도움을 줍니다. 스토리지 매개변수를 자동화하고, 성능 제약 조건을 분석하고, EDA 프로젝트에 대한 통찰력을 얻음으로써 성능을 최적화하고 운영 비용을 절감할 수 있습니다. EDA용 워크로드 팩토리는 IaC(Infrastructure as Code) 프레임워크와 통합되도록 설계되었습니다.</block>
+  <block id="8f1b9e3fbbd44cf22e9f5ac28290aba0" category="doc">Amazon Elastic VMware Service에 대한 Well-Architected 분석</block>
+  <block id="f6c8ff445c3db04296fa83d4b2790691" category="paragraph">Workload Factory는 이제 Amazon Elastic VMware Service(EVS) 환경에 대한 자동화된 well-architected 분석 기능을 제공합니다. 매일 실행되는 검사를 통해 구성 불일치를 식별하고 최적의 운영, 보안 및 비용 효율성을 유지하는 데 도움이 되는 자세한 해결 권장 사항을 제공합니다.</block>
+  <block id="7e27d05efe618fad67c0e09d831368c6" category="paragraph">AWS API를 사용하여 스캔이 수행되므로 vSphere 자격 증명이나 vCenter 연결이 필요하지 않습니다. 결과는 EVS 환경 세부 정보 내의 새로운 *Well-architected status* 탭에서 확인할 수 있습니다.</block>
+  <block id="b49141c08a1be0c2df4a29b08af10e5e" category="paragraph">이번 릴리스에는 다음에 대한 인사이트가 포함됩니다.</block>
+  <block id="eb309475830119de69a172afb7c872e1" category="list-text">*인스턴스 중지/종료 보호 상태*: EC2 중지 또는 종료 보호가 적용되지 않은 EVS 노드를 식별합니다. EC2 콘솔에서 EVS 노드를 중지하거나 종료하면 가상 머신 데이터에 접근할 수 없거나 데이터가 손실될 수 있습니다.</block>
+  <block id="5e10e9fc9dc23fca9bdc4e8b00ae9469" category="list-text">*클러스터 노드 파티션 배치 정렬*: AWS 가용 영역 내 파티션에 장애가 발생할 경우 상당한 처리 능력 손실이나 다운타임을 초래할 수 있는 파티션 정렬 오류를 감지합니다. 각 인사이트에는 심각도 수준, 영향을 받는 리소스 정보를 포함한 자세한 결과, AWS 모범 사례에 기반한 단계별 해결 절차가 포함됩니다.</block>
+  <block id="3ac4be70f27829fbadc2c932a5b029e4" category="inline-link-macro">잘 설계된 구성 구현</block>
+  <block id="0f39698d75936e2b93022b9c574c0eb3" category="paragraph"><block ref="0f39698d75936e2b93022b9c574c0eb3" category="inline-link-macro-rx"></block></block>
+  <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026년 2월 1일</block>
 </blocks>
