@@ -178,4 +178,35 @@
   <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="paragraph"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
   <block id="ae1c2cb14154da0c884354777730e920" category="section-title">스토리지에 대한 새로운 권한</block>
   <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">S3 액세스 포인트 관리 기능 향상을 위해 Storage 워크로드에 새로운 권한이 추가되었습니다.</block>
+  <block id="5e3fec4e574658f05a0b92757b364cd9" category="doc">홈 페이지에는 스토리지에 대한 well-architected 문제 및 EMS 이벤트가 포함되어 있습니다</block>
+  <block id="8743ea79d0b29525fd3c69e5e3566399" category="paragraph">NetApp Workload Factory 홈 페이지에는 워크로드에 대한 아키텍처 문제 및 FSx for ONTAP 비상 관리 시스템(EMS) 이벤트가 표시되는 포커스 타일이 있습니다. 여기에서 스토리지 워크로드로 이동하여 스토리지 환경의 모든 FSx for ONTAP 파일 시스템에 대한 아키텍처 상태 또는 이벤트를 확인할 수 있습니다.</block>
+  <block id="ccef8795f7e03f715debeb1aa9f4f09a" category="section-title">S3 액세스 포인트를 사용한 온프레미스 데이터 복제 지원</block>
+  <block id="376c2bd6a2c38a02c3dfb4efa6e96674" category="paragraph">Workload Factory는 온프레미스 ONTAP 데이터를 클라우드로 복제하여 AWS GenAI, ML 및 분석 기능과 통합하는 것을 지원합니다. S3 액세스 포인트를 사용하여 온프레미스 데이터를 NFS 또는 SMB/CIFS 볼륨으로 복제할 수 있습니다.</block>
+  <block id="b5eeeba16e1b7119307069cbaf3ccdf4" category="inline-link-macro">S3 액세스 포인트를 사용하여 온프레미스 데이터 복제</block>
+  <block id="4750d90c2cd72e253c7d874bef89beff" category="paragraph"><block ref="4750d90c2cd72e253c7d874bef89beff" category="inline-link-macro-rx"></block></block>
+  <block id="b04638337aac148655a104c2db6c4766" category="section-title">Storage의 S3 액세스 포인트 개선 사항</block>
+  <block id="f76e736f45740f58cc12ec666b824eb2" category="paragraph">Storage workload for NetApp Workload Factory에서 S3 액세스 포인트 관리 기능이 여러 가지로 개선되었습니다. S3 액세스 포인트에 대한 네트워크 구성 세부 정보를 입력하고 S3 액세스 포인트 태그를 추가할 수 있습니다. 또한 S3 버킷 세부 정보를 확인하고 S3 액세스 포인트 관리를 위한 다양한 작업을 수행할 수 있습니다.</block>
+  <block id="76f77cbc01f0341dffcaaa5f6236eb73" category="section-title">Storage에서 사용 가능한 S3 버킷 세부 정보</block>
+  <block id="c203e76297d071e4d8256e073c93dafb" category="paragraph">S3 액세스 포인트에 메타데이터가 활성화되면 NetApp Workload Factory는 AWS S3 버킷을 자동으로 스캔하고 S3 테이블을 채워 모든 객체, 해당 메타데이터, 속성 및 태그에 대한 명확한 스냅샷을 제공합니다. 이러한 세부 정보에 액세스하면 관리 중인 데이터에 대한 제어, 가시성 및 신뢰성을 유지하는 동시에 운영 오버헤드를 줄일 수 있습니다.</block>
+  <block id="cc7664945c125a51dd2e69095c8f8200" category="inline-link-macro">FSx for ONTAP 파일 시스템의 S3 액세스 포인트에 대한 세부 정보를 확인하세요</block>
+  <block id="dd52e33b4320b655cb69fb76bc1e345f" category="paragraph"><block ref="dd52e33b4320b655cb69fb76bc1e345f" category="inline-link-macro-rx"></block></block>
+  <block id="2249107cb1f4c202ef0253c53bcff598" category="section-title">S3 액세스 포인트에 대한 추가 관리 작업</block>
+  <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory는 S3 액세스 포인트에 대한 추가 관리 작업을 제공합니다. NetApp Workload Factory 인터페이스에서 액세스 포인트 세부 정보를 확인하고, 기존 S3 액세스 포인트를 수정하고, S3 액세스 포인트 태그를 추가 또는 제거할 수 있어 객체 스토리지 관리 작업을 간소화할 수 있습니다.</block>
+  <block id="366c32f0cbb2503b337e243eaa8c42b5" category="inline-link-macro">NetApp Workload Factory에서 S3 액세스 포인트 관리</block>
+  <block id="d9ec48855b13e13fd489d2442f822e4d" category="paragraph"><block ref="d9ec48855b13e13fd489d2442f822e4d" category="inline-link-macro-rx"></block></block>
+  <block id="e593953aaf04eebecfe2e26326145784" category="list-text">캐시 볼륨 크기 최적화: 캐시 볼륨에서 볼륨 autosize 및 scrubbing이 활성화되어 있는지 확인하여 최적의 크기를 유지하고 캐시가 핫 데이터에 집중하여 최고 효율성을 달성합니다.</block>
+  <block id="00e21b809963a2e31abfc13c3aea34b6" category="list-text">고아 블록 디바이스: 7일 연속으로 사용되지 않은 경우 블록 디바이스 데이터를 아카이빙하거나 블록 디바이스를 삭제하는 것이 좋습니다.</block>
+  <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">스토리지 VM 논리적 보고: 스토리지 VM의 기본 보고 설정이 논리적으로 설정되어 있는지 확인하여 볼륨 수준에서 스토리지 사용량을 더 잘 파악할 수 있도록 합니다.</block>
+  <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">블록 디바이스용 추가 카드</block>
+  <block id="e1d58576240df6c3acc0d5f3067d6468" category="paragraph">스토리지 워크로드의 블록 디바이스 탭에 블록 디바이스 사용량 및 보호 상태에 대한 빠른 인사이트를 제공하는 세 가지 새로운 카드가 추가되었습니다.</block>
+  <block id="2f09b86fd82a1603b2104c3d565e4187" category="list-text">스토리지 효율성: 사용된 스토리지 용량과 사용 가능한 스토리지 용량을 표시하며, 사용된 용량은 SSD 및 용량 풀 스토리지 계층별로 구분됩니다.</block>
+  <block id="075b9a975b25dba22b299c4edaf12834" category="list-text">보호 장치: 스냅샷, 원격 복제, NetApp 자율형 랜섬웨어 보호(ARP/AI) 및 백업이 적용된 블록 장치의 비율을 표시합니다.</block>
+  <block id="46dd61e303a77cea00fc631287dfeab6" category="inline-link-macro">사용하지 않는 블록 디바이스의 공간 확보</block>
+  <block id="8e8a93bbbd6df5c04a7668748139ce7a" category="list-text">사용되지 않는 장치: 블록 장치 중 7일 연속 사용되지 않은 장치가 있는지 표시하여 사용되지 않는 리소스를 효과적으로 식별하고 관리할 수 있도록 도와줍니다. 여기에서 <block ref="ddc66f326affa5fcec5ab8f0c0c76e68" category="inline-link-macro-rx"></block>을(를) 수행할 수 있습니다.</block>
+  <block id="9ebda12d23b72f4bdda3cbbcd05e0817" category="section-title">이니시에이터 그룹 생성 및 관리 지원</block>
+  <block id="de002c21193de456c56ce9ccecfc09ab" category="paragraph">NetApp Workload Factory는 FSx for ONTAP 파일 시스템의 블록 스토리지용 이니시에이터 그룹(igroup) 생성 및 관리를 지원합니다. 이니시에이터 그룹은 블록 장치(LUN)를 해당 장치에 액세스할 수 있는 컴퓨팅 리소스에 연결하여 SAN 환경에서 블록 스토리지에 대한 권한 계층을 제공합니다.</block>
+  <block id="e477df666bb45ae0a1fda1f7058551a2" category="inline-link-macro">NetApp Workload Factory에서 이니시에이터 그룹 생성</block>
+  <block id="5e85fc9bd832f8bc5366f7ffe4912a99" category="list-text"><block ref="5e85fc9bd832f8bc5366f7ffe4912a99" category="inline-link-macro-rx"></block></block>
+  <block id="8933129f9a07c1370a31a0b9f2e53018" category="inline-link-macro">NetApp Workload Factory에서 기존 이니시에이터 그룹을 관리합니다</block>
+  <block id="b241a4baaecab76fcbba49cd24dc9185" category="list-text"><block ref="b241a4baaecab76fcbba49cd24dc9185" category="inline-link-macro-rx"></block></block>
 </blocks>
