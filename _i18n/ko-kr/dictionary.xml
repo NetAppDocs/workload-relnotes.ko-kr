@@ -141,4 +141,41 @@
   <block id="3ac4be70f27829fbadc2c932a5b029e4" category="inline-link-macro">잘 설계된 구성 구현</block>
   <block id="0f39698d75936e2b93022b9c574c0eb3" category="paragraph"><block ref="0f39698d75936e2b93022b9c574c0eb3" category="inline-link-macro-rx"></block></block>
   <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026년 2월 1일</block>
+  <block id="efc6f47d5e8620dbd993bbf5427fa876" category="doc">사용자 지정 태그를 사용한 향상된 대시보드 필터링</block>
+  <block id="1c074117512c813d0d3c5474c6839792" category="paragraph">이제 AWS 태그를 기반으로 EDA 대시보드에서 최대 5개의 사용자 지정 필터를 구성할 수 있습니다. 각 사용자 지정 필터에는 레이블 이름, AWS 태그 키 및 선택 유형(단일 또는 다중 선택)이 포함됩니다.</block>
+  <block id="a290a89777e8fd7db6061c83affdbda9" category="paragraph">다중 선택 기능을 사용하면 여러 값을 동시에 선택할 수 있지만, 단일 선택 기능은 한 번에 하나의 값만 선택할 수 있도록 제한합니다. 사용자 지정 필터는 구성한 순서대로 표시되므로 자주 사용하는 필터를 쉽게 정리할 수 있습니다.</block>
+  <block id="a9f4d955c73322ea2697149d48ca3230" category="paragraph">사용자 지정 필터를 구성하지 않으면 기본 필터(파일 시스템, 볼륨 유형 및 시간 범위)를 계속 사용할 수 있으므로 대시보드를 계속 보고 상호 작용할 수 있습니다.</block>
+  <block id="7f599cf351ac708ac51a573f45f1adfe" category="inline-link">사용자 지정 필터 구성에 대해 자세히 알아보십시오</block>
+  <block id="b4d8b5d35eb5ad238c4bc40c7bfa5cc8" category="paragraph"><block ref="0fffea6d188f5a3a46b25be10dcf1dca" category="inline-link-rx"></block>.</block>
+  <block id="5908526b06383bf6b835d957813a0a5b" category="section-title">세부적인 성능 분석을 위한 볼륨 세부 정보 보기</block>
+  <block id="be14699d8f808150c6e3ec8fd5f5fb6f" category="paragraph">이제 대시보드는 전체 보기와 볼륨 보기의 두 가지 보기 모드를 제공합니다. 전체 보기에서는 모든 볼륨에 대한 집계 지표를 표시하고, 볼륨 보기에서는 시간 경과에 따른 상위 10개 볼륨의 개별 성능을 보여줍니다.</block>
+  <block id="6828b4aa70bf0499581d68bc0a737c8a" category="paragraph">볼륨 보기에서 마우스 오버 시 나타나는 대화형 툴팁은 볼륨 이름, 측정항목, 시간별 값 등 각 볼륨에 대한 자세한 정보를 제공합니다. 동일한 볼륨이 여러 구성요소에 걸쳐 표시되는 경우, 일관된 색상 코드를 통해 다양한 측정항목에서 특정 볼륨을 쉽게 추적할 수 있습니다.</block>
+  <block id="b7259cf0b1b93b9f8f56fd85b8a2075f" category="inline-link">볼륨 세부 정보 보기에 대해 자세히 알아보십시오</block>
+  <block id="3d218b60cf53ed75572aecfde4c1d233" category="paragraph"><block ref="fdc27d3397a23552fa2bc2b42dee0c76" category="inline-link-rx"></block>.</block>
+  <block id="a63dd8c708227f66adf2e93b1b973bfe" category="section-title">사전 예방적 성능 모니터링을 위한 지연 시간 분석</block>
+  <block id="4eca5955b4d0f7b664a2f65c49306dcf" category="paragraph">지연 시간 분석 기능을 사용하면 FSx for ONTAP 파일 시스템 전체에서 볼륨 읽기 및 쓰기 지연 시간을 모니터링할 수 있습니다. 사용자 지정 가능한 경고 및 중요 이벤트 임계값을 구성하여 EDA 워크로드에 영향을 미치기 전에 성능 병목 현상을 사전에 파악할 수 있습니다.</block>
+  <block id="40a74d0e93037927ed8b742952444782" category="paragraph">지연 시간 이벤트 테이블에는 모든 경고 및 위험 이벤트가 표시되어 볼륨 성능을 모니터링하고 최적화가 필요한 볼륨을 식별할 수 있습니다.</block>
+  <block id="40599551b14b033049a0306f8d7e0da2" category="paragraph">이 기능을 사용하려면 AWS 자격 증명이 필요하며 EDA 대시보드의 지연 시간 메뉴에서 액세스할 수 있습니다.</block>
+  <block id="195b656b2b34184ab7cb51ea0158eba0" category="inline-link">지연 시간 분석에 대해 자세히 알아보십시오</block>
+  <block id="3589dd4e8f5f2cbdba29810271d0f1d9" category="paragraph"><block ref="6f22f53277ef02f84f5ed64bde49085d" category="inline-link-rx"></block>.</block>
+  <block id="61e49369a35b0f8a0d95ef11e249239f" category="doc">Well-Architected 업데이트</block>
+  <block id="2c8617d4094e3a2f6f2b8588039ad2ed" category="paragraph">NetApp Workload Factory에는 Elastic VMware Service(EVS) 워크로드에 대한 아키텍처 평가 기능이 포함되어 있으며 스토리지 및 데이터베이스 워크로드에 대한 새로운 구성이 추가되었습니다.</block>
+  <block id="af89cdfb55120aeef29143bab52cb6de" category="list-text">*VMware 워크로드* NetApp Workload Factory는 잘 설계된 Amazon Elastic VMware Service(EVS) 워크로드 운영을 위한 모범 사례 및 권장 사항을 제공합니다.</block>
+  <block id="74163cd660daafe169a986c2d540a418" category="inline-link-macro">잘 설계된 EVS 구성 구현</block>
+  <block id="5d6110d1881f093c497cdaeeb5611ea0" category="paragraph"><block ref="5d6110d1881f093c497cdaeeb5611ea0" category="inline-link-macro-rx"></block></block>
+  <block id="764d59d30018a72d1f4f007b467fe5ea" category="list-text">*스토리지 워크로드* 스토리지 성능 및 비용에 대한 더 많은 통찰력을 얻을 수 있도록 스토리지 워크로드의 잘 설계된 기능에 여러 가지 새로운 구성이 추가되었습니다.</block>
+  <block id="20c3b23e12b3cf115bfb4bd82bd3368f" category="list-text">스토리지 VM 논리적 보고</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="list-text">캐시 볼륨 크기 최적화</block>
+  <block id="2dac5abecf96a197d16faee0444100fe" category="list-text">고아 블록 디바이스</block>
+  <block id="a9866f264fab2ea83525e7cc57292cbe" category="inline-link-macro">스토리지 워크로드에 적합한 아키텍처의 파일 시스템 구성 구현</block>
+  <block id="99187ba72b66267d55626eb367382424" category="paragraph"><block ref="99187ba72b66267d55626eb367382424" category="inline-link-macro-rx"></block></block>
+  <block id="622975b7c88c6bc06b872c6006068776" category="list-text">*데이터베이스 워크로드* Workload Factory for Databases에는 Direct NFS(dNFS)를 활성화 및 설정하여 I/O 성능을 향상시키고 호스트 및 스토리지 시스템의 부하를 줄이기 위한 Oracle용 새로운 스토리지 구성이 포함되어 있습니다.</block>
+  <block id="5017259dadba571295ba93287ef883f9" category="list-text">dNFS 활성화</block>
+  <block id="3968d7d3f8cb0f09289a934bc1584128" category="list-text">dNFS 일관된 IP 확인</block>
+  <block id="a727ea61b65e8aff8729b4fc3c629094" category="list-text">dNFS 구성 파일</block>
+  <block id="3e4e5c9aa6d22a70ee2aadf98db8552a" category="list-text">dNFS<block ref="4740c034d97ca90a96b8050082816605" prefix=" " category="inline-code"></block></block>
+  <block id="4da0b519f402cca2d38847e59fb3b885" category="inline-link-macro">잘 설계된 데이터베이스 워크로드 구현</block>
+  <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="paragraph"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
+  <block id="ae1c2cb14154da0c884354777730e920" category="section-title">스토리지에 대한 새로운 권한</block>
+  <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">S3 액세스 포인트 관리 기능 향상을 위해 Storage 워크로드에 새로운 권한이 추가되었습니다.</block>
 </blocks>
