@@ -1,0 +1,11 @@
+= 스토리지 VM 마이그레이션 지원
+:allow-uri-read: 
+
+
+
+
+=== 스토리지 VM 마이그레이션 지원
+
+NetApp Workload Factory에서 이제 스토리지 VM 마이그레이션을 지원합니다. 이 기능을 사용하면 온프레미스 ONTAP 시스템 또는 1세대 FSx for ONTAP 파일 시스템에서 2세대 FSx for ONTAP 파일 시스템으로 ONTAP 스토리지 시스템 데이터 및 구성을 마이그레이션할 수 있습니다. 스토리지 VM 데이터와 구성 설정을 복제하여 사용자 및 애플리케이션에 대한 다운타임과 중단을 최소화하면서 새 파일 시스템으로 이동할 수 있습니다.
+
+이 기능을 사용하려면 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["복제 관계 생성"] 사용 사례로 *Migration*을 선택하십시오. 마이그레이션 프로세스를 완료하려면 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html#cut-over-replication-for-migration-use-cases["스토리지 VM과 복제된 볼륨을 컷오버합니다"] 즉시 데이터와 스토리지 VM 구성 설정을 타겟 FSx for ONTAP 파일 시스템으로 영구적으로 마이그레이션해야 합니다.
