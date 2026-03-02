@@ -1,0 +1,59 @@
+= 잘 설계된 분석 업데이트
+:allow-uri-read: 
+
+
+
+
+=== 잘 설계된 분석 업데이트
+
+Workload Factory는 다음 구성에 대해 FSx for ONTAP 파일 시스템을 분석합니다.
+
+* SSD 용량 활용률 저하: SSD 용량 계층의 활용률이 낮은지 확인하고 비용 최적화를 위해 SSD 용량을 줄이는 것을 권장합니다.
+* 볼륨 백업 예약: Workload Factory는 구성 권장 사항을 개선하고 FSx for ONTAP 백업 또는 AWS Backup을 활성화하는 옵션을 추가했습니다. FSx for ONTAP 백업은 파일 시스템의 모든 볼륨에 기본 정책을 적용하여 최대 90일 동안 보관되는 일일 백업을 생성합니다. AWS Backup을 사용하면 백업 계획에서 각 볼륨에 대해 서로 다른 보존 기간을 선택할 수 있습니다.
+
+
+
+
+=== Workload Factory는 복제를 위한 AI 및 ML 사용 사례를 지원합니다
+
+Workload Factory는 온프레미스 ONTAP 데이터를 FSx for ONTAP로 복제하고 AWS 인공지능(AI) 및 머신러닝(ML) 서비스를 위한 S3 액세스 포인트를 생성하여 AI/ML 워크플로를 가속화하는 기능을 지원합니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["AI 및 ML 사용 사례를 위해 온프레미스 데이터를 복제합니다"]
+
+
+
+=== 기존 S3 액세스 포인트 편집
+
+볼륨에 연결된 기존 S3 액세스 포인트의 사용자 및 사용자 유형을 변경할 수 있습니다. 또한 액세스 포인트의 메타데이터를 활성화 또는 비활성화할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["NetApp Workload Factory에서 S3 액세스 포인트 편집"]
+
+
+
+=== 블록 스토리지 다이어그램 추가
+
+블록 스토리지를 사용하는 경우 블록 스토리지 다이어그램을 통해 블록 장치가 노드 및 igroup에 어떻게 연결되는지 시각적으로 확인할 수 있습니다. 이 다이어그램은 블록 스토리지를 이해하고 관리하는 데 도움이 됩니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["NetApp Workload Factory에서 블록 스토리지를 관리합니다"]
+
+
+
+=== 자동 용량 관리 기능으로 업데이트
+
+이번 업데이트에서는 해당 기능을 자동 용량 관리와 용량 알림이라는 두 가지 별개의 기능으로 분리했습니다.
+
+자동 용량 관리는 최적의 성능을 유지하기 위해 파일 시스템 용량을 자동으로 추가하거나 제거합니다. 새로운 옵션에는 증분 모드와 적응형 모드가 포함됩니다. 증분 모드에서는 시스템이 임계값에 도달할 때마다 고정된 양만큼 용량을 늘리고, 적응형 모드에서는 기간별 데이터를 사용하여 용량을 예측하고 조정합니다.
+
+용량 알림은 용량 조정이 발생하거나 파일 시스템이 설정된 한도에 도달할 때마다 알려주므로 문제가 발생하기 전에 스토리지를 관리할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["NetApp Workload Factory의 자동 용량 관리 및 용량 알림에 대해 알아보십시오"]
+
+
+
+=== Workload Factory에서 사용할 수 있는 새로운 Ask Me 북마크
+
+Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 AI 비서입니다. 워크로드 환경에 대한 질문을 하고, 맞춤형 인사이트를 얻고, 이전 대화를 검토할 수 있습니다.
+
+새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업 중인 내용을 방해하지 않고 사이드 패널에 Ask Me가 실행되어, 현재 작업과 관련된 간단한 설명과 추천 사항을 제공합니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"^]
