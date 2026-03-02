@@ -15,6 +15,62 @@ NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대
 
 
 
+== 2026년 3월 2일
+
+
+
+=== 데이터베이스 워크로드
+
+
+
+==== 일회성 평가
+
+Workload Factory는 이제 필요할 때마다 데이터베이스 배포 구성을 분석할 수 있는 일회성 평가 기능을 제공합니다. 신규 배포, 마이그레이션 후, 문제 해결 등 다양한 상황에서 활용할 수 있습니다. 평가 결과를 통해 배포 구성을 최적화하고 모범 사례를 준수하는 데 도움이 되는 권장 사항을 받아볼 수 있습니다. 이 기능을 통해 복잡한 설정 과정 없이도 잘 설계된 기능을 활용해 볼 수 있습니다. Workload Factory에 자격 증명을 저장하거나, 데이터베이스 리소스를 등록하거나, 외부 연결을 설정할 필요 없이 데이터베이스를 평가할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["데이터베이스 배포에 대한 일회성 평가를 수행합니다"]
+
+
+
+==== Microsoft SQL Server의 Always On 가용성 그룹 및 Oracle 데이터베이스의 Data Guard에 대한 등록 지원
+
+이제 NetApp Workload Factory의 데이터베이스 워크로드에서 Always On 가용성 그룹(AOAG) 배포 모델을 사용하는 Microsoft SQL Server 인스턴스와 Data Guard 배포 모델을 사용하는 Oracle 데이터베이스를 검색하고 등록할 수 있습니다. 이 개선 사항을 통해 Workload Factory 콘솔에서 SQL Server 및 Oracle 리소스를 더욱 효율적으로 관리할 수 있습니다.
+
+AOAG 인스턴스와 Data Guard 데이터베이스를 등록한 후에는 리소스 세부 정보 보기 및 오류 로그 분석과 같은 NetApp Workload Factory for Databases의 다양한 기능을 활용할 수 있습니다.
+
+Workload Factory for Databases는 AOAG 배포 모델을 사용하는 Microsoft SQL Server 인스턴스에 대한 well-architected 분석도 지원합니다. 가용성 그룹에 속한 SQL Server 인스턴스의 구성을 분석하고 배포 구성을 최적화하고 모범 사례를 준수하도록 권장 사항을 받을 수 있습니다. 이 기능을 사용하려면 AOAG 인스턴스를 등록하십시오.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html#register-a-sql-server-instance["데이터베이스용 Workload Factory에 리소스를 등록합니다"]
+
+
+
+==== Oracle을 위한 잘 설계된 분석
+
+체계적인 분석에는 운영 체제에 최신 패치가 있는지 확인하고 설치 방법을 알려주는 Oracle용 *운영 체제 패치*가 포함되어 있습니다.
+
+또한, Oracle용 Well-Architected 분석 기능은 스토리지 레이아웃과 같은 구성이 다른 구성에 종속되어 있을 때 알려줍니다. 이 알림은 연결된 구성을 최적화하여 제공되는 모든 권장 사항이 최적화되도록 하는 데 필요한 조치를 안내합니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다."]
+
+
+
+==== Oracle 온프레미스 데이터베이스 환경 비용 분석 및 마이그레이션 계획
+
+Workload Factory for Databases는 이제 Oracle 온프레미스 데이터베이스 마이그레이션을 Amazon FSx for NetApp ONTAP로 분석하고 계획하는 데 도움을 줍니다. 비용 절감 계산기를 사용하여 클라우드에서 Oracle 온프레미스 데이터베이스 환경을 운영하는 데 드는 비용을 추산하고 온프레미스 데이터베이스 환경을 클라우드로 마이그레이션하기 위한 권장 사항을 검토할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["온프레미스 데이터베이스 환경의 비용 절감 효과를 살펴보세요."]
+
+
+
+==== Workload Factory에서 사용할 수 있는 새로운 Ask Me 북마크
+
+Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 사용자의 워크로드 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있도록 지원하는 AI 비서입니다.
+
+새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업 중인 내용을 방해하지 않고 사이드 패널에 Ask Me가 실행되어, 현재 작업과 관련된 간단한 설명과 추천 사항을 제공합니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"^]
+
+
+
 == 2026년 3월 1일
 
 
@@ -30,6 +86,46 @@ Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가
 새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업을 방해하지 않고 사이드 패널에서 Ask me가 실행되어 현재 수행 중인 작업과 관련된 빠른 설명과 권장 사항을 제공합니다.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"]
+
+
+
+=== EDA 워크로드
+
+
+
+==== EDA 스토리지 관리 개요 대시보드
+
+수십 개의 FSx for ONTAP 파일 시스템을 관리하는 IT 관리자는 개요 대시보드를 사용하여 클러스터 상태, 활용률 및 볼륨 배치와 관련된 일반적인 운영 질문에 대한 답을 찾을 수 있습니다.
+
+개요 대시보드에는 다음이 포함됩니다.
+
+* *클러스터 상태*: 클러스터 전반의 성능, 용량, 가용성 및 보호, 보안 이벤트를 강조하는 대시보드 상단에 요약된 정보입니다.
+* *클러스터 테이블*: 검색, 필터링 및 페이지 매김이 가능한 테이블로, 클러스터별 SSD 용량, 용량 풀 및 처리량 메트릭을 표시하며, 열 사용자 지정 및 CSV 내보내기를 지원합니다.
+
+
+이전의 메인 대시보드는 이제 *Project* 탭에서 액세스할 수 있습니다. EDA 탭은 이제 Overview, Latency, Project, CI/CD 순서로 정렬됩니다.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["개요 대시보드에 대해 자세히 알아보십시오"^].
+
+
+
+==== 자동화된 지연 시간 분석
+
+지연 시간 분석에 이제 자동화된 기본 분석 기능이 포함됩니다. 지연 시간 이벤트가 감지되면 시스템은 ONTAP QoS 지연 센터 메트릭을 자동으로 분석하여 지연 시간 문제의 원인을 파악합니다.
+
+기본 분석은 QoS 정책, 디스크 성능, 네트워크 문제 및 클러스터 구성을 평가하여 지연 이벤트 테이블의 세부 정보 열에 즉각적인 인사이트를 제공합니다.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["기본 지연 시간 분석에 대해 자세히 알아보십시오"^].
+
+
+
+==== Workload Factory에서 사용할 수 있는 새로운 Ask Me 북마크
+
+Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 사용자의 워크로드 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있도록 지원하는 AI 비서입니다.
+
+새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업 중인 내용을 방해하지 않고 사이드 패널에 Ask Me가 실행되어, 현재 작업과 관련된 간단한 설명과 추천 사항을 제공합니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"^]
 
 
 
@@ -324,9 +420,9 @@ NetApp Workload Factory 다음과 같은 향상된 기능이 포함되어 있습
 
 
 
-==== Ask me AI 어시스턴트 홈페이지 통합
+==== Ask Me AI 어시스턴트 홈 페이지 통합
 
-Workload Factory 콘솔 홈 페이지에는 Ask me AI 어시스턴트가 내장되어 있어 스토리지 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있습니다. Ask me 기능을 사용하면 콘솔을 벗어나지 않고도 워크로드를 이해하고, 문제를 해결하고, Workload Factory에 대해 자세히 알아볼 수 있습니다.
+Workload Factory 콘솔 홈 페이지에는 Ask Me AI 어시스턴트가 내장되어 있어 스토리지 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있습니다. Ask Me를 통해 워크로드를 이해하고, 문제를 해결하고, Workload Factory에 대해 자세히 알아볼 수 있으며, 이 모든 작업을 콘솔에서 바로 수행할 수 있습니다.
 
 
 

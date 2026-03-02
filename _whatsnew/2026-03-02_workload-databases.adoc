@@ -1,0 +1,51 @@
+= 일회성 평가
+:allow-uri-read: 
+
+
+
+
+=== 일회성 평가
+
+Workload Factory는 이제 필요할 때마다 데이터베이스 배포 구성을 분석할 수 있는 일회성 평가 기능을 제공합니다. 신규 배포, 마이그레이션 후, 문제 해결 등 다양한 상황에서 활용할 수 있습니다. 평가 결과를 통해 배포 구성을 최적화하고 모범 사례를 준수하는 데 도움이 되는 권장 사항을 받아볼 수 있습니다. 이 기능을 통해 복잡한 설정 과정 없이도 잘 설계된 기능을 활용해 볼 수 있습니다. Workload Factory에 자격 증명을 저장하거나, 데이터베이스 리소스를 등록하거나, 외부 연결을 설정할 필요 없이 데이터베이스를 평가할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["데이터베이스 배포에 대한 일회성 평가를 수행합니다"]
+
+
+
+=== Microsoft SQL Server의 Always On 가용성 그룹 및 Oracle 데이터베이스의 Data Guard에 대한 등록 지원
+
+이제 NetApp Workload Factory의 데이터베이스 워크로드에서 Always On 가용성 그룹(AOAG) 배포 모델을 사용하는 Microsoft SQL Server 인스턴스와 Data Guard 배포 모델을 사용하는 Oracle 데이터베이스를 검색하고 등록할 수 있습니다. 이 개선 사항을 통해 Workload Factory 콘솔에서 SQL Server 및 Oracle 리소스를 더욱 효율적으로 관리할 수 있습니다.
+
+AOAG 인스턴스와 Data Guard 데이터베이스를 등록한 후에는 리소스 세부 정보 보기 및 오류 로그 분석과 같은 NetApp Workload Factory for Databases의 다양한 기능을 활용할 수 있습니다.
+
+Workload Factory for Databases는 AOAG 배포 모델을 사용하는 Microsoft SQL Server 인스턴스에 대한 well-architected 분석도 지원합니다. 가용성 그룹에 속한 SQL Server 인스턴스의 구성을 분석하고 배포 구성을 최적화하고 모범 사례를 준수하도록 권장 사항을 받을 수 있습니다. 이 기능을 사용하려면 AOAG 인스턴스를 등록하십시오.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html#register-a-sql-server-instance["데이터베이스용 Workload Factory에 리소스를 등록합니다"]
+
+
+
+=== Oracle을 위한 잘 설계된 분석
+
+체계적인 분석에는 운영 체제에 최신 패치가 있는지 확인하고 설치 방법을 알려주는 Oracle용 *운영 체제 패치*가 포함되어 있습니다.
+
+또한, Oracle용 Well-Architected 분석 기능은 스토리지 레이아웃과 같은 구성이 다른 구성에 종속되어 있을 때 알려줍니다. 이 알림은 연결된 구성을 최적화하여 제공되는 모든 권장 사항이 최적화되도록 하는 데 필요한 조치를 안내합니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다."]
+
+
+
+=== Oracle 온프레미스 데이터베이스 환경 비용 분석 및 마이그레이션 계획
+
+Workload Factory for Databases는 이제 Oracle 온프레미스 데이터베이스 마이그레이션을 Amazon FSx for NetApp ONTAP로 분석하고 계획하는 데 도움을 줍니다. 비용 절감 계산기를 사용하여 클라우드에서 Oracle 온프레미스 데이터베이스 환경을 운영하는 데 드는 비용을 추산하고 온프레미스 데이터베이스 환경을 클라우드로 마이그레이션하기 위한 권장 사항을 검토할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["온프레미스 데이터베이스 환경의 비용 절감 효과를 살펴보세요."]
+
+
+
+=== Workload Factory에서 사용할 수 있는 새로운 Ask Me 북마크
+
+Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 사용자의 워크로드 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있도록 지원하는 AI 비서입니다.
+
+새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업 중인 내용을 방해하지 않고 사이드 패널에 Ask Me가 실행되어, 현재 작업과 관련된 간단한 설명과 추천 사항을 제공합니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"^]
