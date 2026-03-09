@@ -40,13 +40,6 @@
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">권한 참조 변경 로그</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">FSx for ONTAP 에 대한 AWS S3 액세스 포인트 지원</block>
-  <block id="d30cb805d7270ac0b7cc06375888e47f" category="paragraph">NetApp Workload Factory FSx for ONTAP 파일 시스템에 대한 AWS S3 액세스 포인트를 지원합니다. S3 액세스 포인트를 사용하여 볼륨을 생성하고, 기존 볼륨에 S3 액세스 포인트를 할당하고, Workload Factory 콘솔에서 S3 액세스 포인트를 관리할 수 있습니다. S3 액세스 포인트를 사용하면 AWS S3 API를 통해 SMB/CIFS 또는 NFS 볼륨에 있는 파일 데이터에 액세스할 수 있습니다. 이를 통해 S3 액세스 포인트를 지원하는 AWS 서비스의 GenAI, ML 및 분석과 기존 데이터를 통합할 수 있습니다.</block>
-  <block id="ef6c8d59ba70b1efd5437dd31e63efcb" category="section-title">2025년 12월 4일</block>
-  <block id="bf9dc967c38bf5f6366aea1d464016b5" category="inline-link-macro">S3 액세스 포인트를 사용하여 볼륨 생성</block>
-  <block id="9650d80f3b4a8975eb2cc3145efe97fd" category="list-text"><block ref="9650d80f3b4a8975eb2cc3145efe97fd" category="inline-link-macro-rx"></block></block>
-  <block id="3e2c74c8c2d6921bd86b94a0e3ce7846" category="inline-link-macro">볼륨에 대한 S3 액세스 포인트 관리</block>
-  <block id="bec075d59b91517943ea96b4d56e06de" category="list-text"><block ref="bec075d59b91517943ea96b4d56e06de" category="inline-link-macro-rx"></block></block>
   <block id="e75004bce0e2abb43e6673b8bd4bbd2f" category="doc">Active Directory 통합 기능 향상</block>
   <block id="4be7fbd19e77cc55e8637326f3cc569d" category="paragraph">Workload Factory for Databases는 고급 생성 옵션을 사용하여 Microsoft SQL Server를 배포할 때 세 가지 새로운 Active Directory(AD) 필드를 포함합니다. 이러한 개선 사항을 통해 Active Directory 가입 기본 설정을 지정하고 관리형 서비스 계정을 사용할 수 있습니다.</block>
   <block id="2d652258eef11b26b58d2ac1040af4fb" category="paragraph">새로운 AD 필드는 다음과 같습니다.</block>
@@ -234,4 +227,13 @@
   <block id="19d4c34be6525aca788802a6167a4156" category="inline-link-macro">NetApp Workload Factory의 자동 용량 관리 및 용량 알림에 대해 알아보십시오</block>
   <block id="ef319467f119e3bda1a975eb1f26e46d" category="paragraph"><block ref="ef319467f119e3bda1a975eb1f26e46d" category="inline-link-macro-rx"></block></block>
   <block id="1c0128659c34cfdfa6e26b42e3133599" category="paragraph">Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 AI 비서입니다. 워크로드 환경에 대한 질문을 하고, 맞춤형 인사이트를 얻고, 이전 대화를 검토할 수 있습니다.</block>
+  <block id="d9a614ba22162f87467dc9820cb657d0" category="doc">Google Cloud VMware Engine용 마이그레이션 어드바이저 지원 소개</block>
+  <block id="9ed9d229ad690b47d132eb6206cba909" category="paragraph">NetApp Workload Factory가 이제 Google Cloud VMware Engine을 지원합니다. Google Cloud NetApp Volumes를 외부 NFS 데이터스토어로 사용하여 온프레미스 VMware 워크로드를 Google Cloud VMware Engine으로 마이그레이션할 수 있습니다. 이를 통해 애플리케이션을 재구성하거나 플랫폼을 변경할 필요 없이 비용을 최적화하고 VMware 환경을 더욱 효과적으로 제어할 수 있습니다.</block>
+  <block id="42fbc3a98a8196c1e84ea7586967c06f" category="paragraph">Google Cloud VMware Engine 마이그레이션 어드바이저는 다음을 제공합니다.</block>
+  <block id="6e784cfbe98c0f6a070e3304420a9971" category="list-text">VE1 및 VE2 노드 유형을 지원하는 자동화된 Google Cloud VMware Engine 클러스터 크기 조정 및 설계</block>
+  <block id="f6879c882f4384c5ca30017d48dafe42" category="list-text">vSAN 내부 데이터스토어와 Google Cloud NetApp Volumes 외부 NFS 데이터스토어 간의 VM 레이아웃 최적화.</block>
+  <block id="a29465f74d83dc4ead73643e19ed4387" category="list-text">vSAN 단독 구성과 Google Cloud NetApp Volumes 강화 구성 간의 상세한 비용 비교 및 총소유비용(TCO) 분석.</block>
+  <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">Standard, Premium 및 Extreme Google Cloud NetApp Volumes 서비스 레벨을 지원합니다.</block>
+  <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">Terraform을 사용한 자동화된 프로비저닝을 위한 Infrastructure-as-Code 배포.</block>
+  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026년 3월 9일</block>
 </blocks>

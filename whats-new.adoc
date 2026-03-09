@@ -15,6 +15,29 @@ NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대
 
 
 
+== 2026년 3월 9일
+
+
+
+=== VMware 워크로드
+
+
+
+==== Google Cloud VMware Engine용 마이그레이션 어드바이저 지원 소개
+
+NetApp Workload Factory가 이제 Google Cloud VMware Engine을 지원합니다. Google Cloud NetApp Volumes를 외부 NFS 데이터스토어로 사용하여 온프레미스 VMware 워크로드를 Google Cloud VMware Engine으로 마이그레이션할 수 있습니다. 이를 통해 애플리케이션을 재구성하거나 플랫폼을 변경할 필요 없이 비용을 최적화하고 VMware 환경을 더욱 효과적으로 제어할 수 있습니다.
+
+Google Cloud VMware Engine 마이그레이션 어드바이저는 다음을 제공합니다.
+
+* VE1 및 VE2 노드 유형을 지원하는 자동화된 Google Cloud VMware Engine 클러스터 크기 조정 및 설계
+* vSAN 내부 데이터스토어와 Google Cloud NetApp Volumes 외부 NFS 데이터스토어 간의 VM 레이아웃 최적화.
+* vSAN 단독 구성과 Google Cloud NetApp Volumes 강화 구성 간의 상세한 비용 비교 및 총소유비용(TCO) 분석.
+* Standard, Premium 및 Extreme Google Cloud NetApp Volumes 서비스 레벨을 지원합니다.
+* Terraform을 사용한 자동화된 프로비저닝을 위한 Infrastructure-as-Code 배포.
+
+
+
+
 == 2026년 3월 2일
 
 
@@ -128,6 +151,20 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-manag
 ==== Workload Factory에서 사용할 수 있는 새로운 Ask Me 북마크
 
 Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 AI 비서입니다. 워크로드 환경에 대한 질문을 하고, 맞춤형 인사이트를 얻고, 이전 대화를 검토할 수 있습니다.
+
+새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업 중인 내용을 방해하지 않고 사이드 패널에 Ask Me가 실행되어, 현재 작업과 관련된 간단한 설명과 추천 사항을 제공합니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Ask Me에 대해 자세히 알아보기"^]
+
+
+
+=== VMware 워크로드
+
+
+
+==== Workload Factory에서 사용할 수 있는 새로운 Ask Me 북마크
+
+Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 사용자의 워크로드 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있도록 지원하는 AI 비서입니다.
 
 새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업 중인 내용을 방해하지 않고 사이드 패널에 Ask Me가 실행되어, 현재 작업과 관련된 간단한 설명과 추천 사항을 제공합니다.
 
@@ -544,21 +581,3 @@ Workload Factory for Databases는 고급 생성 옵션을 사용하여 Microsoft
 
 
 link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Microsoft SQL Server 배포"]
-
-
-
-== 2025년 12월 4일
-
-
-
-=== NetApp ONTAP용 Amazon FSx
-
-
-
-==== FSx for ONTAP 에 대한 AWS S3 액세스 포인트 지원
-
-NetApp Workload Factory FSx for ONTAP 파일 시스템에 대한 AWS S3 액세스 포인트를 지원합니다. S3 액세스 포인트를 사용하여 볼륨을 생성하고, 기존 볼륨에 S3 액세스 포인트를 할당하고, Workload Factory 콘솔에서 S3 액세스 포인트를 관리할 수 있습니다. S3 액세스 포인트를 사용하면 AWS S3 API를 통해 SMB/CIFS 또는 NFS 볼륨에 있는 파일 데이터에 액세스할 수 있습니다. 이를 통해 S3 액세스 포인트를 지원하는 AWS 서비스의 GenAI, ML 및 분석과 기존 데이터를 통합할 수 있습니다.
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["S3 액세스 포인트를 사용하여 볼륨 생성"]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["볼륨에 대한 S3 액세스 포인트 관리"]
-
