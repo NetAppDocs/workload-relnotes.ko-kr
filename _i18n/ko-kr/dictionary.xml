@@ -94,11 +94,8 @@
   <block id="b04638337aac148655a104c2db6c4766" category="section-title">Storage의 S3 액세스 포인트 개선 사항</block>
   <block id="f76e736f45740f58cc12ec666b824eb2" category="paragraph">Storage workload for NetApp Workload Factory에서 S3 액세스 포인트 관리 기능이 여러 가지로 개선되었습니다. S3 액세스 포인트에 대한 네트워크 구성 세부 정보를 입력하고 S3 액세스 포인트 태그를 추가할 수 있습니다. 또한 S3 버킷 세부 정보를 확인하고 S3 액세스 포인트 관리를 위한 다양한 작업을 수행할 수 있습니다.</block>
   <block id="76f77cbc01f0341dffcaaa5f6236eb73" category="section-title">Storage에서 사용 가능한 S3 버킷 세부 정보</block>
-  <block id="c203e76297d071e4d8256e073c93dafb" category="paragraph">S3 액세스 포인트에 메타데이터가 활성화되면 NetApp Workload Factory는 AWS S3 버킷을 자동으로 스캔하고 S3 테이블을 채워 모든 객체, 해당 메타데이터, 속성 및 태그에 대한 명확한 스냅샷을 제공합니다. 이러한 세부 정보에 액세스하면 관리 중인 데이터에 대한 제어, 가시성 및 신뢰성을 유지하는 동시에 운영 오버헤드를 줄일 수 있습니다.</block>
-  <block id="cc7664945c125a51dd2e69095c8f8200" category="inline-link-macro">FSx for ONTAP 파일 시스템의 S3 액세스 포인트에 대한 세부 정보를 확인하세요</block>
   <block id="2249107cb1f4c202ef0253c53bcff598" category="section-title">S3 액세스 포인트에 대한 추가 관리 작업</block>
   <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory는 S3 액세스 포인트에 대한 추가 관리 작업을 제공합니다. NetApp Workload Factory 인터페이스에서 액세스 포인트 세부 정보를 확인하고, 기존 S3 액세스 포인트를 수정하고, S3 액세스 포인트 태그를 추가 또는 제거할 수 있어 객체 스토리지 관리 작업을 간소화할 수 있습니다.</block>
-  <block id="366c32f0cbb2503b337e243eaa8c42b5" category="inline-link-macro">NetApp Workload Factory에서 S3 액세스 포인트 관리</block>
   <block id="e593953aaf04eebecfe2e26326145784" category="list-text">캐시 볼륨 크기 최적화: 캐시 볼륨에서 볼륨 autosize 및 scrubbing이 활성화되어 있는지 확인하여 최적의 크기를 유지하고 캐시가 핫 데이터에 집중하여 최고 효율성을 달성합니다.</block>
   <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">스토리지 VM 논리적 보고: 스토리지 VM의 기본 보고 설정이 논리적으로 설정되어 있는지 확인하여 볼륨 수준에서 스토리지 사용량을 더 잘 파악할 수 있도록 합니다.</block>
   <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">블록 디바이스용 추가 카드</block>
@@ -111,8 +108,6 @@
   <block id="e477df666bb45ae0a1fda1f7058551a2" category="inline-link-macro">NetApp Workload Factory에서 이니시에이터 그룹 생성</block>
   <block id="8933129f9a07c1370a31a0b9f2e53018" category="inline-link-macro">NetApp Workload Factory에서 기존 이니시에이터 그룹을 관리합니다</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 워크로드</block>
-  <block id="fdb38c6259208c2509d21f6a3f0beb02" category="paragraph"><block ref="fdb38c6259208c2509d21f6a3f0beb02" category="inline-link-macro-rx"></block></block>
-  <block id="cc97dddf7d9715fea79ba3e831f0fbca" category="paragraph"><block ref="cc97dddf7d9715fea79ba3e831f0fbca" category="inline-link-macro-rx"></block></block>
   <block id="3ecf18c09ae5a2bd1855ba6515de6cd7" category="list-text">비활성 블록 디바이스: 블록 디바이스가 7일 연속 사용되지 않은 경우 블록 디바이스 데이터를 아카이빙하거나 블록 디바이스를 삭제하는 것이 좋습니다.</block>
   <block id="0352f037ca8dfca49383ddb908805d9a" category="list-text"><block ref="0352f037ca8dfca49383ddb908805d9a" category="inline-link-macro-rx"></block></block>
   <block id="0a17c703284dc61149bdaf13e30980de" category="list-text"><block ref="0a17c703284dc61149bdaf13e30980de" category="inline-link-macro-rx"></block></block>
@@ -164,7 +159,6 @@
   <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">온프레미스 데이터베이스 환경의 비용 절감 효과를 살펴보세요.</block>
   <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026년 3월 2일</block>
-  <block id="b810156a51d2ff011de686d088c6dcce" category="list-text">사용되지 않는 장치: 블록 장치 중 7일 연속 사용되지 않은 장치가 있는지 표시하여 사용되지 않는 리소스를 효과적으로 식별하고 관리할 수 있도록 도와줍니다. 여기에서 <block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>을(를) 수행할 수 있습니다.</block>
   <block id="b4faaa513060331f5bb7705e042e49cd" category="list-text">SSD 용량 활용률 저하: SSD 용량 계층의 활용률이 낮은지 확인하고 비용 최적화를 위해 SSD 용량을 줄이는 것을 권장합니다.</block>
   <block id="01b065251159f3c3b86f7d49511f1bf7" category="list-text">볼륨 백업 예약: Workload Factory는 구성 권장 사항을 개선하고 FSx for ONTAP 백업 또는 AWS Backup을 활성화하는 옵션을 추가했습니다. FSx for ONTAP 백업은 파일 시스템의 모든 볼륨에 기본 정책을 적용하여 최대 90일 동안 보관되는 일일 백업을 생성합니다. AWS Backup을 사용하면 백업 계획에서 각 볼륨에 대해 서로 다른 보존 기간을 선택할 수 있습니다.</block>
   <block id="9ad8abc81514723f5439d23cac33f67b" category="section-title">Workload Factory는 복제를 위한 AI 및 ML 사용 사례를 지원합니다</block>
@@ -174,7 +168,6 @@
   <block id="42fe2ab7947c044bb47fb357526022c2" category="section-title">기존 S3 액세스 포인트 편집</block>
   <block id="33c5aa1872cfcc4e8c7c5850619e6f87" category="paragraph">볼륨에 연결된 기존 S3 액세스 포인트의 사용자 및 사용자 유형을 변경할 수 있습니다. 또한 액세스 포인트의 메타데이터를 활성화 또는 비활성화할 수 있습니다.</block>
   <block id="7525bd4fe22d4a212fea8807fb8d750b" category="inline-link-macro">NetApp Workload Factory에서 S3 액세스 포인트 편집</block>
-  <block id="88d72467009c25b9669edfef18e21df3" category="paragraph"><block ref="88d72467009c25b9669edfef18e21df3" category="inline-link-macro-rx"></block></block>
   <block id="692b5b6f757e38d7e4d1dd3f957a20f0" category="section-title">블록 스토리지 다이어그램 추가</block>
   <block id="55d6cb6b45d9aaa08c53b22b5ac8a617" category="paragraph">블록 스토리지를 사용하는 경우 블록 스토리지 다이어그램을 통해 블록 장치가 노드 및 igroup에 어떻게 연결되는지 시각적으로 확인할 수 있습니다. 이 다이어그램은 블록 스토리지를 이해하고 관리하는 데 도움이 됩니다.</block>
   <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">NetApp Workload Factory에서 블록 스토리지를 관리합니다</block>
@@ -210,4 +203,22 @@
   <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">Oracle 온프레미스에서 감지된 데이터베이스에 대한 비용 절감 효과를 살펴보십시오</block>
   <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026년 4월 6일</block>
+  <block id="373a2f1d901c2d939efc602830f01830" category="paragraph">새로운 인벤토리 테이블은 AWS S3 버킷을 자동으로 스캔하여 S3 테이블을 채워 모든 객체, 메타데이터, 속성 및 태그에 대한 명확한 스냅샷을 제공합니다. 이러한 세부 정보에 액세스하면 관리 중인 데이터에 대한 제어, 가시성 및 신뢰성을 유지하는 동시에 운영 오버헤드를 줄일 수 있습니다. 이 기능은 S3 액세스 포인트를 생성 및 연결할 때 또는 기존 액세스 포인트를 편집할 때 활성화할 수 있습니다.</block>
+  <block id="89431b722804b6b5729917d710d8bca9" category="inline-link-macro">NetApp Workload Factory에서 볼륨에 대한 S3 액세스 포인트를 생성하고 연결합니다</block>
+  <block id="479e84ecf4496e9113dbf4e4caa47328" category="paragraph"><block ref="479e84ecf4496e9113dbf4e4caa47328" category="inline-link-macro-rx"></block></block>
+  <block id="0695b468968701e6133374525567ebb8" category="list-text">비활성 블록 디바이스: 7일 연속 사용되지 않은 블록 디바이스가 있는지 표시하여 사용되지 않는 리소스를 효과적으로 식별하고 관리할 수 있도록 도와줍니다. 여기에서 <block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>할 수 있습니다.</block>
+  <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
+  <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템에서 *비활성 NAS 볼륨*을 분석합니다. 구성 분석을 통해 활발하게 사용되지 않는 NAS 볼륨을 식별하고 스토리지 활용도를 최적화하고 비용을 절감하기 위한 권장 사항을 제시합니다.</block>
+  <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">잘 설계된 FSx for ONTAP 파일 시스템 구현</block>
+  <block id="aa9fc3ddfcff516e1422d829fd2d4138" category="paragraph"><block ref="aa9fc3ddfcff516e1422d829fd2d4138" category="inline-link-macro-rx"></block></block>
+  <block id="51d8364219eb8c2bcde5564c48004466" category="section-title">S3 액세스 포인트용 저널 테이블 기능</block>
+  <block id="5693755c177f4efee6db3867cf164616" category="paragraph">저널 테이블 기능은 FSx ONTAP S3 객체 스토리지를 대규모로 관리할 수 있는 방법을 제공하여 버킷의 객체에 대한 사용자 액세스 이벤트 및 작업을 쉽게 감사할 수 있도록 합니다. Workload Factory를 사용하면 버킷과 S3 테이블에 대한 자동 스캔을 설정하여 모든 객체, 객체 세부 정보 및 사용자 작업을 표시하는 이벤트 기록을 유지할 수 있습니다.</block>
+  <block id="f5605effc9ff1f2b6b56333b91b9188b" category="inline-link-macro">NetApp Workload Factory용 저널 테이블 인프라를 설정합니다</block>
+  <block id="15ee03197182e575bb603c90e93b0f1d" category="paragraph"><block ref="15ee03197182e575bb603c90e93b0f1d" category="inline-link-macro-rx"></block></block>
+  <block id="7a492c4bebdd8855719e33759860ec85" category="section-title">기존 igroup 관리 지원</block>
+  <block id="8770963e84c3458575dd2cb30097ea59" category="paragraph">Workload Factory는 기존 igroup 관리를 지원합니다. 블록 디바이스와 호스트 이니시에이터를 추가하거나 제거하여 배포된 워크로드를 정시에 제공할 수 있습니다.</block>
+  <block id="fb848967e18d6d577c43fdac12d36dae" category="section-title">FlexVol 볼륨에 대한 애그리게이트 지정 지원</block>
+  <block id="d5df323db0a76ed62a683b9faace70ee" category="paragraph">Workload Factory는 선택한 애그리게이트에 FlexVol 볼륨을 생성하는 기능을 지원합니다. 이를 통해 모든 파일 시스템 리소스에 용량 및 성능 로드를 분산할 수 있습니다.</block>
+  <block id="dfe0bf59b17a7c242e3e57ed9983cadf" category="inline-link-macro">NetApp Workload Factory에서 FlexVol 볼륨 생성</block>
+  <block id="438b9ce1f05f60505d31940eb7d80713" category="paragraph"><block ref="438b9ce1f05f60505d31940eb7d80713" category="inline-link-macro-rx"></block></block>
 </blocks>
