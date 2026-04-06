@@ -1,0 +1,11 @@
+= Storage에 대한 새 알림
+:allow-uri-read: 
+
+
+
+
+=== Storage에 대한 새 알림
+
+NetApp Workload Factory 알림 서비스에는 스토리지용 NetApp AI 기반 자율형 랜섬웨어 보호(ARP/AI)에 대한 알림이 포함되어 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 알림"]

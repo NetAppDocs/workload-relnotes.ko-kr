@@ -221,4 +221,8 @@
   <block id="d5df323db0a76ed62a683b9faace70ee" category="paragraph">Workload Factory는 선택한 애그리게이트에 FlexVol 볼륨을 생성하는 기능을 지원합니다. 이를 통해 모든 파일 시스템 리소스에 용량 및 성능 로드를 분산할 수 있습니다.</block>
   <block id="dfe0bf59b17a7c242e3e57ed9983cadf" category="inline-link-macro">NetApp Workload Factory에서 FlexVol 볼륨 생성</block>
   <block id="438b9ce1f05f60505d31940eb7d80713" category="paragraph"><block ref="438b9ce1f05f60505d31940eb7d80713" category="inline-link-macro-rx"></block></block>
+  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">Storage에 대한 새 알림</block>
+  <block id="77633bb85f2dda716363da565416542c" category="paragraph">NetApp Workload Factory 알림 서비스에는 스토리지용 NetApp AI 기반 자율형 랜섬웨어 보호(ARP/AI)에 대한 알림이 포함되어 있습니다.</block>
+  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 알림</block>
+  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
 </blocks>
