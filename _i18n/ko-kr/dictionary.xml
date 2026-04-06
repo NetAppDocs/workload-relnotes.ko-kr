@@ -205,7 +205,6 @@
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026년 4월 6일</block>
   <block id="373a2f1d901c2d939efc602830f01830" category="paragraph">새로운 인벤토리 테이블은 AWS S3 버킷을 자동으로 스캔하여 S3 테이블을 채워 모든 객체, 메타데이터, 속성 및 태그에 대한 명확한 스냅샷을 제공합니다. 이러한 세부 정보에 액세스하면 관리 중인 데이터에 대한 제어, 가시성 및 신뢰성을 유지하는 동시에 운영 오버헤드를 줄일 수 있습니다. 이 기능은 S3 액세스 포인트를 생성 및 연결할 때 또는 기존 액세스 포인트를 편집할 때 활성화할 수 있습니다.</block>
   <block id="89431b722804b6b5729917d710d8bca9" category="inline-link-macro">NetApp Workload Factory에서 볼륨에 대한 S3 액세스 포인트를 생성하고 연결합니다</block>
-  <block id="479e84ecf4496e9113dbf4e4caa47328" category="paragraph"><block ref="479e84ecf4496e9113dbf4e4caa47328" category="inline-link-macro-rx"></block></block>
   <block id="0695b468968701e6133374525567ebb8" category="list-text">비활성 블록 디바이스: 7일 연속 사용되지 않은 블록 디바이스가 있는지 표시하여 사용되지 않는 리소스를 효과적으로 식별하고 관리할 수 있도록 도와줍니다. 여기에서 <block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>할 수 있습니다.</block>
   <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
   <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템에서 *비활성 NAS 볼륨*을 분석합니다. 구성 분석을 통해 활발하게 사용되지 않는 NAS 볼륨을 식별하고 스토리지 활용도를 최적화하고 비용을 절감하기 위한 권장 사항을 제시합니다.</block>
@@ -225,4 +224,5 @@
   <block id="77633bb85f2dda716363da565416542c" category="paragraph">NetApp Workload Factory 알림 서비스에는 스토리지용 NetApp AI 기반 자율형 랜섬웨어 보호(ARP/AI)에 대한 알림이 포함되어 있습니다.</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 알림</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="0af31167a43cbbff0833653449e77b49" category="paragraph"><block ref="0af31167a43cbbff0833653449e77b49" category="inline-link-macro-rx"></block></block>
 </blocks>

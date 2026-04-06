@@ -28,7 +28,7 @@ Storage workload for NetApp Workload Factory에서 S3 액세스 포인트 관리
 
 새로운 인벤토리 테이블은 AWS S3 버킷을 자동으로 스캔하여 S3 테이블을 채워 모든 객체, 메타데이터, 속성 및 태그에 대한 명확한 스냅샷을 제공합니다. 이러한 세부 정보에 액세스하면 관리 중인 데이터에 대한 제어, 가시성 및 신뢰성을 유지하는 동시에 운영 오버헤드를 줄일 수 있습니다. 이 기능은 S3 액세스 포인트를 생성 및 연결할 때 또는 기존 액세스 포인트를 편집할 때 활성화할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-point.html["NetApp Workload Factory에서 볼륨에 대한 S3 액세스 포인트를 생성하고 연결합니다"]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-points.html["NetApp Workload Factory에서 볼륨에 대한 S3 액세스 포인트를 생성하고 연결합니다"]
 
 
 
