@@ -27,8 +27,6 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">설정 및 관리</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware 워크로드</block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">잘 설계된 분석 업데이트</block>
-  <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">ONTAP 파일 시스템용 FSx의 잘 설계된 상태를 확인하세요.</block>
-  <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp 워크로드 팩토리</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대해 알아보세요.</block>
@@ -40,42 +38,7 @@
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">권한 참조 변경 로그</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="e75004bce0e2abb43e6673b8bd4bbd2f" category="doc">Active Directory 통합 기능 향상</block>
-  <block id="4be7fbd19e77cc55e8637326f3cc569d" category="paragraph">Workload Factory for Databases는 고급 생성 옵션을 사용하여 Microsoft SQL Server를 배포할 때 세 가지 새로운 Active Directory(AD) 필드를 포함합니다. 이러한 개선 사항을 통해 Active Directory 가입 기본 설정을 지정하고 관리형 서비스 계정을 사용할 수 있습니다.</block>
-  <block id="2d652258eef11b26b58d2ac1040af4fb" category="paragraph">새로운 AD 필드는 다음과 같습니다.</block>
-  <block id="f069ee08ebc87aaad1c479cd4f54611c" category="list-text">선호하는 도메인 컨트롤러</block>
-  <block id="5a90d56c7caec61381ba4316f0a43849" category="list-text">선호하는 조직 단위 경로</block>
-  <block id="b535bc12ab7716de58cac2633cbe0ec8" category="list-text">대상 Active Directory 그룹</block>
-  <block id="f43a09fcb5f30e27a88e58e1804f13d0" category="inline-link-macro">Microsoft SQL Server 배포</block>
-  <block id="8139c8013582edc0d0eba7cc713f8ffd" category="paragraph"><block ref="8139c8013582edc0d0eba7cc713f8ffd" category="inline-link-macro-rx"></block></block>
-  <block id="bfcc9fa5a3178fd803540af87a6b6ab7" category="section-title">2025년 12월 18일</block>
-  <block id="5e3b7f958129022f75fe2931c55615b2" category="doc">Ask me AI 어시스턴트 홈페이지 통합</block>
-  <block id="65bcc541760e8f25e0281edbfdfbf7f3" category="paragraph">Workload Factory 콘솔 홈 페이지에는 Ask me AI 어시스턴트가 내장되어 있어 스토리지 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있습니다. Ask me 기능을 사용하면 콘솔을 벗어나지 않고도 워크로드를 이해하고, 문제를 해결하고, Workload Factory에 대해 자세히 알아볼 수 있습니다.</block>
-  <block id="334f5b13a66630c66877aaf36ce24673" category="section-title">2026년 1월 4일</block>
   <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">Workload Factory는 다음 구성에 대해 FSx for ONTAP 파일 시스템을 분석합니다.</block>
-  <block id="afc7c7589e5f20d86c03b5e089bbad6b" category="list-text">NetApp 자율형 랜섬웨어 보호(ARP/AI) 비활성화 여부(블록 장치 포함): 블록 장치 볼륨에서 ARP/AI가 비활성화되었는지 확인합니다.</block>
-  <block id="2270e6ac2c31be458c93c87db612a494" category="list-text">캐시 관계 쓰기 모드: 캐시 볼륨 워크로드에 대해 쓰기 모드가 최적인지 확인합니다.</block>
-  <block id="2125a9a589f0bc57c38acf63f5ffb150" category="list-text">불필요한 백업 삭제: 비용 절감을 위해 삭제할 수 있는 오래되었거나 불필요한 백업이 있는지 확인합니다.</block>
-  <block id="270dd22752e2f3f31c99a49ff489774e" category="section-title">Lambda 링크 리소스 기반 권한 정책에서 IAM 사용자 주체 사용</block>
-  <block id="75141a4e46e0a646f4c8379f8d5e7b52" category="paragraph">워크로드 팩토리 계정과 하나 이상의 FSx for ONTAP 파일 시스템을 연결하여 고급 ONTAP 작업을 수행하는 데 사용되는 Lambda 링크는 이제 리소스 기반 정책 권한에 IAM 사용자 주체를 사용합니다. 이번 변경 사항은 AWS 리소스 액세스에 대한 업계 모범 사례와의 더 나은 일치를 제공합니다.</block>
-  <block id="b0dd04cf44137b432a8f89cb4f3c9919" category="section-title">응급 의료 상황 분석을 위한 AI 분석기에 분석 화면이 추가되었습니다.</block>
-  <block id="5cd27690d7988b2c3f04768e500459bb" category="paragraph">저장소 메뉴에 새로운 _분석_ 화면이 추가되었습니다. 이 화면에서 ONTAP EMS 이벤트 기능에 대한 FSx용 AI 분석기를 사용할 수 있습니다.</block>
-  <block id="a9b4b239246fd03c03ac43e963075319" category="section-title">NetApp Workload Factory 의 블록 장치 개선 사항</block>
-  <block id="6ef37e3f05edf0fb9740ef851722a8f3" category="paragraph">블록 장치에 대해 다음과 같은 개선 사항이 적용되었습니다.</block>
-  <block id="0a32dfaa27bfe59db7152c5c5da72282" category="section-title">블록 장치 생성</block>
-  <block id="8e8c152eb29cb88d5d80a375d44aee87" category="paragraph">NetApp Workload Factory FSx for ONTAP 파일 시스템에서 iSCSI 프로토콜을 사용하여 블록 장치를 생성할 수 있도록 지원하므로 Workload Factory 콘솔에서 기간 업무(LOB) 애플리케이션을 더욱 효과적으로 지원할 수 있습니다.</block>
-  <block id="0b5d1c04d20d94c2a21dacfa53d7354d" category="section-title">블록 장치 관리 개선 사항</block>
-  <block id="e578bac1e9f39054ae2eb2b16d807f71" category="inline-link-macro">블록 장치 관리</block>
-  <block id="e16cdf4dbd146007b4b40124e28ca1a2" category="paragraph">NetApp Workload Factory 다음과 같은 향상된 기능이 포함되어 있습니다. <block ref="b08ca4e282a45fe2e49c9a019646bd36" category="inline-link-macro-rx"></block>. 이제 워크로드 팩토리 콘솔에서 다음 작업을 수행할 수 있습니다.</block>
-  <block id="f8b3baca819978515d628c6a5881eb4e" category="list-text">클라이언트 액세스 관리</block>
-  <block id="5338dad31c000cc89dea6cc573f1a242" category="list-text">아카이브 블록 장치 데이터</block>
-  <block id="88073627bb09173d8e0b3fa15a27725b" category="list-text">차단 장치를 삭제합니다</block>
-  <block id="3c4600754ec66ef615c303417126da12" category="section-title">블록 장치를 포함하는 FlexVol 볼륨에서 ARP/AI 지원</block>
-  <block id="3043237188bfe3f198084dbfe55d05c0" category="inline-link-macro">AI(ARP/AI)를 활용한 NetApp 자율형 랜섬웨어 보호</block>
-  <block id="34f4bbf8697d1205da43ee612001efe7" category="paragraph">활성화할 수 있습니다 <block ref="028271ae216dacdd20feb47aea2c131d" category="inline-link-macro-rx"></block> 블록 장치가 포함된 FlexVol 볼륨에서. ARP/AI를 활성화하면 AI를 사용하여 랜섬웨어 공격을 탐지하고 데이터 복구를 지원합니다.</block>
-  <block id="ef702fb37688ffbfdf16f6b005df7436" category="doc">NetApp Workload Factory for Builders가 이제 NetApp Workload Factory for EDA로 변경되었습니다.</block>
-  <block id="f48bd4568e33f95e23f1ea90df81f8af" category="paragraph">Workload Factory for Builders가 이제 Workload Factory for EDA로 이름이 변경되었습니다. 이번 명칭 변경은 전자 설계 자동화(EDA) 워크로드에 대한 집중을 반영합니다.</block>
-  <block id="8e2c84558eaf80d5e8e99422d320b395" category="paragraph">Workload Factory for EDA는 여러 파일 시스템에서 ONTAP 용 FSx를 최적화하는 데 도움을 줍니다. 스토리지 매개변수를 자동화하고, 성능 제약 조건을 분석하고, EDA 프로젝트에 대한 통찰력을 얻음으로써 성능을 최적화하고 운영 비용을 절감할 수 있습니다. EDA용 워크로드 팩토리는 IaC(Infrastructure as Code) 프레임워크와 통합되도록 설계되었습니다.</block>
   <block id="8f1b9e3fbbd44cf22e9f5ac28290aba0" category="doc">Amazon Elastic VMware Service에 대한 Well-Architected 분석</block>
   <block id="f6c8ff445c3db04296fa83d4b2790691" category="paragraph">Workload Factory는 이제 Amazon Elastic VMware Service(EVS) 환경에 대한 자동화된 well-architected 분석 기능을 제공합니다. 매일 실행되는 검사를 통해 구성 불일치를 식별하고 최적의 운영, 보안 및 비용 효율성을 유지하는 데 도움이 되는 자세한 해결 권장 사항을 제공합니다.</block>
   <block id="7e27d05efe618fad67c0e09d831368c6" category="paragraph">AWS API를 사용하여 스캔이 수행되므로 vSphere 자격 증명이나 vCenter 연결이 필요하지 않습니다. 결과는 EVS 환경 세부 정보 내의 새로운 *Well-architected status* 탭에서 확인할 수 있습니다.</block>
@@ -171,8 +134,6 @@
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Ask Me에 대해 자세히 알아보기</block>
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026년 3월 1일</block>
-  <block id="8d73c4037df134a624f4a3cc9d442a9e" category="doc">Ask Me AI 어시스턴트 홈 페이지 통합</block>
-  <block id="a00917b130263595d00c3587c0e66a4f" category="paragraph">Workload Factory 콘솔 홈 페이지에는 Ask Me AI 어시스턴트가 내장되어 있어 스토리지 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있습니다. Ask Me를 통해 워크로드를 이해하고, 문제를 해결하고, Workload Factory에 대해 자세히 알아볼 수 있으며, 이 모든 작업을 콘솔에서 바로 수행할 수 있습니다.</block>
   <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">EDA 스토리지 관리 개요 대시보드</block>
   <block id="4954af78de30fa7a68e150cce01a1ef1" category="paragraph">수십 개의 FSx for ONTAP 파일 시스템을 관리하는 IT 관리자는 개요 대시보드를 사용하여 클러스터 상태, 활용률 및 볼륨 배치와 관련된 일반적인 운영 질문에 대한 답을 찾을 수 있습니다.</block>
   <block id="c9b7c8834662d595e73e6ec795a1438e" category="paragraph">개요 대시보드에는 다음이 포함됩니다.</block>
@@ -188,8 +149,6 @@
   <block id="6469eb7981e75ae8c79c94f4a0fb1f29" category="paragraph"><block ref="ea3e0953bbba2ace45ca5d689b29167b" category="inline-link-rx"></block>.</block>
   <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업 중인 내용을 방해하지 않고 사이드 패널에 Ask Me가 실행되어, 현재 작업과 관련된 간단한 설명과 추천 사항을 제공합니다.</block>
   <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
-  <block id="4b51d568a03393cf563624fcbba9143f" category="doc">일회성 평가</block>
-  <block id="c87bb3ba3f920d90c329acddc2fe7385" category="paragraph">Workload Factory는 이제 필요할 때마다 데이터베이스 배포 구성을 분석할 수 있는 일회성 평가 기능을 제공합니다. 신규 배포, 마이그레이션 후, 문제 해결 등 다양한 상황에서 활용할 수 있습니다. 평가 결과를 통해 배포 구성을 최적화하고 모범 사례를 준수하는 데 도움이 되는 권장 사항을 받아볼 수 있습니다. 이 기능을 통해 복잡한 설정 과정 없이도 잘 설계된 기능을 활용해 볼 수 있습니다. Workload Factory에 자격 증명을 저장하거나, 데이터베이스 리소스를 등록하거나, 외부 연결을 설정할 필요 없이 데이터베이스를 평가할 수 있습니다.</block>
   <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">데이터베이스 배포에 대한 일회성 평가를 수행합니다</block>
   <block id="fa29998d7ba5fe0bb430a106a7dd86bc" category="paragraph"><block ref="fa29998d7ba5fe0bb430a106a7dd86bc" category="inline-link-macro-rx"></block></block>
   <block id="db82eade40cb0d84a1267b72a439d756" category="section-title">Microsoft SQL Server의 Always On 가용성 그룹 및 Oracle 데이터베이스의 Data Guard에 대한 등록 지원</block>
@@ -236,4 +195,19 @@
   <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">Standard, Premium 및 Extreme Google Cloud NetApp Volumes 서비스 레벨을 지원합니다.</block>
   <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">Terraform을 사용한 자동화된 프로비저닝을 위한 Infrastructure-as-Code 배포.</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026년 3월 9일</block>
+  <block id="d3274d6efd4629f10f6f21cf8a7c4820" category="doc">SQL Server에 대한 일회성 평가</block>
+  <block id="8f42179a48bba7e0f2424b2849f64183" category="paragraph">Workload Factory는 이제 필요할 때마다 SQL Server 데이터베이스 배포 구성을 분석하는 일회성 평가를 제공합니다. 신규 배포, 마이그레이션 후, 문제 해결 등 다양한 상황에서 활용할 수 있습니다. 배포 구성을 최적화하고 모범 사례를 준수하는 데 도움이 되는 권장 사항을 받아볼 수 있습니다. 이 기능을 통해 설정 프로세스를 완전히 수행하지 않고도 잘 설계된 기능을 사용해 볼 수 있습니다. Workload Factory에 자격 증명을 저장하거나, 데이터베이스 리소스를 등록하거나, 외부 연결을 설정하지 않고도 데이터베이스를 평가할 수 있습니다.</block>
+  <block id="d34510ab77e099f24fa05ceac3ff150c" category="paragraph">잘 설계된 아키텍처 분석에는 Oracle에 대한 다음과 같은 새로운 구성이 포함됩니다.</block>
+  <block id="9712df87120461c7551eea660e7f56a6" category="list-text">*Oracle Critical Patch Updates*: 지원되는 Oracle 자체 관리형 데이터베이스 설치에 누락된 보안 패치를 평가합니다.</block>
+  <block id="b435abcc161e9c500b1c5e15baf0cbb5" category="list-text">*지역 간 복제*: Oracle 데이터베이스를 제공하는 FSx for ONTAP 파일 시스템에 대해 지역 간 복제(CRR)가 활성화되어 있는지 확인합니다.</block>
+  <block id="1d06ae97515a4da719bc482a7995a7ae" category="list-text">*애플리케이션 정합성 보장 스냅샷*: Oracle 데이터베이스가 NetApp SnapCenter를 통해 애플리케이션 정합성 보장 스냅샷으로 보호되는지 확인합니다.</block>
+  <block id="6a4580dc4131680131fa2d1447aa1deb" category="section-title">Oracle에 대한 일회성 평가</block>
+  <block id="d268ce986e7de78be251b51e6126893b" category="paragraph">Workload Factory는 이제 필요할 때마다 Oracle 데이터베이스 배포 구성을 분석할 수 있는 일회성 평가 기능을 제공합니다(신규 배포, 마이그레이션 후, 문제 해결 등). 배포 구성을 최적화하고 모범 사례를 준수하는 데 도움이 되는 권장 사항을 받아볼 수 있습니다. 이 기능을 통해 설정 프로세스를 완전히 수행하지 않고도 잘 설계된 기능을 사용해 볼 수 있습니다. Workload Factory에 자격 증명을 저장하거나, 데이터베이스 리소스를 등록하거나, 외부 연결을 설정하지 않고도 데이터베이스를 평가할 수 있습니다.</block>
+  <block id="9c1752a9ed07d091eb717e163d985505" category="inline-link-macro">Oracle 데이터베이스 배포에 대한 일회성 평가를 수행하십시오</block>
+  <block id="24d6ca96f32f995e477bbc13ce8c644a" category="paragraph"><block ref="24d6ca96f32f995e477bbc13ce8c644a" category="inline-link-macro-rx"></block></block>
+  <block id="48b0592736b0870e6ff074c10fa5d5dc" category="section-title">여러 Oracle 데이터베이스의 비용 절감 효과 개선</block>
+  <block id="dc6ae15573380001d0b7dbda2215fba9" category="paragraph">Oracle의 비용 절감 분석을 개선하여 여러 Oracle 온프레미스 데이터베이스를 하나의 FSx for ONTAP 파일 시스템에 통합된 스토리지 솔루션으로 제공합니다. 이러한 통합은 여러 데이터베이스에 필요한 파일 시스템 수를 줄여 스토리지 비용을 최적화하고 비용 절감 효과를 향상시킵니다.</block>
+  <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">Oracle 온프레미스에서 감지된 데이터베이스에 대한 비용 절감 효과를 살펴보십시오</block>
+  <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
+  <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026년 4월 6일</block>
 </blocks>
