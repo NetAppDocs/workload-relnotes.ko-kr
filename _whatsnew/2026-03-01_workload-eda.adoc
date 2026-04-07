@@ -26,8 +26,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["개
 
 기본 분석은 QoS 정책, 디스크 성능, 네트워크 문제 및 클러스터 구성을 평가하여 지연 이벤트 테이블의 세부 정보 열에 즉각적인 인사이트를 제공합니다.
 
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["기본 지연 시간 분석에 대해 자세히 알아보십시오"^].
-
 
 
 === Workload Factory에서 사용할 수 있는 새로운 Ask Me 북마크

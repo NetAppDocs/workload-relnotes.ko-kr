@@ -130,18 +130,12 @@
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026년 3월 1일</block>
   <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">EDA 스토리지 관리 개요 대시보드</block>
-  <block id="4954af78de30fa7a68e150cce01a1ef1" category="paragraph">수십 개의 FSx for ONTAP 파일 시스템을 관리하는 IT 관리자는 개요 대시보드를 사용하여 클러스터 상태, 활용률 및 볼륨 배치와 관련된 일반적인 운영 질문에 대한 답을 찾을 수 있습니다.</block>
-  <block id="c9b7c8834662d595e73e6ec795a1438e" category="paragraph">개요 대시보드에는 다음이 포함됩니다.</block>
   <block id="6295e7aeea412421b1717d5ccabe235b" category="list-text">*클러스터 상태*: 클러스터 전반의 성능, 용량, 가용성 및 보호, 보안 이벤트를 강조하는 대시보드 상단에 요약된 정보입니다.</block>
   <block id="5ea38aab7fec2dffdc805f386d0132ab" category="list-text">*클러스터 테이블*: 검색, 필터링 및 페이지 매김이 가능한 테이블로, 클러스터별 SSD 용량, 용량 풀 및 처리량 메트릭을 표시하며, 열 사용자 지정 및 CSV 내보내기를 지원합니다.</block>
   <block id="b3e3b4895cbd35f5a2365afa09005d4f" category="paragraph">이전의 메인 대시보드는 이제 *Project* 탭에서 액세스할 수 있습니다. EDA 탭은 이제 Overview, Latency, Project, CI/CD 순서로 정렬됩니다.</block>
-  <block id="ad69b5e513be7d3ed6dfa533b8fa5d7b" category="inline-link">개요 대시보드에 대해 자세히 알아보십시오</block>
-  <block id="a9268f7b1948a5e9223d90e6f5ee62ec" category="paragraph"><block ref="ed263773f1ab4c65130c8c21ca91276d" category="inline-link-rx"></block>.</block>
   <block id="ceadd545963dc65de11a451079ea494e" category="section-title">자동화된 지연 시간 분석</block>
   <block id="bb185e5021bfe9db8739ffc98c9e991d" category="paragraph">지연 시간 분석에 이제 자동화된 기본 분석 기능이 포함됩니다. 지연 시간 이벤트가 감지되면 시스템은 ONTAP QoS 지연 센터 메트릭을 자동으로 분석하여 지연 시간 문제의 원인을 파악합니다.</block>
   <block id="97d9985b0c67c7f1f1fab2857c6777c3" category="paragraph">기본 분석은 QoS 정책, 디스크 성능, 네트워크 문제 및 클러스터 구성을 평가하여 지연 이벤트 테이블의 세부 정보 열에 즉각적인 인사이트를 제공합니다.</block>
-  <block id="213d18bdbc3550e144008c033bcbdd2c" category="inline-link">기본 지연 시간 분석에 대해 자세히 알아보십시오</block>
-  <block id="6469eb7981e75ae8c79c94f4a0fb1f29" category="paragraph"><block ref="ea3e0953bbba2ace45ca5d689b29167b" category="inline-link-rx"></block>.</block>
   <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업 중인 내용을 방해하지 않고 사이드 패널에 Ask Me가 실행되어, 현재 작업과 관련된 간단한 설명과 추천 사항을 제공합니다.</block>
   <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
   <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">데이터베이스 배포에 대한 일회성 평가를 수행합니다</block>
@@ -225,4 +219,26 @@
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 알림</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
   <block id="0af31167a43cbbff0833653449e77b49" category="paragraph"><block ref="0af31167a43cbbff0833653449e77b49" category="inline-link-macro-rx"></block></block>
+  <block id="baf7dcba0c4a80ef2ec1dd0465a27ee0" category="paragraph">수십 개의 FSx for ONTAP 파일 시스템을 관리하는 IT 관리자는 개요 대시보드를 사용하여 클러스터 상태, 활용률 및 볼륨 배치와 관련된 일반적인 운영 질문에 대한 답을 찾을 수 있습니다.</block>
+  <block id="a75658829d674de492a2dd7d0818e7ca" category="paragraph">개요 대시보드에는 다음이 포함됩니다.</block>
+  <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link">개요 대시보드에 대해 자세히 알아보십시오</block>
+  <block id="427726ce5319ddeb6b4d93d416808b01" category="paragraph"><block ref="eed2fd228fd1462e58b4537ebcb82ccc" category="inline-link-rx"></block>.</block>
+  <block id="7b0ddde1961cce4426c7f0cf5da65e0d" category="doc">EDA 용량 권장 사항</block>
+  <block id="edb815136867c3359e368e3f925ae387" category="paragraph">Workload Factory는 이제 EDA 인벤토리에 있는 각 FSx for ONTAP 클러스터의 SSD 용량을 자동으로 분석하고 조정이 필요할 때 용량 권장 사항을 생성합니다. 알고리즘은 각 클러스터에 대해 24시간마다 한 번씩 실행됩니다.</block>
+  <block id="1f9c155d60450baccee27bca630b6497" category="paragraph">권장 사항이 확인되면:</block>
+  <block id="8d65ccbe024d7453ace82bd13b7980d8" category="list-text">즉시 이메일 또는 WAD 알림을 받게 됩니다(주간 요약에는 포함되지 않음).</block>
+  <block id="8e5fe5a1e14c6d69b9c457c33f0204a7" category="list-text">Clusters 테이블에서 영향을 받는 클러스터에 전구 표시등이 나타납니다.</block>
+  <block id="c38bddc25aeb4374d71816e0b71a53a0" category="list-text">Overview 대시보드의 요약에는 활성 권장 사항이 있는 클러스터의 총 수가 표시됩니다.</block>
+  <block id="1471ae7120155f3a06fa9c0a62a7f3f5" category="paragraph">활성 권장 사항이 있는 클러스터를 선택하여 권장 사항을 확인하세요. 권장 사항에는 제안된 변경 사항과 그 이유가 설명되어 있습니다.</block>
+  <block id="2ccd39a9418b95cbcdec20bb3ef09998" category="inline-link">용량 권장 사항에 대해 자세히 알아보십시오</block>
+  <block id="f5365a647b291a1c3ee4f226944d9a2f" category="paragraph"><block ref="a2995fc8e6aae530361e1ff8a48d8ace" category="inline-link-rx"></block>.</block>
+  <block id="606ee09c41a90b59b9cbb13e38ec6e86" category="section-title">자동화된 AI 지연 시간 분석</block>
+  <block id="8ae631ba5aac2d33e811621152cdf4a4" category="paragraph">지연 시간 분석에 이제 AI 에이전트 분석이 포함됩니다.</block>
+  <block id="c9e8409eb7f69f1a747dacb755833499" category="paragraph">데이터 또는 클러스터 지연 시간과 관련된 복잡한 시나리오의 경우 AI 에이전트 분석을 호출하여 다음을 수신할 수 있습니다.</block>
+  <block id="81f0dd1809c0f077448d50d48cf6ce43" category="list-text">상세한 근본 원인 식별</block>
+  <block id="a9e75b44526a7c3342bd86bfb6079dcc" category="list-text">영향을 받는 EC2 클라이언트 목록</block>
+  <block id="f1571de1d5f3c90507985e81e6f34526" category="list-text">구체적인 개선 조치</block>
+  <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">AI 에이전트 분석에는 Amazon Bedrock 모델 ARN 구성이 필요하며 기본 분석에서 심층 조사를 권장하는 시나리오에 대해 온디맨드로 제공됩니다. AI 에이전트는 과부하 볼륨, 최적화되지 않은 마운트 포인트 구성, FlexGroup 리밸런싱 필요성 및 스케일아웃 요구 사항과 같은 문제를 식별할 수 있습니다.</block>
+  <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">AI 에이전트 분석에 대해 자세히 알아보십시오</block>
+  <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>.</block>
 </blocks>
