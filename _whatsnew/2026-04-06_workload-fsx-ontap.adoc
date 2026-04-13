@@ -33,3 +33,9 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html[
 Workload Factory는 선택한 애그리게이트에 FlexVol 볼륨을 생성하는 기능을 지원합니다. 이를 통해 모든 파일 시스템 리소스에 용량 및 성능 로드를 분산할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["NetApp Workload Factory에서 FlexVol 볼륨 생성"]
+
+
+
+=== 블록 디바이스의 마지막 액세스 시간
+
+Workload Factory는 블록 장치의 마지막 액세스 시간을 보고합니다. 이 시간은 Workload Factory에서 igroup에 마지막으로 액세스한 시간을 기준으로 합니다. 각 블록 장치의 마지막 사용 시간을 알면 리소스를 최적화할 수 있습니다.

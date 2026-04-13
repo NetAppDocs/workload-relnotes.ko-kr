@@ -241,4 +241,6 @@
   <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">AI 에이전트 분석에는 Amazon Bedrock 모델 ARN 구성이 필요하며 기본 분석에서 심층 조사를 권장하는 시나리오에 대해 온디맨드로 제공됩니다. AI 에이전트는 과부하 볼륨, 최적화되지 않은 마운트 포인트 구성, FlexGroup 리밸런싱 필요성 및 스케일아웃 요구 사항과 같은 문제를 식별할 수 있습니다.</block>
   <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">AI 에이전트 분석에 대해 자세히 알아보십시오</block>
   <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>.</block>
+  <block id="d08fabf4c0fdff2290096692a4ffa28a" category="section-title">블록 디바이스의 마지막 액세스 시간</block>
+  <block id="fa4bdc942217a8579f785220b2742233" category="paragraph">Workload Factory는 블록 장치의 마지막 액세스 시간을 보고합니다. 이 시간은 Workload Factory에서 igroup에 마지막으로 액세스한 시간을 기준으로 합니다. 각 블록 장치의 마지막 사용 시간을 알면 리소스를 최적화할 수 있습니다.</block>
 </blocks>
