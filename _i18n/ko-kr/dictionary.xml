@@ -172,4 +172,17 @@
   <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">NetApp Workload Factory에서 용량을 자동으로 관리하세요</block>
   <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
   <block id="3be044b694628f6e958377c22febfacd" category="section-title">2026년 5월 3일</block>
+  <block id="97c13014b9e16335b445d04850fb955f" category="doc">지연 이벤트에 대한 이메일 및 SNS 알림</block>
+  <block id="c31a2fa4340e87df74fd4add6857d037" category="paragraph">이제 FSx for ONTAP 볼륨에서 지연 시간 이벤트가 감지되면 자동 알림을 받을 수 있습니다. Workload Factory 설정에서 이메일 또는 Amazon SNS 알림을 구성하여 볼륨이 구성된 지연 시간 임계값을 위반할 경우 실시간 알림을 받을 수 있습니다.</block>
+  <block id="64252b5e1bc1f93bfafd01c34fd0860b" category="paragraph">알림은 파일 시스템 단위로 전송되며 영향을 받는 모든 볼륨에 대한 세부 정보, 심각도 수준, 임계값 비교 및 조사를 위한 지연 시간 페이지로의 직접 링크를 포함합니다.</block>
+  <block id="95e7f36fe4398f41dfcbc5591df71f8d" category="inline-link">지연 시간 알림을 구성하는 방법을 알아보세요.</block>
+  <block id="547067437333ccf9f6257f448035fd15" category="paragraph"><block ref="2a3ce45bc4405505b722625836bbe768" category="inline-link-rx"></block>.</block>
+  <block id="f18c989c700bb32f3bcb80ace5539b64" category="section-title">대화형 그래프를 사용한 지연 시간 추세 시각화</block>
+  <block id="11ef7238b057019c31802d06c0bf5b75" category="paragraph">지연 시간 분석 패널에 이제 포괄적인 지연 시간 분석을 위한 탭 인터페이스가 포함되었습니다.</block>
+  <block id="eb39bcaa5c101fc5087275547ab8e3e6" category="list-text">*개요*: 지연 시간을 유발하는 구성 요소를 보여주는 자동화된 기본 분석 결과를 확인합니다.</block>
+  <block id="142deff8a2ec74d2d2667eca22500eab" category="list-text">*시간 경과*: 여러 시간대(1시간, 3시간, 12시간, 24시간 또는 72시간)에 걸쳐 대화형 그래프로 볼륨 지연 시간 동작을 시각화합니다</block>
+  <block id="5ff8bee829d6ed38b529ef851b350ad1" category="paragraph">*시간 경과에 따른 변화* 탭에는 원시 CloudWatch 지연 시간 데이터(알람 발생 원인에 따라 읽기 또는 쓰기)가 경고 및 위험 임계값 선, 위반 표시기, 각 위반에 대한 세부 메트릭과 함께 표시됩니다.</block>
+  <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">이 포괄적인 시각화를 통해 패턴을 식별하고, 지연 시간 문제가 반복적인지 또는 일회성인지 파악하며, 해결 방법에 대해 더 많은 정보를 바탕으로 의사 결정을 내릴 수 있습니다.</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">지연 시간 추세를 분석하는 방법을 알아보십시오</block>
+  <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>.</block>
 </blocks>
