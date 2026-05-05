@@ -24,6 +24,12 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Ut
 
 === FSx for ONTAP 파일 시스템의 용량 추세
 
-FSx for ONTAP 파일 시스템의 개요에서 SSD 용량 추세를 직접 확인하세요. 용량 관리를 위한 새로운 카드는 지난달 사용량 추세에 대한 포괄적인 정보를 제공합니다. 이 분석에는 실제 사용 용량과 할당된 용량 간의 비교가 포함되어 리소스 활용률을 명확하게 평가할 수 있습니다.
+FSx for ONTAP 파일 시스템 개요에서 SSD 용량 추세를 직접 확인하세요. 용량 관리를 위한 새 카드는 지난달의 사용량 추세를 보여줍니다. 이 분석은 실제 용량과 할당된 용량을 비교하여 리소스 사용량을 쉽게 평가할 수 있도록 합니다.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["NetApp Workload Factory에서 용량을 자동으로 관리하세요"]
+
+
+
+=== FSx for ONTAP 파일 시스템의 Well-Architected 상태에 대한 PDF 보고서
+
+분석이 완료되면 기록 보관용 또는 팀과 공유하기 위해 FSx for ONTAP 파일 시스템의 아키텍처 설계 상태에 대한 PDF 보고서를 다운로드할 수 있습니다.link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["NetApp Workload Factory에서 FSx for ONTAP 파일 시스템의 아키텍처 설계 상태를 확인하십시오."]

@@ -168,7 +168,6 @@
   <block id="949772caeac38120e37726672f87e673" category="inline-link-macro">블록 디바이스에 태그를 할당하는 EC2 사용자 데이터 스크립트</block>
   <block id="f253e6c2e63632a5f1a7ef4fe6522c2f" category="paragraph"><block ref="f253e6c2e63632a5f1a7ef4fe6522c2f" category="inline-link-macro-rx"></block></block>
   <block id="607326d3637e008b134e64f39d8da723" category="section-title">FSx for ONTAP 파일 시스템의 용량 추세</block>
-  <block id="f9fdfcc52193908a516c0b9d7964af8e" category="paragraph">FSx for ONTAP 파일 시스템의 개요에서 SSD 용량 추세를 직접 확인하세요. 용량 관리를 위한 새로운 카드는 지난달 사용량 추세에 대한 포괄적인 정보를 제공합니다. 이 분석에는 실제 사용 용량과 할당된 용량 간의 비교가 포함되어 리소스 활용률을 명확하게 평가할 수 있습니다.</block>
   <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">NetApp Workload Factory에서 용량을 자동으로 관리하세요</block>
   <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
   <block id="3be044b694628f6e958377c22febfacd" category="section-title">2026년 5월 3일</block>
@@ -195,4 +194,8 @@
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
   <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">FSx for ONTAP 파일 시스템에 대한 새로운 알림</block>
   <block id="6d358c966898e9dabc6d051e85958cd8" category="paragraph">NetApp Workload Factory 알림 서비스는 계정에 대한 월별 비용 요약 알림을 제공하며, 이를 통해 지출 추세, 비정상적인 변동 사항 및 FSx for ONTAP 파일 시스템에 대한 최적의 비용 절감 기회를 확인할 수 있습니다.</block>
+  <block id="596e30b7050101709ce0d710420e77a7" category="paragraph">FSx for ONTAP 파일 시스템 개요에서 SSD 용량 추세를 직접 확인하세요. 용량 관리를 위한 새 카드는 지난달의 사용량 추세를 보여줍니다. 이 분석은 실제 용량과 할당된 용량을 비교하여 리소스 사용량을 쉽게 평가할 수 있도록 합니다.</block>
+  <block id="deede3cf7f18c08613ec53890188368e" category="section-title">FSx for ONTAP 파일 시스템의 Well-Architected 상태에 대한 PDF 보고서</block>
+  <block id="09731bdb23a8e229cca44808afd3eb18" category="inline-link-macro">NetApp Workload Factory에서 FSx for ONTAP 파일 시스템의 아키텍처 설계 상태를 확인하십시오.</block>
+  <block id="bf36e3bb684711138abb04e7f7f95c1a" category="paragraph">분석이 완료되면 기록 보관용 또는 팀과 공유하기 위해 FSx for ONTAP 파일 시스템의 아키텍처 설계 상태에 대한 PDF 보고서를 다운로드할 수 있습니다.<block ref="8f1fbab727bbab0e7967c959283750c4" category="inline-link-macro-rx"></block></block>
 </blocks>
