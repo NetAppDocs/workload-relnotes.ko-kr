@@ -1,0 +1,37 @@
+= Oracle을 위한 잘 설계된 분석
+:allow-uri-read: 
+
+
+
+
+=== Oracle을 위한 잘 설계된 분석
+
+잘 설계된 아키텍처 분석에는 Oracle에 대한 다음과 같은 새로운 구성이 포함됩니다.
+
+* *백업 구성*: Oracle 데이터베이스가 AWS Backup 또는 Amazon FSx for NetApp ONTAP 백업으로 보호되는지 여부를 확인합니다.
+* *클론 정리*: 스토리지 비용을 줄이기 위해 오래되었거나 사용하지 않는 클론을 제거하는 것이 좋습니다.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다."]
+
+
+
+=== Amazon Elastic Block Store(EBS)의 Oracle 데이터베이스에 대한 자동 절감액 계산
+
+Workload Factory는 Oracle 데이터베이스에 사용되는 EBS 스토리지 비용을 자동으로 분석한 다음 가장 적합하고 비용 효율적인 FSx for ONTAP 구성을 제안합니다. 여러 EBS 호스트를 선택하여 분석한 다음 EBS와 FSx for ONTAP에서 해당 호스트를 실행하는 비용을 비교할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["감지된 EBS 호스트에 대한 비용 절감 효과를 살펴보세요."]
+
+
+
+=== CRR 구성 사전 요구 사항 확인
+
+데이터베이스 환경에 대해 지역 간 복제(CRR)를 활성화하면 데이터베이스 워크로드가 FSx for ONTAP 파일 시스템에 연결된 링크 및 복제 설정이 있는지 확인합니다. 필요한 경우 데이터베이스 워크로드는 스토리지와 동일한 방식으로 링크 필수 조건을 처리하도록 FSx for ONTAP 스토리지 워크로드 복제 마법사로 리디렉션합니다.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다."]
+
+
+
+=== Microsoft SQL Server 데이터베이스에 대한 연결된 LUN
+
+이제 Workload Factory의 인벤토리 화면에서 Microsoft SQL Server 데이터베이스에 매핑된 LUN을 볼 수 있습니다. 이를 통해 어떤 LUN이 어떤 데이터베이스와 연결되어 있는지 쉽게 파악하여 스토리지 리소스를 더욱 효율적으로 관리하고 최적화할 수 있습니다.
