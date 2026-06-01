@@ -191,4 +191,9 @@
   <block id="46d1548637c7b145aedaf16fc4982ded" category="paragraph"><block ref="46d1548637c7b145aedaf16fc4982ded" category="inline-link-macro-rx"></block></block>
   <block id="6935aa37908b8d3e8e6495adec301374" category="section-title">볼륨 지연 시간 임계값 설정</block>
   <block id="8d36c5c4d1b5b3180db932fcf4bd5e3b" category="paragraph">이제 볼륨별로 지연 시간 임계값을 구성하여 성능을 모니터링하고 읽기 또는 쓰기 지연 시간이 설정된 한도를 초과할 경우 알림을 받을 수 있습니다. 지연 시간 모니터링을 통해 워크로드에 영향을 미치기 전에 성능 문제를 사전에 파악할 수 있습니다.</block>
+  <block id="3bb5ae684d139ecc39b584ffe9e6033b" category="paragraph">NetApp Workload Factory 알림 서비스에는 복제 지연에 대한 알림 기능이 포함되어 있습니다.</block>
+  <block id="bdd14b3b036670ed34f9ec4d3b52c70c" category="section-title">AWS GovCloud(미국) 계정 지원</block>
+  <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">이제 Workload Factory에서 AWS GovCloud(미국) 계정을 생성할 수 있습니다. 이 계정 유형은 설정 및 운영에 AWS 미국 GovCloud 엔드포인트와 리전만 사용합니다. 자격 증명과 비밀 키는 GovCloud에 유지됩니다. GovCloud(미국) 리전이 지원됩니다.</block>
+  <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">Workload Factory에서 AWS GovCloud(US) 계정 생성</block>
+  <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
 </blocks>
