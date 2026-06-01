@@ -36,58 +36,9 @@
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">Oracle을 위한 잘 설계된 분석</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다.</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">Workload Factory는 다음 구성에 대해 FSx for ONTAP 파일 시스템을 분석합니다.</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 워크로드</block>
-  <block id="129560e32411be4dc94c9cfeada8ea67" category="doc">Workload Factory에서 사용할 수 있는 새로운 Ask Me 북마크</block>
-  <block id="4ea89e975474ebd5bba8d32ced2e95cc" category="paragraph">Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 사용자의 워크로드 환경에 대한 질문을 하고, 환경에서 직접 맞춤형 인사이트를 얻고, 이전 대화를 참조할 수 있도록 지원하는 AI 비서입니다.</block>
-  <block id="38dc719ee518af5f799c19331bfd5f19" category="paragraph">새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업을 방해하지 않고 사이드 패널에서 Ask me가 실행되어 현재 수행 중인 작업과 관련된 빠른 설명과 권장 사항을 제공합니다.</block>
-  <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Ask Me에 대해 자세히 알아보기</block>
-  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
-  <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026년 3월 1일</block>
-  <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">EDA 스토리지 관리 개요 대시보드</block>
-  <block id="6295e7aeea412421b1717d5ccabe235b" category="list-text">*클러스터 상태*: 클러스터 전반의 성능, 용량, 가용성 및 보호, 보안 이벤트를 강조하는 대시보드 상단에 요약된 정보입니다.</block>
-  <block id="5ea38aab7fec2dffdc805f386d0132ab" category="list-text">*클러스터 테이블*: 검색, 필터링 및 페이지 매김이 가능한 테이블로, 클러스터별 SSD 용량, 용량 풀 및 처리량 메트릭을 표시하며, 열 사용자 지정 및 CSV 내보내기를 지원합니다.</block>
-  <block id="b3e3b4895cbd35f5a2365afa09005d4f" category="paragraph">이전의 메인 대시보드는 이제 *Project* 탭에서 액세스할 수 있습니다. EDA 탭은 이제 Overview, Latency, Project, CI/CD 순서로 정렬됩니다.</block>
-  <block id="ceadd545963dc65de11a451079ea494e" category="section-title">자동화된 지연 시간 분석</block>
-  <block id="bb185e5021bfe9db8739ffc98c9e991d" category="paragraph">지연 시간 분석에 이제 자동화된 기본 분석 기능이 포함됩니다. 지연 시간 이벤트가 감지되면 시스템은 ONTAP QoS 지연 센터 메트릭을 자동으로 분석하여 지연 시간 문제의 원인을 파악합니다.</block>
-  <block id="97d9985b0c67c7f1f1fab2857c6777c3" category="paragraph">기본 분석은 QoS 정책, 디스크 성능, 네트워크 문제 및 클러스터 구성을 평가하여 지연 이벤트 테이블의 세부 정보 열에 즉각적인 인사이트를 제공합니다.</block>
-  <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">새로운 북마크를 클릭하면 어느 페이지에서든 Ask Me를 열 수 있습니다. 현재 작업 중인 내용을 방해하지 않고 사이드 패널에 Ask Me가 실행되어, 현재 작업과 관련된 간단한 설명과 추천 사항을 제공합니다.</block>
-  <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
-  <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">데이터베이스 배포에 대한 일회성 평가를 수행합니다</block>
-  <block id="fa29998d7ba5fe0bb430a106a7dd86bc" category="paragraph"><block ref="fa29998d7ba5fe0bb430a106a7dd86bc" category="inline-link-macro-rx"></block></block>
-  <block id="db82eade40cb0d84a1267b72a439d756" category="section-title">Microsoft SQL Server의 Always On 가용성 그룹 및 Oracle 데이터베이스의 Data Guard에 대한 등록 지원</block>
-  <block id="9074af594544775f8103abf495f3e489" category="paragraph">이제 NetApp Workload Factory의 데이터베이스 워크로드에서 Always On 가용성 그룹(AOAG) 배포 모델을 사용하는 Microsoft SQL Server 인스턴스와 Data Guard 배포 모델을 사용하는 Oracle 데이터베이스를 검색하고 등록할 수 있습니다. 이 개선 사항을 통해 Workload Factory 콘솔에서 SQL Server 및 Oracle 리소스를 더욱 효율적으로 관리할 수 있습니다.</block>
-  <block id="f7b5008af0a2a63908c672bf116eb9cd" category="paragraph">AOAG 인스턴스와 Data Guard 데이터베이스를 등록한 후에는 리소스 세부 정보 보기 및 오류 로그 분석과 같은 NetApp Workload Factory for Databases의 다양한 기능을 활용할 수 있습니다.</block>
-  <block id="b670d12d9dbeacc2f76bcbbabb59b072" category="paragraph">Workload Factory for Databases는 AOAG 배포 모델을 사용하는 Microsoft SQL Server 인스턴스에 대한 well-architected 분석도 지원합니다. 가용성 그룹에 속한 SQL Server 인스턴스의 구성을 분석하고 배포 구성을 최적화하고 모범 사례를 준수하도록 권장 사항을 받을 수 있습니다. 이 기능을 사용하려면 AOAG 인스턴스를 등록하십시오.</block>
-  <block id="fd16a8943ae80384234824f7a04cb2eb" category="inline-link-macro">데이터베이스용 Workload Factory에 리소스를 등록합니다</block>
-  <block id="e2da1373bb80f776ff6f57fbbe534851" category="paragraph"><block ref="e2da1373bb80f776ff6f57fbbe534851" category="inline-link-macro-rx"></block></block>
-  <block id="acc6acf63c7f7148c690b518cbbc53ca" category="paragraph">체계적인 분석에는 운영 체제에 최신 패치가 있는지 확인하고 설치 방법을 알려주는 Oracle용 *운영 체제 패치*가 포함되어 있습니다.</block>
-  <block id="10c0be29accc7dc47a6524aa470214cb" category="paragraph">또한, Oracle용 Well-Architected 분석 기능은 스토리지 레이아웃과 같은 구성이 다른 구성에 종속되어 있을 때 알려줍니다. 이 알림은 연결된 구성을 최적화하여 제공되는 모든 권장 사항이 최적화되도록 하는 데 필요한 조치를 안내합니다.</block>
-  <block id="c02b138b3ded0ad5c64dc6ef4350f29e" category="section-title">Oracle 온프레미스 데이터베이스 환경 비용 분석 및 마이그레이션 계획</block>
-  <block id="c419699e9c7d19ed5944ddf6b8598cfe" category="paragraph">Workload Factory for Databases는 이제 Oracle 온프레미스 데이터베이스 마이그레이션을 Amazon FSx for NetApp ONTAP로 분석하고 계획하는 데 도움을 줍니다. 비용 절감 계산기를 사용하여 클라우드에서 Oracle 온프레미스 데이터베이스 환경을 운영하는 데 드는 비용을 추산하고 온프레미스 데이터베이스 환경을 클라우드로 마이그레이션하기 위한 권장 사항을 검토할 수 있습니다.</block>
-  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">온프레미스 데이터베이스 환경의 비용 절감 효과를 살펴보세요.</block>
-  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
-  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026년 3월 2일</block>
-  <block id="b4faaa513060331f5bb7705e042e49cd" category="list-text">SSD 용량 활용률 저하: SSD 용량 계층의 활용률이 낮은지 확인하고 비용 최적화를 위해 SSD 용량을 줄이는 것을 권장합니다.</block>
-  <block id="01b065251159f3c3b86f7d49511f1bf7" category="list-text">볼륨 백업 예약: Workload Factory는 구성 권장 사항을 개선하고 FSx for ONTAP 백업 또는 AWS Backup을 활성화하는 옵션을 추가했습니다. FSx for ONTAP 백업은 파일 시스템의 모든 볼륨에 기본 정책을 적용하여 최대 90일 동안 보관되는 일일 백업을 생성합니다. AWS Backup을 사용하면 백업 계획에서 각 볼륨에 대해 서로 다른 보존 기간을 선택할 수 있습니다.</block>
-  <block id="9ad8abc81514723f5439d23cac33f67b" category="section-title">Workload Factory는 복제를 위한 AI 및 ML 사용 사례를 지원합니다</block>
-  <block id="4fabde129d63ed93da8d3a884a34d989" category="paragraph">Workload Factory는 온프레미스 ONTAP 데이터를 FSx for ONTAP로 복제하고 AWS 인공지능(AI) 및 머신러닝(ML) 서비스를 위한 S3 액세스 포인트를 생성하여 AI/ML 워크플로를 가속화하는 기능을 지원합니다.</block>
-  <block id="6f93097c4b22d10fa124cc3526343351" category="inline-link-macro">AI 및 ML 사용 사례를 위해 온프레미스 데이터를 복제합니다</block>
-  <block id="9204fcf38a3ec17161f43b022482f826" category="paragraph"><block ref="f326bef7ea7d0e36c5b06e0b9913123a" category="inline-link-macro-rx"></block></block>
-  <block id="42fe2ab7947c044bb47fb357526022c2" category="section-title">기존 S3 액세스 포인트 편집</block>
-  <block id="33c5aa1872cfcc4e8c7c5850619e6f87" category="paragraph">볼륨에 연결된 기존 S3 액세스 포인트의 사용자 및 사용자 유형을 변경할 수 있습니다. 또한 액세스 포인트의 메타데이터를 활성화 또는 비활성화할 수 있습니다.</block>
-  <block id="7525bd4fe22d4a212fea8807fb8d750b" category="inline-link-macro">NetApp Workload Factory에서 S3 액세스 포인트 편집</block>
-  <block id="692b5b6f757e38d7e4d1dd3f957a20f0" category="section-title">블록 스토리지 다이어그램 추가</block>
-  <block id="55d6cb6b45d9aaa08c53b22b5ac8a617" category="paragraph">블록 스토리지를 사용하는 경우 블록 스토리지 다이어그램을 통해 블록 장치가 노드 및 igroup에 어떻게 연결되는지 시각적으로 확인할 수 있습니다. 이 다이어그램은 블록 스토리지를 이해하고 관리하는 데 도움이 됩니다.</block>
   <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">NetApp Workload Factory에서 블록 스토리지를 관리합니다</block>
   <block id="e27c0520df6795eedf0c70ef38381a5b" category="paragraph"><block ref="e27c0520df6795eedf0c70ef38381a5b" category="inline-link-macro-rx"></block></block>
-  <block id="fe8de8255ddcf7ab25ab74f8ebd26038" category="section-title">자동 용량 관리 기능으로 업데이트</block>
-  <block id="8e5031888ebd5b1abae0d4eb5bf05af3" category="paragraph">이번 업데이트에서는 해당 기능을 자동 용량 관리와 용량 알림이라는 두 가지 별개의 기능으로 분리했습니다.</block>
-  <block id="10a7856ed25b37558f2b515fcbe24567" category="paragraph">자동 용량 관리는 최적의 성능을 유지하기 위해 파일 시스템 용량을 자동으로 추가하거나 제거합니다. 새로운 옵션에는 증분 모드와 적응형 모드가 포함됩니다. 증분 모드에서는 시스템이 임계값에 도달할 때마다 고정된 양만큼 용량을 늘리고, 적응형 모드에서는 기간별 데이터를 사용하여 용량을 예측하고 조정합니다.</block>
-  <block id="afca613753b2d7f6ff8f1dad6c1dc86a" category="paragraph">용량 알림은 용량 조정이 발생하거나 파일 시스템이 설정된 한도에 도달할 때마다 알려주므로 문제가 발생하기 전에 스토리지를 관리할 수 있습니다.</block>
-  <block id="19d4c34be6525aca788802a6167a4156" category="inline-link-macro">NetApp Workload Factory의 자동 용량 관리 및 용량 알림에 대해 알아보십시오</block>
-  <block id="ef319467f119e3bda1a975eb1f26e46d" category="paragraph"><block ref="ef319467f119e3bda1a975eb1f26e46d" category="inline-link-macro-rx"></block></block>
-  <block id="1c0128659c34cfdfa6e26b42e3133599" category="paragraph">Workload Factory 콘솔의 모든 화면에 새로운 Ask Me 북마크를 추가했습니다. 이 개선 사항을 통해 필요할 때 언제든지 Ask Me에 더 쉽고 빠르게 액세스할 수 있습니다. Ask Me는 AI 비서입니다. 워크로드 환경에 대한 질문을 하고, 맞춤형 인사이트를 얻고, 이전 대화를 검토할 수 있습니다.</block>
   <block id="d9a614ba22162f87467dc9820cb657d0" category="doc">Google Cloud VMware Engine용 마이그레이션 어드바이저 지원 소개</block>
   <block id="9ed9d229ad690b47d132eb6206cba909" category="paragraph">NetApp Workload Factory가 이제 Google Cloud VMware Engine을 지원합니다. Google Cloud NetApp Volumes를 외부 NFS 데이터스토어로 사용하여 온프레미스 VMware 워크로드를 Google Cloud VMware Engine으로 마이그레이션할 수 있습니다. 이를 통해 애플리케이션을 재구성하거나 플랫폼을 변경할 필요 없이 비용을 최적화하고 VMware 환경을 더욱 효과적으로 제어할 수 있습니다.</block>
   <block id="42fbc3a98a8196c1e84ea7586967c06f" category="paragraph">Google Cloud VMware Engine 마이그레이션 어드바이저는 다음을 제공합니다.</block>
@@ -97,8 +48,6 @@
   <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">Standard, Premium 및 Extreme Google Cloud NetApp Volumes 서비스 레벨을 지원합니다.</block>
   <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">Terraform을 사용한 자동화된 프로비저닝을 위한 Infrastructure-as-Code 배포.</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026년 3월 9일</block>
-  <block id="d3274d6efd4629f10f6f21cf8a7c4820" category="doc">SQL Server에 대한 일회성 평가</block>
-  <block id="8f42179a48bba7e0f2424b2849f64183" category="paragraph">Workload Factory는 이제 필요할 때마다 SQL Server 데이터베이스 배포 구성을 분석하는 일회성 평가를 제공합니다. 신규 배포, 마이그레이션 후, 문제 해결 등 다양한 상황에서 활용할 수 있습니다. 배포 구성을 최적화하고 모범 사례를 준수하는 데 도움이 되는 권장 사항을 받아볼 수 있습니다. 이 기능을 통해 설정 프로세스를 완전히 수행하지 않고도 잘 설계된 기능을 사용해 볼 수 있습니다. Workload Factory에 자격 증명을 저장하거나, 데이터베이스 리소스를 등록하거나, 외부 연결을 설정하지 않고도 데이터베이스를 평가할 수 있습니다.</block>
   <block id="d34510ab77e099f24fa05ceac3ff150c" category="paragraph">잘 설계된 아키텍처 분석에는 Oracle에 대한 다음과 같은 새로운 구성이 포함됩니다.</block>
   <block id="9712df87120461c7551eea660e7f56a6" category="list-text">*Oracle Critical Patch Updates*: 지원되는 Oracle 자체 관리형 데이터베이스 설치에 누락된 보안 패치를 평가합니다.</block>
   <block id="b435abcc161e9c500b1c5e15baf0cbb5" category="list-text">*지역 간 복제*: Oracle 데이터베이스를 제공하는 FSx for ONTAP 파일 시스템에 대해 지역 간 복제(CRR)가 활성화되어 있는지 확인합니다.</block>
@@ -112,7 +61,6 @@
   <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">Oracle 온프레미스에서 감지된 데이터베이스에 대한 비용 절감 효과를 살펴보십시오</block>
   <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026년 4월 6일</block>
-  <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
   <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory는 FSx for ONTAP 파일 시스템에서 *비활성 NAS 볼륨*을 분석합니다. 구성 분석을 통해 활발하게 사용되지 않는 NAS 볼륨을 식별하고 스토리지 활용도를 최적화하고 비용을 절감하기 위한 권장 사항을 제시합니다.</block>
   <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">잘 설계된 FSx for ONTAP 파일 시스템 구현</block>
   <block id="aa9fc3ddfcff516e1422d829fd2d4138" category="paragraph"><block ref="aa9fc3ddfcff516e1422d829fd2d4138" category="inline-link-macro-rx"></block></block>
@@ -130,10 +78,6 @@
   <block id="77633bb85f2dda716363da565416542c" category="paragraph">NetApp Workload Factory 알림 서비스에는 스토리지용 NetApp AI 기반 자율형 랜섬웨어 보호(ARP/AI)에 대한 알림이 포함되어 있습니다.</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 알림</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
-  <block id="baf7dcba0c4a80ef2ec1dd0465a27ee0" category="paragraph">수십 개의 FSx for ONTAP 파일 시스템을 관리하는 IT 관리자는 개요 대시보드를 사용하여 클러스터 상태, 활용률 및 볼륨 배치와 관련된 일반적인 운영 질문에 대한 답을 찾을 수 있습니다.</block>
-  <block id="a75658829d674de492a2dd7d0818e7ca" category="paragraph">개요 대시보드에는 다음이 포함됩니다.</block>
-  <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link">개요 대시보드에 대해 자세히 알아보십시오</block>
-  <block id="427726ce5319ddeb6b4d93d416808b01" category="paragraph"><block ref="eed2fd228fd1462e58b4537ebcb82ccc" category="inline-link-rx"></block>.</block>
   <block id="7b0ddde1961cce4426c7f0cf5da65e0d" category="doc">EDA 용량 권장 사항</block>
   <block id="edb815136867c3359e368e3f925ae387" category="paragraph">Workload Factory는 이제 EDA 인벤토리에 있는 각 FSx for ONTAP 클러스터의 SSD 용량을 자동으로 분석하고 조정이 필요할 때 용량 권장 사항을 생성합니다. 알고리즘은 각 클러스터에 대해 24시간마다 한 번씩 실행됩니다.</block>
   <block id="1f9c155d60450baccee27bca630b6497" category="paragraph">권장 사항이 확인되면:</block>
@@ -202,4 +146,7 @@
   <block id="9806495507d3f9631835ef96ec7c6a20" category="paragraph">데이터베이스 환경에 대해 지역 간 복제(CRR)를 활성화하면 데이터베이스 워크로드가 FSx for ONTAP 파일 시스템에 연결된 링크 및 복제 설정이 있는지 확인합니다. 필요한 경우 데이터베이스 워크로드는 스토리지와 동일한 방식으로 링크 필수 조건을 처리하도록 FSx for ONTAP 스토리지 워크로드 복제 마법사로 리디렉션합니다.</block>
   <block id="2570f829ce5d9920c913ea709da38970" category="section-title">Microsoft SQL Server 데이터베이스에 대한 연결된 LUN</block>
   <block id="7bcbdd4b76f415ad3e96438de020e5cf" category="paragraph">이제 Workload Factory의 인벤토리 화면에서 Microsoft SQL Server 데이터베이스에 매핑된 LUN을 볼 수 있습니다. 이를 통해 어떤 LUN이 어떤 데이터베이스와 연결되어 있는지 쉽게 파악하여 스토리지 리소스를 더욱 효율적으로 관리하고 최적화할 수 있습니다.</block>
+  <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">NetApp Workload Factory에서 AWS GovCloud (US) 지원</block>
+  <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory는 AWS GovCloud (US) 계정을 지원합니다. GovCloud 계정을 사용하면 AWS GovCloud (US) 리전에 GenAI 워크로드를 배포하고 관리할 수 있습니다.</block>
+  <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026년 5월 31일</block>
 </blocks>
