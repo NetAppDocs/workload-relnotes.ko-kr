@@ -196,4 +196,28 @@
   <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">이제 Workload Factory에서 AWS GovCloud(미국) 계정을 생성할 수 있습니다. 이 계정 유형은 설정 및 운영에 AWS 미국 GovCloud 엔드포인트와 리전만 사용합니다. 자격 증명과 비밀 키는 GovCloud에 유지됩니다. GovCloud(미국) 리전이 지원됩니다.</block>
   <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">Workload Factory에서 AWS GovCloud(US) 계정 생성</block>
   <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
+  <block id="4f08df9e7760628c8a0fcefa27f063f4" category="doc">SSD 용량 증가 관리 모드 및 자동화</block>
+  <block id="6048180efecc25affb37f0bcfc4af51f" category="paragraph">Workload Factory는 이제 운영 환경 설정에 맞는 SSD 용량 증가 관리 모드를 제공합니다.</block>
+  <block id="9464fbc6a7b71da353f2d54109960226" category="list-text">*자동화*</block>
+  <block id="66237dc10c2943c0563d26d3f0b6b230" category="list-text">*권장 사항*</block>
+  <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">*없음*</block>
+  <block id="7d2c5b1dd66ac2d00e2f116602f0da91" category="paragraph">현재 모드와 해당 매개변수는 파일 시스템 세부 정보 페이지의 SSD 사용량 그래프 상단에 표시됩니다. 운영상의 필요에 따라 언제든지 모드를 전환할 수 있습니다.</block>
+  <block id="df638dda507575b6f88b684af7608553" category="inline-link-macro">SSD 관리 모드에 대해 알아보십시오</block>
+  <block id="8726b2b1ff09bca86dd85ada696c955e" category="paragraph"><block ref="8a69182f844b7822adef7a1894417217" category="inline-link-macro-rx"></block>.</block>
+  <block id="70a1c8861535253968956554ebf8e231" category="section-title">SSD 용량 증가 관리 파라미터 일괄 편집</block>
+  <block id="771b4b22f5518da40bcc1511e8f12898" category="paragraph">이제 Overview 대시보드에서 여러 파일 시스템에 걸쳐 SSD 용량 증가 관리 파라미터를 조정할 수 있습니다. Clusters 테이블에서 하나 이상의 클러스터를 선택하고 Threshold(10~90%), Lookback(1~200시간), Ahead(1~200시간) 값을 일괄적으로 편집하세요.</block>
+  <block id="012cccd7c99fecdbdf717ccb8b16b7de" category="paragraph">편집 대화 상자는 사용자의 선택에 따라 자동으로 채워집니다. 선택한 모든 파일 시스템이 동일한 매개변수 값을 공유하는 경우 해당 값이 표시되고, 그렇지 않으면 기본값이 사용됩니다. 이를 통해 환경 전체에 일관된 용량 설정을 적용할 수 있습니다.</block>
+  <block id="68c574408eaf57fb5b79796bef1895be" category="inline-link-macro">매개 변수를 일괄 편집하는 방법을 알아보십시오</block>
+  <block id="ba63cd1a056bc80046c503ba2fa33773" category="paragraph"><block ref="fb2c15e1efaea436655e6825086014e4" category="inline-link-macro-rx"></block>.</block>
+  <block id="b02017def04604d515c33a15c45d2e8e" category="section-title">용량 결정 지점 시각화</block>
+  <block id="7dcdf7b0c669e34d376781ffb261c8f6" category="paragraph">이제 SSD 사용량 그래프에 용량 권장 사항이 생성되었거나 자동화된 작업이 수행된 시점을 나타내는 의사 결정 지점이 표시됩니다.</block>
+  <block id="473ad9d52a93a6904458becbb59cdb8f" category="list-text">*권장 결정 지점*: 마우스를 올려놓으면 타임스탬프, 권장 증가 크기 및 현재 용량을 볼 수 있습니다.</block>
+  <block id="e13a73a214d35af7df23610e438e2773" category="list-text">*자동화 결정 지점*: 마우스를 올려놓으면 타임스탬프, 성공 또는 실패 상태, 크기 증가, 새 애그리게이트 크기를 볼 수 있습니다. 실패한 시도에는 실패 이유가 포함됩니다.</block>
+  <block id="c1d04258174a29f2132edb30e198b9ea" category="paragraph">의사 결정 시점은 30분마다 발생할 수 있으며, 선택한 시간 범위에 따라 개별적으로 또는 통합되어 표시됩니다.</block>
+  <block id="77911424f819f845cb8185bc75dd9c89" category="inline-link-macro">용량 결정 시점에 대해 알아보십시오</block>
+  <block id="2470c0ea25645427c285ac2c1db0ea6d" category="paragraph"><block ref="7d345c706cc4ef56c93e61e8fef7447b" category="inline-link-macro-rx"></block>.</block>
+  <block id="6730925799427eefafa41ca821775fd8" category="section-title">클러스터 테이블의 링크 구성 상태</block>
+  <block id="00617692d401e7bead58c1c61c197639" category="paragraph">개요 대시보드의 클러스터 테이블에 이제 각 파일 시스템에 대해 FSx for ONTAP 링크가 구성되었는지 여부를 보여주는 연결된 링크 열이 추가되었습니다. 연결 상태는 매일 검증되므로 링크 구성이 필요하거나 연결 문제가 있을 수 있는 파일 시스템을 쉽게 파악할 수 있습니다.</block>
+  <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">개요 대시보드 보기</block>
+  <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>.</block>
 </blocks>
