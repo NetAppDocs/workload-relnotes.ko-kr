@@ -179,4 +179,10 @@
   <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">다양한 그래프를 사용하여 지연 시간 추세를 분석하는 방법을 알아보십시오.</block>
   <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
   <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">2026년 7월 5일</block>
+  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">맞춤형 대시보드</block>
+  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">업무량과 우선순위에 맞춰 AI 기반 대시보드를 구축하여 운영 성과를 손쉽게 파악하세요. 고정된 보기 방식에 의존하는 대신, 맞춤형 대시보드를 통해 가장 중요한 정보에 집중할 수 있습니다.</block>
+  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">추적하고 싶은 내용을 일반 언어로 설명하기만 하면 AI가 요청에 따라 대시보드를 생성해 줍니다. 예를 들어 재해 복구 상태, 지역별 용량 및 비용, 스토리지 보호 규정 준수, 기타 운영 지표 등을 추적할 수 있습니다.</block>
+  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">사용자 지정 대시보드는 읽기 전용이므로 스토리지 또는 워크로드 설정을 변경할 수 없습니다. Workload Factory 계정에 등록된 모든 사용자는 이러한 대시보드를 보고 관리할 수 있으므로 팀 간에 인사이트를 공유하고 협업을 유지하는 데 도움이 됩니다.</block>
+  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">맞춤형 대시보드에 대해 자세히 알아보기</block>
+  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
 </blocks>
