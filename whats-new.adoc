@@ -15,6 +15,24 @@ NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대
 
 
 
+== 2026년 7월 6일
+
+
+
+=== VMware 워크로드
+
+
+
+==== EVS TCO 계산기에서 i7i.metal-24xl 인스턴스 지원
+
+EVS 총소유비용(TCO) 계산기가 이제 AWS i7i.metal-24xl EC2 인스턴스를 클러스터 호스트로 지원합니다. i4i.metal 구성과 비교했을 때, 이러한 인스턴스를 사용하면 컴퓨팅 비용은 약 33%, vSAN 스토리지 비용은 약 25% EVS 시작 비용이 절감됩니다.
+
+계산기는 두 인스턴스 유형을 자동으로 비교하여 가장 비용 효율적인 옵션을 선택합니다. 새로운 비교 섹션에서는 EVS 호스트 구성을 나란히 표시하여 필요에 맞는 최적의 설정을 더 쉽게 찾을 수 있습니다.
+
+link:calculate-evs-savings.html["EVS의 예상 절감액 계산"]
+
+
+
 == 2026년 6월 1일
 
 
@@ -128,6 +146,16 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["NetAp
 이제 볼륨별로 지연 시간 임계값을 구성하여 성능을 모니터링하고 읽기 또는 쓰기 지연 시간이 설정된 한도를 초과할 경우 알림을 받을 수 있습니다. 지연 시간 모니터링을 통해 워크로드에 영향을 미치기 전에 성능 문제를 사전에 파악할 수 있습니다.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["NetApp Workload Factory에서 볼륨 지연 시간 임계값 설정"]
+
+
+
+=== VMware 워크로드
+
+
+
+==== NetApp Workload Factory에서 AWS GovCloud (US) 지원
+
+NetApp Workload Factory는 AWS GovCloud(미국) 계정을 지원합니다. GovCloud 계정을 사용하면 AWS GovCloud(미국) 리전에 스토리지 워크로드를 배포하고 관리할 수 있습니다.
 
 
 
@@ -355,132 +383,3 @@ https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-l
 이 포괄적인 시각화를 통해 패턴을 식별하고, 지연 시간 문제가 반복적인지 또는 일회성인지 파악하며, 해결 방법에 대해 더 많은 정보를 바탕으로 의사 결정을 내릴 수 있습니다.
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["지연 시간 추세를 분석하는 방법을 알아보십시오"^].
-
-
-
-== 2026년 4월 6일
-
-
-
-=== NetApp ONTAP용 Amazon FSx
-
-
-
-==== 잘 설계된 분석 업데이트
-
-Workload Factory는 FSx for ONTAP 파일 시스템에서 *비활성 NAS 볼륨*을 분석합니다. 구성 분석을 통해 활발하게 사용되지 않는 NAS 볼륨을 식별하고 스토리지 활용도를 최적화하고 비용을 절감하기 위한 권장 사항을 제시합니다.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["잘 설계된 FSx for ONTAP 파일 시스템 구현"]
-
-
-
-==== S3 액세스 포인트용 저널 테이블 기능
-
-저널 테이블 기능은 FSx ONTAP S3 객체 스토리지를 대규모로 관리할 수 있는 방법을 제공하여 버킷의 객체에 대한 사용자 액세스 이벤트 및 작업을 쉽게 감사할 수 있도록 합니다. Workload Factory를 사용하면 버킷과 S3 테이블에 대한 자동 스캔을 설정하여 모든 객체, 객체 세부 정보 및 사용자 작업을 표시하는 이벤트 기록을 유지할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/setup-journal-table.html["NetApp Workload Factory용 저널 테이블 인프라를 설정합니다"]
-
-
-
-==== 기존 igroup 관리 지원
-
-Workload Factory는 기존 igroup 관리를 지원합니다. 블록 디바이스와 호스트 이니시에이터를 추가하거나 제거하여 배포된 워크로드를 정시에 제공할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["NetApp Workload Factory에서 블록 스토리지를 관리합니다"]
-
-
-
-==== FlexVol 볼륨에 대한 애그리게이트 지정 지원
-
-Workload Factory는 선택한 애그리게이트에 FlexVol 볼륨을 생성하는 기능을 지원합니다. 이를 통해 모든 파일 시스템 리소스에 용량 및 성능 로드를 분산할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["NetApp Workload Factory에서 FlexVol 볼륨 생성"]
-
-
-
-==== 블록 디바이스의 마지막 액세스 시간
-
-Workload Factory는 블록 장치의 마지막 액세스 시간을 보고합니다. 이 시간은 Workload Factory에서 igroup에 마지막으로 액세스한 시간을 기준으로 합니다. 각 블록 장치의 마지막 사용 시간을 알면 리소스를 최적화할 수 있습니다.
-
-
-
-=== 데이터베이스 워크로드
-
-
-
-==== Oracle을 위한 잘 설계된 분석
-
-잘 설계된 아키텍처 분석에는 Oracle에 대한 다음과 같은 새로운 구성이 포함됩니다.
-
-* *Oracle Critical Patch Updates*: 지원되는 Oracle 자체 관리형 데이터베이스 설치에 누락된 보안 패치를 평가합니다.
-* *지역 간 복제*: Oracle 데이터베이스를 제공하는 FSx for ONTAP 파일 시스템에 대해 지역 간 복제(CRR)가 활성화되어 있는지 확인합니다.
-* *애플리케이션 정합성 보장 스냅샷*: Oracle 데이터베이스가 NetApp SnapCenter를 통해 애플리케이션 정합성 보장 스냅샷으로 보호되는지 확인합니다.
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다."]
-
-
-
-==== Oracle에 대한 일회성 평가
-
-Workload Factory는 이제 필요할 때마다 Oracle 데이터베이스 배포 구성을 분석할 수 있는 일회성 평가 기능을 제공합니다(신규 배포, 마이그레이션 후, 문제 해결 등). 배포 구성을 최적화하고 모범 사례를 준수하는 데 도움이 되는 권장 사항을 받아볼 수 있습니다. 이 기능을 통해 설정 프로세스를 완전히 수행하지 않고도 잘 설계된 기능을 사용해 볼 수 있습니다. Workload Factory에 자격 증명을 저장하거나, 데이터베이스 리소스를 등록하거나, 외부 연결을 설정하지 않고도 데이터베이스를 평가할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Oracle 데이터베이스 배포에 대한 일회성 평가를 수행하십시오"]
-
-
-
-==== 여러 Oracle 데이터베이스의 비용 절감 효과 개선
-
-Oracle의 비용 절감 분석을 개선하여 여러 Oracle 온프레미스 데이터베이스를 하나의 FSx for ONTAP 파일 시스템에 통합된 스토리지 솔루션으로 제공합니다. 이러한 통합은 여러 데이터베이스에 필요한 파일 시스템 수를 줄여 스토리지 비용을 최적화하고 비용 절감 효과를 향상시킵니다.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Oracle 온프레미스에서 감지된 데이터베이스에 대한 비용 절감 효과를 살펴보십시오"]
-
-
-
-=== 설정 및 관리
-
-
-
-==== Storage에 대한 새 알림
-
-NetApp Workload Factory 알림 서비스에는 스토리지용 NetApp AI 기반 자율형 랜섬웨어 보호(ARP/AI)에 대한 알림이 포함되어 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 알림"]
-
-
-
-=== EDA 워크로드
-
-
-
-==== EDA 용량 권장 사항
-
-Workload Factory는 이제 EDA 인벤토리에 있는 각 FSx for ONTAP 클러스터의 SSD 용량을 자동으로 분석하고 조정이 필요할 때 용량 권장 사항을 생성합니다. 알고리즘은 각 클러스터에 대해 24시간마다 한 번씩 실행됩니다.
-
-권장 사항이 확인되면:
-
-* 즉시 이메일 또는 WAD 알림을 받게 됩니다(주간 요약에는 포함되지 않음).
-* Clusters 테이블에서 영향을 받는 클러스터에 전구 표시등이 나타납니다.
-* Overview 대시보드의 요약에는 활성 권장 사항이 있는 클러스터의 총 수가 표시됩니다.
-
-
-활성 권장 사항이 있는 클러스터를 선택하여 권장 사항을 확인하세요. 권장 사항에는 제안된 변경 사항과 그 이유가 설명되어 있습니다.
-
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["용량 권장 사항에 대해 자세히 알아보십시오"^].
-
-
-
-==== 자동화된 AI 지연 시간 분석
-
-지연 시간 분석에 이제 AI 에이전트 분석이 포함됩니다.
-
-데이터 또는 클러스터 지연 시간과 관련된 복잡한 시나리오의 경우 AI 에이전트 분석을 호출하여 다음을 수신할 수 있습니다.
-
-* 상세한 근본 원인 식별
-* 영향을 받는 EC2 클라이언트 목록
-* 구체적인 개선 조치
-
-
-AI 에이전트 분석에는 Amazon Bedrock 모델 ARN 구성이 필요하며 기본 분석에서 심층 조사를 권장하는 시나리오에 대해 온디맨드로 제공됩니다. AI 에이전트는 과부하 볼륨, 최적화되지 않은 마운트 포인트 구성, FlexGroup 리밸런싱 필요성 및 스케일아웃 요구 사항과 같은 문제를 식별할 수 있습니다.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["AI 에이전트 분석에 대해 자세히 알아보십시오"^].
