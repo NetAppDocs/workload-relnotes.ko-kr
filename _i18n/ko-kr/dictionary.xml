@@ -185,4 +185,13 @@
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">사용자 지정 대시보드는 읽기 전용이므로 스토리지 또는 워크로드 설정을 변경할 수 없습니다. Workload Factory 계정에 등록된 모든 사용자는 이러한 대시보드를 보고 관리할 수 있으므로 팀 간에 인사이트를 공유하고 협업을 유지하는 데 도움이 됩니다.</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">맞춤형 대시보드에 대해 자세히 알아보기</block>
   <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">지연 알림 빈도 설정</block>
+  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">이제 지연 시간 초과에 대한 이메일 알림을 받는 빈도를 선택할 수 있습니다.</block>
+  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*매일 알림 설정(권장)*: FSx for ONTAP 파일 시스템에서 새로운 문제가 발생할 때 알림을 받습니다.</block>
+  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">하루에 동일한 파일 시스템에서 여러 차례 지연 문제가 발생하더라도 이메일은 한 번만 발송됩니다.</block>
+  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Workload Factory는 파일 시스템에 대한 지연 시간 알림을 보낸 후 24시간 동안 기다린 뒤 해당 파일 시스템에 대한 또 다른 알림을 보냅니다.</block>
+  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*지연 시간 위반 시 알림(20분마다)*: 최대 20분마다 한 번씩 지연 시간 위반이 감지되면 알림을 받습니다.</block>
+  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">지연 문제 발생 시 이메일 수신량을 줄이면서도 알림을 받을 수 있도록 기본적으로 일일 알림이 활성화되어 있습니다. 지연 모니터링 설정 또는 임계값 설정 편집 시 알림 기본 설정을 변경할 수 있습니다.</block>
+  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">지연 시간 모니터링을 구성하는 방법을 알아보십시오</block>
+  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
 </blocks>
