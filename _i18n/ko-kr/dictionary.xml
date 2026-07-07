@@ -167,4 +167,16 @@
   <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">EVS의 예상 절감액 계산</block>
   <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
   <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">2026년 7월 6일</block>
+  <block id="33e0c31d77f9c8cc22645a3c4d8f1c27" category="doc">IOPS 및 처리량 그래프를 활용한 향상된 지연 시간 분석</block>
+  <block id="820660d0f2f623290b9d6bf61dc7b971" category="paragraph">이제 지연 시간 분석 패널의 *시간 경과* 탭에 동기화된 성능 그래프가 표시됩니다.</block>
+  <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*지연 시간 그래프*: 시간 경과에 따른 지연 시간 변화를 보여주며, 임계값 선과 임계값 초과 시 경고를 표시합니다.</block>
+  <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*IOPS 그래프*: 초당 연산 횟수를 보여주며, 임계값 선과 과거 한도 초과 표시기가 함께 표시됩니다.</block>
+  <block id="167a301ac11e90acd4e01899787518a1" category="list-text">*처리량 그래프*: 데이터 전송 속도(DataReadBytes 또는 DataWriteBytes)를 표시합니다.</block>
+  <block id="38f51c8db276cb26c3c7af52f545996e" category="paragraph">모든 그래프는 동일한 타임라인을 사용하며, 이벤트가 읽기인지 쓰기인지에 따라 올바른 메트릭을 자동으로 표시합니다.</block>
+  <block id="40f862a8ef42e494a25d0887d6827d75" category="paragraph">새로운 필터를 사용하면 전체, 읽기, 쓰기 또는 메타데이터 작업 중에서 선택하여 더욱 자세한 분석을 수행할 수 있습니다.</block>
+  <block id="b8f78f4759a5bd3c20308a67276707aa" category="paragraph">이 그래프는 지연 시간, IOPS 및 처리량 간의 관계를 시각적으로 보여주므로 성능 문제의 원인을 쉽게 파악하고 해결 방법을 결정할 수 있습니다.</block>
+  <block id="41b8190fd8c34e03bd93c4234b033876" category="paragraph">이제 성능 그래프는 AWS 자격 증명이 제공된 경우에만 사용할 수 있습니다. FSx for ONTAP 링크는 기본 및 AI 분석의 구성 요소별 분석을 위해서만 필요합니다.</block>
+  <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">다양한 그래프를 사용하여 지연 시간 추세를 분석하는 방법을 알아보십시오.</block>
+  <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
+  <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">2026년 7월 5일</block>
 </blocks>
