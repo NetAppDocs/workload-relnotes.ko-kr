@@ -194,4 +194,26 @@
   <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">지연 문제 발생 시 이메일 수신량을 줄이면서도 알림을 받을 수 있도록 기본적으로 일일 알림이 활성화되어 있습니다. 지연 모니터링 설정 또는 임계값 설정 편집 시 알림 기본 설정을 변경할 수 있습니다.</block>
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">지연 시간 모니터링을 구성하는 방법을 알아보십시오</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
+  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">모든 FSx for ONTAP 시스템에서 사용할 수 있는 새로운 잘 설계된 대시보드</block>
+  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">잘 설계된 분석 기능은 이제 NetApp Workload Factory의 새로운 잘 설계된 대시보드에서 FSx for ONTAP 파일 시스템에 대해 사용할 수 있습니다. 새로운 대시보드는 모든 계정 및 지역의 파일 시스템과 해당 구성을 한 곳에서 중앙 집중식으로 보여줍니다. 파일 시스템에서 *잘 설계된* 탭을 방문하면 팝업 알림이 표시됩니다. Workload Factory의 왼쪽 탐색 메뉴에서 *잘 설계된*을 선택하여 새 대시보드에 액세스하십시오.</block>
+  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">특정 파일 시스템에 대한 잘 설계된 분석은 스토리지의 *Well-architected* 메뉴 옵션에서 계속 이용할 수 있습니다.</block>
+  <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">잘 설계된 분석에 대한 새로운 권장 사항</block>
+  <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory는 이제 FSx for ONTAP 파일 시스템에 대한 잘 설계된 아키텍처 분석에 다음과 같은 구성을 포함합니다.</block>
+  <block id="fd2d46026cdd19577962231303a46abd" category="list-text">호스트를 페일오버 노드에 연결: 액티브-패시브 FSx for ONTAP 파일 시스템에서 호스트가 페일오버 노드에 연결되어 있는지 확인하고 안정성 확보를 위해 호스트를 페일오버 노드에 연결할 것을 제안합니다.</block>
+  <block id="0e7d4cc90eb78377a1315bafe07799dd" category="list-text">호스트를 선호 노드에 연결: 호스트가 선호 노드를 사용하여 블록 장치에 연결되어 있는지 확인하고 성능 효율성을 위해 호스트를 선호 노드에 연결하도록 제안합니다.</block>
+  <block id="efbeddc0347a679a438120189b77f860" category="section-title">볼륨 탐색기</block>
+  <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">볼륨 탐색기를 사용하면 NetApp Workload Factory의 모든 볼륨을 간편하게 검색할 수 있습니다. 블록 또는 파일 워크로드를 처리하는 볼륨을 빠르게 확인할 수 있습니다. 각 볼륨의 논리적 크기, 물리적 사용 용량, 스토리지 효율성 기능(압축, 중복 제거, 압축) 사용 여부를 볼 수 있습니다. 이름, 상태(사용 가능/실패), 지연 시간, 크기, 사용 용량 및 보호 기능별로 필터링하고 정렬할 수 있습니다.</block>
+  <block id="2731bbeb58ccf58c8e631528a8e3fc94" category="section-title">복제 지연 개선 사항</block>
+  <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">복제 지연에 대한 향상된 이메일 알림 기능</block>
+  <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">복제 지연에 대한 이메일 알림에 이제 영향을 받는 관계에 대한 자세한 정보가 포함됩니다. 이 알림을 통해 영향을 받는 관계를 신속하게 파악하고 Workload Factory 콘솔에서 확인할 수 있습니다.</block>
+  <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">복제 지연에 대한 알림 활성화</block>
+  <block id="7f27417270cfb269527e679a64b5a19a" category="paragraph"><block ref="7f27417270cfb269527e679a64b5a19a" category="inline-link-macro-rx"></block></block>
+  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">복제 지연 데이터를 CSV 파일로 내보내기</block>
+  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">이제 복제 지연 데이터를 CSV 파일로 내보내 스프레드시트에서 데이터를 분석하고 다른 사람과 공유할 수 있습니다.</block>
+  <block id="2b3d29c88190bdb57da25e1848b65b7d" category="inline-link-macro">복제 지연 추적</block>
+  <block id="7aab1e1b0e0fcc4720b15dcc5848034e" category="paragraph"><block ref="7aab1e1b0e0fcc4720b15dcc5848034e" category="inline-link-macro-rx"></block></block>
+  <block id="5312d8ea7e9ef079aeac882dbcd64d0a" category="section-title">블록 장치 생성 개선</block>
+  <block id="85fb39d6f3bb52679cb9ce3bd27ffd1c" category="paragraph">Workload Factory는 볼륨 스냅샷에서 블록 장치 생성을 지원합니다.</block>
+  <block id="a439412a0228682fa1054f4bc1a96815" category="inline-link-macro">Workload Factory에서 볼륨 스냅샷으로 블록 장치 생성</block>
+  <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
 </blocks>
