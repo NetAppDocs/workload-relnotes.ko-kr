@@ -4,6 +4,7 @@
 
 
 
+[[ssd-capacity-increase-management-modes-and-automation]]
 === SSD 용량 증가 관리 모드 및 자동화
 
 Workload Factory는 이제 운영 환경 설정에 맞는 SSD 용량 증가 관리 모드를 제공합니다.
@@ -19,6 +20,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[bulk-edit-ssd-capacity-increase-management-parameters]]
 === SSD 용량 증가 관리 파라미터 일괄 편집
 
 이제 Overview 대시보드에서 여러 파일 시스템에 걸쳐 SSD 용량 증가 관리 파라미터를 조정할 수 있습니다. Clusters 테이블에서 하나 이상의 클러스터를 선택하고 Threshold(10~90%), Lookback(1~200시간), Ahead(1~200시간) 값을 일괄적으로 편집하세요.
@@ -29,6 +31,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[capacity-decision-points-visualization]]
 === 용량 결정 지점 시각화
 
 이제 SSD 사용량 그래프에 용량 권장 사항이 생성되었거나 자동화된 작업이 수행된 시점을 나타내는 의사 결정 지점이 표시됩니다.
@@ -43,6 +46,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[link-configured-status-in-clusters-table]]
 === 클러스터 테이블의 링크 구성 상태
 
 개요 대시보드의 클러스터 테이블에 이제 각 파일 시스템에 대해 FSx for ONTAP 링크가 구성되었는지 여부를 보여주는 연결된 링크 열이 추가되었습니다. 연결 상태는 매일 검증되므로 링크 구성이 필요하거나 연결 문제가 있을 수 있는 파일 시스템을 쉽게 파악할 수 있습니다.
@@ -51,6 +55,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[support-for-aws-govcloud-us-in-netapp-workload-factory]]
 === NetApp Workload Factory에서 AWS GovCloud (US) 지원
 
 NetApp Workload Factory는 AWS GovCloud(미국) 계정을 지원합니다. GovCloud 계정을 사용하면 AWS GovCloud(미국) 리전에 스토리지 워크로드를 배포하고 관리할 수 있습니다.

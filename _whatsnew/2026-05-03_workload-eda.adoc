@@ -4,6 +4,7 @@
 
 
 
+[[email-and-sns-notifications-for-latency-events]]
 === 지연 이벤트에 대한 이메일 및 SNS 알림
 
 이제 FSx for ONTAP 볼륨에서 지연 시간 이벤트가 감지되면 자동 알림을 받을 수 있습니다. Workload Factory 설정에서 이메일 또는 Amazon SNS 알림을 구성하여 볼륨이 구성된 지연 시간 임계값을 위반할 경우 실시간 알림을 받을 수 있습니다.
@@ -14,6 +15,7 @@ https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-l
 
 
 
+[[latency-trend-visualization-with-interactive-graphs]]
 === 대화형 그래프를 사용한 지연 시간 추세 시각화
 
 지연 시간 분석 패널에 이제 포괄적인 지연 시간 분석을 위한 탭 인터페이스가 포함되었습니다.
