@@ -1,15 +1,6 @@
-= 모든 FSx for ONTAP 시스템에서 사용할 수 있는 새로운 잘 설계된 대시보드
+= 볼륨 탐색기
 :allow-uri-read: 
 
-
-
-
-[[new-well-architected-dashboard-available-for-all-fsx-for-ontap-systems]]
-=== 모든 FSx for ONTAP 시스템에서 사용할 수 있는 새로운 잘 설계된 대시보드
-
-잘 설계된 분석 기능은 이제 NetApp Workload Factory의 새로운 잘 설계된 대시보드에서 FSx for ONTAP 파일 시스템에 대해 사용할 수 있습니다. 새로운 대시보드는 모든 계정 및 지역의 파일 시스템과 해당 구성을 한 곳에서 중앙 집중식으로 보여줍니다. 파일 시스템에서 *잘 설계된* 탭을 방문하면 팝업 알림이 표시됩니다. Workload Factory의 왼쪽 탐색 메뉴에서 *잘 설계된*을 선택하여 새 대시보드에 액세스하십시오.
-
-특정 파일 시스템에 대한 잘 설계된 분석은 스토리지의 *Well-architected* 메뉴 옵션에서 계속 이용할 수 있습니다.
 
 
 
