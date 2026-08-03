@@ -15,6 +15,74 @@ NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대
 
 
 
+[[03-august-2026]]
+== 2026년 8월 3일
+
+
+
+[[setup-and-administration]]
+=== 설정 및 관리
+
+
+
+==== 데이터베이스에 대한 IAM 권한 정책 업데이트
+
+데이터베이스 권한이 업데이트되어 기능 액세스가 향상되었고, 불필요한 경우 SSM 액세스가 제한되었습니다.
+
+보기, 계획 및 분석 권한은 AWS SSM 문서로 제한됩니다. 이러한 권한을 사용하면 호스트, 인스턴스 및 데이터베이스를 볼 수 있습니다. 또한 필요에 따라 리소스에 대한 기본 온디맨드 아키텍처 분석을 실행할 수 있습니다.
+
+운영 및 복구 권한을 통해 리소스를 변경하고, 오류 로그를 분석하고, 리소스에 대한 포괄적이고 체계적인 분석을 수행하고, 구성 문제를 수정할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["권한 참조"] === 사용자 지정 대시보드
+
+
+
+===== 사용자 지정 대시보드에 대한 알림
+
+Workload Factory는 이제 사용자 지정 대시보드가 준비되었거나 생성에 실패했을 때 알림을 보냅니다.
+
+사용자 지정 대시보드를 생성하면 바로 볼 수 있는 링크가 포함된 알림을 받게 됩니다. 생성에 실패하면 사용자 지정 대시보드 인벤토리로 이동하여 다시 시도할 수 있는 링크가 포함된 알림을 받게 됩니다.
+
+이 기능을 통해 대시보드가 준비되었는지 확인할 수 있으며, 대시보드를 쉽게 검토하거나 다시 만들 수 있습니다.
+
+link:create-custom-dashboard.html["맞춤형 대시보드를 만드는 방법을 알아보십시오."]
+
+link:configure-notifications.html["알림 구성에 대해 알아보기"]
+
+
+
+===== 개인 및 공용 맞춤형 대시보드
+
+이제 사용자 지정 대시보드에 공유 설정이 포함됩니다. 대시보드를 비공개로 유지하거나 팀과 공유할 수 있습니다.
+
+새 대시보드는 기본적으로 비공개이며 본인만 볼 수 있습니다. Workload Factory 계정에 있는 모든 사람과 공유하려면 언제든지 대시보드를 공개로 전환할 수 있습니다.
+
+각 대시보드 카드에는 Private 또는 Public 레이블이 표시되어 있어 어떤 대시보드가 공유되는지 빠르게 확인할 수 있습니다.
+
+link:learn-custom-dashboards.html#dashboard-visibility-and-sharing["대시보드 표시 및 공유에 대해 알아보기"]
+
+link:manage-custom-dashboards.html#change-dashboard-visibility["대시보드를 공유하는 방법을 알아보십시오"]
+
+
+
+==== AI 기능 관리
+
+Workload Factory 관리의 다음 설정을 사용하여 조직 전체의 AI 기능에 대한 액세스를 제어할 수 있습니다.
+
+* NetApp이 관리하는 Bedrock 사용(권장되며 기본적으로 활성화되어 있고 월별 크레딧 한도가 적용됩니다)
+* 모든 AI 기능 끄기
+
+
+새로운 관리 페이지를 통해 이러한 설정을 한 곳에서 관리할 수 있습니다.
+
+AI 기능에는 Ask Me, 맞춤형 대시보드, 규칙 생성기, EMS, 데이터베이스 로그 및 볼륨 지연 시간 분석기가 포함됩니다.
+
+AI 기능이 꺼져 있으면 AI를 사용할 수 없다는 메시지가 사용자에게 표시됩니다.
+
+link:manage-genai-features.html["AI 기능 관리에 대해 알아보기"]
+
+
+
 [[06-july-2026]]
 == 2026년 7월 6일
 
@@ -356,148 +424,3 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 ==== NetApp Workload Factory에서 AWS GovCloud (US) 지원
 
 NetApp Workload Factory는 AWS GovCloud(미국) 계정을 지원합니다. GovCloud 계정을 사용하면 AWS GovCloud(미국) 리전에 스토리지 워크로드를 배포하고 관리할 수 있습니다.
-
-
-
-[[03-may-2026]]
-== 2026년 5월 3일
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== NetApp ONTAP용 Amazon FSx
-
-
-
-==== 블록 디바이스 클론
-
-Workload Factory는 블록 디바이스용 클론을 제공하여 용량, 액세스 및 수명 주기를 제어하면서 쓰기 가능하고 효율적인 데이터 복사본을 신속하게 프로비저닝할 수 있도록 지원합니다.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["NetApp Workload Factory에서 블록 스토리지를 관리합니다"]
-
-
-
-==== 블록 디바이스의 EC2 태그
-
-블록 장치 테이블에 이제 각 블록 장치를 사용하는 EC2 호스트의 태그를 보여주는 열이 추가되었습니다. 이를 통해 문제 해결이나 감사 중에 어떤 호스트가 각 블록 장치를 사용하는지 쉽게 파악할 수 있습니다.
-
-각 블록 디바이스에 태그를 생성하려면 제공된 사용자 스크립트를 사용하여 EC2 인스턴스를 배포하십시오.
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["블록 디바이스에 태그를 할당하는 EC2 사용자 데이터 스크립트"]
-
-
-
-==== FSx for ONTAP 파일 시스템의 용량 추세
-
-FSx for ONTAP 파일 시스템 개요에서 SSD 용량 추세를 직접 확인하세요. 용량 관리를 위한 새 카드는 지난달의 사용량 추세를 보여줍니다. 이 분석은 실제 용량과 할당된 용량을 비교하여 리소스 사용량을 쉽게 평가할 수 있도록 합니다.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["NetApp Workload Factory에서 용량을 자동으로 관리하세요"]
-
-
-
-==== FSx for ONTAP 파일 시스템의 Well-Architected 상태에 대한 PDF 보고서
-
-분석이 완료되면 기록 보관용 또는 팀과 공유하기 위해 FSx for ONTAP 파일 시스템의 아키텍처 설계 상태에 대한 PDF 보고서를 다운로드할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["NetApp Workload Factory에서 FSx for ONTAP 파일 시스템의 아키텍처 우수성 상태를 확인하세요"]
-
-
-
-[[database-workloads]]
-=== 데이터베이스 워크로드
-
-
-
-==== Oracle을 위한 잘 설계된 분석
-
-잘 설계된 아키텍처 분석에는 Oracle에 대한 다음과 같은 새로운 구성이 포함됩니다.
-
-* *백업 구성*: Oracle 데이터베이스가 AWS Backup 또는 Amazon FSx for NetApp ONTAP 백업으로 보호되는지 여부를 확인합니다.
-* *클론 정리*: 스토리지 비용을 줄이기 위해 오래되었거나 사용하지 않는 클론을 제거하는 것이 좋습니다.
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다."]
-
-
-
-==== Amazon Elastic Block Store(EBS)의 Oracle 데이터베이스에 대한 자동 절감액 계산
-
-Workload Factory는 Oracle 데이터베이스에 사용되는 EBS 스토리지 비용을 자동으로 분석한 다음 가장 적합하고 비용 효율적인 FSx for ONTAP 구성을 제안합니다. 여러 EBS 호스트를 선택하여 분석한 다음 EBS와 FSx for ONTAP에서 해당 호스트를 실행하는 비용을 비교할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["감지된 EBS 호스트에 대한 비용 절감 효과를 살펴보세요."]
-
-
-
-==== CRR 구성 사전 요구 사항 확인
-
-데이터베이스 환경에 대해 지역 간 복제(CRR)를 활성화하면 데이터베이스 워크로드가 FSx for ONTAP 파일 시스템에 연결된 링크 및 복제 설정이 있는지 확인합니다. 필요한 경우 데이터베이스 워크로드는 스토리지와 동일한 방식으로 링크 필수 조건을 처리하도록 FSx for ONTAP 스토리지 워크로드 복제 마법사로 리디렉션합니다.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Workload Factory에서 잘 설계된 데이터베이스 구성을 구현합니다."]
-
-
-
-==== Microsoft SQL Server 데이터베이스에 대한 연결된 LUN
-
-이제 Workload Factory의 인벤토리 화면에서 Microsoft SQL Server 데이터베이스에 매핑된 LUN을 볼 수 있습니다. 이를 통해 어떤 LUN이 어떤 데이터베이스와 연결되어 있는지 쉽게 파악하여 스토리지 리소스를 더욱 효율적으로 관리하고 최적화할 수 있습니다.
-
-
-
-[[setup-and-administration]]
-=== 설정 및 관리
-
-
-
-==== Workload Factory의 이메일 알림
-
-이제 Amazon SNS 토픽을 구성하지 않고도 이메일을 통해 Workload Factory 알림을 받을 수 있습니다. 계정에 연결된 모든 이메일 주소로 알림을 보내려면 이메일 알림을 활성화하세요.
-
-Workload Factory 콘솔 또는 NetApp Console에서 이메일 알림을 구성할 수 있습니다. NetApp Console에서는 종 모양 아이콘 아래에 표시되는 NetApp Console 알림을 구성하는 옵션도 제공합니다.
-
-NetApp Console에서 알림을 구성하면 NetApp Console이 알림 전달을 담당하게 됩니다. 중복 알림을 방지하기 위해 Workload Factory 콘솔의 알림 설정은 읽기 전용으로 변경됩니다.
-
-
-
-==== EDA 지연 시간에 대한 새 알림
-
-NetApp Workload Factory 알림 서비스에는 EDA 작업의 지연 시간이 특정 임계값을 초과할 때 알려주는 EDA 지연 시간 알림 기능이 포함되어 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Workload Factory 알림 구성"]
-
-
-
-==== FSx for ONTAP 파일 시스템에 대한 새로운 알림
-
-NetApp Workload Factory 알림 서비스는 계정에 대한 월별 비용 요약 알림을 제공하며, 이를 통해 지출 추세, 비정상적인 변동 사항 및 FSx for ONTAP 파일 시스템에 대한 최적의 비용 절감 기회를 확인할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Workload Factory 알림 구성"]
-
-
-
-[[eda-workloads]]
-=== EDA 워크로드
-
-
-
-==== 지연 이벤트에 대한 이메일 및 SNS 알림
-
-이제 FSx for ONTAP 볼륨에서 지연 시간 이벤트가 감지되면 자동 알림을 받을 수 있습니다. Workload Factory 설정에서 이메일 또는 Amazon SNS 알림을 구성하여 볼륨이 구성된 지연 시간 임계값을 위반할 경우 실시간 알림을 받을 수 있습니다.
-
-알림은 파일 시스템 단위로 전송되며 영향을 받는 모든 볼륨에 대한 세부 정보, 심각도 수준, 임계값 비교 및 조사를 위한 지연 시간 페이지로의 직접 링크를 포함합니다.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-latency-notifications["지연 시간 알림을 구성하는 방법을 알아보세요."^].
-
-
-
-==== 대화형 그래프를 사용한 지연 시간 추세 시각화
-
-지연 시간 분석 패널에 이제 포괄적인 지연 시간 분석을 위한 탭 인터페이스가 포함되었습니다.
-
-* *개요*: 지연 시간을 유발하는 구성 요소를 보여주는 자동화된 기본 분석 결과를 확인합니다.
-* *시간 경과*: 여러 시간대(1시간, 3시간, 12시간, 24시간 또는 72시간)에 걸쳐 대화형 그래프로 볼륨 지연 시간 동작을 시각화합니다
-
-
-*시간 경과에 따른 변화* 탭에는 원시 CloudWatch 지연 시간 데이터(알람 발생 원인에 따라 읽기 또는 쓰기)가 경고 및 위험 임계값 선, 위반 표시기, 각 위반에 대한 세부 메트릭과 함께 표시됩니다.
-
-이 포괄적인 시각화를 통해 패턴을 식별하고, 지연 시간 문제가 반복적인지 또는 일회성인지 파악하며, 해결 방법에 대해 더 많은 정보를 바탕으로 의사 결정을 내릴 수 있습니다.
-
-https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["지연 시간 추세를 분석하는 방법을 알아보십시오"^].
