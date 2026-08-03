@@ -160,7 +160,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 관리자가 AI 기능을 비활성화하면 워크로드에 태그가 지정되지 않습니다. Workload Factory 계정 설정에서 AI 기능이 꺼져 있으면 태깅 서비스에서 스토리지 리소스의 워크로드를 식별하거나 분류하지 않습니다.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["AI 관리에 대해 알아보기"^].
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["AI 관리에 대해 알아보기"^].
 
 
 
