@@ -188,4 +188,18 @@
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">AI 기능 관리에 대해 알아보기</block>
   <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026년 8월 3일</block>
+  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">비용 제어를 통한 AI 지연 시간 분석</block>
+  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Workload Factory 관리자는 조직 전체의 AI 지연 시간 분석에 대한 액세스를 제어할 수 있습니다.</block>
+  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp 관리형 AI 크레딧*: 관리자가 활성화하면 NetApp의 관리형 Amazon Bedrock 통합을 통해 AI 분석을 사용할 수 있습니다. 추가 설정은 필요하지 않습니다. 월별 사용량은 할당된 예산으로 제한됩니다. 월별 사용량 한도에 도달하면 AI 기반 기능이 비활성화되고 메시지가 표시됩니다.</block>
+  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*관리자가 비활성화함*: 관리자가 AI 기능을 끄면 AI 분석 옵션이 회색으로 표시되고 기능이 꺼져 있다는 메시지가 나타납니다.</block>
+  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">탄력적인 처리량 증가 관리</block>
+  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">이제 EDA 개요 페이지에서 선택한 하나 이상의 FSx for ONTAP 파일 시스템에 대한 처리량 증가 동작을 관리할 수 있습니다.</block>
+  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*모드 선택*: *자동화* 또는 *추천*을 선택합니다.</block>
+  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*일괄 업데이트*: 하나 또는 여러 파일 시스템을 선택하고 모드 및 매개변수 변경 사항을 한 번에 적용합니다.</block>
+  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*처리량 관리 대화 상자 변경*: 대화 상자에서 EDA 기본값을 사용하여 처리량 증가 설정을 편집합니다.</block>
+  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*고급 설정*: 확장 가능한 *고급 구성* 섹션에서 추가 처리량 결정 매개변수를 구성하십시오.</block>
+  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*테이블 표시 여부*: 클러스터 테이블에 새로운 *처리량 관리* 열이 추가되었으며, 열 설정에서 활성화할 수 있습니다.</block>
+  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*상단 카드 구성*: 이제 상단 카드는 SSD 관리와 유사하게 처리량 증가 모드 구성을 지원합니다.</block>
+  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">개요 대시보드 사용 방법 알아보기</block>
+  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>.</block>
 </blocks>
