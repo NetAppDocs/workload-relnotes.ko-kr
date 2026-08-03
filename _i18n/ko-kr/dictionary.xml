@@ -161,23 +161,18 @@
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">보기, 계획 및 분석 권한은 AWS SSM 문서로 제한됩니다. 이러한 권한을 사용하면 호스트, 인스턴스 및 데이터베이스를 볼 수 있습니다. 또한 필요에 따라 리소스에 대한 기본 온디맨드 아키텍처 분석을 실행할 수 있습니다.</block>
   <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">운영 및 복구 권한을 통해 리소스를 변경하고, 오류 로그를 분석하고, 리소스에 대한 포괄적이고 체계적인 분석을 수행하고, 구성 문제를 수정할 수 있습니다.</block>
   <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">권한 참조</block>
-  <block id="0c92fa03ad5e533f4ef42de9a2ae598f" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block> === 사용자 지정 대시보드</block>
   <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">사용자 지정 대시보드에 대한 알림</block>
   <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory는 이제 사용자 지정 대시보드가 준비되었거나 생성에 실패했을 때 알림을 보냅니다.</block>
   <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">사용자 지정 대시보드를 생성하면 바로 볼 수 있는 링크가 포함된 알림을 받게 됩니다. 생성에 실패하면 사용자 지정 대시보드 인벤토리로 이동하여 다시 시도할 수 있는 링크가 포함된 알림을 받게 됩니다.</block>
   <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">이 기능을 통해 대시보드가 준비되었는지 확인할 수 있으며, 대시보드를 쉽게 검토하거나 다시 만들 수 있습니다.</block>
   <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">맞춤형 대시보드를 만드는 방법을 알아보십시오.</block>
-  <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
   <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">알림 구성에 대해 알아보기</block>
-  <block id="19fa6c73a4251f43a74dc700e68a79f1" category="paragraph"><block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block></block>
   <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">개인 및 공용 맞춤형 대시보드</block>
   <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">이제 사용자 지정 대시보드에 공유 설정이 포함됩니다. 대시보드를 비공개로 유지하거나 팀과 공유할 수 있습니다.</block>
   <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">새 대시보드는 기본적으로 비공개이며 본인만 볼 수 있습니다. Workload Factory 계정에 있는 모든 사람과 공유하려면 언제든지 대시보드를 공개로 전환할 수 있습니다.</block>
   <block id="26e05170ba3616166d4659e72d415450" category="paragraph">각 대시보드 카드에는 Private 또는 Public 레이블이 표시되어 있어 어떤 대시보드가 공유되는지 빠르게 확인할 수 있습니다.</block>
   <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">대시보드 표시 및 공유에 대해 알아보기</block>
-  <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
   <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">대시보드를 공유하는 방법을 알아보십시오</block>
-  <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
   <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">AI 기능 관리</block>
   <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Workload Factory 관리의 다음 설정을 사용하여 조직 전체의 AI 기능에 대한 액세스를 제어할 수 있습니다.</block>
   <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">NetApp이 관리하는 Bedrock 사용(권장되며 기본적으로 활성화되어 있고 월별 크레딧 한도가 적용됩니다)</block>
@@ -186,7 +181,6 @@
   <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">AI 기능에는 Ask Me, 맞춤형 대시보드, 규칙 생성기, EMS, 데이터베이스 로그 및 볼륨 지연 시간 분석기가 포함됩니다.</block>
   <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">AI 기능이 꺼져 있으면 AI를 사용할 수 없다는 메시지가 사용자에게 표시됩니다.</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">AI 기능 관리에 대해 알아보기</block>
-  <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026년 8월 3일</block>
   <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">비용 제어를 통한 AI 지연 시간 분석</block>
   <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Workload Factory 관리자는 조직 전체의 AI 지연 시간 분석에 대한 액세스를 제어할 수 있습니다.</block>
@@ -229,4 +223,19 @@
   <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">S3 이벤트 알림을 설정하려면 <block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block> *저널 테이블* 섹션에서 *SNS를 통해 S3 이벤트 보내기*를 선택합니다.</block>
   <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">2026년 8월 2일</block>
   <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>.</block>
+  <block id="78a4e31d1c34a343ac1189ff737a0982" category="doc">잘 설계된 아키텍처 분석에서 Oracle 및 Microsoft SQL Server의 구성 변경 사항</block>
+  <block id="1d617de46837a3d67b6850fd27b13c02" category="paragraph">잘 설계된 아키텍처 분석에서 여러 데이터베이스 구성이 통합되고 다음 구성으로 이름이 변경되었습니다.</block>
+  <block id="70dc13ee7e3320f270e7236f7fa9f60d" category="list-text">*블록 장치 공간 관리*: 공간 예약, 공간 할당 및 부분 예비 용량을 포함합니다.</block>
+  <block id="c75bc7e1a77b2b8e809bf87a1b1c2b5b" category="list-text">*스토리지 효율성*: 압축, 중복 제거 및 컴팩션 포함</block>
+  <block id="706125d817b831eb4c31ea90c004eee2" category="list-text">*Tiering/TCO 최적화*: 계층화 정책 및 계층화 최소 냉각 일수 포함</block>
+  <block id="08ab4e6e5d6d250dd93617842402b41f" category="list-text">*로컬 스냅샷 예약*: 스냅샷 정책 포함</block>
+  <block id="3791b9a912543795aa72719e1fa5c488" category="inline-link-macro">워크로드 팩토리의 구성 분석</block>
+  <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
+  <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
+  <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
+  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
+  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
+  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
+  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
+  <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
 </blocks>
