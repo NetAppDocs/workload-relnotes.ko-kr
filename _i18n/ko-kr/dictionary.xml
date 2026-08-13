@@ -37,7 +37,6 @@
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
   <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">FSx for ONTAP 파일 시스템에 대한 새로운 알림</block>
   <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">NetApp Workload Factory에서 AWS GovCloud (US) 지원</block>
-  <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory는 AWS GovCloud (US) 계정을 지원합니다. GovCloud 계정을 사용하면 AWS GovCloud (US) 리전에 GenAI 워크로드를 배포하고 관리할 수 있습니다.</block>
   <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026년 5월 31일</block>
   <block id="779d05f80e557ffb6b9d91002c8c535c" category="doc">Amazon Elastic Block Store의 Oracle 호스트에 대한 맞춤형 절감</block>
   <block id="3a4be47663e2fa751113137a974a3fbf" category="paragraph">NetApp Workload Factory for Databases를 사용하면 Amazon Elastic Block Store(EBS)의 Oracle 호스트에 대한 비용 절감 효과를 사용자 지정할 수 있습니다. 스냅샷 빈도, 복제본 수, 볼륨 세부 정보 등 여러 필드를 조정하여 비용 절감에 미치는 영향을 확인할 수 있습니다.</block>
@@ -238,4 +237,6 @@
   <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
   <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
+  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">볼륨 탐색기에 표시되는 ONTAP 기능</block>
+  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">볼륨 탐색기의 볼륨 테이블에 이제 ONTAP 기능이 포함됩니다. 이러한 기능을 통해 보호 범위, 자율 랜섬웨어 보호(ARP/AI) 상태, 스토리지 효율성, 계층화 정책 및 볼륨 자동 확장 등 볼륨의 구성 및 상태에 대한 보다 자세한 인사이트를 얻을 수 있습니다.</block>
 </blocks>
