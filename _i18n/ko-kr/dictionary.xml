@@ -138,7 +138,6 @@
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">지연 시간 모니터링을 구성하는 방법을 알아보십시오</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
   <block id="efbeddc0347a679a438120189b77f860" category="section-title">볼륨 탐색기</block>
-  <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">볼륨 탐색기를 사용하면 NetApp Workload Factory의 모든 볼륨을 간편하게 검색할 수 있습니다. 블록 또는 파일 워크로드를 처리하는 볼륨을 빠르게 확인할 수 있습니다. 각 볼륨의 논리적 크기, 물리적 사용 용량, 스토리지 효율성 기능(압축, 중복 제거, 압축) 사용 여부를 볼 수 있습니다. 이름, 상태(사용 가능/실패), 지연 시간, 크기, 사용 용량 및 보호 기능별로 필터링하고 정렬할 수 있습니다.</block>
   <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">복제 지연에 대한 향상된 이메일 알림 기능</block>
   <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">복제 지연에 대한 이메일 알림에 이제 영향을 받는 관계에 대한 자세한 정보가 포함됩니다. 이 알림을 통해 영향을 받는 관계를 신속하게 파악하고 Workload Factory 콘솔에서 확인할 수 있습니다.</block>
   <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">복제 지연에 대한 알림 활성화</block>
@@ -242,4 +241,5 @@
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">볼륨 탐색기에서 사용할 수 있는 볼륨 작업</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">모든 볼륨 작업은 하나 이상의 볼륨에 대해 볼륨 탐색기에서 직접 수행할 수 있습니다. 이를 통해 볼륨 수준 작업을 더 빠르게 수행할 수 있습니다. 볼륨 작업에는 볼륨 설정 수정, 스냅샷 관리 및 볼륨 탐색기를 종료하지 않고 수행할 수 있는 기타 볼륨 작업이 포함됩니다. 또한 FSx for ONTAP 파일 시스템 개요의 볼륨 탭에서도 이러한 작업에 액세스할 수 있습니다.</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026년 8월 11일</block>
+  <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">볼륨 탐색기를 사용하면 NetApp Workload Factory의 모든 볼륨을 간편하게 검색할 수 있습니다. 블록 또는 파일 워크로드를 처리하는 볼륨을 빠르게 확인할 수 있습니다. 각 볼륨의 논리적 크기, 물리적 사용 용량, 그리고 스토리지 효율성 기능(압축, 중복 제거, 컴팩션) 사용 여부를 볼 수 있습니다. 이름, 상태(사용 가능/실패), 지연 시간, 크기, 사용 용량 및 보호 기능별로 필터링하고 정렬할 수 있습니다.</block>
 </blocks>
