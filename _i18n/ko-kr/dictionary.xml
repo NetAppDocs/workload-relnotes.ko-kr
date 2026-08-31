@@ -33,83 +33,6 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">이 릴리스 노트에서는 NetApp Workload Factory에 포함된 클라우드 서비스의 최근 개선 사항을 설명합니다.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 릴리스 노트</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 워크로드</block>
-  <block id="7c1a1feb7968ed15d338ae3e7284dd4e" category="inline-link-macro">Workload Factory 알림 구성</block>
-  <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
-  <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">FSx for ONTAP 파일 시스템에 대한 새로운 알림</block>
-  <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">NetApp Workload Factory에서 AWS GovCloud (US) 지원</block>
-  <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026년 5월 31일</block>
-  <block id="779d05f80e557ffb6b9d91002c8c535c" category="doc">Amazon Elastic Block Store의 Oracle 호스트에 대한 맞춤형 절감</block>
-  <block id="3a4be47663e2fa751113137a974a3fbf" category="paragraph">NetApp Workload Factory for Databases를 사용하면 Amazon Elastic Block Store(EBS)의 Oracle 호스트에 대한 비용 절감 효과를 사용자 지정할 수 있습니다. 스냅샷 빈도, 복제본 수, 볼륨 세부 정보 등 여러 필드를 조정하여 비용 절감에 미치는 영향을 확인할 수 있습니다.</block>
-  <block id="df8ce82904fb7f768a98668382cdec3a" category="inline-link-macro">EBS에서 Oracle 호스트에 대한 절감액 살펴보기</block>
-  <block id="d1839e6ad7687f9aaf499df8a37a528b" category="paragraph"><block ref="d1839e6ad7687f9aaf499df8a37a528b" category="inline-link-macro-rx"></block></block>
-  <block id="1ed508a845657aa228cb523211b501a0" category="section-title">Microsoft SQL Server 및 PostgreSQL 호스트 배포를 위한 다중 보안 그룹 선택</block>
-  <block id="5f3983aebdf54bf31555d0b354f825df" category="paragraph">NetApp Workload Factory for Databases에서는 이제 Microsoft SQL Server 및 PostgreSQL 호스트를 배포할 때 여러 보안 그룹을 선택할 수 있습니다. 이를 통해 데이터베이스 워크로드에 대한 네트워크 보안을 구성할 때 더욱 유연성을 확보할 수 있습니다.</block>
-  <block id="2e9b0a449319af8e501ebf42f946b3a4" category="inline-link-macro">Microsoft SQL Server 호스트 배포</block>
-  <block id="36827721f24c7683f7cbb55f48380665" category="list-text"><block ref="36827721f24c7683f7cbb55f48380665" category="inline-link-macro-rx"></block></block>
-  <block id="3b1a9a0ee670c86859aadb420ba7a43d" category="inline-link-macro">PostgreSQL 호스트 배포</block>
-  <block id="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="list-text"><block ref="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="inline-link-macro-rx"></block></block>
-  <block id="092e50fff7799a091642caa817b6e9ee" category="paragraph">NetApp Workload Factory는 AWS GovCloud(미국) 계정을 지원합니다. GovCloud 계정을 사용하면 AWS GovCloud(미국) 리전에 데이터베이스 워크로드를 배포하고 관리할 수 있습니다.</block>
-  <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">2026년 6월 1일</block>
-  <block id="1e2f4a38d5efedb5cf0944fea2e5cddf" category="inline-link-macro">NetApp Workload Factory에서 FSx for ONTAP 파일 시스템의 아키텍처 우수성 상태를 확인하세요</block>
-  <block id="74d7776910c4ca73289bbbb6c6bfddf9" category="paragraph"><block ref="74d7776910c4ca73289bbbb6c6bfddf9" category="inline-link-macro-rx"></block></block>
-  <block id="8b15ccb7fd3de568f0d6670c4c2d0d62" category="paragraph">NetApp Workload Factory는 AWS GovCloud(미국) 계정을 지원합니다. GovCloud 계정을 사용하면 AWS GovCloud(미국) 리전에 스토리지 워크로드를 배포하고 관리할 수 있습니다.</block>
-  <block id="8e45f2905d109c7f7ad7492d2341d234" category="section-title">NetApp Workload Factory에서 볼륨 지연 시간 임계값 설정</block>
-  <block id="aef3e325f515541566b19394d335ef43" category="paragraph">볼륨별로 지연 시간 임계값을 구성하여 성능을 모니터링하고 지연 시간 값이 정의된 한계를 초과할 경우 알림을 받을 수 있습니다. Workload Factory는 읽기 및 쓰기 지연 시간을 모두 모니터링하고 두 임계값 중 하나라도 초과되면 알림을 생성합니다.</block>
-  <block id="e38f666491d8e4d592d5df89c8419266" category="paragraph"><block ref="e38f666491d8e4d592d5df89c8419266" category="inline-link-macro-rx"></block></block>
-  <block id="b9ceeddf626c03ee2118a4917ae8c38b" category="section-title">NetApp Workload Factory에서 복제 지연 추적</block>
-  <block id="a36f1662cdb9e2ceab93d3f25e0eca77" category="paragraph">NetApp Workload Factory를 사용하면 원격 복제가 구성된 FSx for ONTAP 파일 시스템의 복제 지연을 추적할 수 있습니다. 복제 지연은 데이터가 소스 파일 시스템에 기록된 시점과 대상 파일 시스템으로 복제된 시점 사이의 시간 차이를 나타냅니다. 복제 지연을 추적하면 복제 설정의 상태를 모니터링하고 데이터 일관성 및 복구 시점 목표(RPO)에 영향을 줄 수 있는 잠재적인 문제를 식별하는 데 도움이 됩니다.</block>
-  <block id="fde2f1eddf6c2d5994d4c9cacc07ff31" category="paragraph"><block ref="fde2f1eddf6c2d5994d4c9cacc07ff31" category="inline-link-macro-rx"></block></block>
-  <block id="15f374eb532ab28d06443136d99e63b5" category="section-title">NetApp Workload Factory에서 호스트 식별 및 워크로드 정의</block>
-  <block id="e4d934df8f9ddefcebbc02695e3cfbdc" category="paragraph">Workload Factory는 스토리지를 사용하는 호스트와 해당 호스트 활동과 관련된 워크로드 유형을 식별합니다. 워크로드 정의는 AWS 태그 및 메타데이터를 기반으로 AI에서 생성됩니다. Workload Factory의 파일 시스템, 볼륨 및 블록 장치 리소스 화면에서 호스트 세부 정보와 워크로드 정의를 볼 수 있습니다.</block>
-  <block id="9ef57b630c87ffd61b917510a7a26030" category="section-title">NetApp Workload Factory에서 LIF 세부 정보를 확인할 수 있습니다</block>
-  <block id="055f68ac1562a94352bd56b1842791fb" category="paragraph">파일 시스템의 개요 탭에서 모든 파일 시스템 및 스토리지 VM 엔드포인트를 직접 확인할 수 있습니다. Workload Factory 콘솔에서 엔드포인트를 직접 볼 수 있으므로 CLI 또는 CloudShell을 사용하지 않고도 네트워크 액세스, 엔드포인트 및 페일오버 상태를 쉽게 모니터링할 수 있습니다. 역할, 엔드포인트, 노드, IP 주소 및 상태를 포함한 LIF 세부 정보를 표시하려면 파일 시스템에 링크를 연결해야 합니다.</block>
-  <block id="c1bff806faafabc5316c2270f113bd85" category="inline-link-macro">NetApp Workload Factory에서 파일 시스템에 링크를 연결하는 방법을 알아보세요</block>
-  <block id="0cfa9f29837495af6181228a2286658a" category="paragraph"><block ref="966e2ff22df42c69be9cce59aca228ff" category="inline-link-macro-rx"></block>.</block>
-  <block id="3cb407325a893b82dafad46209626b50" category="section-title">비용 개선</block>
-  <block id="4ca110e0d9ae04c6ba757ec8fd3182f2" category="paragraph">모든 AWS 계정의 리소스에 대한 비용 분석 결과를 개선하기 위해 새로운 선택적 페이지 수준 필터를 사용할 수 있습니다. 여러 리전을 선택하고 파일 시스템 할당 태그 키 및 키 값을 사용하여 비용 분석 결과를 필터링하고 FSx for ONTAP 파일 시스템 및 볼륨에 대한 리소스별 비용 세부 정보를 확인할 수 있습니다.</block>
-  <block id="083b82dbc7669e65217c0c4cdd6a08f3" category="inline-link-macro">NetApp Workload Factory에서 비용 분석을 위해 필터를 사용하십시오</block>
-  <block id="cd3891050de2d442936c795f42b5be55" category="paragraph"><block ref="cd3891050de2d442936c795f42b5be55" category="inline-link-macro-rx"></block></block>
-  <block id="830f303cdae9912a4ea32f1f9cbf416e" category="section-title">NetApp Workload Factory에서 복제 초기화 예약 기능을 사용할 수 있습니다.</block>
-  <block id="15bc72c00374b1de7051b2d672060b33" category="paragraph">데이터 복제 설정 중에 이제 FSx for ONTAP 파일 시스템의 복제 초기화를 예약할 수 있습니다. 복제 관계를 즉시 초기화하거나 지정된 시간에 초기화하는 옵션이 있습니다. 복제 초기화는 소스 파일 시스템의 데이터를 대상 파일 시스템으로 복사하여 복제 기준선을 생성하는 프로세스입니다. 복제 초기화를 예약하면 이 프로세스를 자동화하고 수동 작업 없이 복제 설정을 최신 상태로 유지할 수 있습니다.</block>
-  <block id="214d407853490bc740a9484be85b4f3e" category="inline-link-macro">NetApp Workload Factory에서 데이터를 복제합니다</block>
-  <block id="f9e073199d07787a028f9eaa386764c2" category="paragraph"><block ref="f9e073199d07787a028f9eaa386764c2" category="inline-link-macro-rx"></block></block>
-  <block id="365c1d3c417c4ceff114f4189c08aded" category="section-title">FSx for ONTAP 파일 시스템의 Well-Architected 상태에 대한 Excel 보고서</block>
-  <block id="cef65a1b6b28821282b97ae2bfcccb7b" category="paragraph">분석이 완료되면 기록 보관용 또는 팀과 공유하기 위해 FSx for ONTAP 파일 시스템의 아키텍처가 잘 구축되었는지에 대한 Excel 보고서를 다운로드할 수 있습니다.</block>
-  <block id="d280f690a98c812adf5c9aff661addf4" category="section-title">지연 이벤트 보기 및 분석</block>
-  <block id="9863682c1ac348823880a0e92aae9424" category="paragraph">Workload Factory에서 이제 FSx for ONTAP 볼륨의 지연 시간 이벤트를 보고 분석할 수 있습니다. 링크 연결 없이도 지연 시간 이벤트를 확인할 수 있어 성능 문제를 더욱 쉽게 모니터링할 수 있습니다. 지연 시간 이벤트를 분석하고 AI 기반 인사이트 및 권장 사항을 받으려면 링크를 사용하여 파일 시스템에 연결해야 합니다. 분석 결과는 현재 지연 시간 값, 임계값, QoS 응답 분석 및 개선 지침을 제공합니다.</block>
-  <block id="48b5c4d3746aea9e001799935441305e" category="inline-link-macro">NetApp Workload Factory에서 FSx for ONTAP 이벤트 분석</block>
-  <block id="46d1548637c7b145aedaf16fc4982ded" category="paragraph"><block ref="46d1548637c7b145aedaf16fc4982ded" category="inline-link-macro-rx"></block></block>
-  <block id="6935aa37908b8d3e8e6495adec301374" category="section-title">볼륨 지연 시간 임계값 설정</block>
-  <block id="8d36c5c4d1b5b3180db932fcf4bd5e3b" category="paragraph">이제 볼륨별로 지연 시간 임계값을 구성하여 성능을 모니터링하고 읽기 또는 쓰기 지연 시간이 설정된 한도를 초과할 경우 알림을 받을 수 있습니다. 지연 시간 모니터링을 통해 워크로드에 영향을 미치기 전에 성능 문제를 사전에 파악할 수 있습니다.</block>
-  <block id="3bb5ae684d139ecc39b584ffe9e6033b" category="paragraph">NetApp Workload Factory 알림 서비스에는 복제 지연에 대한 알림 기능이 포함되어 있습니다.</block>
-  <block id="bdd14b3b036670ed34f9ec4d3b52c70c" category="section-title">AWS GovCloud(미국) 계정 지원</block>
-  <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">이제 Workload Factory에서 AWS GovCloud(미국) 계정을 생성할 수 있습니다. 이 계정 유형은 설정 및 운영에 AWS 미국 GovCloud 엔드포인트와 리전만 사용합니다. 자격 증명과 비밀 키는 GovCloud에 유지됩니다. GovCloud(미국) 리전이 지원됩니다.</block>
-  <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">Workload Factory에서 AWS GovCloud(US) 계정 생성</block>
-  <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
-  <block id="4f08df9e7760628c8a0fcefa27f063f4" category="doc">SSD 용량 증가 관리 모드 및 자동화</block>
-  <block id="6048180efecc25affb37f0bcfc4af51f" category="paragraph">Workload Factory는 이제 운영 환경 설정에 맞는 SSD 용량 증가 관리 모드를 제공합니다.</block>
-  <block id="9464fbc6a7b71da353f2d54109960226" category="list-text">*자동화*</block>
-  <block id="66237dc10c2943c0563d26d3f0b6b230" category="list-text">*권장 사항*</block>
-  <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">*없음*</block>
-  <block id="7d2c5b1dd66ac2d00e2f116602f0da91" category="paragraph">현재 모드와 해당 매개변수는 파일 시스템 세부 정보 페이지의 SSD 사용량 그래프 상단에 표시됩니다. 운영상의 필요에 따라 언제든지 모드를 전환할 수 있습니다.</block>
-  <block id="df638dda507575b6f88b684af7608553" category="inline-link-macro">SSD 관리 모드에 대해 알아보십시오</block>
-  <block id="8726b2b1ff09bca86dd85ada696c955e" category="paragraph"><block ref="8a69182f844b7822adef7a1894417217" category="inline-link-macro-rx"></block>.</block>
-  <block id="70a1c8861535253968956554ebf8e231" category="section-title">SSD 용량 증가 관리 파라미터 일괄 편집</block>
-  <block id="771b4b22f5518da40bcc1511e8f12898" category="paragraph">이제 Overview 대시보드에서 여러 파일 시스템에 걸쳐 SSD 용량 증가 관리 파라미터를 조정할 수 있습니다. Clusters 테이블에서 하나 이상의 클러스터를 선택하고 Threshold(10~90%), Lookback(1~200시간), Ahead(1~200시간) 값을 일괄적으로 편집하세요.</block>
-  <block id="012cccd7c99fecdbdf717ccb8b16b7de" category="paragraph">편집 대화 상자는 사용자의 선택에 따라 자동으로 채워집니다. 선택한 모든 파일 시스템이 동일한 매개변수 값을 공유하는 경우 해당 값이 표시되고, 그렇지 않으면 기본값이 사용됩니다. 이를 통해 환경 전체에 일관된 용량 설정을 적용할 수 있습니다.</block>
-  <block id="68c574408eaf57fb5b79796bef1895be" category="inline-link-macro">매개 변수를 일괄 편집하는 방법을 알아보십시오</block>
-  <block id="ba63cd1a056bc80046c503ba2fa33773" category="paragraph"><block ref="fb2c15e1efaea436655e6825086014e4" category="inline-link-macro-rx"></block>.</block>
-  <block id="b02017def04604d515c33a15c45d2e8e" category="section-title">용량 결정 지점 시각화</block>
-  <block id="7dcdf7b0c669e34d376781ffb261c8f6" category="paragraph">이제 SSD 사용량 그래프에 용량 권장 사항이 생성되었거나 자동화된 작업이 수행된 시점을 나타내는 의사 결정 지점이 표시됩니다.</block>
-  <block id="473ad9d52a93a6904458becbb59cdb8f" category="list-text">*권장 결정 지점*: 마우스를 올려놓으면 타임스탬프, 권장 증가 크기 및 현재 용량을 볼 수 있습니다.</block>
-  <block id="e13a73a214d35af7df23610e438e2773" category="list-text">*자동화 결정 지점*: 마우스를 올려놓으면 타임스탬프, 성공 또는 실패 상태, 크기 증가, 새 애그리게이트 크기를 볼 수 있습니다. 실패한 시도에는 실패 이유가 포함됩니다.</block>
-  <block id="c1d04258174a29f2132edb30e198b9ea" category="paragraph">의사 결정 시점은 30분마다 발생할 수 있으며, 선택한 시간 범위에 따라 개별적으로 또는 통합되어 표시됩니다.</block>
-  <block id="77911424f819f845cb8185bc75dd9c89" category="inline-link-macro">용량 결정 시점에 대해 알아보십시오</block>
-  <block id="2470c0ea25645427c285ac2c1db0ea6d" category="paragraph"><block ref="7d345c706cc4ef56c93e61e8fef7447b" category="inline-link-macro-rx"></block>.</block>
-  <block id="6730925799427eefafa41ca821775fd8" category="section-title">클러스터 테이블의 링크 구성 상태</block>
-  <block id="00617692d401e7bead58c1c61c197639" category="paragraph">개요 대시보드의 클러스터 테이블에 이제 각 파일 시스템에 대해 FSx for ONTAP 링크가 구성되었는지 여부를 보여주는 연결된 링크 열이 추가되었습니다. 연결 상태는 매일 검증되므로 링크 구성이 필요하거나 연결 문제가 있을 수 있는 파일 시스템을 쉽게 파악할 수 있습니다.</block>
-  <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">개요 대시보드 보기</block>
-  <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>.</block>
   <block id="caa606c0b1085a846c384cef14c3a17f" category="doc">EVS TCO 계산기에서 i7i.metal-24xl 인스턴스 지원</block>
   <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">EVS 총소유비용(TCO) 계산기가 이제 AWS i7i.metal-24xl EC2 인스턴스를 클러스터 호스트로 지원합니다. i4i.metal 구성과 비교했을 때, 이러한 인스턴스를 사용하면 컴퓨팅 비용은 약 33%, vSAN 스토리지 비용은 약 25% EVS 시작 비용이 절감됩니다.</block>
   <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">계산기는 두 인스턴스 유형을 자동으로 비교하여 가장 비용 효율적인 옵션을 선택합니다. 새로운 비교 섹션에서는 EVS 호스트 구성을 나란히 표시하여 필요에 맞는 최적의 설정을 더 쉽게 찾을 수 있습니다.</block>
@@ -242,4 +165,7 @@
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">모든 볼륨 작업은 하나 이상의 볼륨에 대해 볼륨 탐색기에서 직접 수행할 수 있습니다. 이를 통해 볼륨 수준 작업을 더 빠르게 수행할 수 있습니다. 볼륨 작업에는 볼륨 설정 수정, 스냅샷 관리 및 볼륨 탐색기를 종료하지 않고 수행할 수 있는 기타 볼륨 작업이 포함됩니다. 또한 FSx for ONTAP 파일 시스템 개요의 볼륨 탭에서도 이러한 작업에 액세스할 수 있습니다.</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026년 8월 11일</block>
   <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">볼륨 탐색기를 사용하면 NetApp Workload Factory의 모든 볼륨을 간편하게 검색할 수 있습니다. 블록 또는 파일 워크로드를 처리하는 볼륨을 빠르게 확인할 수 있습니다. 각 볼륨의 논리적 크기, 물리적 사용 용량, 그리고 스토리지 효율성 기능(압축, 중복 제거, 컴팩션) 사용 여부를 볼 수 있습니다. 이름, 상태(사용 가능/실패), 지연 시간, 크기, 사용 용량 및 보호 기능별로 필터링하고 정렬할 수 있습니다.</block>
+  <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">자격 증명 및 링크에 대한 새로운 온보딩 환경</block>
+  <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory는 자격 증명 및 링크에 대한 온보딩 환경을 개선하여 더욱 쉽게 시작할 수 있도록 합니다. 계정을 생성하고 로그인한 후, *Storage* 등 워크로드 타일에서 *Get started*를 선택하면 다음 페이지에서 단계별 설정 과정을 안내합니다.</block>
+  <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026년 8월 30일</block>
 </blocks>
