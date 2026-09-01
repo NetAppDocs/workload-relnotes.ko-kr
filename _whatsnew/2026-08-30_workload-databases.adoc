@@ -1,0 +1,14 @@
+= 절감액 계산기 업데이트
+:allow-uri-read: 
+
+
+
+
+[[savings-calculator-update]]
+=== 절감액 계산기 업데이트
+
+FSx for ONTAP 파일 시스템의 데이터베이스 워크로드에 대한 스토리지, 컴퓨팅, SQL 라이선스, 스냅샷 및 클론과 같은 Microsoft SQL Server 워크로드 실행의 다양한 비용 구성 요소를 Elastic Block Store(EBS), FSx for Windows File Server 및 온프레미스 스토리지와 비교하려면 보기, 계획 및 분석 권한만 있으면 됩니다.
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["데이터베이스 워크로드에 대한 비용 절감 효과를 살펴보십시오."]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#permissions-for-database-workloads["데이터베이스 워크로드에 대한 권한"^]
+
