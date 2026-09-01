@@ -178,4 +178,7 @@
   <block id="99e479d341973e05fca0c15ab9ffdad2" category="list-text"><block ref="99e479d341973e05fca0c15ab9ffdad2" category="inline-link-macro-rx"></block></block>
   <block id="a5ca0e96d815aa95d08fcc15e4dee05c" category="inline-link-macro">데이터베이스 워크로드에 대한 권한</block>
   <block id="6c371a91504dc6f98ab6ece596f7ab2f" category="list-text"><block ref="6c371a91504dc6f98ab6ece596f7ab2f" category="inline-link-macro-rx"></block></block>
+  <block id="c82db17d9640cb358a39977100613e95" category="section-title">워크로드 식별</block>
+  <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory는 이제 다른 지역에 배포된 FSx for ONTAP 스토리지에 연결된 호스트의 워크로드를 식별합니다.</block>
+  <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">개선된 워크로드 감지 로직을 통해 더 많은 워크로드 유형을 발견하고 감지 정확도를 향상시켰습니다.</block>
 </blocks>
