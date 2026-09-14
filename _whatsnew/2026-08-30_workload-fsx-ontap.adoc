@@ -9,7 +9,7 @@
 
 이제 FSx for ONTAP 인벤토리 페이지 및 파일 시스템 개요 페이지 외에도 관리 메뉴의 링크 페이지에서 직접 링크를 생성할 수 있습니다.
 
-link:create-link.html["링크 생성에 대해 자세히 알아보세요"].
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["링크 생성에 대해 자세히 알아보세요"^].
 
 
 
