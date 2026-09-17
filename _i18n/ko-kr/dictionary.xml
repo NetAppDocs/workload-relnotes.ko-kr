@@ -181,4 +181,14 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory는 이제 다른 지역에 배포된 FSx for ONTAP 스토리지에 연결된 호스트의 워크로드를 식별합니다.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">개선된 워크로드 감지 로직을 통해 더 많은 워크로드 유형을 발견하고 감지 정확도를 향상시켰습니다.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">잘 설계된 대시보드에 포함된 데이터베이스 구성</block>
+  <block id="a04fc413f106e041524732d895e4258e" category="paragraph">잘 설계된 대시보드에는 이제 데이터베이스 구성에 대한 권장 사항이 포함되어 있어 모범 사례를 기반으로 설정을 평가하고 최적화할 수 있습니다. 첫 번째 구성은 다음과 같습니다.</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">콜드 데이터 티어링</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">스토리지 효율성</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">스냅샷 정책</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">SSD 용량 여유 공간</block>
+  <block id="4dcac8e07a1246e665077c1572955236" category="paragraph">Workload Factory 콘솔의 메인 메뉴를 선택한 다음 *Well-architected*를 선택하여 잘 설계된 대시보드를 찾습니다.</block>
+  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 콘솔의 잘 설계된 메뉴 옵션</block>
+  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
 </blocks>
