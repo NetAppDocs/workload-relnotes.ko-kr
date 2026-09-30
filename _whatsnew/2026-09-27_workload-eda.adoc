@@ -1,0 +1,28 @@
+= 향상된 SSD 용량 알림
+:allow-uri-read: 
+
+
+
+
+[[enhanced-ssd-capacity-notifications]]
+=== 향상된 SSD 용량 알림
+
+SSD 용량 관리 알림에 자동화 실패 문제를 해결하는 데 도움이 되는 자세한 오류 메시지가 이제 포함됩니다. 알림은 용량 증가 성공, 증가 작업 중 오류 발생, 용량 확인 실패, 임계값 경고 및 권장 사항에 대해 전송됩니다. 오류 세부 정보에는 권한 누락, 동시 업데이트 진행, AWS 쿨다운 기간 또는 CloudWatch 메트릭 검색 문제 등 구체적인 실패 원인이 포함됩니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/learn-overview-dashboard.html["SSD 용량 관리에 대해 알아보기"^].
+
+
+
+[[week-time-frame-for-latency-graphs]]
+=== 지연 시간 그래프의 주간 기간
+
+지연 시간 분석 그래프에서 기존 옵션(1시간, 3시간, 12시간, 24시간, 72시간) 외에 1주일 기간을 추가로 지원합니다. 1주일 보기를 사용하여 볼륨 지연 시간 동작의 장기적인 패턴과 추세를 파악할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["지연 시간 추세 분석에 대해 알아봅니다."^].
+
+
+
+[[improved-file-system-visibility-in-the-interface]]
+=== 인터페이스에서 파일 시스템 가시성이 향상되었습니다.
+
+Workload Factory는 이제 인터페이스에서 파일 시스템을 더욱 명확하게 보여줍니다. 파일 시스템 개요에서 SSD 용량 및 처리량 사용 추세, 워크로드 요약, 자세한 구성 정보를 직접 확인할 수 있습니다.
