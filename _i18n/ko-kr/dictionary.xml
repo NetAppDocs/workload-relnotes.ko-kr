@@ -202,16 +202,13 @@
   <block id="72c9ca3fa9790aabd5a7a741dfe036e9" category="paragraph">이러한 추가 제어 기능을 통해 가시성과 감독 기능을 강화할 수 있습니다. 읽기/쓰기 모드에서 에이전트는 AWS, ONTAP 또는 지원되는 API를 변경하기 전에 사용자의 승인을 받아야 합니다. 또한 에이전트의 추론 과정 및 Slack에서 표시되는 툴 활동을 포함하여 응답에 표시할 세부 정보의 수준을 선택할 수 있습니다.</block>
   <block id="8b4711746b3adfa755ed575da3759c69" category="paragraph">에이전트는 다중 계정 환경을 지원하며 설정도 간편합니다. 단일 에이전트가 여러 자격 증명을 사용하여 여러 AWS 계정에서 안전하게 작동할 수 있습니다.</block>
   <block id="ff2cb9e669640d8f287be7fc339c4d78" category="inline-link-macro">AI 에이전트에 대해 알아보기</block>
-  <block id="fd0b6331664a65cf7a31ea72bbff0ad8" category="paragraph"><block ref="fd0b6331664a65cf7a31ea72bbff0ad8" category="inline-link-macro-rx"></block></block>
   <block id="718a428bd3b2faadb3c143efe186c19c" category="inline-link-macro">에이전트 설정 관리</block>
-  <block id="f96519dcd31d8fc6ae26fb065d41298c" category="paragraph"><block ref="f96519dcd31d8fc6ae26fb065d41298c" category="inline-link-macro-rx"></block></block>
   <block id="3cfde347b20875f3299e4bc85cde4012" category="section-title">Ask Me의 예약 작업</block>
   <block id="ed6bda88b37dd9ee0232de291a362174" category="paragraph">이제 Ask Me 채팅에서 원하는 메시지를 설정하여 예약 작업을 생성할 수 있습니다. 예약 작업을 사용하여 Ask Me에게 정기적인 점검을 실행하고, 설정한 일정에 따라 채팅으로 업데이트를 전송하도록 요청할 수 있습니다.</block>
   <block id="ff51f1512e81cb44e19946405c4c3751" category="paragraph">예시 프롬프트:</block>
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">문제를 조기에 발견하기 위해 모든 FSx for NetApp ONTAP 파일 시스템의 상태 및 수명 주기 상태를 매시간 확인합니다.</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">액세스 가능한 모든 AWS FSx 파일 시스템을 매시간 나열하여 최신 인벤토리를 유지합니다.</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Ask Me에 대해 자세히 알아보기</block>
-  <block id="21acc05c94ffdfe8d543fc22e8162a92" category="paragraph"><block ref="21acc05c94ffdfe8d543fc22e8162a92" category="inline-link-macro-rx"></block></block>
   <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Ask Me의 ONTAP 지원</block>
   <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me는 이제 FSx for ONTAP 및 온프레미스 ONTAP 시스템을 지원합니다. 동일한 채팅 환경을 사용하여 전체 ONTAP 인프라에 대한 답변과 인사이트를 얻을 수 있습니다.</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">알림 업데이트</block>
@@ -280,4 +277,7 @@
   <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">Workload Factory는 이제 워크로드 태깅 서비스에서 워크로드와 호스트를 더욱 정확하게 식별하고 분류합니다. 업데이트된 감지 방법을 통해 오분류를 줄이고 더욱 정확한 태깅 및 분류 결과를 제공합니다.</block>
   <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">Workload Factory는 이제 인터페이스에서 파일 시스템을 더욱 명확하게 보여줍니다. 파일 시스템 개요에서 SSD 용량 및 처리량 사용 추세, 워크로드 요약, 자세한 구성 정보를 직접 확인할 수 있습니다. Workload Factory는 이제 워크로드 태깅 서비스에서 워크로드와 호스트를 더욱 정확하게 식별하고 분류합니다. 업데이트된 감지 방법을 통해 오분류를 줄이고 더욱 정확한 태깅 및 분류 결과를 제공합니다.</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026년 9월 30일</block>
+  <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
+  <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
+  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
 </blocks>
