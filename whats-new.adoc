@@ -15,8 +15,8 @@ NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대
 
 
 
-[[27-september-2026]]
-== 2026년 9월 27일
+[[30-september-2026]]
+== 2026년 9월 30일
 
 
 

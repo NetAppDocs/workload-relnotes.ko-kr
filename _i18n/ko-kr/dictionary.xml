@@ -179,7 +179,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory는 이제 다른 지역에 배포된 FSx for ONTAP 스토리지에 연결된 호스트의 워크로드를 식별합니다.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">개선된 워크로드 감지 로직을 통해 더 많은 워크로드 유형을 발견하고 감지 정확도를 향상시켰습니다.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="08b543f700a568688a9f78d874d0ce8b" category="doc">향상된 SSD 용량 알림</block>
@@ -280,4 +279,5 @@
   <block id="9b81d2dcd48e266f74c209ecd9598393" category="section-title">작업 부하 및 호스트 식별 정확도 향상</block>
   <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">Workload Factory는 이제 워크로드 태깅 서비스에서 워크로드와 호스트를 더욱 정확하게 식별하고 분류합니다. 업데이트된 감지 방법을 통해 오분류를 줄이고 더욱 정확한 태깅 및 분류 결과를 제공합니다.</block>
   <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">Workload Factory는 이제 인터페이스에서 파일 시스템을 더욱 명확하게 보여줍니다. 파일 시스템 개요에서 SSD 용량 및 처리량 사용 추세, 워크로드 요약, 자세한 구성 정보를 직접 확인할 수 있습니다. Workload Factory는 이제 워크로드 태깅 서비스에서 워크로드와 호스트를 더욱 정확하게 식별하고 분류합니다. 업데이트된 감지 방법을 통해 오분류를 줄이고 더욱 정확한 태깅 및 분류 결과를 제공합니다.</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026년 9월 30일</block>
 </blocks>
