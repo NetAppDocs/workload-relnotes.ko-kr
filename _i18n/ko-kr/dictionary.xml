@@ -209,8 +209,6 @@
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">문제를 조기에 발견하기 위해 모든 FSx for NetApp ONTAP 파일 시스템의 상태 및 수명 주기 상태를 매시간 확인합니다.</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">액세스 가능한 모든 AWS FSx 파일 시스템을 매시간 나열하여 최신 인벤토리를 유지합니다.</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Ask Me에 대해 자세히 알아보기</block>
-  <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Ask Me의 ONTAP 지원</block>
-  <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me는 이제 FSx for ONTAP 및 온프레미스 ONTAP 시스템을 지원합니다. 동일한 채팅 환경을 사용하여 전체 ONTAP 인프라에 대한 답변과 인사이트를 얻을 수 있습니다.</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">알림 업데이트</block>
   <block id="02796e8ea898eccf4fc1ec43b8c9a990" category="paragraph">NetApp Console 알림이 이제 기본적으로 활성화됩니다. NetApp Console 사용자는 추가 구성 없이 Workload Factory 알림을 자동으로 받게 됩니다.</block>
   <block id="21342e11f90d32dc68b1110fcbb8adc2" category="inline-link-macro">Workload Factory 알림</block>
@@ -268,7 +266,6 @@
   <block id="988626e00644e40216e6917f272294d3" category="paragraph">Workload Factory는 이제 볼륨에 대한 기본 설정 FlexCache 쓰기 모드를 인식하고 성능 최적화를 위해 필요한 경우 변경을 권장합니다.</block>
   <block id="7add6c128bfc87116bba8dfec617987f" category="section-title">링크 문서 지원</block>
   <block id="19ecacf22bc9ac252b9476a0a17ca657" category="inline-link-macro">NetApp Workload Factory 링크에 대해 알아보기</block>
-  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">모든 링크 관련 문서는 이제 Workload Factory 설정 및 관리 문서에 포함되어 있습니다. Workload Factory FSx for ONTAP 문서에서 <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block>을 참조하여 설정 및 관리 문서의 관련 페이지 링크를 찾아보실 수 있습니다.</block>
   <block id="ab868acd52ff4eb0e8c4b7bedf975941" category="inline-link-macro">Workload Factory 콘솔에서 링크를 구성하는 방법에 대해 자세히 알아보십시오.</block>
   <block id="3d5d598217b93a807560cdae92940fdc" category="paragraph"><block ref="3d5d598217b93a807560cdae92940fdc" category="inline-link-macro-rx"></block></block>
   <block id="433dd4f7423c50024b8b40531d2cdae6" category="section-title">지역 간 호스트-스토리지 관계 검색</block>
@@ -280,4 +277,7 @@
   <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
   <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
+  <block id="56643767ee547abedda1d643567a4c85" category="paragraph">모든 링크 관련 문서는 이제 Workload Factory 설정 및 관리 문서에 포함되어 있습니다. Workload Factory FSx for ONTAP 문서에서 <block ref="08c564abbdedd12846cfb2f0de43f628" category="inline-link-macro-rx"></block>을 참조하여 설정 및 관리 문서의 관련 페이지 링크를 찾아보실 수 있습니다.</block>
+  <block id="d757afa220ac7f97f408903182fddee2" category="section-title">Ask Me의 스토리지 지원</block>
+  <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">Ask Me는 이제 FSx for ONTAP 및 Google Cloud NetApp Volumes를 지원합니다. 지원되는 스토리지 환경 전반에 걸쳐 동일한 채팅 환경을 사용하여 답변과 유용한 정보를 얻을 수 있습니다.</block>
 </blocks>

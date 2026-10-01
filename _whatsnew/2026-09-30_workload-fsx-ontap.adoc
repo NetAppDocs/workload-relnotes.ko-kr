@@ -113,7 +113,7 @@ Workload Factory는 이제 볼륨에 대한 기본 설정 FlexCache 쓰기 모�
 [[link-documentation-support]]
 === 링크 문서 지원
 
-모든 링크 관련 문서는 이제 Workload Factory 설정 및 관리 문서에 포함되어 있습니다. Workload Factory FSx for ONTAP 문서에서 link:links-overview.html["NetApp Workload Factory 링크에 대해 알아보기"]을 참조하여 설정 및 관리 문서의 관련 페이지 링크를 찾아보실 수 있습니다.
+모든 링크 관련 문서는 이제 Workload Factory 설정 및 관리 문서에 포함되어 있습니다. Workload Factory FSx for ONTAP 문서에서 link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["NetApp Workload Factory 링크에 대해 알아보기"]을 참조하여 설정 및 관리 문서의 관련 페이지 링크를 찾아보실 수 있습니다.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Workload Factory 콘솔에서 링크를 구성하는 방법에 대해 자세히 알아보십시오."^]
 
