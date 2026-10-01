@@ -1,0 +1,139 @@
+= AWS 서비스에 대한 워크로드 태깅 검색 확장
+:allow-uri-read: 
+
+
+
+
+[[expanded-workload-tagging-discovery-for-aws-services]]
+=== AWS 서비스에 대한 워크로드 태깅 검색 확장
+
+Workload Factory는 이제 워크로드 태깅을 위해 더 많은 AWS 서비스를 감지하여 태깅 가능한 리소스 지원 범위를 확장했습니다. 이제 Amazon EKS 및 Amazon WorkSpaces 리소스를 찾아 태깅 시스템에 포함시켜 태깅에 사용할 수 있도록 지원합니다.
+
+
+
+[[cost-dashboard-enhancements]]
+=== 비용 대시보드 개선 사항
+
+비용 대시보드에 이제 조직의 지출 개요를 제공하는 비용 요약 섹션이 포함되어 비용을 신속하게 파악하고 관리할 수 있습니다. Workload Factory의 AI 어시스턴트인 Ask Me는 비용 데이터를 기반으로 추가적인 인사이트와 권장 사항을 제공합니다. Ask Me와 상호 작용하여 비용 최적화를 위한 자세한 설명과 제안을 받아볼 수 있습니다.
+
+또한 하나 이상의 파일 시스템과 파일 시스템 내의 하나 이상의 볼륨을 기준으로 비용 데이터를 필터링할 수 있습니다. 필터를 적용하면 Workload Factory에 다음 내용이 표시됩니다.
+
+* 월별 예상 총비용
+* GiB당 월별 예상 비용
+* 서비스별 상세 비용 내역
+
+
+파일 시스템 및 볼륨 수준의 비용 할당을 제외한 모든 비용 정보는 AWS Cost Explorer API에서 직접 가져옵니다. NetApp Workload Factory는 파일 시스템 및 볼륨 수준의 비용 할당을 추정합니다.
+
+
+
+[[well-architected-dashboard-access]]
+=== 잘 설계된 대시보드 액세스
+
+Workload Factory 콘솔의 메인 메뉴와 파일 시스템 내에서 잘 설계된 대시보드에 액세스할 수 있습니다. 메인 메뉴에서 잘 설계된 대시보드를 찾으려면 메인 메뉴를 선택한 다음 *Well-architected*를 선택합니다.
+
+image:well-architected-menu-option.png["Workload Factory 콘솔의 잘 설계된 메뉴 옵션"]
+
+
+
+[[new-recommendations-in-the-well-architected-analysis]]
+=== 잘 설계된 분석에 대한 새로운 권장 사항
+
+Workload Factory는 이제 FSx for ONTAP 파일 시스템에 대한 잘 설계된 아키텍처 분석에 다음과 같은 구성을 포함합니다.
+
+* *볼륨 공간 관리 구성*: FSx for ONTAP 볼륨에 대해 통합 볼륨 공간 관리를 활성화하는 것이 좋습니다.
+* *FSx와 AWS MGN 통합*: 선택한 FSx for ONTAP 파일 시스템에 필요한 AWS MGN 준비 구성을 적용하도록 권장합니다.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["FSx for ONTAP 파일 시스템에 대한 모범 사례 권장 사항을 자세히 알아보십시오."]
+
+
+
+[[volumes-explorer-enhancements]]
+=== 볼륨 탐색기 개선 사항
+
+볼륨 탐색기는 Workload Factory 콘솔에서 다양한 파일 시스템에 걸쳐 있는 모든 볼륨을 보고 관리할 수 있는 중심 공간입니다. 각 볼륨에 대한 성능, 사용량 및 보호 상태를 포함한 자세한 정보를 제공합니다. 이번 릴리스의 개선 사항에는 워크로드 선택, 볼륨 지연 시간 표시 및 볼륨의 ARP/AI 상태 표시 기능이 포함됩니다.
+
+
+
+==== 볼륨 탐색기는 워크로드 선택을 지원합니다.
+
+Workload Factory는 볼륨의 특성과 사용 패턴을 기반으로 기본 워크로드를 선택합니다. 이제 볼륨 탐색기에서 하나 이상의 볼륨에 대한 워크로드를 변경할 수 있습니다.
+
+
+
+==== 볼륨 탐색기에서 볼륨 지연 시간을 표시합니다.
+
+볼륨 탐색기는 볼륨 지연 상태를 '구성되지 않음', '임계값 내', '임계값 초과'의 세 가지 상태로 표시합니다. 이러한 상태 표시를 통해 볼륨 수준에서 성능 병목 현상을 찾아 해결할 수 있습니다.
+
+
+
+==== 볼륨 탐색기는 모든 파일 시스템의 볼륨에 대한 ARP/AI 상태를 표시합니다.
+
+이제 볼륨 탐색기 화면에 모든 파일 시스템의 볼륨에 대한 NetApp Autonomous Ransomware Protection with AI(ARP/AI) 상태를 보여주는 카드가 추가되었습니다. 이 카드에는 보호되는 볼륨 수가 표시되고 위험에 처한 볼륨이 있는지 여부가 나타납니다. 이 카드에서 *공격 분석*을 통해 잠재적인 랜섬웨어 위협을 조사하고 데이터를 보호하기 위한 적절한 조치를 취할 수 있습니다.
+
+image:volumes-explorer-arp-ai-card.png["스크린샷은 볼륨 탐색기 화면에서 모든 파일 시스템의 볼륨에 대한 ARP/AI 상태를 표시하는 새 카드를 보여줍니다. 이 카드에는 보호되는 볼륨 수와 위험에 처한 볼륨이 표시됩니다. 사용자는 Analyze attacks 텍스트를 선택하여 의심스러운 공격을 조사하고 데이터를 보호하기 위한 적절한 조치를 취할 수 있습니다."]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["랜섬웨어 방어에 대해 자세히 알아보십시오."]
+
+
+
+[[email-notification-for-unhealthy-replication-relationships]]
+=== 비정상적인 복제 관계에 대한 이메일 알림
+
+복제 관계의 상태가 *비정상*인 경우, Workload Factory는 해당 관계가 비정상 상태로 유지되는 동안 24시간마다 이메일 알림을 보냅니다. 관계가 정상 상태로 돌아오면 알림 전송이 중지됩니다.
+
+
+
+[[support-for-restricted-ontap-credentials-for-aiops]]
+=== AIOps용 제한된 ONTAP 자격 증명 지원
+
+Workload Factory는 FSx for ONTAP 파일 시스템에 대해 기본 자격 증명과 제한 자격 증명, 두 가지 유형의 ONTAP 자격 증명을 지원합니다. 기본적으로 파일 시스템은 기본 ONTAP 자격 증명을 사용합니다. 제한 자격 증명은 규칙 빌더, 사용자 지정 대시보드, AI 어시스턴트인 Ask Me와 같은 AI 운영(AIOps)에만 사용됩니다. 이제 사용자 이름과 암호 또는 비밀 ARN을 사용하여 자체 자격 증명을 추가하고 AIOps 기능에 대한 액세스를 제한할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-file-system-settings.html["FSx for ONTAP 파일 시스템에 대한 ONTAP 자격 증명 관리"]
+
+
+
+[[workload-selection-during-volume-creation]]
+=== 볼륨 생성 중 워크로드 선택
+
+이제 Workload Factory에서 볼륨 생성 시 *워크로드* 필드를 추가하여 볼륨과 연결할 워크로드를 선택할 수 있습니다. 이를 통해 볼륨이 생성되는 순간부터 의도된 워크로드에 최적화되도록 할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Workload Factory 콘솔에서 볼륨 생성"]
+
+
+
+[[flexcache-write-mode-improvement]]
+=== FlexCache 쓰기 모드 개선
+
+Workload Factory는 이제 볼륨에 대한 기본 설정 FlexCache 쓰기 모드를 인식하고 성능 최적화를 위해 필요한 경우 변경을 권장합니다.
+
+
+
+[[link-documentation-support]]
+=== 링크 문서 지원
+
+모든 링크 관련 문서는 이제 Workload Factory 설정 및 관리 문서에 포함되어 있습니다. Workload Factory FSx for ONTAP 문서에서 link:links-overview.html["NetApp Workload Factory 링크에 대해 알아보기"]을 참조하여 설정 및 관리 문서의 관련 페이지 링크를 찾아보실 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Workload Factory 콘솔에서 링크를 구성하는 방법에 대해 자세히 알아보십시오."^]
+
+
+
+[[cross-region-host-to-storage-relationship-discovery]]
+=== 지역 간 호스트-스토리지 관계 검색
+
+Workload Factory는 이제 워크로드 태깅 서비스의 일부로 여러 AWS 리전에 걸쳐 호스트와 스토리지 간의 연결을 찾는 기능을 지원합니다. 리전 간 IP 주소 매핑을 포함하여 여러 리전에 걸쳐 호스트와 스토리지 리소스를 식별하고 연결할 수 있으므로 호스트-스토리지 관계가 정확하게 태그되고 분류됩니다.
+
+
+
+[[improved-workload-and-host-identification-accuracy]]
+=== 작업 부하 및 호스트 식별 정확도 향상
+
+Workload Factory는 이제 워크로드 태깅 서비스에서 워크로드와 호스트를 더욱 정확하게 식별하고 분류합니다. 업데이트된 감지 방법을 통해 오분류를 줄이고 더욱 정확한 태깅 및 분류 결과를 제공합니다.
+
+
+
+[[improved-file-system-visibility-in-the-interface]]
+=== 인터페이스에서 파일 시스템 가시성이 향상되었습니다.
+
+Workload Factory는 이제 인터페이스에서 파일 시스템을 더욱 명확하게 보여줍니다. 파일 시스템 개요에서 SSD 용량 및 처리량 사용 추세, 워크로드 요약, 자세한 구성 정보를 직접 확인할 수 있습니다. Workload Factory는 이제 워크로드 태깅 서비스에서 워크로드와 호스트를 더욱 정확하게 식별하고 분류합니다. 업데이트된 감지 방법을 통해 오분류를 줄이고 더욱 정확한 태깅 및 분류 결과를 제공합니다.
