@@ -33,48 +33,7 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">이 릴리스 노트에서는 NetApp Workload Factory에 포함된 클라우드 서비스의 최근 개선 사항을 설명합니다.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 릴리스 노트</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 워크로드</block>
-  <block id="caa606c0b1085a846c384cef14c3a17f" category="doc">EVS TCO 계산기에서 i7i.metal-24xl 인스턴스 지원</block>
-  <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">EVS 총소유비용(TCO) 계산기가 이제 AWS i7i.metal-24xl EC2 인스턴스를 클러스터 호스트로 지원합니다. i4i.metal 구성과 비교했을 때, 이러한 인스턴스를 사용하면 컴퓨팅 비용은 약 33%, vSAN 스토리지 비용은 약 25% EVS 시작 비용이 절감됩니다.</block>
-  <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">계산기는 두 인스턴스 유형을 자동으로 비교하여 가장 비용 효율적인 옵션을 선택합니다. 새로운 비교 섹션에서는 EVS 호스트 구성을 나란히 표시하여 필요에 맞는 최적의 설정을 더 쉽게 찾을 수 있습니다.</block>
-  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">EVS의 예상 절감액 계산</block>
-  <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">2026년 7월 6일</block>
-  <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*지연 시간 그래프*: 시간 경과에 따른 지연 시간 변화를 보여주며, 임계값 선과 임계값 초과 시 경고를 표시합니다.</block>
-  <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*IOPS 그래프*: 초당 연산 횟수를 보여주며, 임계값 선과 과거 한도 초과 표시기가 함께 표시됩니다.</block>
-  <block id="38f51c8db276cb26c3c7af52f545996e" category="paragraph">모든 그래프는 동일한 타임라인을 사용하며, 이벤트가 읽기인지 쓰기인지에 따라 올바른 메트릭을 자동으로 표시합니다.</block>
-  <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">다양한 그래프를 사용하여 지연 시간 추세를 분석하는 방법을 알아보십시오.</block>
-  <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
-  <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">2026년 7월 5일</block>
   <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">맞춤형 대시보드</block>
-  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">업무량과 우선순위에 맞춰 AI 기반 대시보드를 구축하여 운영 성과를 손쉽게 파악하세요. 고정된 보기 방식에 의존하는 대신, 맞춤형 대시보드를 통해 가장 중요한 정보에 집중할 수 있습니다.</block>
-  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">추적하고 싶은 내용을 일반 언어로 설명하기만 하면 AI가 요청에 따라 대시보드를 생성해 줍니다. 예를 들어 재해 복구 상태, 지역별 용량 및 비용, 스토리지 보호 규정 준수, 기타 운영 지표 등을 추적할 수 있습니다.</block>
-  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">사용자 지정 대시보드는 읽기 전용이므로 스토리지 또는 워크로드 설정을 변경할 수 없습니다. Workload Factory 계정에 등록된 모든 사용자는 이러한 대시보드를 보고 관리할 수 있으므로 팀 간에 인사이트를 공유하고 협업을 유지하는 데 도움이 됩니다.</block>
-  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">맞춤형 대시보드에 대해 자세히 알아보기</block>
-  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">지연 알림 빈도 설정</block>
-  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">이제 지연 시간 초과에 대한 이메일 알림을 받는 빈도를 선택할 수 있습니다.</block>
-  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*매일 알림 설정(권장)*: FSx for ONTAP 파일 시스템에서 새로운 문제가 발생할 때 알림을 받습니다.</block>
-  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">하루에 동일한 파일 시스템에서 여러 차례 지연 문제가 발생하더라도 이메일은 한 번만 발송됩니다.</block>
-  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Workload Factory는 파일 시스템에 대한 지연 시간 알림을 보낸 후 24시간 동안 기다린 뒤 해당 파일 시스템에 대한 또 다른 알림을 보냅니다.</block>
-  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*지연 시간 위반 시 알림(20분마다)*: 최대 20분마다 한 번씩 지연 시간 위반이 감지되면 알림을 받습니다.</block>
-  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">지연 문제 발생 시 이메일 수신량을 줄이면서도 알림을 받을 수 있도록 기본적으로 일일 알림이 활성화되어 있습니다. 지연 모니터링 설정 또는 임계값 설정 편집 시 알림 기본 설정을 변경할 수 있습니다.</block>
-  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">지연 시간 모니터링을 구성하는 방법을 알아보십시오</block>
-  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
-  <block id="efbeddc0347a679a438120189b77f860" category="section-title">볼륨 탐색기</block>
-  <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">복제 지연에 대한 향상된 이메일 알림 기능</block>
-  <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">복제 지연에 대한 이메일 알림에 이제 영향을 받는 관계에 대한 자세한 정보가 포함됩니다. 이 알림을 통해 영향을 받는 관계를 신속하게 파악하고 Workload Factory 콘솔에서 확인할 수 있습니다.</block>
-  <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">복제 지연에 대한 알림 활성화</block>
-  <block id="7f27417270cfb269527e679a64b5a19a" category="paragraph"><block ref="7f27417270cfb269527e679a64b5a19a" category="inline-link-macro-rx"></block></block>
-  <block id="5312d8ea7e9ef079aeac882dbcd64d0a" category="section-title">블록 장치 생성 개선</block>
-  <block id="85fb39d6f3bb52679cb9ce3bd27ffd1c" category="paragraph">Workload Factory는 볼륨 스냅샷에서 블록 장치 생성을 지원합니다.</block>
-  <block id="a439412a0228682fa1054f4bc1a96815" category="inline-link-macro">Workload Factory에서 볼륨 스냅샷으로 블록 장치 생성</block>
-  <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
-  <block id="cc661418365d138458bf55f936b73a47" category="section-title">Workload Factory에서 GenAI 워크로드 제거</block>
-  <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">GenAI 워크로드가 Workload Factory 콘솔에서 제거되었습니다.</block>
-  <block id="efb6a1d0d54500167c0d1ae30ab8ac5b" category="doc">동기화된 지연 시간, IOPS 및 처리량 차트를 통한 향상된 지연 시간 분석</block>
-  <block id="a868b37aeda2e8d7f0a8e48f498112fc" category="paragraph">이제 지연 시간 분석 패널에 동기화된 성능 그래프가 포함된 *상세 지연 시간 분석* 페이지가 추가되었습니다.</block>
-  <block id="a4abbd682ae58689df4450b4a65c90a2" category="list-text">*처리량 그래프*: 데이터 전송 속도(DataReadBytes 또는 DataWriteBytes)를 보여줍니다. 필터에서 메타데이터를 선택하면 처리량 그래프에 데이터가 표시되지 않습니다.</block>
-  <block id="7e9591a005bdef4cdf16dfd575186f3b" category="paragraph">보기 방식을 조정하여 지연 시간 급증과 IOPS 및 처리량 변화 간의 상관관계를 파악할 수 있습니다. 침해 표시와 마우스 오버 시 나타나는 세부 정보를 통해 임계값 초과 시점을 확인하고 감지된 침해에 대한 주요 지표를 검토할 수 있습니다.</block>
-  <block id="842065a36dace972d6dab0c170421bd1" category="section-title">볼륨 및 블록 장치에 대한 워크로드 태깅</block>
-  <block id="47c38c6a3d7e96ce1b3b2519a980f283" category="paragraph">Workload Factory는 이제 볼륨 및 블록 장치를 기본 워크로드 또는 애플리케이션별로 식별하고 태그를 지정합니다. Microsoft SQL Server 또는 Oracle Database와 같은 사전 정의된 워크로드 태그를 할당하거나 애플리케이션에 대한 사용자 지정 태그를 생성할 수 있습니다. 태그는 개별 리소스에 적용하거나 연결된 스토리지 리소스에 상속할 수 있습니다. 이를 통해 스토리지 구성을 워크로드 요구 사항에 맞추고, 장애 발생 시 영향을 파악하며, 보다 효과적으로 문제를 해결할 수 있습니다.</block>
   <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">데이터베이스에 대한 IAM 권한 정책 업데이트</block>
   <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">데이터베이스 권한이 업데이트되어 기능 액세스가 향상되었고, 불필요한 경우 SSM 액세스가 제한되었습니다.</block>
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">보기, 계획 및 분석 권한은 AWS SSM 문서로 제한됩니다. 이러한 권한을 사용하면 호스트, 인스턴스 및 데이터베이스를 볼 수 있습니다. 또한 필요에 따라 리소스에 대한 기본 온디맨드 아키텍처 분석을 실행할 수 있습니다.</block>
@@ -162,7 +121,6 @@
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">볼륨 탐색기에서 사용할 수 있는 볼륨 작업</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">모든 볼륨 작업은 하나 이상의 볼륨에 대해 볼륨 탐색기에서 직접 수행할 수 있습니다. 이를 통해 볼륨 수준 작업을 더 빠르게 수행할 수 있습니다. 볼륨 작업에는 볼륨 설정 수정, 스냅샷 관리 및 볼륨 탐색기를 종료하지 않고 수행할 수 있는 기타 볼륨 작업이 포함됩니다. 또한 FSx for ONTAP 파일 시스템 개요의 볼륨 탭에서도 이러한 작업에 액세스할 수 있습니다.</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026년 8월 11일</block>
-  <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">볼륨 탐색기를 사용하면 NetApp Workload Factory의 모든 볼륨을 간편하게 검색할 수 있습니다. 블록 또는 파일 워크로드를 처리하는 볼륨을 빠르게 확인할 수 있습니다. 각 볼륨의 논리적 크기, 물리적 사용 용량, 그리고 스토리지 효율성 기능(압축, 중복 제거, 컴팩션) 사용 여부를 볼 수 있습니다. 이름, 상태(사용 가능/실패), 지연 시간, 크기, 사용 용량 및 보호 기능별로 필터링하고 정렬할 수 있습니다.</block>
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">자격 증명 및 링크에 대한 새로운 온보딩 환경</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory는 자격 증명 및 링크에 대한 온보딩 환경을 개선하여 더욱 쉽게 시작할 수 있도록 합니다. 계정을 생성하고 로그인한 후, *Storage* 등 워크로드 타일에서 *Get started*를 선택하면 다음 페이지에서 단계별 설정 과정을 안내합니다.</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026년 8월 30일</block>
@@ -179,8 +137,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory는 이제 다른 지역에 배포된 FSx for ONTAP 스토리지에 연결된 호스트의 워크로드를 식별합니다.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">개선된 워크로드 감지 로직을 통해 더 많은 워크로드 유형을 발견하고 감지 정확도를 향상시켰습니다.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
-  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="08b543f700a568688a9f78d874d0ce8b" category="doc">향상된 SSD 용량 알림</block>
   <block id="f37e9239265205bdf39af7b4def6f75a" category="paragraph">SSD 용량 관리 알림에 자동화 실패 문제를 해결하는 데 도움이 되는 자세한 오류 메시지가 이제 포함됩니다. 알림은 용량 증가 성공, 증가 작업 중 오류 발생, 용량 확인 실패, 임계값 경고 및 권장 사항에 대해 전송됩니다. 오류 세부 정보에는 권한 누락, 동시 업데이트 진행, AWS 쿨다운 기간 또는 CloudWatch 메트릭 검색 문제 등 구체적인 실패 원인이 포함됩니다.</block>
   <block id="4a3354724a06bbb8040fa512f39a5e07" category="inline-link-macro">SSD 용량 관리에 대해 알아보기</block>
@@ -280,4 +236,20 @@
   <block id="56643767ee547abedda1d643567a4c85" category="paragraph">모든 링크 관련 문서는 이제 Workload Factory 설정 및 관리 문서에 포함되어 있습니다. Workload Factory FSx for ONTAP 문서에서 <block ref="08c564abbdedd12846cfb2f0de43f628" category="inline-link-macro-rx"></block>을 참조하여 설정 및 관리 문서의 관련 페이지 링크를 찾아보실 수 있습니다.</block>
   <block id="d757afa220ac7f97f408903182fddee2" category="section-title">Ask Me의 스토리지 지원</block>
   <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">Ask Me는 이제 FSx for ONTAP 및 Google Cloud NetApp Volumes를 지원합니다. 지원되는 스토리지 환경 전반에 걸쳐 동일한 채팅 환경을 사용하여 답변과 유용한 정보를 얻을 수 있습니다.</block>
+  <block id="77c39d029270c567ae2816d2c688ea3b" category="doc">사용자 지정 대시보드 업데이트</block>
+  <block id="b4a3fedd52cfe46140994157b6fa12ec" category="paragraph">맞춤형 대시보드를 통해 업무 관리가 더욱 쉬워졌습니다.</block>
+  <block id="5d95426dd9834d03b33e051ae7f9fb5c" category="paragraph">지표, 차트, 시간 범위 등을 포함하여 카탈로그에서 직접 대시보드를 편집할 수 있습니다.</block>
+  <block id="e57137dc0ab44a9b0797700e3e8c851c" category="paragraph">대시보드를 편집할 때 Workload Factory는 이전 프롬프트 및 메시지와 함께 채팅을 다시 엽니다. 그런 다음 대시보드를 업데이트하거나, 변경 사항을 저장하거나, 이전 버전을 복원할 수 있습니다.</block>
+  <block id="8f44990f66d79c05eb2b8e612e7e18b5" category="paragraph">대시보드 생성자만 대시보드를 편집할 수 있습니다. 편집하는 동안에는 저장하기 전까지 다른 사용자는 변경 내용을 볼 수 없습니다.</block>
+  <block id="14dd0ad1c8f18e92cbbc77ecf3a2645b" category="paragraph">이제 대시보드 카탈로그에는 카테고리와 상태를 기준으로 대시보드를 빠르게 찾을 수 있도록 더 많은 필터가 포함됩니다.</block>
+  <block id="fb1ecdb5253f537a735a53d5e9e2eba6" category="paragraph">관리자가 AI 기능을 비활성화하거나 월별 크레딧 한도에 도달하면 대시보드 생성 및 편집이 비활성화됩니다.</block>
+  <block id="adf3d3abc197eec345a7ab721730806c" category="inline-link-macro">맞춤형 대시보드에 대해 알아보기</block>
+  <block id="f736e966e4394f88a05cee94fdba57ff" category="paragraph"><block ref="f736e966e4394f88a05cee94fdba57ff" category="inline-link-macro-rx"></block></block>
+  <block id="dfc2a77d9b383cd28cba1a1e99f9a378" category="inline-link-macro">사용자 지정 대시보드 만들기</block>
+  <block id="e703f5c9737234e07b6d50b473d03d31" category="paragraph"><block ref="e703f5c9737234e07b6d50b473d03d31" category="inline-link-macro-rx"></block></block>
+  <block id="62403e3fa28afe128e2c0e15bf0333f7" category="inline-link-macro">사용자 지정 대시보드 관리</block>
+  <block id="a6624b6c8238a8d2fecbcab00748683a" category="paragraph"><block ref="a6624b6c8238a8d2fecbcab00748683a" category="inline-link-macro-rx"></block></block>
+  <block id="1703fc0755f2533bd9d727fa0298c500" category="inline-link-macro">사용자 지정 대시보드 문제 해결</block>
+  <block id="6690aacdf8125a25e4539caa3239e86f" category="paragraph"><block ref="6690aacdf8125a25e4539caa3239e86f" category="inline-link-macro-rx"></block></block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026년 10월 4일</block>
 </blocks>
