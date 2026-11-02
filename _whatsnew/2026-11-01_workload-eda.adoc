@@ -1,0 +1,37 @@
+= 지연 시간 분석의 볼륨 세부 정보
+:allow-uri-read: 
+
+
+
+
+[[volume-details-in-latency-analysis]]
+=== 지연 시간 분석의 볼륨 세부 정보
+
+이제 *상세 지연 시간 분석* 페이지에서 추가 볼륨 세부 정보인 *볼륨 유형*(RW/DP), *볼륨 스타일*(FlexVol 및 FlexGroup)을 확인할 수 있습니다.
+
+
+
+[[file-system-pressure-check-for-latency-events]]
+=== 지연 이벤트에 대한 파일 시스템 부하 검사
+
+지연 시간 경고가 있는 볼륨의 경우, 이제 이벤트 발생 시 파일 시스템에 성능에 영향을 줄 만큼의 부하가 걸렸는지 확인할 수 있습니다. 이벤트 발생 40분 전부터의 CloudWatch 데이터를 확인하고, 링크를 통해 파일 시스템으로 이동하여 추가 조사를 진행할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["지연 시간 추세 분석에 대해 알아보십시오"^].
+
+
+
+[[throughput-decision-points]]
+=== 처리량 결정 지점
+
+이제 클라이언트 처리량 권장 사항 및 자동화 결정 지점을 확인할 수 있습니다. 결정 지점에 마우스를 올리면 현재 및 권장 SKU 또는 특정 기간 내 지표 초과율(%) 등의 세부 정보를 볼 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["의사결정 지점에 대해 알아보십시오"^].
+
+
+
+[[re-run-latency-analysis]]
+=== 지연 시간 분석 재실행
+
+이제 *분석 다시 실행*을 선택하여 볼륨에 대한 새로운 지연 시간 분석을 시작하고 필요에 따라 결과를 새로 고칠 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["지연 문제 분석에 대해 알아보십시오"^].

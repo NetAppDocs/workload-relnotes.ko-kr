@@ -15,6 +15,83 @@ NetApp Workload Factory에 포함된 워크로드의 최신 변경 사항에 대
 
 
 
+[[01-november-2026]]
+== 2026년 11월 1일
+
+
+
+[[vmware-workloads]]
+=== VMware 워크로드
+
+
+
+==== EVS TCO 계산기에서 i7i.metal-24xl 및 i7i.metal-48xl 인스턴스 지원
+
+EVS TCO 계산기가 이제 AWS i7i.metal-24xl 및 i7i.metal-48xl EC2 인스턴스를 클러스터 호스트로 지원합니다. i4i.metal 구성과 비교했을 때, i7i.metal-24xl 인스턴스는 컴퓨팅 비용 측면에서 EVS 초기 비용을 약 33%, vSAN 스토리지 비용 측면에서 약 25% 절감해 줍니다.
+
+이 계산기는 모든 인스턴스 유형을 비교하여 가장 저렴한 옵션을 자동으로 선택합니다. 새로운 비교 섹션에서는 EVS 호스트 구성을 나란히 표시하여 필요에 맞는 최적의 설정을 더 쉽게 선택할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["EVS의 예상 절감액 계산"]
+
+
+
+[[eda-workloads]]
+=== EDA 워크로드
+
+
+
+==== 지연 시간 분석의 볼륨 세부 정보
+
+이제 *상세 지연 시간 분석* 페이지에서 추가 볼륨 세부 정보인 *볼륨 유형*(RW/DP), *볼륨 스타일*(FlexVol 및 FlexGroup)을 확인할 수 있습니다.
+
+
+
+==== 지연 이벤트에 대한 파일 시스템 부하 검사
+
+지연 시간 경고가 있는 볼륨의 경우, 이제 이벤트 발생 시 파일 시스템에 성능에 영향을 줄 만큼의 부하가 걸렸는지 확인할 수 있습니다. 이벤트 발생 40분 전부터의 CloudWatch 데이터를 확인하고, 링크를 통해 파일 시스템으로 이동하여 추가 조사를 진행할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["지연 시간 추세 분석에 대해 알아보십시오"^].
+
+
+
+==== 처리량 결정 지점
+
+이제 클라이언트 처리량 권장 사항 및 자동화 결정 지점을 확인할 수 있습니다. 결정 지점에 마우스를 올리면 현재 및 권장 SKU 또는 특정 기간 내 지표 초과율(%) 등의 세부 정보를 볼 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["의사결정 지점에 대해 알아보십시오"^].
+
+
+
+==== 지연 시간 분석 재실행
+
+이제 *분석 다시 실행*을 선택하여 볼륨에 대한 새로운 지연 시간 분석을 시작하고 필요에 따라 결과를 새로 고칠 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["지연 문제 분석에 대해 알아보십시오"^].
+
+
+
+[[14-october-2026]]
+== 2026년 10월 14일
+
+
+
+[[setup-and-administration]]
+=== 설정 및 관리
+
+
+
+==== AI 툴에 자체 Amazon Bedrock 인스턴스를 사용하십시오.
+
+Workload Factory는 이제 AI 설정 페이지에 고객이 자체 Amazon Bedrock 인스턴스를 사용할 수 있는 또 다른 옵션을 포함합니다.
+
+이 옵션은 AI 툴용 고객 관리형 Bedrock에서 사용할 수 있으며 모든 Workload Factory AI 서비스에서 지원됩니다.
+
+연결 후, Workload Factory는 연결 성공 여부를 알려줍니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["AI 기능 관리에 대해 알아보기"]
+
+
+
 [[04-october-2026]]
 == 2026년 10월 4일
 
@@ -360,215 +437,3 @@ Workload Factory는 자격 증명 및 링크에 대한 온보딩 환경을 개�
 ==== 볼륨 탐색기에서 사용할 수 있는 볼륨 작업
 
 모든 볼륨 작업은 하나 이상의 볼륨에 대해 볼륨 탐색기에서 직접 수행할 수 있습니다. 이를 통해 볼륨 수준 작업을 더 빠르게 수행할 수 있습니다. 볼륨 작업에는 볼륨 설정 수정, 스냅샷 관리 및 볼륨 탐색기를 종료하지 않고 수행할 수 있는 기타 볼륨 작업이 포함됩니다. 또한 FSx for ONTAP 파일 시스템 개요의 볼륨 탭에서도 이러한 작업에 액세스할 수 있습니다.
-
-
-
-[[03-august-2026]]
-== 2026년 8월 3일
-
-
-
-[[database-workloads]]
-=== 데이터베이스 워크로드
-
-
-
-==== 잘 설계된 아키텍처 분석에서 Oracle 및 Microsoft SQL Server의 구성 변경 사항
-
-잘 설계된 아키텍처 분석에서 여러 데이터베이스 구성이 통합되고 다음 구성으로 이름이 변경되었습니다.
-
-* *블록 장치 공간 관리*: 공간 예약, 공간 할당 및 부분 예비 용량을 포함합니다.
-* *스토리지 효율성*: 압축, 중복 제거 및 컴팩션 포함
-* *Tiering/TCO 최적화*: 계층화 정책 및 계층화 최소 냉각 일수 포함
-* *로컬 스냅샷 예약*: 스냅샷 정책 포함
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["워크로드 팩토리의 구성 분석"]
-
-
-
-==== 데이터베이스에 대한 IAM 권한 정책 업데이트
-
-데이터베이스 권한이 업데이트되어 기능 액세스가 향상되었고, 불필요한 경우 SSM 액세스가 제한되었습니다.
-
-보기, 계획 및 분석 권한은 AWS SSM 문서로 제한됩니다. 이러한 권한을 사용하면 호스트, 인스턴스 및 데이터베이스를 볼 수 있습니다. 또한 필요에 따라 리소스에 대한 기본 온디맨드 아키텍처 분석을 실행할 수 있습니다.
-
-운영 및 복구 권한을 통해 리소스를 변경하고, 오류 로그를 분석하고, 리소스에 대한 포괄적이고 체계적인 분석을 수행하고, 구성 문제를 수정할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["권한 참조"^]
-
-
-
-[[setup-and-administration]]
-=== 설정 및 관리
-
-
-
-==== 데이터베이스에 대한 IAM 권한 정책 업데이트
-
-데이터베이스 권한이 업데이트되어 기능 액세스가 향상되었고, 불필요한 경우 SSM 액세스가 제한되었습니다.
-
-보기, 계획 및 분석 권한은 AWS SSM 문서로 제한됩니다. 이러한 권한을 사용하면 호스트, 인스턴스 및 데이터베이스를 볼 수 있습니다. 또한 필요에 따라 리소스에 대한 기본 온디맨드 아키텍처 분석을 실행할 수 있습니다.
-
-운영 및 복구 권한을 통해 리소스를 변경하고, 오류 로그를 분석하고, 리소스에 대한 포괄적이고 체계적인 분석을 수행하고, 구성 문제를 수정할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["권한 참조"]
-
-
-
-==== 맞춤형 대시보드
-
-
-
-===== 사용자 지정 대시보드에 대한 알림
-
-Workload Factory는 이제 사용자 지정 대시보드가 준비되었거나 생성에 실패했을 때 알림을 보냅니다.
-
-사용자 지정 대시보드를 생성하면 바로 볼 수 있는 링크가 포함된 알림을 받게 됩니다. 생성에 실패하면 사용자 지정 대시보드 인벤토리로 이동하여 다시 시도할 수 있는 링크가 포함된 알림을 받게 됩니다.
-
-이 기능을 통해 대시보드가 준비되었는지 확인할 수 있으며, 대시보드를 쉽게 검토하거나 다시 만들 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["맞춤형 대시보드를 만드는 방법을 알아보십시오."]
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["알림 구성에 대해 알아보기"]
-
-
-
-===== 개인 및 공용 맞춤형 대시보드
-
-이제 사용자 지정 대시보드에 공유 설정이 포함됩니다. 대시보드를 비공개로 유지하거나 팀과 공유할 수 있습니다.
-
-새 대시보드는 기본적으로 비공개이며 본인만 볼 수 있습니다. Workload Factory 계정에 있는 모든 사람과 공유하려면 언제든지 대시보드를 공개로 전환할 수 있습니다.
-
-각 대시보드 카드에는 Private 또는 Public 레이블이 표시되어 있어 어떤 대시보드가 공유되는지 빠르게 확인할 수 있습니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html#view-and-share-dashboards["대시보드 표시 및 공유에 대해 알아보기"]
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html#change-dashboard-visibility["대시보드를 공유하는 방법을 알아보십시오"]
-
-
-
-==== AI 기능 관리
-
-Workload Factory 관리의 다음 설정을 사용하여 조직 전체의 AI 기능에 대한 액세스를 제어할 수 있습니다.
-
-* NetApp이 관리하는 Bedrock 사용(권장되며 기본적으로 활성화되어 있고 월별 크레딧 한도가 적용됩니다)
-* 모든 AI 기능 끄기
-
-
-새로운 관리 페이지를 통해 이러한 설정을 한 곳에서 관리할 수 있습니다.
-
-AI 기능에는 Ask Me, 맞춤형 대시보드, 규칙 생성기, EMS, 데이터베이스 로그 및 볼륨 지연 시간 분석기가 포함됩니다.
-
-AI 기능이 꺼져 있으면 AI를 사용할 수 없다는 메시지가 사용자에게 표시됩니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["AI 기능 관리에 대해 알아보기"]
-
-
-
-[[eda-workloads]]
-=== EDA 워크로드
-
-
-
-==== 비용 제어를 통한 AI 지연 시간 분석
-
-Workload Factory 관리자는 조직 전체의 AI 지연 시간 분석에 대한 액세스를 제어할 수 있습니다.
-
-* *NetApp 관리형 AI 크레딧*: 관리자가 활성화하면 NetApp의 관리형 Amazon Bedrock 통합을 통해 AI 분석을 사용할 수 있습니다. 추가 설정은 필요하지 않습니다. 월별 사용량은 할당된 예산으로 제한됩니다. 월별 사용량 한도에 도달하면 AI 기반 기능이 비활성화되고 메시지가 표시됩니다.
-* *관리자가 비활성화함*: 관리자가 AI 기능을 끄면 AI 분석 옵션이 회색으로 표시되고 기능이 꺼져 있다는 메시지가 나타납니다.
-
-
-
-
-==== 탄력적인 처리량 증가 관리
-
-이제 EDA 개요 페이지에서 선택한 하나 이상의 FSx for ONTAP 파일 시스템에 대한 처리량 증가 동작을 관리할 수 있습니다.
-
-* *모드 선택*: *자동화* 또는 *추천*을 선택합니다.
-* *일괄 업데이트*: 하나 또는 여러 파일 시스템을 선택하고 모드 및 매개변수 변경 사항을 한 번에 적용합니다.
-* *처리량 관리 대화 상자 변경*: 대화 상자에서 EDA 기본값을 사용하여 처리량 증가 설정을 편집합니다.
-* *고급 설정*: 확장 가능한 *고급 구성* 섹션에서 추가 처리량 결정 매개변수를 구성하십시오.
-* *테이블 표시 여부*: 클러스터 테이블에 새로운 *처리량 관리* 열이 추가되었으며, 열 설정에서 활성화할 수 있습니다.
-* *상단 카드 구성*: 이제 상단 카드는 SSD 관리와 유사하게 처리량 증가 모드 구성을 지원합니다.
-
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["개요 대시보드 사용 방법 알아보기"^].
-
-
-
-[[02-august-2026]]
-== 2026년 8월 2일
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== NetApp ONTAP용 Amazon FSx
-
-
-
-==== 모든 FSx for ONTAP 시스템에서 사용할 수 있는 새로운 잘 설계된 대시보드
-
-잘 설계된 분석 기능은 이제 NetApp Workload Factory의 새로운 잘 설계된 대시보드에서 FSx for ONTAP 파일 시스템에 대해 사용할 수 있습니다. 새로운 대시보드는 모든 계정 및 지역의 파일 시스템과 해당 구성을 한 곳에서 중앙 집중식으로 보여줍니다. 파일 시스템에서 *잘 설계된* 탭을 방문하면 팝업 알림이 표시됩니다. Workload Factory의 왼쪽 탐색 메뉴에서 *잘 설계된*을 선택하여 새 대시보드에 액세스하십시오.
-
-특정 파일 시스템에 대한 잘 설계된 분석은 스토리지의 *Well-architected* 메뉴 옵션에서 계속 이용할 수 있습니다.
-
-
-
-==== 스토리지 대시보드에 새 위젯 추가됨
-
-스토리지 대시보드에 이제 스토리지 사용 방식을 파악하고 최적화 방법을 찾는 데 도움이 되는 두 가지 새로운 위젯이 추가되었습니다.
-
-* *가장 많이 발견된 워크로드* 환경 전체에서 태깅 서비스를 통해 발견된 워크로드 데이터를 보여줍니다. 볼륨 및 블록 장치 등 관련 FSx 리소스를 포함하고 신뢰도 점수가 80% 이상인 워크로드를 볼 수 있습니다. 각 워크로드에는 이름, 리소스 수, 프로비저닝된 용량 및 사용된 용량이 표시됩니다. 리소스 수(기본값), 프로비저닝된 용량 또는 사용된 용량별로 정렬하여 가장 큰 워크로드를 빠르게 파악하고 스토리지 사용 패턴을 이해할 수 있습니다.
-* *AI 기반 인사이트 및 분석* 관리 자산에 대한 AI 기반 인사이트를 보여줍니다. 이 위젯은 선택한 범위 내의 자산 데이터를 분석하여 용량, 성능, 데이터 보호, 복제, 비용 절감 및 스토리지 추세 등 주요 영역에서 상위 3개 결과를 강조 표시합니다.
-
-
-각 인사이트에는 요약, 상세 분석 결과 및 권장 조치 사항이 포함되어 있습니다. 인사이트를 펼쳐 자세한 내용을 확인하고 심각도, 성능 개선 및 비용 절감 기회를 기준으로 문제의 우선순위를 지정할 수 있습니다.
-
-
-
-==== 워크로드 태깅
-
-
-
-===== 워크로드 태깅을 위한 AWS Systems Manager 통합
-
-워크로드 태깅 서비스가 이제 AWS Systems Manager와 연동되어 호스트 인벤토리 데이터에 더 자세한 정보를 추가합니다. Workload Factory는 이제 SSM 인벤토리 정보를 수집 및 처리하여 워크로드를 더욱 정확하게 식별하고 분류할 수 있습니다. 또한, 워크로드 검색 정확도를 향상시키기 위해 AWS SSM 속성도 태깅 프로세스에 포함됩니다.
-
-잘 설계된 대시보드의 모든 볼륨 관련 구성에는 이제 리소스 테이블에 *워크로드* 열이 포함됩니다. 이 열에는 Workload Factory가 각 볼륨과 연결하는 워크로드가 표시됩니다.
-
-
-
-==== 워크로드 태깅 및 AI 기능
-
-관리자가 AI 기능을 비활성화하면 워크로드에 태그가 지정되지 않습니다. Workload Factory 계정 설정에서 AI 기능이 꺼져 있으면 태깅 서비스에서 스토리지 리소스의 워크로드를 식별하거나 분류하지 않습니다.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["AI 관리에 대해 알아보기"^].
-
-
-
-==== 절감 현황 스냅샷 계산 개선 사항 살펴보기
-
-이제 Explore 절감 기능은 일관된 스냅샷 용량 계산 방식을 사용하므로 FSx for ONTAP 절감액 추정치는 추가 스냅샷 용량 풀 요구 사항을 정확하게 반영합니다.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Amazon Elastic Block Store, FSx for Windows File Server 및 Elastic File System에서 스토리지 환경에 대한 비용 절감 효과를 살펴보십시오."]
-
-
-
-===== 복제 지연 데이터를 CSV 파일로 내보내기
-
-이제 복제 지연 데이터를 CSV 파일로 내보내 스프레드시트에서 데이터를 분석하고 다른 사람과 공유할 수 있습니다.
-
-
-
-==== S3 액세스 포인트 이벤트
-
-이제 설정된 일정에 따라 S3 액세스 포인트 이벤트를 SNS 토픽으로 전송할 수 있습니다. 각 업데이트에는 마지막 업데이트 이후 발생한 모든 이벤트가 포함됩니다.
-
-S3 이벤트 알림을 설정하려면 link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["S3 액세스 포인트 편집"] *저널 테이블* 섹션에서 *SNS를 통해 S3 이벤트 보내기*를 선택합니다.
-
-
-
-==== 볼륨 탐색기에 표시되는 ONTAP 기능
-
-볼륨 탐색기의 볼륨 테이블에 이제 ONTAP 기능이 포함됩니다. 이러한 기능을 통해 보호 범위, 자율 랜섬웨어 보호(ARP/AI) 상태, 스토리지 효율성, 계층화 정책 및 볼륨 자동 확장 등 볼륨의 구성 및 상태에 대한 보다 자세한 인사이트를 얻을 수 있습니다.

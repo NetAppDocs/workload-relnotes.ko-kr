@@ -33,91 +33,8 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">이 릴리스 노트에서는 NetApp Workload Factory에 포함된 클라우드 서비스의 최근 개선 사항을 설명합니다.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 릴리스 노트</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 워크로드</block>
-  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">맞춤형 대시보드</block>
-  <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">데이터베이스에 대한 IAM 권한 정책 업데이트</block>
-  <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">데이터베이스 권한이 업데이트되어 기능 액세스가 향상되었고, 불필요한 경우 SSM 액세스가 제한되었습니다.</block>
-  <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">보기, 계획 및 분석 권한은 AWS SSM 문서로 제한됩니다. 이러한 권한을 사용하면 호스트, 인스턴스 및 데이터베이스를 볼 수 있습니다. 또한 필요에 따라 리소스에 대한 기본 온디맨드 아키텍처 분석을 실행할 수 있습니다.</block>
-  <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">운영 및 복구 권한을 통해 리소스를 변경하고, 오류 로그를 분석하고, 리소스에 대한 포괄적이고 체계적인 분석을 수행하고, 구성 문제를 수정할 수 있습니다.</block>
-  <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">권한 참조</block>
-  <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">사용자 지정 대시보드에 대한 알림</block>
-  <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory는 이제 사용자 지정 대시보드가 준비되었거나 생성에 실패했을 때 알림을 보냅니다.</block>
-  <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">사용자 지정 대시보드를 생성하면 바로 볼 수 있는 링크가 포함된 알림을 받게 됩니다. 생성에 실패하면 사용자 지정 대시보드 인벤토리로 이동하여 다시 시도할 수 있는 링크가 포함된 알림을 받게 됩니다.</block>
-  <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">이 기능을 통해 대시보드가 준비되었는지 확인할 수 있으며, 대시보드를 쉽게 검토하거나 다시 만들 수 있습니다.</block>
-  <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">맞춤형 대시보드를 만드는 방법을 알아보십시오.</block>
-  <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">알림 구성에 대해 알아보기</block>
-  <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">개인 및 공용 맞춤형 대시보드</block>
-  <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">이제 사용자 지정 대시보드에 공유 설정이 포함됩니다. 대시보드를 비공개로 유지하거나 팀과 공유할 수 있습니다.</block>
-  <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">새 대시보드는 기본적으로 비공개이며 본인만 볼 수 있습니다. Workload Factory 계정에 있는 모든 사람과 공유하려면 언제든지 대시보드를 공개로 전환할 수 있습니다.</block>
-  <block id="26e05170ba3616166d4659e72d415450" category="paragraph">각 대시보드 카드에는 Private 또는 Public 레이블이 표시되어 있어 어떤 대시보드가 공유되는지 빠르게 확인할 수 있습니다.</block>
-  <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">대시보드 표시 및 공유에 대해 알아보기</block>
-  <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">대시보드를 공유하는 방법을 알아보십시오</block>
-  <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">AI 기능 관리</block>
-  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Workload Factory 관리의 다음 설정을 사용하여 조직 전체의 AI 기능에 대한 액세스를 제어할 수 있습니다.</block>
-  <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">NetApp이 관리하는 Bedrock 사용(권장되며 기본적으로 활성화되어 있고 월별 크레딧 한도가 적용됩니다)</block>
-  <block id="7f72da8c356eeacf603a52c235e09676" category="list-text">모든 AI 기능 끄기</block>
-  <block id="aa55b63e5a41704f1621780515cd8a24" category="paragraph">새로운 관리 페이지를 통해 이러한 설정을 한 곳에서 관리할 수 있습니다.</block>
-  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">AI 기능에는 Ask Me, 맞춤형 대시보드, 규칙 생성기, EMS, 데이터베이스 로그 및 볼륨 지연 시간 분석기가 포함됩니다.</block>
-  <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">AI 기능이 꺼져 있으면 AI를 사용할 수 없다는 메시지가 사용자에게 표시됩니다.</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">AI 기능 관리에 대해 알아보기</block>
-  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026년 8월 3일</block>
-  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">비용 제어를 통한 AI 지연 시간 분석</block>
-  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Workload Factory 관리자는 조직 전체의 AI 지연 시간 분석에 대한 액세스를 제어할 수 있습니다.</block>
-  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp 관리형 AI 크레딧*: 관리자가 활성화하면 NetApp의 관리형 Amazon Bedrock 통합을 통해 AI 분석을 사용할 수 있습니다. 추가 설정은 필요하지 않습니다. 월별 사용량은 할당된 예산으로 제한됩니다. 월별 사용량 한도에 도달하면 AI 기반 기능이 비활성화되고 메시지가 표시됩니다.</block>
-  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*관리자가 비활성화함*: 관리자가 AI 기능을 끄면 AI 분석 옵션이 회색으로 표시되고 기능이 꺼져 있다는 메시지가 나타납니다.</block>
-  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">탄력적인 처리량 증가 관리</block>
-  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">이제 EDA 개요 페이지에서 선택한 하나 이상의 FSx for ONTAP 파일 시스템에 대한 처리량 증가 동작을 관리할 수 있습니다.</block>
-  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*모드 선택*: *자동화* 또는 *추천*을 선택합니다.</block>
-  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*일괄 업데이트*: 하나 또는 여러 파일 시스템을 선택하고 모드 및 매개변수 변경 사항을 한 번에 적용합니다.</block>
-  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*처리량 관리 대화 상자 변경*: 대화 상자에서 EDA 기본값을 사용하여 처리량 증가 설정을 편집합니다.</block>
-  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*고급 설정*: 확장 가능한 *고급 구성* 섹션에서 추가 처리량 결정 매개변수를 구성하십시오.</block>
-  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*테이블 표시 여부*: 클러스터 테이블에 새로운 *처리량 관리* 열이 추가되었으며, 열 설정에서 활성화할 수 있습니다.</block>
-  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*상단 카드 구성*: 이제 상단 카드는 SSD 관리와 유사하게 처리량 증가 모드 구성을 지원합니다.</block>
-  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">개요 대시보드 사용 방법 알아보기</block>
-  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>.</block>
-  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">모든 FSx for ONTAP 시스템에서 사용할 수 있는 새로운 잘 설계된 대시보드</block>
-  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">잘 설계된 분석 기능은 이제 NetApp Workload Factory의 새로운 잘 설계된 대시보드에서 FSx for ONTAP 파일 시스템에 대해 사용할 수 있습니다. 새로운 대시보드는 모든 계정 및 지역의 파일 시스템과 해당 구성을 한 곳에서 중앙 집중식으로 보여줍니다. 파일 시스템에서 *잘 설계된* 탭을 방문하면 팝업 알림이 표시됩니다. Workload Factory의 왼쪽 탐색 메뉴에서 *잘 설계된*을 선택하여 새 대시보드에 액세스하십시오.</block>
-  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">특정 파일 시스템에 대한 잘 설계된 분석은 스토리지의 *Well-architected* 메뉴 옵션에서 계속 이용할 수 있습니다.</block>
-  <block id="63960000d4e139f329b74b4b91c43feb" category="section-title">스토리지 대시보드에 새 위젯 추가됨</block>
-  <block id="1b701a8eaad0525cd9d21842a87a1800" category="paragraph">스토리지 대시보드에 이제 스토리지 사용 방식을 파악하고 최적화 방법을 찾는 데 도움이 되는 두 가지 새로운 위젯이 추가되었습니다.</block>
-  <block id="0e2bbff5eb55e16098106686c6657f4e" category="list-text">*가장 많이 발견된 워크로드* 환경 전체에서 태깅 서비스를 통해 발견된 워크로드 데이터를 보여줍니다. 볼륨 및 블록 장치 등 관련 FSx 리소스를 포함하고 신뢰도 점수가 80% 이상인 워크로드를 볼 수 있습니다. 각 워크로드에는 이름, 리소스 수, 프로비저닝된 용량 및 사용된 용량이 표시됩니다. 리소스 수(기본값), 프로비저닝된 용량 또는 사용된 용량별로 정렬하여 가장 큰 워크로드를 빠르게 파악하고 스토리지 사용 패턴을 이해할 수 있습니다.</block>
-  <block id="dea1b9553440d525973da9d88c579dd0" category="list-text">*AI 기반 인사이트 및 분석* 관리 자산에 대한 AI 기반 인사이트를 보여줍니다. 이 위젯은 선택한 범위 내의 자산 데이터를 분석하여 용량, 성능, 데이터 보호, 복제, 비용 절감 및 스토리지 추세 등 주요 영역에서 상위 3개 결과를 강조 표시합니다.</block>
-  <block id="e3b3cc77c3245b045d666342b4d976b2" category="paragraph">각 인사이트에는 요약, 상세 분석 결과 및 권장 조치 사항이 포함되어 있습니다. 인사이트를 펼쳐 자세한 내용을 확인하고 심각도, 성능 개선 및 비용 절감 기회를 기준으로 문제의 우선순위를 지정할 수 있습니다.</block>
-  <block id="cd4ef961255320407f22a2c9683cfd1d" category="section-title">워크로드 태깅</block>
-  <block id="6e7c3ced7d1755c7c375f47ca6b2c3f0" category="section-title">워크로드 태깅을 위한 AWS Systems Manager 통합</block>
-  <block id="8cc8dc3c329756b30481400836ca180c" category="paragraph">워크로드 태깅 서비스가 이제 AWS Systems Manager와 연동되어 호스트 인벤토리 데이터에 더 자세한 정보를 추가합니다. Workload Factory는 이제 SSM 인벤토리 정보를 수집 및 처리하여 워크로드를 더욱 정확하게 식별하고 분류할 수 있습니다. 또한, 워크로드 검색 정확도를 향상시키기 위해 AWS SSM 속성도 태깅 프로세스에 포함됩니다.</block>
-  <block id="7f1ecac494abdd70b1fef3cc1209be0c" category="paragraph">잘 설계된 대시보드의 모든 볼륨 관련 구성에는 이제 리소스 테이블에 *워크로드* 열이 포함됩니다. 이 열에는 Workload Factory가 각 볼륨과 연결하는 워크로드가 표시됩니다.</block>
-  <block id="b26629c4d0db7a100913103c2501115d" category="section-title">워크로드 태깅 및 AI 기능</block>
-  <block id="c6e3575ea0e96a40eeea1698ed97e99f" category="paragraph">관리자가 AI 기능을 비활성화하면 워크로드에 태그가 지정되지 않습니다. Workload Factory 계정 설정에서 AI 기능이 꺼져 있으면 태깅 서비스에서 스토리지 리소스의 워크로드를 식별하거나 분류하지 않습니다.</block>
-  <block id="9801425a2145ab6ed5aa12b9446c905c" category="inline-link-macro">AI 관리에 대해 알아보기</block>
-  <block id="39cf1aaf3e84c5c49c930c5bfe27e098" category="section-title">절감 현황 스냅샷 계산 개선 사항 살펴보기</block>
-  <block id="a4f25c93cc96e84a15a9a235f569bbe2" category="paragraph">이제 Explore 절감 기능은 일관된 스냅샷 용량 계산 방식을 사용하므로 FSx for ONTAP 절감액 추정치는 추가 스냅샷 용량 풀 요구 사항을 정확하게 반영합니다.</block>
-  <block id="e14c4b029cabd340fe3b6c67835e9927" category="inline-link-macro">Amazon Elastic Block Store, FSx for Windows File Server 및 Elastic File System에서 스토리지 환경에 대한 비용 절감 효과를 살펴보십시오.</block>
-  <block id="01ee25f562cbb2e8ca2ff8f41e96f80d" category="paragraph"><block ref="01ee25f562cbb2e8ca2ff8f41e96f80d" category="inline-link-macro-rx"></block></block>
-  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">복제 지연 데이터를 CSV 파일로 내보내기</block>
-  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">이제 복제 지연 데이터를 CSV 파일로 내보내 스프레드시트에서 데이터를 분석하고 다른 사람과 공유할 수 있습니다.</block>
-  <block id="abda6db4ef1e45cf251dcf456064a874" category="section-title">S3 액세스 포인트 이벤트</block>
-  <block id="084779dffb2a62383b80e6fbe69e0dc4" category="paragraph">이제 설정된 일정에 따라 S3 액세스 포인트 이벤트를 SNS 토픽으로 전송할 수 있습니다. 각 업데이트에는 마지막 업데이트 이후 발생한 모든 이벤트가 포함됩니다.</block>
-  <block id="c634bf7b5214ed8f0d82613de1e29eff" category="inline-link-macro">S3 액세스 포인트 편집</block>
-  <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">S3 이벤트 알림을 설정하려면 <block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block> *저널 테이블* 섹션에서 *SNS를 통해 S3 이벤트 보내기*를 선택합니다.</block>
-  <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">2026년 8월 2일</block>
-  <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>.</block>
-  <block id="78a4e31d1c34a343ac1189ff737a0982" category="doc">잘 설계된 아키텍처 분석에서 Oracle 및 Microsoft SQL Server의 구성 변경 사항</block>
-  <block id="1d617de46837a3d67b6850fd27b13c02" category="paragraph">잘 설계된 아키텍처 분석에서 여러 데이터베이스 구성이 통합되고 다음 구성으로 이름이 변경되었습니다.</block>
-  <block id="70dc13ee7e3320f270e7236f7fa9f60d" category="list-text">*블록 장치 공간 관리*: 공간 예약, 공간 할당 및 부분 예비 용량을 포함합니다.</block>
-  <block id="c75bc7e1a77b2b8e809bf87a1b1c2b5b" category="list-text">*스토리지 효율성*: 압축, 중복 제거 및 컴팩션 포함</block>
-  <block id="706125d817b831eb4c31ea90c004eee2" category="list-text">*Tiering/TCO 최적화*: 계층화 정책 및 계층화 최소 냉각 일수 포함</block>
-  <block id="08ab4e6e5d6d250dd93617842402b41f" category="list-text">*로컬 스냅샷 예약*: 스냅샷 정책 포함</block>
-  <block id="3791b9a912543795aa72719e1fa5c488" category="inline-link-macro">워크로드 팩토리의 구성 분석</block>
-  <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
-  <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
-  <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
-  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
-  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
-  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
-  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
-  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">볼륨 탐색기에 표시되는 ONTAP 기능</block>
-  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">볼륨 탐색기의 볼륨 테이블에 이제 ONTAP 기능이 포함됩니다. 이러한 기능을 통해 보호 범위, 자율 랜섬웨어 보호(ARP/AI) 상태, 스토리지 효율성, 계층화 정책 및 볼륨 자동 확장 등 볼륨의 구성 및 상태에 대한 보다 자세한 인사이트를 얻을 수 있습니다.</block>
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">볼륨 탐색기에서 사용할 수 있는 볼륨 작업</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">모든 볼륨 작업은 하나 이상의 볼륨에 대해 볼륨 탐색기에서 직접 수행할 수 있습니다. 이를 통해 볼륨 수준 작업을 더 빠르게 수행할 수 있습니다. 볼륨 작업에는 볼륨 설정 수정, 스냅샷 관리 및 볼륨 탐색기를 종료하지 않고 수행할 수 있는 기타 볼륨 작업이 포함됩니다. 또한 FSx for ONTAP 파일 시스템 개요의 볼륨 탭에서도 이러한 작업에 액세스할 수 있습니다.</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026년 8월 11일</block>
@@ -252,4 +169,29 @@
   <block id="1703fc0755f2533bd9d727fa0298c500" category="inline-link-macro">사용자 지정 대시보드 문제 해결</block>
   <block id="6690aacdf8125a25e4539caa3239e86f" category="paragraph"><block ref="6690aacdf8125a25e4539caa3239e86f" category="inline-link-macro-rx"></block></block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026년 10월 4일</block>
+  <block id="b680b1a7fd35564d77eb715d3c89f5cb" category="doc">AI 툴에 자체 Amazon Bedrock 인스턴스를 사용하십시오.</block>
+  <block id="aefffefabafd2a723ba252259d49413b" category="paragraph">Workload Factory는 이제 AI 설정 페이지에 고객이 자체 Amazon Bedrock 인스턴스를 사용할 수 있는 또 다른 옵션을 포함합니다.</block>
+  <block id="59071a98cbd118cd70a7342fac20edee" category="paragraph">이 옵션은 AI 툴용 고객 관리형 Bedrock에서 사용할 수 있으며 모든 Workload Factory AI 서비스에서 지원됩니다.</block>
+  <block id="723b7f36410bdffd1d79fc26537b0350" category="paragraph">연결 후, Workload Factory는 연결 성공 여부를 알려줍니다.</block>
+  <block id="c13ffbb74415f75e6bfbceb28746aa00" category="doc">지연 시간 분석의 볼륨 세부 정보</block>
+  <block id="e702df4af5908b691938e2a636bf0d11" category="paragraph">이제 *상세 지연 시간 분석* 페이지에서 추가 볼륨 세부 정보인 *볼륨 유형*(RW/DP), *볼륨 스타일*(FlexVol 및 FlexGroup)을 확인할 수 있습니다.</block>
+  <block id="84040e078366ab4b302c9f45a3caa89d" category="section-title">지연 이벤트에 대한 파일 시스템 부하 검사</block>
+  <block id="06aefa6560003b3171cd7662ef2b3d9d" category="paragraph">지연 시간 경고가 있는 볼륨의 경우, 이제 이벤트 발생 시 파일 시스템에 성능에 영향을 줄 만큼의 부하가 걸렸는지 확인할 수 있습니다. 이벤트 발생 40분 전부터의 CloudWatch 데이터를 확인하고, 링크를 통해 파일 시스템으로 이동하여 추가 조사를 진행할 수 있습니다.</block>
+  <block id="3e7850720206a5fe00f7310f49f139ef" category="inline-link-macro">지연 시간 추세 분석에 대해 알아보십시오</block>
+  <block id="4082bd9c59dc64a78f083ec07f0f1ade" category="paragraph"><block ref="e0c19bfe1186d72bb091851a5915268f" category="inline-link-macro-rx"></block>.</block>
+  <block id="84ae0158deb3f95e6027fdf8d5ff467d" category="section-title">처리량 결정 지점</block>
+  <block id="d561222faafa1c2e107d8307549a4372" category="paragraph">이제 클라이언트 처리량 권장 사항 및 자동화 결정 지점을 확인할 수 있습니다. 결정 지점에 마우스를 올리면 현재 및 권장 SKU 또는 특정 기간 내 지표 초과율(%) 등의 세부 정보를 볼 수 있습니다.</block>
+  <block id="e7e1d8130eb396a11055ef0aad27b20c" category="inline-link-macro">의사결정 지점에 대해 알아보십시오</block>
+  <block id="b1b6afda8cefc68653435f204de78f32" category="paragraph"><block ref="c182c1de3b13ab1f612ac32dab94169a" category="inline-link-macro-rx"></block>.</block>
+  <block id="1e67c2facf6c9ccaed8c578497980ba2" category="section-title">지연 시간 분석 재실행</block>
+  <block id="95386ac844fe5334b9e7743d6098dfab" category="paragraph">이제 *분석 다시 실행*을 선택하여 볼륨에 대한 새로운 지연 시간 분석을 시작하고 필요에 따라 결과를 새로 고칠 수 있습니다.</block>
+  <block id="1e2beb43d53ce6e7e78ce598ad680f34" category="inline-link-macro">지연 문제 분석에 대해 알아보십시오</block>
+  <block id="7ab17ff19aa466bc8531cc7568dea5a6" category="paragraph"><block ref="13291cb64cb4778475d22fb041bce2e0" category="inline-link-macro-rx"></block>.</block>
+  <block id="d6ed55c5fa0490be9e9d07719ba741ce" category="doc">EVS TCO 계산기에서 i7i.metal-24xl 및 i7i.metal-48xl 인스턴스 지원</block>
+  <block id="b6c3bb340d0b13e009a53c6c8a2b9219" category="paragraph">EVS TCO 계산기가 이제 AWS i7i.metal-24xl 및 i7i.metal-48xl EC2 인스턴스를 클러스터 호스트로 지원합니다. i4i.metal 구성과 비교했을 때, i7i.metal-24xl 인스턴스는 컴퓨팅 비용 측면에서 EVS 초기 비용을 약 33%, vSAN 스토리지 비용 측면에서 약 25% 절감해 줍니다.</block>
+  <block id="e50148793a31ae443693925cfda40d91" category="paragraph">이 계산기는 모든 인스턴스 유형을 비교하여 가장 저렴한 옵션을 자동으로 선택합니다. 새로운 비교 섹션에서는 EVS 호스트 구성을 나란히 표시하여 필요에 맞는 최적의 설정을 더 쉽게 선택할 수 있습니다.</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">EVS의 예상 절감액 계산</block>
+  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
+  <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026년 11월 1일</block>
+  <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026년 10월 14일</block>
 </blocks>
