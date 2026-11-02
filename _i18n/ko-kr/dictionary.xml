@@ -194,4 +194,21 @@
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026년 11월 1일</block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026년 10월 14일</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">잘 설계된 대시보드에 포함된 데이터베이스 구성</block>
+  <block id="17d52f36b5492e8aeada41d949434243" category="paragraph">잘 설계된 대시보드에 이제 데이터베이스 구성에 대한 권장 사항이 포함되어 있어 모범 사례를 기반으로 설정을 평가하고 최적화할 수 있습니다. 대시보드에 포함된 첫 번째 구성은 다음과 같습니다:</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">콜드 데이터 티어링</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">스토리지 효율성</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">스냅샷 정책</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">SSD 용량 여유 공간</block>
+  <block id="ea87fe154a3b0752922812472bd1e33d" category="list-text">블록 장치 공간 관리</block>
+  <block id="6fcd25081a49cfc1b0ec4806afa3d35f" category="list-text">OS 유형</block>
+  <block id="935aff9bc7bcf43dd1fe5825226b72c1" category="list-text">블록 디바이스 OS 유형을 호스트에 일치시킵니다.</block>
+  <block id="868e9efce60d04bdf51fc2494a73a9ce" category="list-text">비활성 블록 장치(LUN)</block>
+  <block id="797a6fe95ffc7bef7107556bac722567" category="list-text">데이터 파일(.mdf) 배치</block>
+  <block id="27c70398ced593abb96a3c33b5e1072b" category="list-text">로그 파일(.ldf) 배치</block>
+  <block id="346c87aaab415cd5adb218f88181ede8" category="list-text">멀티패스 I/O 상태</block>
+  <block id="92a6dbd219f1455bd74f5d666b1b27c5" category="list-text">다중 경로 I/O 타임아웃</block>
+  <block id="6716a97e4d0f5c2b2ba84a9c8a65b74d" category="list-text">클러스터 쿼럼</block>
+  <block id="34d46ee23892b96b30e5db7bf4eb7871" category="list-text">컴퓨팅 적정화</block>
+  <block id="33bf723377efe51bc70f70bbb5efa8a4" category="paragraph">Workload Factory 콘솔에서 메인 메뉴를 선택한 다음 *Well-architected*를 선택하여 Well-architected 대시보드를 찾습니다.</block>
 </blocks>
