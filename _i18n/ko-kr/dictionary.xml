@@ -276,4 +276,6 @@
   <block id="3714dde7378ac290c154f62d9c080369" category="section-title">링크 생성 개선 사항</block>
   <block id="73501dc89cd2fc3be142f43eaffe971b" category="paragraph">Workload Factory는 링크 생성을 위한 Codebox 출력을 업데이트하여 인라인 Lambda 권한을 CloudFormation 템플릿 및 Terraform에 대한 IAM 정책으로 대체했습니다.</block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
+  <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">분류를 위한 고객 관리형 Bedrock 지원</block>
+  <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factory에서 이제 자체 Amazon Bedrock 설정을 사용하여 워크로드 태깅 분류를 수행할 수 있습니다. 자체 Bedrock 엔드포인트와 자격 증명을 제공하여 분류 요청이 자체 Bedrock 구성을 통해 실행되도록 할 수 있습니다.</block>
 </blocks>

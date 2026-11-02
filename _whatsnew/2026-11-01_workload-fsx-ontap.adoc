@@ -115,3 +115,10 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 === 처리량 결정 지점
 
 이제 클라이언트 처리량 권장 사항 및 자동화 결정 지점을 확인할 수 있습니다. 결정 지점에 마우스를 올리면 현재 및 권장 SKU 또는 특정 기간 내 지표 초과율(%) 등의 세부 정보를 볼 수 있습니다.
+
+
+
+[[customer-managed-bedrock-support-for-classification]]
+=== 분류를 위한 고객 관리형 Bedrock 지원
+
+Workload Factory에서 이제 자체 Amazon Bedrock 설정을 사용하여 워크로드 태깅 분류를 수행할 수 있습니다. 자체 Bedrock 엔드포인트와 자격 증명을 제공하여 분류 요청이 자체 Bedrock 구성을 통해 실행되도록 할 수 있습니다.
