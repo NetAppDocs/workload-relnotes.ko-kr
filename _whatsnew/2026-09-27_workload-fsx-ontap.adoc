@@ -32,7 +32,7 @@
 
 Workload Factory 콘솔의 메인 메뉴와 파일 시스템 내에서 잘 설계된 대시보드에 액세스할 수 있습니다. 메인 메뉴에서 잘 설계된 대시보드를 찾으려면 메인 메뉴를 선택한 다음 *Well-architected*를 선택합니다.
 
-image:well-architected-menu-option.png["Workload Factory 콘솔의 잘 설계된 메뉴 옵션"]
+image:workload-fsx-ontap/well-architected-menu-option.png["Workload Factory 콘솔의 잘 설계된 메뉴 옵션"]
 
 
 
@@ -72,7 +72,7 @@ Workload Factory는 볼륨의 특성과 사용 패턴을 기반으로 기본 워
 
 이제 볼륨 탐색기 화면에 모든 파일 시스템의 볼륨에 대한 NetApp Autonomous Ransomware Protection with AI(ARP/AI) 상태를 보여주는 카드가 추가되었습니다. 이 카드에는 보호되는 볼륨 수가 표시되고 위험에 처한 볼륨이 있는지 여부가 나타납니다. 이 카드에서 *공격 분석*을 통해 잠재적인 랜섬웨어 위협을 조사하고 데이터를 보호하기 위한 적절한 조치를 취할 수 있습니다.
 
-image:volumes-explorer-arp-ai-card.png["스크린샷은 볼륨 탐색기 화면에서 모든 파일 시스템의 볼륨에 대한 ARP/AI 상태를 표시하는 새 카드를 보여줍니다. 이 카드에는 보호되는 볼륨 수와 위험에 처한 볼륨이 표시됩니다. 사용자는 Analyze attacks 텍스트를 선택하여 의심스러운 공격을 조사하고 데이터를 보호하기 위한 적절한 조치를 취할 수 있습니다."]
+image:workload-fsx-ontap/volumes-explorer-arp-ai-card.png["스크린샷은 볼륨 탐색기 화면에서 모든 파일 시스템의 볼륨에 대한 ARP/AI 상태를 표시하는 새 카드를 보여줍니다. 이 카드에는 보호되는 볼륨 수와 위험에 처한 볼륨이 표시됩니다. 사용자는 Analyze attacks 텍스트를 선택하여 의심스러운 공격을 조사하고 데이터를 보호하기 위한 적절한 조치를 취할 수 있습니다."]
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["랜섬웨어 방어에 대해 자세히 알아보십시오."]
 

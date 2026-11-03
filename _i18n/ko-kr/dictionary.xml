@@ -106,7 +106,6 @@
   <block id="a4b0895311938bbe97380c217d8bc91a" category="section-title">잘 설계된 대시보드 액세스</block>
   <block id="99443f6b5bfec8a35e6748e731a10d71" category="paragraph">Workload Factory 콘솔의 메인 메뉴와 파일 시스템 내에서 잘 설계된 대시보드에 액세스할 수 있습니다. 메인 메뉴에서 잘 설계된 대시보드를 찾으려면 메인 메뉴를 선택한 다음 *Well-architected*를 선택합니다.</block>
   <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 콘솔의 잘 설계된 메뉴 옵션</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">잘 설계된 분석에 대한 새로운 권장 사항</block>
   <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory는 이제 FSx for ONTAP 파일 시스템에 대한 잘 설계된 아키텍처 분석에 다음과 같은 구성을 포함합니다.</block>
   <block id="3b4bb2bfc2800826050f3805ec9d835a" category="list-text">*볼륨 공간 관리 구성*: FSx for ONTAP 볼륨에 대해 통합 볼륨 공간 관리를 활성화하는 것이 좋습니다.</block>
@@ -122,7 +121,6 @@
   <block id="a187114bcc51b42124813d0e4d20730d" category="section-title">볼륨 탐색기는 모든 파일 시스템의 볼륨에 대한 ARP/AI 상태를 표시합니다.</block>
   <block id="14bbbfe188029f45698ccb26b1280a48" category="paragraph">이제 볼륨 탐색기 화면에 모든 파일 시스템의 볼륨에 대한 NetApp Autonomous Ransomware Protection with AI(ARP/AI) 상태를 보여주는 카드가 추가되었습니다. 이 카드에는 보호되는 볼륨 수가 표시되고 위험에 처한 볼륨이 있는지 여부가 나타납니다. 이 카드에서 *공격 분석*을 통해 잠재적인 랜섬웨어 위협을 조사하고 데이터를 보호하기 위한 적절한 조치를 취할 수 있습니다.</block>
   <block id="3f25080804b8d019675a456a436cb471" category="inline-image-macro">스크린샷은 볼륨 탐색기 화면에서 모든 파일 시스템의 볼륨에 대한 ARP/AI 상태를 표시하는 새 카드를 보여줍니다. 이 카드에는 보호되는 볼륨 수와 위험에 처한 볼륨이 표시됩니다. 사용자는 Analyze attacks 텍스트를 선택하여 의심스러운 공격을 조사하고 데이터를 보호하기 위한 적절한 조치를 취할 수 있습니다.</block>
-  <block id="3984208540eb5fb15ca89127c0ce9c35" category="paragraph"><block ref="3984208540eb5fb15ca89127c0ce9c35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ae39496097bf7dd54def47f219d44a2" category="inline-link-macro">랜섬웨어 방어에 대해 자세히 알아보십시오.</block>
   <block id="32d61e76f54bb5b368f607bb435c5c1f" category="paragraph"><block ref="32d61e76f54bb5b368f607bb435c5c1f" category="inline-link-macro-rx"></block></block>
   <block id="bf408a384d3111f4dc3c9bd2e2488084" category="section-title">비정상적인 복제 관계에 대한 이메일 알림</block>
@@ -278,4 +276,7 @@
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
   <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">분류를 위한 고객 관리형 Bedrock 지원</block>
   <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factory에서 이제 자체 Amazon Bedrock 설정을 사용하여 워크로드 태깅 분류를 수행할 수 있습니다. 자체 Bedrock 엔드포인트와 자격 증명을 제공하여 분류 요청이 자체 Bedrock 구성을 통해 실행되도록 할 수 있습니다.</block>
+  <block id="442d917e6f977497aa9164bdb334b30b" category="paragraph"><block ref="442d917e6f977497aa9164bdb334b30b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b38510edecee128bcf57a2052192d3fa" category="paragraph"><block ref="b38510edecee128bcf57a2052192d3fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33d18edd919b0af815bbf108537020f0" category="paragraph"><block ref="33d18edd919b0af815bbf108537020f0" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
