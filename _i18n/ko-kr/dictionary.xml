@@ -285,4 +285,25 @@
   <block id="cdad6ce692e2082641da7e7892d7c476" category="inline-link-macro">FSx for ONTAP 파일 시스템에 링크를 연결하는 방법을 알아보십시오.</block>
   <block id="f2cb80592d2645e80d96ee47d68c03e3" category="paragraph"><block ref="f2cb80592d2645e80d96ee47d68c03e3" category="inline-link-macro-rx"></block></block>
   <block id="5fd02484bbe1124b48ec6e3c36e522cb" category="section-title">2026년 11월 26일</block>
+  <block id="3ccacb3236a6f36f11b2ec0009544b17" category="doc">스토리지 VM 네임 서비스에 대한 새로운 권장 사항</block>
+  <block id="fbdd6100f23f5a660b5abe28fcb2b09f" category="paragraph">Workload Factory는 이제 잘 설계된 아키텍처 분석에서 스토리지 VM 이름 서비스에 대해 다음과 같은 권장 사항을 포함합니다:</block>
+  <block id="0c600ff5ff4c2acc3d20b37a757025cf" category="paragraph">*DNS 및 LDAP 서버 이중화*: DNS를 사용하는 스토리지 VM에는 최소 2개의 DNS 서버를, LDAP를 사용하는 스토리지 VM에는 최소 2개의 LDAP 서버를 권장합니다. 단일 서버 장애로 인해 이름 확인, 도메인 인증 또는 NFS 액세스가 차단될 수 있습니다.</block>
+  <block id="82f9746d20f9c112b999254d96f68c35" category="section-title">새 볼륨 탐색기 테이블 열</block>
+  <block id="429fbe2106af89a7f2c8096eed7d6005" category="paragraph">볼륨 탐색기 테이블에 다음과 같은 새 열이 추가되었습니다.</block>
+  <block id="4bfa3a7e5aa20511dfdbd772b20d7cad" category="list-text">*논리적 사용 크기*: 스토리지 효율성 절감 전, 클라이언트가 사용 중인 것으로 인식하는 공간을 보여줍니다. 이 열은 기본적으로 표시됩니다.</block>
+  <block id="1ebe3707797c8e132ba981865e779a06" category="list-text">*접합 경로*: 볼륨의 접합 경로를 보여줍니다.</block>
+  <block id="562ed2eb07dc7098a9a961d97d83a937" category="section-title">볼륨 탐색기에서 마운트 지점 관리</block>
+  <block id="e40a9c1168edd79e419024c31de53d24" category="paragraph">이제 볼륨 탐색기에서 스토리지 VM 네임스페이스의 볼륨 마운트 위치를 직접 관리할 수 있습니다. 볼륨의 *Advanced* 메뉴에서 *Manage mount points*를 선택하여 스토리지 VM 네임스페이스를 트리 구조로 확인한 다음, 볼륨을 마운트, 마운트 해제하거나 마운트 지점(접합 경로)을 변경할 수 있습니다. Workload Factory는 볼륨을 마운트 해제하기 전에 종속성을 확인합니다. 다른 볼륨이 마운트된 볼륨은 마운트 해제할 수 없으며, 해당 볼륨에 SMB 공유가 있는 경우 경고가 표시됩니다.</block>
+  <block id="371df73a3011005fb40d8d0e7ec39be5" category="inline-link-macro">마운트 포인트를 관리하는 방법을 알아보세요</block>
+  <block id="e9c12ef8ae4f8c24e9416be6d78f62bb" category="paragraph"><block ref="e9c12ef8ae4f8c24e9416be6d78f62bb" category="inline-link-macro-rx"></block></block>
+  <block id="fc67722d0e110f79ff44ed37368e589c" category="section-title">새 볼륨에 대한 중첩된 접합 경로</block>
+  <block id="69fc90af1c9281568bdf45e9799d57d6" category="paragraph">볼륨을 생성할 때 이제 *고급 구성* 섹션에서 <block ref="6ec7d50bc22104cd5628a14f3ea325a4" prefix=" " category="inline-code"></block> 등과 같은 중첩 정션 경로를 입력할 수 있습니다.</block>
+  <block id="7fbf47e0030156e11689a191784df599" category="inline-link-macro">볼륨을 만드는 방법을 알아보세요</block>
+  <block id="d2cd4d2c639bea241ac3af863cdff7fe" category="paragraph"><block ref="6ec652dec6839d8a408abb1e14dd53fa" category="inline-link-macro-rx"></block> === 사용자 지정 규칙 사용자 지정 규칙은 *Well-architected* &gt; *사용자 지정 규칙*에서 사용할 수 있으며, 잘 설계된 구성에서 규칙을 시작하고 예약된 실행이 완료되면 알림을 받을 수 있습니다.</block>
+  <block id="5faee5c8e33b5f0b156646e83f976d83" category="section-title">잘 설계된 구성을 사용자 지정 규칙으로 맞춤 설정하십시오.</block>
+  <block id="e8b3baf216c37f243324e1f7db89338e" category="inline-link-macro">잘 설계된 구성 사용자 지정에 대해 자세히 알아보기</block>
+  <block id="4be5fe4be72c28a63c151651aaefe065" category="paragraph">원래의 모범 사례를 유지하면서 자체 임계값 또는 범위를 적용할 수 있도록 잘 설계된 구성에서 사용자 지정 규칙을 시작할 수 있습니다. Workload Factory는 해당 구성을 기반으로 편집 가능한 프롬프트와 함께 사용자 지정 규칙을 엽니다. 규칙은 초안으로 시작되며, 설명에는 어떤 구성을 기반으로 하는지 명시됩니다. <block ref="598048313c684801b257988e6334f527" category="inline-link-macro-rx"></block></block>
+  <block id="4fa9c0bce2f1b45a04656d29fbfbb564" category="section-title">예약된 사용자 지정 규칙 실행에 대한 알림 수신</block>
+  <block id="4d6f8c8df934dbeca93478d52e881ed1" category="inline-link-macro">예약된 사용자 지정 규칙에 대한 알림에 대해 자세히 알아보세요</block>
+  <block id="dd5f224f383f9d68ac079aaa66d54733" category="paragraph">Workload Factory에 로그인하지 않고도 결과를 확인하려면 예약된 사용자 지정 규칙에 대한 알림을 켜십시오. 예약된 실행 후 매번 알림을 받거나 실행이 실패하거나 부분적으로 성공했을 때만 알림을 받을 수 있습니다. 알림은 이미 설정한 채널을 통해 전송됩니다. 수동 테스트는 알림을 보내지 않습니다. <block ref="c2a6e81c287709afa110081f310adf18" category="inline-link-macro-rx"></block></block>
 </blocks>
