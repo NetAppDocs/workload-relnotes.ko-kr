@@ -1,0 +1,21 @@
+= 사용자 지정 대시보드 제목 및 설명 편집
+:allow-uri-read: 
+
+
+
+
+[[edit-a-custom-dashboard-title-and-description]]
+=== 사용자 지정 대시보드 제목 및 설명 편집
+
+사용자 지정 대시보드의 제목과 설명을 대시보드 카탈로그 또는 대시보드 보기에서 편집하여 대시보드 변경 시에도 정확하게 유지할 수 있습니다. 두 필드 모두 필수 항목이며, 두 개의 대시보드가 동일한 제목을 가질 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html["사용자 지정 대시보드를 관리하는 방법을 알아보세요"]
+
+
+
+[[associate-multiple-fsx-for-ontap-file-systems-with-a-link]]
+=== 여러 FSx for ONTAP 파일 시스템을 링크에 연결
+
+이제 각 파일 시스템에 대해 연결을 반복할 필요 없이 하나의 워크플로에서 여러 FSx for ONTAP 파일 시스템을 새 링크 또는 기존 링크에 연결할 수 있습니다. 각 파일 시스템에 대해 ONTAP 자격 증명을 입력하거나 여러 파일 시스템에 동일한 자격 증명을 적용하여 링크를 인증할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["FSx for ONTAP 파일 시스템에 링크를 연결하는 방법을 알아보십시오."]

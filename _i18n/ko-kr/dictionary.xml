@@ -35,9 +35,6 @@
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 워크로드</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">AI 기능 관리에 대해 알아보기</block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
-  <block id="9b988decb4830a521f8e1487584f0385" category="doc">볼륨 탐색기에서 사용할 수 있는 볼륨 작업</block>
-  <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">모든 볼륨 작업은 하나 이상의 볼륨에 대해 볼륨 탐색기에서 직접 수행할 수 있습니다. 이를 통해 볼륨 수준 작업을 더 빠르게 수행할 수 있습니다. 볼륨 작업에는 볼륨 설정 수정, 스냅샷 관리 및 볼륨 탐색기를 종료하지 않고 수행할 수 있는 기타 볼륨 작업이 포함됩니다. 또한 FSx for ONTAP 파일 시스템 개요의 볼륨 탭에서도 이러한 작업에 액세스할 수 있습니다.</block>
-  <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026년 8월 11일</block>
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">자격 증명 및 링크에 대한 새로운 온보딩 환경</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory는 자격 증명 및 링크에 대한 온보딩 환경을 개선하여 더욱 쉽게 시작할 수 있도록 합니다. 계정을 생성하고 로그인한 후, *Storage* 등 워크로드 타일에서 *Get started*를 선택하면 다음 페이지에서 단계별 설정 과정을 안내합니다.</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026년 8월 30일</block>
@@ -213,7 +210,6 @@
   <block id="9312a185b7f4389cd2dc1b61172e5f20" category="paragraph">클라이언트 액세스 관리 페이지에서 블록 장치에 대한 이니시에이터 그룹을 표시하는 다이어그램에 이제 호스트에 대한 자세한 정보가 포함됩니다. 다이어그램에서 호스트 위에 마우스를 올리면 호스트 이름, 인스턴스 ID, 워크로드 유형, 지역 및 iSCSI 정규화 이름(IQN) 등 호스트 세부 정보가 표시됩니다.</block>
   <block id="6ea6cb3b2f3b5abc021a1f0e4229c7fc" category="inline-link-macro">Workload Factory 콘솔에서 알림 구성</block>
   <block id="a518b4e2bba0d0ce3d0ecdc772d503ed" category="paragraph"><block ref="a518b4e2bba0d0ce3d0ecdc772d503ed" category="inline-link-macro-rx"></block></block>
-  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">모든 링크 관련 문서는 이제 Workload Factory 설정 및 관리 문서에 포함되어 있습니다. Workload Factory FSx for ONTAP 문서에서 <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block>을 참조하여 설정 및 관리 문서의 관련 페이지 링크를 찾아보실 수 있습니다.</block>
   <block id="40a8a1ceba59de4101cf77a14d6fb2d5" category="section-title">잘 설계된 이슈에 대한 이메일 개선</block>
   <block id="954ae82c2d96e9bd8c7d4e143bf3c187" category="paragraph">새로운 이메일 디자인은 Workload Factory에서 감지한 구성 문제에 대한 자세한 정보와 맥락을 제공합니다. 이메일에는 분석된 리소스 수, 경고 또는 심각한 문제가 있는 리소스 수, 그리고 해당 문제의 내용이 포함됩니다. 또한 이메일은 문제를 즉시 해결할 수 있도록 FSx for ONTAP Well-Architected 대시보드에 대한 링크를 제공합니다.</block>
   <block id="1854fdec65dd4a2dd839c666aba07186" category="section-title">잘 설계된 대시보드 개선 사항</block>
@@ -280,4 +276,13 @@
   <block id="b38510edecee128bcf57a2052192d3fa" category="paragraph"><block ref="b38510edecee128bcf57a2052192d3fa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="33d18edd919b0af815bbf108537020f0" category="paragraph"><block ref="33d18edd919b0af815bbf108537020f0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="066f3a9431c48361a10c813b2b187f91" category="section-title">2026년 11월 2일</block>
+  <block id="81a9f96e5c919c4cddd5e8baf33bc31f" category="doc">사용자 지정 대시보드 제목 및 설명 편집</block>
+  <block id="e2c2437b93fb3b379ae799b9c5ec87b7" category="paragraph">사용자 지정 대시보드의 제목과 설명을 대시보드 카탈로그 또는 대시보드 보기에서 편집하여 대시보드 변경 시에도 정확하게 유지할 수 있습니다. 두 필드 모두 필수 항목이며, 두 개의 대시보드가 동일한 제목을 가질 수 있습니다.</block>
+  <block id="d030448981400ac2939566a8b11f10ec" category="inline-link-macro">사용자 지정 대시보드를 관리하는 방법을 알아보세요</block>
+  <block id="a0df1d3fd3bf97547f178fc3a2c15747" category="paragraph"><block ref="a0df1d3fd3bf97547f178fc3a2c15747" category="inline-link-macro-rx"></block></block>
+  <block id="e84199af3f0a22cf508c7275319c9d81" category="section-title">여러 FSx for ONTAP 파일 시스템을 링크에 연결</block>
+  <block id="9618a351b6032a7e1eee8e331d0dc5d5" category="paragraph">이제 각 파일 시스템에 대해 연결을 반복할 필요 없이 하나의 워크플로에서 여러 FSx for ONTAP 파일 시스템을 새 링크 또는 기존 링크에 연결할 수 있습니다. 각 파일 시스템에 대해 ONTAP 자격 증명을 입력하거나 여러 파일 시스템에 동일한 자격 증명을 적용하여 링크를 인증할 수 있습니다.</block>
+  <block id="cdad6ce692e2082641da7e7892d7c476" category="inline-link-macro">FSx for ONTAP 파일 시스템에 링크를 연결하는 방법을 알아보십시오.</block>
+  <block id="f2cb80592d2645e80d96ee47d68c03e3" category="paragraph"><block ref="f2cb80592d2645e80d96ee47d68c03e3" category="inline-link-macro-rx"></block></block>
+  <block id="5fd02484bbe1124b48ec6e3c36e522cb" category="section-title">2026년 11월 26일</block>
 </blocks>
