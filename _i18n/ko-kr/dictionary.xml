@@ -306,4 +306,10 @@
   <block id="4fa9c0bce2f1b45a04656d29fbfbb564" category="section-title">예약된 사용자 지정 규칙 실행에 대한 알림 수신</block>
   <block id="4d6f8c8df934dbeca93478d52e881ed1" category="inline-link-macro">예약된 사용자 지정 규칙에 대한 알림에 대해 자세히 알아보세요</block>
   <block id="dd5f224f383f9d68ac079aaa66d54733" category="paragraph">Workload Factory에 로그인하지 않고도 결과를 확인하려면 예약된 사용자 지정 규칙에 대한 알림을 켜십시오. 예약된 실행 후 매번 알림을 받거나 실행이 실패하거나 부분적으로 성공했을 때만 알림을 받을 수 있습니다. 알림은 이미 설정한 채널을 통해 전송됩니다. 수동 테스트는 알림을 보내지 않습니다. <block ref="c2a6e81c287709afa110081f310adf18" category="inline-link-macro-rx"></block></block>
+  <block id="d27242d4c09d8c87514da12ce13686cf" category="doc">자동 AI 분석을 위한 볼륨 추적</block>
+  <block id="68eb2bcf977ad1777848c2763968bf76" category="paragraph">지연 문제가 감지되면 볼륨을 자동 AI 분석 대상으로 지정할 수 있습니다. 분석 결과는 72시간 동안 저장되며 알림 이메일에 포함되므로 직접 분석을 실행하지 않고도 원인을 확인할 수 있습니다.</block>
+  <block id="7c957c99db335692d391818317e98469" category="section-title">AI 분석의 근본 원인에 대한 더 명확한 설명</block>
+  <block id="5d5ae6579cd363d7050ca9ed9dc36998" category="paragraph">AI 분석을 활용하여 지연 현상의 원인을 더 명확하게 파악하십시오. 이 분석은 FlexCache, 용량 풀, 파일 시스템 관련 문제뿐만 아니라 처리량 및 IOPS 제한, 높은 SSD 사용량, 쓰기 포화 상태, 동일한 리소스를 사용하는 다른 볼륨과 관련된 문제도 점검합니다.</block>
+  <block id="d8b3a98e16ebd6e698fb6c48570112ff" category="section-title">지연 시간 분석 결과는 72시간 동안 보관됩니다</block>
+  <block id="d880e6876de7da75b637df83143f9c3e" category="paragraph">이제 지연 시간 분석 결과를 인터페이스에서 24시간이 아닌 72시간 동안 확인할 수 있으므로 볼륨에 대한 이전 분석 결과를 검토할 수 있습니다.</block>
 </blocks>
